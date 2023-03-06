@@ -5,7 +5,7 @@ import { RouterLink } from "vue-router";
 <template>
   <div class="flex flex-col mx-auto text-center">
     <h1><slot name="title"></slot></h1>
-    <p class="mb-4 mt-auto"><slot name="text"> </slot></p>
+    <p class="mb-8 mt-auto"><slot name="text"> </slot></p>
     <div class="flex flex-col items-center">
       <RouterLink :to="{ name: 'services', path: '/services' }">
         <button
