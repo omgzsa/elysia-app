@@ -1,4 +1,7 @@
 <script setup></script>
 <template>
-  <h1>Lorem ipsum dolor sit amet amet consectetur</h1>
+  <div>
+    <h1><slot name="title"></slot></h1>
+    <p><slot name="text"> </slot></p>
+  </div>
 </template>
