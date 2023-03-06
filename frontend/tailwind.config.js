@@ -5,14 +5,20 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      body: [],
-      display: [],
+      base: ["Ubuntu", "sans"],
     },
     extend: {
       colors: {
-        primary: {},
-        secondary: {},
-        accent: {},
+        primary: {
+          100: "#D0CFBB",
+          200: "#D0CFBB20",
+        },
+        secondary: {
+          100: "#E7C899",
+        },
+        accent: {
+          100: "#586C63",
+        },
       },
     },
   },
