@@ -7,7 +7,7 @@ import router from "./router";
 // import AppLink from "@/components/AppLink.vue";
 
 // css
-import "@/main.css";
+import "./main.css";
 
 const app = createApp(App);
 

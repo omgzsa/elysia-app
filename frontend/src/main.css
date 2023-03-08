@@ -10,11 +10,11 @@
     @apply px-2 sm:px-6 lg:px-8;
   } */
   section {
-    @apply mx-auto;
+    @apply mx-auto mb-8 md:mb-16;
   }
 
   h1 {
-    @apply font-bold text-4xl sm:text-5xl mb-8 tracking-wide;
+    @apply font-bold text-4xl sm:text-5xl tracking-wide;
   }
 
   h2 {
@@ -45,4 +45,7 @@
       transform: rotate(360deg);
     }
   } */
+}
+
+@layer components {
 }
