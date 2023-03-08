@@ -31,6 +31,39 @@ const slides = ref([
     color: "bg-accent-200",
   },
 ]);
+
+const services = ref([
+  {
+    id: 1,
+    title: "Orvosi magánrendelés",
+    // isFeatured: '',
+    img: "orvosi_maganrendeles.webp",
+  },
+  {
+    id: 2,
+    title: "Lézerkezelések",
+    // isFeatured: '',
+    img: "lezerkezelesek.webp",
+  },
+  {
+    id: 3,
+    title: "Orvosi esztétika",
+    // isFeatured: '',
+    img: "orvosi_esztetika.webp",
+  },
+  {
+    id: 4,
+    title: "Plasztikai sebészet",
+    // isFeatured: '',
+    img: "plasztikai_sebeszet.webp",
+  },
+  {
+    id: 5,
+    title: "Z0 Skin Health",
+    // isFeatured: '',
+    img: "z0_skin_health.webp",
+  },
+]);
 </script>
 
 <template>
@@ -38,6 +71,12 @@ const slides = ref([
     <HomeHero :slides="slides" />
   </section>
   <section>
-    <HomeServices />
+    <HomeServices title="Kiemelt szolgáltatások" :services="services">
+      <template #description>
+        Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et quam
+        blandit integer blandit pellentesque maecenas. Amet diam volutpat
+        pellentesque a risus.
+      </template>
+    </HomeServices>
   </section>
 </template>

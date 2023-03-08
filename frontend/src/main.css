@@ -14,19 +14,23 @@
   }
 
   h1 {
-    @apply font-bold text-4xl sm:text-5xl tracking-wide;
+    @apply font-bold text-4xl sm:text-5xl xl:text-6xl tracking-wide;
   }
 
   h2 {
-    @apply font-bold text-3xl sm:text-4xl lg:text-5xl mb-8 tracking-wide;
+    @apply font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide;
   }
 
   h3 {
-    @apply font-bold text-lg sm:text-xl mb-2 tracking-wide;
+    @apply font-bold text-lg sm:text-xl tracking-wide;
   }
 
   h4 {
-    @apply font-semibold text-sm sm:text-base sm:pr-8;
+    @apply font-semibold text-sm;
+  }
+
+  p {
+    @apply text-base lg:text-lg;
   }
 
   /* 
