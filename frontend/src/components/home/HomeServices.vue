@@ -62,7 +62,9 @@ defineProps({
               :src="useGetImageUrl(service.img)"
               alt=""
             />
-            <p class="font-bold text-xs sm:text-base">{{ service.title }}</p>
+            <p class="font-bold text-xs sm:text-base">
+              {{ service.title }}
+            </p>
           </div>
         </li>
       </TransitionGroup>
@@ -71,6 +73,7 @@ defineProps({
 </template>
 
 <style>
+.list-move,
 .list-enter-active,
 .list-leave-active {
   transition: all 0.5s ease;
@@ -79,5 +82,9 @@ defineProps({
 .list-leave-to {
   opacity: 0;
   transform: translateY(30px);
+}
+
+.list-move-active {
+  position: absolute;
 }
 </style>
