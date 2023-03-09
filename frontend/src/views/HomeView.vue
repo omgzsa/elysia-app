@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
+import HomeIntroduction from "../components/home/HomeIntroduction.vue";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -78,5 +79,8 @@ const services = ref([
         pellentesque a risus.
       </template>
     </HomeServices>
+  </section>
+  <section>
+    <HomeIntroduction />
   </section>
 </template>
