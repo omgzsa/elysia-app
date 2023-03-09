@@ -66,22 +66,12 @@ defineProps({
   padding-left: 0px;
 }
 
-.carousel__item {
-  /* min-height: 500px; */
-  /* width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; */
-  /* border: 1px solid rgb(40, 207, 187); */
+.carousel__pagination-button::after {
+  background-color: lightgray;
 }
 
-.carousel__slide {
-  /* padding: 10px; */
+.carousel__pagination-button:hover::after,
+.carousel__pagination-button--active::after {
+  background-color: #586c63;
 }
-
-/* .carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
-} */
 </style>
