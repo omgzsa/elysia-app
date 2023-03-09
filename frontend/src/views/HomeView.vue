@@ -3,6 +3,7 @@ import { ref } from "vue";
 import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
 import HomeIntroduction from "../components/home/HomeIntroduction.vue";
+import HomeCompanyLogos from "../components/home/HomeCompanyLogos.vue";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -90,5 +91,8 @@ const services = ref([
         quam.
       </template>
     </HomeIntroduction>
+  </section>
+  <section>
+    <HomeCompanyLogos />
   </section>
 </template>
