@@ -10,7 +10,7 @@
     @apply px-2 sm:px-6 lg:px-8;
   } */
   section {
-    @apply mx-auto mb-8 md:mb-16;
+    @apply mx-auto mb-16 lg:mb-24 xl:mb-28;
   }
 
   h1 {

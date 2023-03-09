@@ -81,6 +81,19 @@ const services = ref([
     </HomeServices>
   </section>
   <section>
-    <HomeIntroduction />
+    <HomeIntroduction title="Miért mi? Kik vagyunk?">
+      <template #introduction>
+        Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et quam
+        blandit integer blandit pellentesque maecenas. Amet diam volutpat
+        pellentesque a risus.<br /><br />
+        Quam et ut fusce faucibus in pretium etiam praesent. In diam amet augue
+        tincidunt nec sed iaculis lobortis. Suspendisse commodo in in habitant
+        aliquam sollicitudin egestas congue velit. Dignissim volutpat diam
+        pulvinar mauris aliquet lectus nullam facilisi. Lorem rutrum tortor
+        purus sit est sodales felis vulputate pellentesque. In fringilla a
+        viverra sed facilisis. Egestas pulvinar vitae diam elit diam volutpat
+        quam.
+      </template>
+    </HomeIntroduction>
   </section>
 </template>
