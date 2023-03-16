@@ -28,7 +28,7 @@ const breakpoints = ref({
     itemsToShow: 2.5,
   },
   960: {
-    itemsToShow: 3.5,
+    itemsToShow: 3,
   },
 });
 </script>
