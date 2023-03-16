@@ -55,6 +55,7 @@ const breakpoints = ref({
 </script>
 <template>
   <Carousel
+    aria-label="Partnercégek logói"
     :settings="settings"
     :breakpoints="breakpoints"
     :wrap-around="true"
