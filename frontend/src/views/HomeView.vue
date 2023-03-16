@@ -64,9 +64,7 @@ const services = ref([
 </script>
 
 <template>
-  <section>
-    <HomeHero :slides="slides" />
-  </section>
+  <HomeHero :slides="slides" />
   <section>
     <HomeServices title="Kiemelt szolgáltatások" :services="services">
       <template #description>

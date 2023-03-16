@@ -32,24 +32,18 @@ defineProps({
     </div>
 
     <div class="grid grid-cols-12 grid-rows-5 p-4 gap-4 items-center">
-      <!-- <img
-          v-for="(image, index) in images"
-          :src="useGetImageUrl(image)"
-          :key="index"
-          alt=""
-        /> -->
       <img
         class="row-start-2 row-span-3 col-start-2 col-span-4"
         src="../../assets/images/elysia_intro_2.webp"
         alt="szájfeltöltés fecskendővel"
       />
       <img
-        class="row-start-1 row-span-3 col-start-6 col-span-6 mb-12 sm:mb-20"
+        class="row-start-1 row-span-3 col-start-6 col-span-6 mb-12 sm:mb-16 md:mb-12 lg:mb-14"
         src="../../assets/images/elysia_intro_1.webp"
         alt="narancsbőr kezelése"
       />
       <img
-        class="row-start-3 row-span-3 col-start-6 col-span-8"
+        class="row-start-3 row-span-3 col-start-6 col-span-7 w-full"
         src="../../assets/images/elysia_intro_3.webp"
         alt="arckezelés"
       />
