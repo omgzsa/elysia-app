@@ -4,6 +4,7 @@ import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
 import HomeIntroduction from "../components/home/HomeIntroduction.vue";
 import HomeCompanyLogos from "../components/home/HomeCompanyLogos.vue";
+import HomeGallery from "../components/home/HomeGallery.vue";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -91,4 +92,5 @@ const services = ref([
     </HomeIntroduction>
   </section>
   <HomeCompanyLogos />
+  <HomeGallery />
 </template>
