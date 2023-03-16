@@ -90,7 +90,5 @@ const services = ref([
       </template>
     </HomeIntroduction>
   </section>
-  <section>
-    <HomeCompanyLogos />
-  </section>
+  <HomeCompanyLogos />
 </template>
