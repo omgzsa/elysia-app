@@ -6,12 +6,30 @@ import { useGetImageUrl } from "../../composables/getImageUrl";
 import "vue3-carousel/dist/carousel.css";
 
 const images = [
-  "bioderma_logo.webp",
-  "cerave_logo.webp",
-  "la_roche-posay_logo.webp",
-  "thalgo_logo.webp",
-  "vichy_logo.webp",
-  "zo-skin-health_logo.webp",
+  {
+    name: "Bioderma Laboratorie Dermatologique",
+    logo: "bioderma_logo.webp",
+  },
+  {
+    name: "CeraVe",
+    logo: "cerave_logo.webp",
+  },
+  {
+    name: "La Roche-Posay Laboratorie Pharmaceutique",
+    logo: "la_roche-posay_logo.webp",
+  },
+  {
+    name: "THALGO - La Beute Marine",
+    logo: "thalgo_logo.webp",
+  },
+  {
+    name: "VICHY Laboratoires",
+    logo: "vichy_logo.webp",
+  },
+  {
+    name: "Z0 Skin Health",
+    logo: "zo-skin-health_logo.webp",
+  },
 ];
 
 const settings = ref({
@@ -41,7 +59,7 @@ const breakpoints = ref({
     class="bg-primary-100 py-16"
   >
     <Slide v-for="(image, index) in images" :key="index">
-      <img :src="useGetImageUrl(image)" />
+      <img :src="useGetImageUrl(image.logo)" :alt="image.name" />
     </Slide>
   </Carousel>
 </template>
