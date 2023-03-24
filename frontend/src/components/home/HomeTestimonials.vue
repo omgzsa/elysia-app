@@ -14,13 +14,13 @@ defineProps({
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
       <div class="p-6 bg-primary-200 rounded-xl border border-gray-400">
         <p class="italic mb-4">
-          Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
+          "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
           pellentesque a risus. Quam et ut fusce faucibus in pretium etiam
           praesent. In diam amet augue tincidunt nec sed iaculis lobortis.
           Suspendisse commodo in in habitant aliquam sollicitudin egestas congue
           velit. Dignissim volutpat diam pulvinar mauris aliquet lectus nullam
-          facilisi.
+          facilisi."
         </p>
         <div class="flex flex-row gap-4 items-center">
           <img src="../../assets/images/rolunk_pic.jpg" alt="" />
@@ -33,13 +33,13 @@ defineProps({
       </div>
       <div class="p-6 bg-primary-200 rounded-xl">
         <p class="italic mb-4">
-          Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
+          "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
           pellentesque a risus. Quam et ut fusce faucibus in pretium etiam
           praesent. In diam amet augue tincidunt nec sed iaculis lobortis.
           Suspendisse commodo in in habitant aliquam sollicitudin egestas congue
           velit. Dignissim volutpat diam pulvinar mauris aliquet lectus nullam
-          facilisi.
+          facilisi."
         </p>
         <div class="flex flex-row gap-4 items-center">
           <img src="../../assets/images/rolunk_pic.jpg" alt="" />
