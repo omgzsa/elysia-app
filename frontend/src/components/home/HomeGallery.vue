@@ -58,7 +58,6 @@ const breakpoints = ref({
       :breakpoints="breakpoints"
       :wrap-around="true"
       :transition="500"
-      :autoplay="5000"
     >
       <Slide v-for="(image, index) in images" :key="index">
         <img :src="useGetImageUrl(image.img)" :alt="image.name" />
@@ -89,7 +88,7 @@ const breakpoints = ref({
 }
 
 .carousel__slide {
-  opacity: 0.9;
+  opacity: 0.5;
   transform: scale(0.8);
 }
 
@@ -98,17 +97,17 @@ const breakpoints = ref({
 }
 
 .carousel__slide--prev {
-  opacity: 1;
+  opacity: 0.5;
   transform: scale(0.8);
 }
 
 .carousel__slide--next {
-  opacity: 1;
+  opacity: 0.5;
   transform: scale(0.8);
 }
 
 .carousel__slide--active {
   opacity: 1;
-  transform: rotateY(0) scale(1.1);
+  transform: rotateY(0) scale(1);
 }
 </style>
