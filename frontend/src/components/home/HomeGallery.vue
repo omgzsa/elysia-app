@@ -1,9 +1,13 @@
 <script setup>
 import { ref } from "vue";
-import { Carousel, Slide } from "vue3-carousel";
+import { Carousel, Slide, Pagination } from "vue3-carousel";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 
 import "vue3-carousel/dist/carousel.css";
+
+defineProps({
+  title: { type: String },
+});
 
 const images = [
   {
@@ -37,26 +41,34 @@ const breakpoints = ref({
     itemsToShow: 3,
   },
   1280: {
-    itemsToShow: 5,
+    itemsToShow: 5.75,
   },
 });
 </script>
 
 <template>
-  <Carousel
-    aria-label="galéria képek"
-    :settings="settings"
-    :breakpoints="breakpoints"
-    :wrap-around="true"
-    :transition="500"
-    class="p-4"
-  >
-    <Slide v-for="(image, index) in images" :key="index">
-      <div class="carousel__item">
+  <div class="text-center">
+    <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
+      >elysia laser clinic</span
+    >
+    <h2 class="py-4">{{ title }}</h2>
+    <Carousel
+      aria-label="galéria képek"
+      :settings="settings"
+      :breakpoints="breakpoints"
+      :wrap-around="true"
+      :transition="500"
+      class="p-4"
+    >
+      <Slide v-for="(image, index) in images" :key="index">
         <img :src="useGetImageUrl(image.img)" :alt="image.name" />
-      </div>
-    </Slide>
-  </Carousel>
+      </Slide>
+
+      <template #addons>
+        <pagination />
+      </template>
+    </Carousel>
+  </div>
 </template>
 
 <style scoped>
