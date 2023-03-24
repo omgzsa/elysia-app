@@ -38,7 +38,7 @@ const breakpoints = ref({
     itemsToShow: 2.5,
   },
   960: {
-    itemsToShow: 3,
+    itemsToShow: 3.75,
   },
   1280: {
     itemsToShow: 5.75,
@@ -51,14 +51,14 @@ const breakpoints = ref({
     <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
       >elysia laser clinic</span
     >
-    <h2 class="py-4">{{ title }}</h2>
+    <h2 class="py-4 lg:mb-10">{{ title }}</h2>
     <Carousel
       aria-label="galéria képek"
       :settings="settings"
       :breakpoints="breakpoints"
       :wrap-around="true"
       :transition="500"
-      class="p-4"
+      class=""
     >
       <Slide v-for="(image, index) in images" :key="index">
         <img :src="useGetImageUrl(image.img)" :alt="image.name" />
