@@ -1,13 +1,4 @@
 <script setup>
-// import { ref } from "vue";
-// import { useGetImageUrl } from "../../composables/getImageUrl";
-
-// const images = ref([
-//   "elysia_intro_1.webp",
-//   "elysia_intro_2.webp",
-//   "elysia_intro_3.webp",
-// ]);
-
 defineProps({
   title: { type: String },
   introduction: { type: String },
