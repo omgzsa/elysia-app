@@ -14,9 +14,7 @@ defineProps({
       <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
         >bemutatkozás</span
       >
-      <slot name="title"
-        ><h2>{{ title }}</h2></slot
-      >
+      <h2>{{ title }}</h2>
       <p class="mb-8 sm:mb-12">
         <slot name="introduction" />
       </p>
