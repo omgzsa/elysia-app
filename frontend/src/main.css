@@ -6,9 +6,7 @@
   body {
     @apply font-base;
   }
-  /* main {
-    @apply px-2 sm:px-6 lg:px-8;
-  } */
+
   section {
     @apply mx-auto mb-16 lg:mb-24 xl:mb-28;
   }
