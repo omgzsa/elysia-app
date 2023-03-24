@@ -52,4 +52,7 @@
 }
 
 @layer components {
+  .subheading {
+    @apply text-xs md:text-base tracking-wider uppercase text-gray-500;
+  }
 }
