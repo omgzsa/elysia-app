@@ -58,7 +58,6 @@ const breakpoints = ref({
       :breakpoints="breakpoints"
       :wrap-around="true"
       :transition="500"
-      class=""
     >
       <Slide v-for="(image, index) in images" :key="index">
         <img :src="useGetImageUrl(image.img)" :alt="image.name" />
