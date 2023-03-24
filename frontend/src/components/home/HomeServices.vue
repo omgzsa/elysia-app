@@ -1,41 +1,17 @@
 <script setup>
 import { useGetImageUrl } from "../../composables/getImageUrl";
-// import { onMounted } from "vue";
 
 defineProps({
   services: { type: Array, required: true },
   title: { type: String },
   description: { type: String },
 });
-
-// const isVisible = (index) => {
-//   const el = document.querySelectorAll(".list-item")[index];
-//   const rect = el.getBoundingClientRect();
-//   const windowHeight =
-//     window.innerHeight || document.documentElement.clientHeight;
-//   const windowWidth = window.innerWidth || document.documentElement.clientWidth;
-//   const vertInView = rect.top <= windowHeight && rect.top + rect.height >= 0;
-//   const horInView = rect.left <= windowWidth && rect.left + rect.width >= 0;
-//   return vertInView && horInView;
-// };
-
-// onMounted(() => {
-//   window.addEventListener("scroll", () => {
-//     props.services.forEach((item, index) => {
-//       if (isVisible(index)) {
-//         item.isVisible = true;
-//       }
-//     });
-//   });
-// });
 </script>
 
 <template>
   <div class="max-w-screen-xl mx-auto">
     <div class="grid grid-cols-1 gap-y-6 text-center mx-auto px-2 max-w-3xl">
-      <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
-        >elysia laser clinic</span
-      >
+      <span class="subheading">elysia laser clinic</span>
       <slot name="title"
         ><h2>{{ title }}</h2></slot
       >
@@ -72,7 +48,7 @@ defineProps({
   </div>
 </template>
 
-<style>
+<style scoped>
 .list-move,
 .list-enter-active,
 .list-leave-active {

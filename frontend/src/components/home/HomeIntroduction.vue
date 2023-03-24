@@ -11,9 +11,7 @@ defineProps({
     <div
       class="md:order-1 grid grid-cols-1 gap-y-6 mx-auto text-center md:text-left lg:text-left px-2 max-w-3xl"
     >
-      <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
-        >bemutatkozás</span
-      >
+      <span class="subheading">bemutatkozás</span>
       <h2>{{ title }}</h2>
       <p class="mb-8 sm:mb-12">
         <slot name="introduction" />
