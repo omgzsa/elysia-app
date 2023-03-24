@@ -40,9 +40,9 @@ const breakpoints = ref({
   960: {
     itemsToShow: 3.75,
   },
-  1280: {
-    itemsToShow: 5.75,
-  },
+  // 1280: {
+  //   itemsToShow: 5.75,
+  // },
 });
 </script>
 
