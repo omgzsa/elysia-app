@@ -92,5 +92,5 @@ const services = ref([
     </HomeIntroduction>
   </section>
   <HomeCompanyLogos />
-  <HomeGallery />
+  <HomeGallery title="Galéria" />
 </template>
