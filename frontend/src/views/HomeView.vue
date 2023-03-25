@@ -6,6 +6,7 @@ import HomeIntroduction from "../components/home/HomeIntroduction.vue";
 import HomeCompanyLogos from "../components/home/HomeCompanyLogos.vue";
 import HomeGallery from "../components/home/HomeGallery.vue";
 import HomeTestimonials from "../components/home/HomeTestimonials.vue";
+import HomeCallToAction from "../components/home/HomeCallToAction.vue";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -95,4 +96,7 @@ const services = ref([
   <HomeCompanyLogos />
   <HomeGallery title="Galéria" />
   <HomeTestimonials title="Rólunk mondták" />
+  <section>
+    <HomeCallToAction />
+  </section>
 </template>
