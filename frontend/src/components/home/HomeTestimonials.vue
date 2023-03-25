@@ -6,13 +6,15 @@ defineProps({
 });
 </script>
 <template>
-  <section class="max-w-screen-xl mx-auto">
+  <section class="max-w-screen-xl mx-auto px-2">
     <div class="flex flex-col items-center gap-4 mb-12">
       <span class="subheading">elégedett ügyfeleink</span>
       <h2>{{ title }}</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-      <div class="p-6 bg-primary-200 rounded-xl border border-gray-400">
+      <div
+        class="p-6 bg-primary-200 rounded-xl border border-gray-400 shadow-border"
+      >
         <p class="italic mb-4">
           "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
@@ -31,7 +33,7 @@ defineProps({
           </div>
         </div>
       </div>
-      <div class="p-6 bg-primary-200 rounded-xl">
+      <div class="p-6 bg-primary-200 rounded-xl shadow-border">
         <p class="italic mb-4">
           "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
@@ -53,3 +55,21 @@ defineProps({
     </div>
   </section>
 </template>
+
+<style>
+.shadow-border {
+  position: relative;
+  border: none;
+}
+
+.shadow-border:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #586c63;
+  transform: translate(-2.125em, -2.125em);
+  z-index: -1;
+  border-radius: 0.75rem;
+}
+</style>
