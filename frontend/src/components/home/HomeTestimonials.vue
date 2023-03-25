@@ -6,15 +6,13 @@ defineProps({
 });
 </script>
 <template>
-  <section class="max-w-screen-xl mx-auto px-2">
+  <section class="max-w-screen-xl mx-auto px-2 pl-4">
     <div class="flex flex-col items-center gap-4 mb-12">
       <span class="subheading">elégedett ügyfeleink</span>
       <h2>{{ title }}</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-      <div
-        class="p-6 bg-primary-200 rounded-xl border border-gray-400 shadow-border"
-      >
+      <div class="p-6 bg-primary-200 rounded-xl shadow-border">
         <p class="italic mb-4">
           "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
