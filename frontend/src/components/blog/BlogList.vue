@@ -2,26 +2,46 @@
 import { ref } from "vue";
 import BlogListItem from "./BlogListItem.vue";
 
+defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+});
+
 const blogs = ref([
   {
     id: 1,
     title: "Lorem ipsum dolor sit amet",
-    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit. Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit.",
+    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum.",
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor sit amet consectetur",
-    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit. Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit.",
+    title: "Lorem ipsum ",
+    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit.",
   },
   {
     id: 3,
     title: "Lorem ipsum dolor",
-    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit. Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit.",
+    text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit. Lorem ipsum dolor sit amet consectetur.",
   },
 ]);
 </script>
 <template>
-  <div>
-    <BlogListItem v-for="blog in blogs" :key="blog.id" :blog="blog" />
-  </div>
+  <section class="max-w-screen-xl px-2 space-y-12">
+    <div class="space-y-4 mb-4 text-center">
+      <span class="subheading">bemutatkozás</span>
+      <h2>{{ title }}</h2>
+    </div>
+    <div
+      class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+    >
+      <BlogListItem
+        v-for="blog in blogs"
+        :key="blog.id"
+        :blog="blog"
+        class="mx-auto"
+      />
+    </div>
+  </section>
 </template>
