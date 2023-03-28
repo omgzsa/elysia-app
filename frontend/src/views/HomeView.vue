@@ -8,6 +8,7 @@ import HomeGallery from "../components/home/HomeGallery.vue";
 import HomeTestimonials from "../components/home/HomeTestimonials.vue";
 import HomeCallToAction from "../components/home/HomeCallToAction.vue";
 import BlogList from "../components/blog/BlogList.vue";
+import TheContact from "../components/TheContact.vue";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -101,4 +102,5 @@ const services = ref([
     <HomeCallToAction />
   </section>
   <BlogList title="Tudjon meg többet szolgáltatásainkról" />
+  <TheContact />
 </template>
