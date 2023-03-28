@@ -14,7 +14,7 @@ defineProps({
   >
     <img
       role="presentation"
-      class="object-cover w-full rounded h-44 dark:bg-gray-500"
+      class="object-cover w-full rounded-t-xl h-44 dark:bg-gray-500"
       src="https://source.unsplash.com/random/480x360?1"
     />
     <div class="p-6 space-y-2">
