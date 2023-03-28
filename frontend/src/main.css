@@ -28,7 +28,7 @@
   }
 
   p {
-    @apply text-base lg:text-lg;
+    @apply text-sm lg:text-base;
   }
 
   /* 
