@@ -16,7 +16,7 @@
   }
 
   h2 {
-    @apply font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide;
+    @apply font-bold text-3xl lg:text-4xl xl:text-5xl tracking-wide;
   }
 
   h3 {
