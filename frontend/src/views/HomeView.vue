@@ -102,5 +102,5 @@ const services = ref([
     <HomeCallToAction />
   </section>
   <BlogList title="Tudjon meg többet szolgáltatásainkról" />
-  <TheContact />
+  <TheContact title="Foglalja le időpontját pár kattintással!" />
 </template>
