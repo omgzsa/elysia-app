@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useGetImageUrl } from "@/composables/getImageUrl.js";
 import { RouterLink } from "vue-router";
-import { GoogleMap, Marker } from "vue3-google-map";
+import { GoogleMap, Marker, InfoWindow } from "vue3-google-map";
 
 import IconClock from "../components/icons/IconClock.vue";
 import IconEmail from "../components/icons/IconEmail.vue";
@@ -93,6 +93,12 @@ defineProps({
           :zoom="15"
         >
           <Marker :options="{ position: center }" />
+          <InfoWindow
+            :options="{ position: { lat: 47.6942539, lng: center.lng } }"
+          >
+            <h4>Elysia Laser Clinic</h4>
+            <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
+          </InfoWindow>
         </GoogleMap>
       </div>
     </div>
