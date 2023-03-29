@@ -31,7 +31,7 @@ const blogs = ref([
 ]);
 </script>
 <template>
-  <section class="container px-2 space-y-12">
+  <section class="max-w-screen-xl px-2 md:px-4 space-y-12">
     <div class="space-y-4 mb-4 text-center">
       <span class="subheading">bemutatkozás</span>
       <h2>{{ title }}</h2>
