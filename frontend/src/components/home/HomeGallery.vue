@@ -48,7 +48,9 @@ const breakpoints = ref({
 
 <template>
   <div class="text-center">
-    <span class="subheading">elysia laser clinic</span>
+    <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
+      >elysia laser clinic</span
+    >
     <h2 class="py-4 lg:mb-10">{{ title }}</h2>
     <Carousel
       aria-label="galéria képek"
