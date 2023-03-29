@@ -9,8 +9,8 @@ defineProps({
 </script>
 
 <template>
-  <div class="max-w-screen-xl mx-auto">
-    <div class="grid grid-cols-1 gap-y-6 text-center mx-auto px-2 max-w-3xl">
+  <div class="max-w-screen-xl mx-auto px-2 md:px-4">
+    <div class="grid grid-cols-1 gap-y-6 text-center mx-auto max-w-3xl">
       <span class="subheading">elysia laser clinic</span>
       <slot name="title"
         ><h2>{{ title }}</h2></slot
