@@ -7,6 +7,12 @@ module.exports = {
     fontFamily: {
       base: ["Ubuntu", "sans"],
     },
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      // custom: "86em",
+    },
     extend: {
       colors: {
         primary: {
