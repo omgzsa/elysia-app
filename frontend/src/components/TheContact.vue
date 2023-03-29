@@ -42,19 +42,19 @@ defineProps({
 
         <ul class="space-y-2">
           <li class="flex flex-row gap-2 items-center">
-            <IconClock />
+            <IconClock class="text-accent-100" />
             <p>{{ openHours }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconEmail />
+            <IconEmail class="text-accent-100" />
             <p>{{ contactEmail }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconPhone />
+            <IconPhone class="text-accent-100" />
             <p>{{ phoneNum }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconMarker />
+            <IconMarker class="text-accent-100" />
             <p>{{ address }}</p>
           </li>
         </ul>
