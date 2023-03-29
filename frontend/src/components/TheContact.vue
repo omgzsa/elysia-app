@@ -29,7 +29,7 @@ defineProps({
 
 <template>
   <div>
-    <section class="mb-0">
+    <section>
       <div
         class="flex items-center justify-center h-72 md:h-[600px] m-auto mt-6 bg-fixed bg-center bg-[length:960px_349px] bg-no-repeat md:bg-[length:1440px_524px] xl:bg-cover"
         :style="{ backgroundImage: `url(${useGetImageUrl(image)})` }"
@@ -83,7 +83,7 @@ defineProps({
       <!-- google maps -->
       <GoogleMap
         :api-key="apiKey"
-        style="width: 100%; height: 550px"
+        style="width: 100%; max-height: 620px"
         :center="center"
         :zoom="15"
       >

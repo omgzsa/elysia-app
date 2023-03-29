@@ -6,7 +6,7 @@ defineProps({
 });
 </script>
 <template>
-  <section class="container mx-auto px-2 pl-4">
+  <section class="max-w-screen-xl mx-auto px-2 pl-4">
     <div class="flex flex-col items-center gap-4 mb-12">
       <span class="subheading">elégedett ügyfeleink</span>
       <h2>{{ title }}</h2>
