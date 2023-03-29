@@ -33,16 +33,12 @@ defineProps({
       <div
         class="flex items-center justify-center h-72 md:h-[600px] m-auto mt-6 bg-fixed bg-center bg-[length:960px_349px] bg-no-repeat md:bg-[length:1440px_524px] xl:bg-cover"
         :style="{ backgroundImage: `url(${useGetImageUrl(image)})` }"
-      >
-        <div class="p-5 text-2xl text-white bg-opacity-50 rounded-xl">
-          <!-- Parallax inline -->
-        </div>
-      </div>
+      ></div>
     </section>
 
-    <div class="m-auto grid grid-cols-1 md:grid-cols-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-6">
       <!-- contact data -->
-      <div class="space-y-8 p-6 mx-auto md:p-12 lg:p-20 max-w-3xl">
+      <div class="space-y-8 p-6 mx-auto md:p-12 lg:p-20 max-w-md md:max-w-3xl">
         <h2>{{ title }}</h2>
 
         <ul class="space-y-2">
@@ -85,22 +81,20 @@ defineProps({
       </div>
 
       <!-- google maps -->
-      <div>
-        <GoogleMap
-          :api-key="apiKey"
-          style="width: 100%; height: 100%"
-          :center="center"
-          :zoom="15"
+      <GoogleMap
+        :api-key="apiKey"
+        style="width: 100%; height: 550px"
+        :center="center"
+        :zoom="15"
+      >
+        <Marker :options="{ position: center }" />
+        <InfoWindow
+          :options="{ position: { lat: 47.6942539, lng: center.lng } }"
         >
-          <Marker :options="{ position: center }" />
-          <InfoWindow
-            :options="{ position: { lat: 47.6942539, lng: center.lng } }"
-          >
-            <h4>Elysia Laser Clinic</h4>
-            <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
-          </InfoWindow>
-        </GoogleMap>
-      </div>
+          <h4>Elysia Laser Clinic</h4>
+          <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
+        </InfoWindow>
+      </GoogleMap>
     </div>
   </div>
 </template>
