@@ -1,22 +1,86 @@
 <script setup>
 import { useGetImageUrl } from "@/composables/getImageUrl.js";
+import { RouterLink } from "vue-router";
+
+import IconClock from "../components/icons/IconClock.vue";
+import IconEmail from "../components/icons/IconEmail.vue";
+import IconPhone from "../components/icons/IconPhone.vue";
+import IconMarker from "../components/icons/IconMarker.vue";
+import IconCalendar from "../components/icons/IconCalendar.vue";
 
 const image = "contact_bg.webp";
+const openHours = "Hétfő - Péntek: 8:00 - 18:00";
+const contactEmail = "info@elysia.hu";
+const phoneNum = "+36 20 275 0025";
+const address = "9026 Győr, Dózsa György rakpart 29-31.";
+
+defineProps({
+  title: {
+    type: String,
+    default: "Kapcsolat",
+  },
+});
 </script>
 
 <template>
-  <section
-    class="flex items-center justify-center h-[600px] m-auto mb-12 bg-fixed bg-center bg-cover"
-    :style="{ backgroundImage: `url(${useGetImageUrl(image)})` }"
-  >
-    <div class="p-5 text-2xl text-white bg-opacity-50 rounded-xl">
-      <!-- Parallax inline -->
-    </div>
-    <div>
-      <div>
-        <h2>Foglalja le időpontját pár kattintással!</h2>
+  <div>
+    <section class="mb-0">
+      <div
+        class="flex items-center justify-center h-72 md:h-[600px] m-auto my-6 bg-fixed bg-center bg-[length:960px_349px] bg-no-repeat md:bg-[length:1440px_524px] xl:bg-cover"
+        :style="{ backgroundImage: `url(${useGetImageUrl(image)})` }"
+      >
+        <div class="p-5 text-2xl text-white bg-opacity-50 rounded-xl">
+          <!-- Parallax inline -->
+        </div>
       </div>
-      <div></div>
+    </section>
+
+    <div class="container m-auto grid grid-cols-1 md:grid-cols-2">
+      <!-- contact data -->
+      <div class="space-y-6 p-6 mx-auto md:p-12 lg:p-20 max-w-3xl">
+        <h2>{{ title }}</h2>
+
+        <ul class="space-y-2">
+          <li class="flex flex-row gap-2 items-center">
+            <IconClock />
+            <p>{{ openHours }}</p>
+          </li>
+          <li class="flex flex-row gap-2 items-center">
+            <IconEmail />
+            <p>{{ contactEmail }}</p>
+          </li>
+          <li class="flex flex-row gap-2 items-center">
+            <IconPhone />
+            <p>{{ phoneNum }}</p>
+          </li>
+          <li class="flex flex-row gap-2 items-center">
+            <IconMarker />
+            <p>{{ address }}</p>
+          </li>
+        </ul>
+
+        <p class="pb-4">
+          Ha nem találja amit keres nézzen körül Gyakran Ismételt Kérdések
+          között.
+        </p>
+
+        <RouterLink :to="{ name: 'services', path: '/services' }">
+          <button
+            class="rounded-md px-8 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
+          >
+            <span
+              class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+            ></span>
+            <span
+              class="font-bold flex flex-row items-center gap-2 relative text-white transition duration-300 group-hover:text-accent-100 ease"
+              ><IconCalendar /> <span>Időpontfoglalás</span></span
+            >
+          </button>
+        </RouterLink>
+      </div>
+
+      <!-- google maps -->
+      <div>GOOGLE MAPS</div>
     </div>
-  </section>
+  </div>
 </template>
