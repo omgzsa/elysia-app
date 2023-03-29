@@ -13,16 +13,19 @@ const blogs = ref([
   {
     id: 1,
     title: "Lorem ipsum dolor sit amet",
+    image: "blog-img-1.webp",
     text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum.",
   },
   {
     id: 2,
     title: "Lorem ipsum ",
+    image: "blog-img-2.webp",
     text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit.",
   },
   {
     id: 3,
     title: "Lorem ipsum dolor",
+    image: "blog-img-3.webp",
     text: "Lorem ipsum dolor sit amet consectetur. Magna faucibus sed est facilisis elementum. Mauris enim fringilla diam ultricies suspendisse purus elit. Lorem ipsum dolor sit amet consectetur.",
   },
 ]);
