@@ -1,14 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from "vue-router";
 import TheFooter from "./components/TheFooter.vue";
+import TheNavbar from "./components/TheNavbar.vue";
+
+const logo = "elysia_logo_new_transparent.webp";
 </script>
 
 <template>
   <header>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
+    <TheNavbar :logo="logo" />
   </header>
   <main>
     <RouterView />
