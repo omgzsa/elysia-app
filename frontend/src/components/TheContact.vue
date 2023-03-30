@@ -83,7 +83,7 @@ defineProps({
       <!-- google maps -->
       <GoogleMap
         :api-key="apiKey"
-        style="width: 100%; height: 550px"
+        style="width: 100%; max-height: 620px"
         :center="center"
         :zoom="15"
       >
