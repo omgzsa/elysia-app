@@ -10,6 +10,7 @@ defineProps({
   >
     <div
       class="md:order-1 grid grid-cols-1 gap-y-6 mx-auto text-center md:text-left lg:text-left px-2 max-w-3xl"
+      v-motion-slide-visible-once-left
     >
       <span class="subheading">bemutatkozás</span>
       <h2>{{ title }}</h2>
@@ -18,7 +19,10 @@ defineProps({
       </p>
     </div>
 
-    <div class="grid grid-cols-12 grid-rows-5 p-4 gap-4 items-center">
+    <div
+      class="grid grid-cols-12 grid-rows-5 p-4 gap-4 items-center"
+      v-motion-slide-visible-once-right
+    >
       <img
         class="row-start-2 row-span-3 col-start-2 col-span-4"
         src="../../assets/images/elysia_intro_2.webp"
