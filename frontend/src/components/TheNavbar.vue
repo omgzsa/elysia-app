@@ -1,7 +1,17 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import { useGetImageUrl } from "../composables/getImageUrl";
+import TheNavbarMobile from "./TheNavbarMobile.vue";
+
+// icons
+import IconMenu from "./icons/IconMenu.vue";
+// import IconMenuShort from "./icons/IconMenuShort.vue";
 import IconCalendar from "./icons/IconCalendar.vue";
+import IconWindowClose from "./icons/IconWindowClose.vue";
+
+const isMobileMenuOpen = ref(false);
+const toggleNav = () => (isMobileMenuOpen.value = !isMobileMenuOpen.value);
 
 defineProps({
   logo: {
@@ -10,9 +20,11 @@ defineProps({
   },
 });
 </script>
+
 <template>
-  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+  <div class="relative mx-auto max-w-screen-xl px-2 sm:px-4 lg:px-6">
     <div class="flex h-16 items-center justify-between mt-1">
+      <!-- LOGO -->
       <div class="md:flex md:items-center md:gap-12">
         <a class="block text-teal-600 w-12 sm:w-16 md:w-20" href="/">
           <span class="sr-only">Home</span>
@@ -20,12 +32,13 @@ defineProps({
         </a>
       </div>
 
+      <!-- DESKTOP MENU -->
       <div class="hidden lg:block">
         <nav aria-label="Site Nav">
           <ul class="flex items-center gap-6 text-sm">
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-gray-500/75 hover:text-secondary-100 font-bold text-xs"
                 href="/"
               >
                 Kezdőlap
@@ -80,7 +93,8 @@ defineProps({
         </nav>
       </div>
 
-      <div class="flex items-center gap-4">
+      <!-- IDŐPONTFOGLALÁS -->
+      <div class="flex items-center gap-2">
         <div class="sm:flex sm:gap-4">
           <RouterLink :to="{ name: 'services', path: '/services' }">
             <button
@@ -90,34 +104,63 @@ defineProps({
                 class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
               ></span>
               <span
-                class="text-xs md:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-secondary-100 ease"
+                class="text-xs sm:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-secondary-100 ease"
                 ><IconCalendar /> <span>Időpontfoglalás</span></span
               >
             </button>
           </RouterLink>
         </div>
 
+        <!-- MOBILE MENU button -->
         <div class="block lg:hidden">
           <button
-            class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+            @click="toggleNav"
+            :aria-expanded="isMobileMenuOpen ? 'true' : 'false'"
+            aria-label="Toggle mobile menu"
+            class="rounded p-1.5 sm:p-2 text-gray-500 transition hover:text-gray-700 hover:bg-gray-200"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
+            <IconMenu :class="{ hidden: isMobileMenuOpen }" />
+            <IconWindowClose :class="{ hidden: !isMobileMenuOpen }" />
           </button>
         </div>
       </div>
     </div>
+
+    <!-- Mobile sidebar -->
+    <!-- <Transition name="slide"> -->
+    <div :class="{ block: isMobileMenuOpen, hidden: !isMobileMenuOpen }">
+      <TheNavbarMobile />
+    </div>
+    <!-- </Transition> -->
   </div>
 </template>
+
+<style>
+/* slide in animation */
+/* .slide-enter-active {
+  animation: slide-in 0.3s ease-out forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+} */
+
+/* slide out animation */
+/* .slide-leave-active {
+  animation: slide-out 0.3s ease-out forwards;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+} */
+</style>
