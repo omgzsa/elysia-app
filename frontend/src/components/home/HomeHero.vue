@@ -19,7 +19,7 @@ defineProps({
       :style="{ backgroundImage: `url(${useGetImageUrl(slide.img)})` }"
       :class="slide.color"
     >
-      <div class="w-full mx-auto flex flex-col max-w-md gap-y-8">
+      <div class="w-full px-2 md:px-4 mx-auto flex flex-col max-w-md gap-y-8">
         <h1>{{ slide.title }}</h1>
         <p>{{ slide.text }}</p>
 
