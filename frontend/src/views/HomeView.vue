@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { useMotion } from "@vueuse/motion";
 import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
 import HomeIntroduction from "../components/home/HomeIntroduction.vue";
@@ -66,6 +67,27 @@ const services = ref([
     img: "z0_skin_health.webp",
   },
 ]);
+
+const targetEl = ref();
+
+useMotion(targetEl, {
+  initial: {
+    y: 100,
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      y: {
+        delay: 400,
+      },
+      // opacity: {
+      //   duration: 1600,
+      // },
+    },
+  },
+});
 </script>
 
 <template>
@@ -101,6 +123,10 @@ const services = ref([
   <section>
     <HomeCallToAction />
   </section>
-  <BlogList title="Tudjon meg többet szolgáltatásainkról" />
+  <BlogList
+    title="Tudjon meg többet szolgáltatásainkról"
+    v-motion
+    ref="targetEl"
+  />
   <TheContact title="Foglalja le időpontját pár kattintással!" />
 </template>
