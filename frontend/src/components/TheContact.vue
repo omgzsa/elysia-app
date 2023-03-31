@@ -67,13 +67,13 @@ defineProps({
 
         <RouterLink :to="{ name: 'services', path: '/services' }">
           <button
-            class="rounded-md px-8 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
+            class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-gray-700 bg-secondary-100 border border-secondary-100"
           >
             <span
               class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
             ></span>
             <span
-              class="font-bold flex flex-row items-center gap-2 relative text-white transition duration-300 group-hover:text-accent-100 ease"
+              class="text-xs sm:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-secondary-100 ease"
               ><IconCalendar /> <span>Időpontfoglalás</span></span
             >
           </button>
