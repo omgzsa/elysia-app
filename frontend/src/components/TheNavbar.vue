@@ -35,10 +35,12 @@ defineProps({
       <!-- DESKTOP MENU -->
       <div class="hidden lg:block">
         <nav aria-label="Site Nav">
-          <ul class="flex items-center gap-6 text-sm">
+          <ul
+            class="flex items-center gap-6 font-bold text-xs lg:text-sm xl:text-base"
+          >
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 hover:text-secondary-100 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Kezdőlap
@@ -47,7 +49,7 @@ defineProps({
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Szolgáltatások
@@ -56,7 +58,7 @@ defineProps({
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Z0 Skin Health
@@ -65,7 +67,7 @@ defineProps({
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Áraink
@@ -74,7 +76,7 @@ defineProps({
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Munkatársak
@@ -83,7 +85,7 @@ defineProps({
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75 font-bold text-xs"
+                class="text-gray-500 transition hover:text-secondary-100 active:hover:text-secondary-100"
                 href="/"
               >
                 Kapcsolat
