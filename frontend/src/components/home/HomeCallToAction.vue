@@ -16,7 +16,7 @@ const bgImage = "CTA_bg.webp";
     </p>
     <div>
       <div class="flex flex-col justify-center gap-4 md:flex-row">
-        <RouterLink :to="{ name: 'services', path: '/services' }">
+        <RouterLink :to="{ name: 'home', path: '/' }">
           <button
             class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium text-gray-800 bg-secondary-100 border border-secondary-100"
           >
