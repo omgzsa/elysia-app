@@ -19,32 +19,30 @@ defineProps({
         <slot name="description" />
       </p>
     </div>
-    <ul>
-      <TransitionGroup
-        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-y-8 lg:gap-y-12 px-2 items-center"
-        name="list"
-        tag="ul"
-        appear
+    <TransitionGroup
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-y-8 lg:gap-y-12 px-2 items-center"
+      name="list"
+      tag="ul"
+      appear
+    >
+      <li
+        v-for="service in services"
+        :key="service.id"
+        :style="{ transitionDelay: Math.random() * 800 + 'ms' }"
+        class="list-item"
       >
-        <li
-          v-for="service in services"
-          :key="service.id"
-          :style="{ transitionDelay: Math.random() * 800 + 'ms' }"
-          class="list-item"
-        >
-          <div class="flex flex-col items-center gap-4">
-            <img
-              class="h-24 sm:h-32 md:h-full"
-              :src="useGetImageUrl(service.img)"
-              alt=""
-            />
-            <p class="font-bold text-xs sm:text-base">
-              {{ service.title }}
-            </p>
-          </div>
-        </li>
-      </TransitionGroup>
-    </ul>
+        <div class="flex flex-col items-center gap-4">
+          <img
+            class="h-24 sm:h-32 md:h-full"
+            :src="useGetImageUrl(service.img)"
+            alt=""
+          />
+          <p class="font-bold text-xs sm:text-base">
+            {{ service.title }}
+          </p>
+        </div>
+      </li>
+    </TransitionGroup>
   </div>
 </template>
 
