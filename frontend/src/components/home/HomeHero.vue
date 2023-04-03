@@ -24,7 +24,7 @@ defineProps({
         <p>{{ slide.text }}</p>
 
         <div class="flex flex-col justify-between md:flex-row">
-          <RouterLink :to="{ name: 'services', path: '/services' }">
+          <RouterLink :to="{ name: 'home', path: '/' }">
             <button
               class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
             >
