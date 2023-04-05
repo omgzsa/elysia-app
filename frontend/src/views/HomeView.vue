@@ -82,9 +82,6 @@ useMotion(targetEl, {
       y: {
         delay: 400,
       },
-      // opacity: {
-      //   duration: 1600,
-      // },
     },
   },
 });
