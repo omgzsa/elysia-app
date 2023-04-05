@@ -48,10 +48,12 @@ const services = ref([
   },
   {
     title: "Tüdőgyógyászati Szakrendelés",
+    link: "/szolgaltatasok/tudogyogyaszati-szakrendeles",
     open: false,
   },
   {
     title: "Idegsebészeti vizsgálatok",
+    link: "/szolgaltatasok/idegsebeszeti-vizsgalatok",
     open: false,
   },
   {
