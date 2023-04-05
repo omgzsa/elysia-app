@@ -4,6 +4,10 @@ import TheDropdown from "./TheDropdown.vue";
 import IconDown from "./icons/IconDown.vue";
 import IconRight from "./icons/IconRight.vue";
 
+import { onClickOutside } from "@vueuse/core";
+
+const target = ref(null);
+
 const isServicesOpen = ref(false);
 const toggleServices = () => (isServicesOpen.value = !isServicesOpen.value);
 
@@ -200,6 +204,10 @@ const orvosiTermekek = ref([
     link: "/szolgaltatasok/orvosi-termek/orvosi-lezerkeszulekek",
   },
 ]);
+
+onClickOutside(target, () => {
+  isServicesOpen.value = false;
+});
 </script>
 
 <template>
@@ -216,7 +224,7 @@ const orvosiTermekek = ref([
         <div class="flex flex-col space-y-2">
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
-          <div class="relative cursor-pointer">
+          <div class="relative cursor-pointer" ref="target">
             <div
               @click="toggleServices"
               class="flex items-center space-x-2 hover:text-secondary-100"
@@ -226,35 +234,39 @@ const orvosiTermekek = ref([
               <IconRight v-else />
             </div>
             <Transition name="dropdown-fade">
-              <!-- IMPLEMENT EMIT ON UL INSTEAD OF WHOLE -->
               <ul
                 v-show="isServicesOpen"
                 class="absolute right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
-                <TheDropdown :submenu="borgyogyaszat">
-                  Bőrgyógyászat
-                </TheDropdown>
-                <TheDropdown :submenu="lezerkezelesek">
-                  Lézerkezelések
-                </TheDropdown>
-                <TheDropdown :submenu="orvosEsztetika">
-                  Orvos esztétika
-                </TheDropdown>
+                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
+
+                <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
+
+                <TheDropdown
+                  title="Orvos esztétika"
+                  :submenu="orvosEsztetika"
+                />
+
                 <AppLink class="text-sm" :to="{ name: 'home' }">
                   Tüdőgyógyászati szakrendelés
                 </AppLink>
                 <AppLink class="text-sm" :to="{ name: 'home' }">
                   Idegsebészeti vizsgálatok
                 </AppLink>
-                <TheDropdown :submenu="plasztikaiSebeszet">
-                  Plasztikai sebészet
-                </TheDropdown>
-                <TheDropdown :submenu="diagnosztikaiVizsgalatok">
-                  Diagnosztikai vizsgálatok
-                </TheDropdown>
-                <TheDropdown :submenu="orvosiTermekek">
-                  Orvosi termékek
-                </TheDropdown>
+                <TheDropdown
+                  title="Plasztikai sebészet"
+                  :submenu="plasztikaiSebeszet"
+                />
+
+                <TheDropdown
+                  title="Diagnosztikai vizsgálatok"
+                  :submenu="diagnosztikaiVizsgalatok"
+                />
+
+                <TheDropdown
+                  title="Orvosi termékek"
+                  :submenu="orvosiTermekek"
+                />
               </ul>
             </Transition>
           </div>
