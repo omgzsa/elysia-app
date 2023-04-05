@@ -13,11 +13,6 @@ defineProps({
 });
 
 const isVisible = ref(false);
-// const modal = ref(null);
-
-// onClickOutside(modal, () => {
-//   isVisible.value = false;
-// });
 
 const toggleVisibility = () => {
   isVisible.value = !isVisible.value;
@@ -37,16 +32,16 @@ const toggleVisibility = () => {
     <Transition name="dropdown-fade">
       <ul
         v-if="isVisible"
-        class="absolute z-20 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 max-h-max w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-1"
+        class="absolute z-20 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 max-h-max w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
       >
         <li
           v-for="item in submenu"
           :key="item.title"
           class="hover:text-secondary-100 flex space-x-1"
         >
-          <p class="text-sm">
+          <AppLink :to="{ path: `${item.link}` }" class="text-sm">
             {{ item.title }}
-          </p>
+          </AppLink>
         </li>
       </ul>
     </Transition>

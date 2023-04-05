@@ -213,7 +213,7 @@ const orvosiTermekek = ref([
         >
           Menü
         </span>
-        <div class="flex flex-col space-y-1">
+        <div class="flex flex-col space-y-2">
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
           <div class="relative cursor-pointer">
@@ -226,9 +226,10 @@ const orvosiTermekek = ref([
               <IconRight v-else />
             </div>
             <Transition name="dropdown-fade">
+              <!-- IMPLEMENT EMIT ON UL INSTEAD OF WHOLE -->
               <ul
                 v-show="isServicesOpen"
-                class="absolute right-1 sm:right-36 lg:right-auto top-3 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-1"
+                class="absolute right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
                 <TheDropdown :submenu="borgyogyaszat">
                   Bőrgyógyászat

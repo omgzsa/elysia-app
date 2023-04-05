@@ -220,14 +220,15 @@ const orvosiTermekek = ref([
   },
 ]);
 
-// variables
-
 const target = ref(null);
+
+// variables for navbar scrollPosition check
 const showNavbar = ref(true);
 const lastScrollPosition = ref(0);
 
 // onClickOutside(target, () => {
 //   isMobileMenuOpen.value = false;
+//   isServicesOpen.value = false;
 // });
 
 const isMobileMenuOpen = ref(false);
@@ -296,7 +297,7 @@ onUnmounted(() => {
           <div class="relative cursor-pointer">
             <div
               @click="toggleServices"
-              class="flex items-center space-x-2 hover:text-secondary-100"
+              class="flex items-center space-x-1 hover:text-secondary-100"
             >
               <p class="text-sm xl:text-base">Szolgáltatások</p>
               <IconDown v-if="isServicesOpen" />
@@ -305,7 +306,8 @@ onUnmounted(() => {
             <Transition name="dropdown-fade">
               <ul
                 v-show="isServicesOpen"
-                class="absolute right-6 sm:right-36 lg:right-auto top-3 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-1"
+                ref="target"
+                class="absolute right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
                 <TheDropdown :submenu="borgyogyaszat">
                   Bőrgyógyászat
@@ -366,14 +368,14 @@ onUnmounted(() => {
 
       <!-- MOBILE MENU button -->
       <div class="block lg:hidden">
-        <button
+        <div
           @click="toggleNav"
           aria-label="Toggle mobile menu"
           class="rounded -mr-2 sm:-mr-4 p-1.5 sm:p-2 text-gray-500 transition hover:text-gray-700 hover:bg-gray-200"
         >
           <IconMenu v-if="!isMobileMenuOpen" />
           <IconWindowClose v-else />
-        </button>
+        </div>
       </div>
     </div>
 
