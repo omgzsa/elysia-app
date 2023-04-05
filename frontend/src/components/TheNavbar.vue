@@ -2,7 +2,7 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import { RouterLink } from "vue-router";
 import { useGetImageUrl } from "../composables/getImageUrl";
-// import { onClickOutside } from "@vueuse/core";
+import { onClickOutside } from "@vueuse/core";
 
 import TheNavbarMobile from "./TheNavbarMobile.vue";
 
@@ -220,16 +220,15 @@ const orvosiTermekek = ref([
   },
 ]);
 
-const target = ref(null);
-
 // variables for navbar scrollPosition check
 const showNavbar = ref(true);
 const lastScrollPosition = ref(0);
 
-// onClickOutside(target, () => {
-//   isMobileMenuOpen.value = false;
-//   isServicesOpen.value = false;
-// });
+const target = ref(null);
+onClickOutside(target, () => {
+  isMobileMenuOpen.value = false;
+  isServicesOpen.value = false;
+});
 
 const isMobileMenuOpen = ref(false);
 const isServicesOpen = ref(false);
@@ -309,30 +308,35 @@ onUnmounted(() => {
                 ref="target"
                 class="absolute right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
-                <TheDropdown :submenu="borgyogyaszat">
-                  Bőrgyógyászat
-                </TheDropdown>
-                <TheDropdown :submenu="lezerkezelesek">
-                  Lézerkezelések
-                </TheDropdown>
+                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
+
+                <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
+
                 <AppLink class="text-sm" :to="{ name: 'home' }">
                   Tüdőgyógyászati szakrendelés
                 </AppLink>
                 <AppLink class="text-sm" :to="{ name: 'home' }">
                   Idegsebészeti vizsgálatok
                 </AppLink>
-                <TheDropdown :submenu="orvosEsztetika">
-                  Orvos esztétika
-                </TheDropdown>
-                <TheDropdown :submenu="plasztikaiSebeszet">
-                  Plasztikai sebészet
-                </TheDropdown>
-                <TheDropdown :submenu="diagnosztikaiVizsgalatok">
-                  Diagnosztikai vizsgálatok
-                </TheDropdown>
-                <TheDropdown :submenu="orvosiTermekek">
-                  Orvosi termékek
-                </TheDropdown>
+                <TheDropdown
+                  title="Orvos esztétika"
+                  :submenu="orvosEsztetika"
+                />
+
+                <TheDropdown
+                  title="Plasztikai sebészet"
+                  :submenu="plasztikaiSebeszet"
+                />
+
+                <TheDropdown
+                  title="Diagnosztikai vizsgálatok"
+                  :submenu="diagnosztikaiVizsgalatok"
+                />
+
+                <TheDropdown
+                  title="Orvosi termékek"
+                  :submenu="orvosiTermekek"
+                />
               </ul>
             </Transition>
           </div>
@@ -381,7 +385,7 @@ onUnmounted(() => {
 
     <!-- Mobile sidebar -->
     <div :class="{ block: isMobileMenuOpen, hidden: !isMobileMenuOpen }">
-      <TheNavbarMobile ref="target" />
+      <TheNavbarMobile :services="services" ref="target" />
     </div>
   </nav>
 </template>
