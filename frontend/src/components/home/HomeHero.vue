@@ -18,10 +18,12 @@ defineProps({
       class="grid grid-cols-1 items-center w-full bg-contain lg:bg-cover xl:bg-top min-h-[580px] xl:min-h-[760px] bg-no-repeat bg-bottom"
       :style="{ backgroundImage: `url(${useGetImageUrl(slide.img)})` }"
       :class="slide.color"
+      v-motion-slide-bottom
+      :delay="100"
     >
       <div class="w-full px-2 md:px-4 mx-auto flex flex-col max-w-md gap-y-8">
-        <h1>{{ slide.title }}</h1>
-        <p>{{ slide.text }}</p>
+        <h1 v-motion-slide-bottom :delay="300">{{ slide.title }}</h1>
+        <p v-motion-slide-bottom :delay="200">{{ slide.text }}</p>
 
         <div class="flex flex-col justify-between md:flex-row">
           <RouterLink :to="{ name: 'home', path: '/' }">

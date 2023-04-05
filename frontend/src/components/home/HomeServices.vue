@@ -11,25 +11,27 @@ defineProps({
 <template>
   <div class="max-w-screen-xl mx-auto px-2 md:px-4">
     <div class="grid grid-cols-1 gap-y-6 text-center mx-auto max-w-3xl">
-      <span class="subheading">elysia laser clinic</span>
-      <slot name="title"
-        ><h2>{{ title }}</h2></slot
+      <span class="subheading" v-motion-slide-visible-once-bottom
+        >elysia laser clinic</span
       >
-      <p class="mb-8 sm:mb-12">
+      <slot name="title"
+        ><h2 v-motion-slide-visible-once-bottom>
+          {{ title }}
+        </h2></slot
+      >
+      <p class="mb-8 sm:mb-12" v-motion-slide-visible-once-bottom>
         <slot name="description" />
       </p>
     </div>
-    <TransitionGroup
+    <ul
       class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-y-8 lg:gap-y-12 px-2 items-center"
       name="list"
-      tag="ul"
-      appear
     >
       <li
         v-for="service in services"
         :key="service.id"
-        :style="{ transitionDelay: Math.random() * 800 + 'ms' }"
         class="list-item"
+        v-motion-slide-visible-once-bottom
       >
         <div class="flex flex-col items-center gap-4">
           <img
@@ -42,23 +44,6 @@ defineProps({
           </p>
         </div>
       </li>
-    </TransitionGroup>
+    </ul>
   </div>
 </template>
-
-<style scoped>
-.list-move,
-.list-enter-active,
-.list-leave-active {
-  transition: all 0.5s ease;
-}
-.list-enter-from,
-.list-leave-to {
-  opacity: 0;
-  transform: translateY(30px);
-}
-
-.list-move-active {
-  position: absolute;
-}
-</style>

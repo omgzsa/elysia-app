@@ -8,8 +8,10 @@ defineProps({
 <template>
   <section class="max-w-screen-xl mx-auto px-2 md:px-4 pl-4">
     <div class="flex flex-col items-center gap-4 mb-12">
-      <span class="subheading">elégedett ügyfeleink</span>
-      <h2>{{ title }}</h2>
+      <span class="subheading" v-motion-slide-visible-once-top :delay="400"
+        >elégedett ügyfeleink</span
+      >
+      <h2 v-motion-slide-visible-once-top :delay="250">{{ title }}</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
       <div class="p-6 bg-primary-200 rounded-xl shadow-border">

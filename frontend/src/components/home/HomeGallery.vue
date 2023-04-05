@@ -45,10 +45,15 @@ const breakpoints = ref({
 
 <template>
   <div class="text-center">
-    <span class="text-xs md:text-base tracking-wider uppercase text-gray-500"
+    <span
+      class="text-xs md:text-base tracking-wider uppercase text-gray-500"
+      v-motion-slide-visible-once-top
+      :delay="400"
       >elysia laser clinic</span
     >
-    <h2 class="py-4 lg:mb-10">{{ title }}</h2>
+    <h2 class="py-4 lg:mb-10" v-motion-slide-visible-once-top :delay="250">
+      {{ title }}
+    </h2>
     <Carousel
       aria-label="galéria képek"
       :settings="settings"
