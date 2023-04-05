@@ -2,12 +2,17 @@
 import { ref } from "vue";
 import IconDown from "./icons/IconDown.vue";
 import IconRight from "./icons/IconRight.vue";
-// import { onClickOutside } from "@vueuse/core";
-//
+import { onClickOutside } from "@vueuse/core";
+
+const target = ref(null);
 
 defineProps({
   submenu: {
     type: Array,
+    required: true,
+  },
+  title: {
+    type: String,
     required: true,
   },
 });
@@ -17,15 +22,18 @@ const isVisible = ref(false);
 const toggleVisibility = () => {
   isVisible.value = !isVisible.value;
 };
+onClickOutside(target, () => {
+  isVisible.value = false;
+});
 </script>
 
 <template>
-  <div class="relative cursor-pointer">
+  <div class="relative cursor-pointer" ref="target">
     <div
       class="flex items-center space-x-2 hover:text-secondary-100"
       @click="toggleVisibility"
     >
-      <p class="text-sm"><slot /></p>
+      <p class="text-sm">{{ title }}</p>
       <IconDown v-if="isVisible" />
       <IconRight v-else />
     </div>
