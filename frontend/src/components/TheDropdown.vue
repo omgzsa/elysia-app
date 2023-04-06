@@ -47,7 +47,10 @@ onClickOutside(target, () => {
           :key="item.title"
           class="hover:text-secondary-100 flex space-x-1"
         >
-          <AppLink :to="{ path: `${item.link}` }" class="text-sm">
+          <AppLink
+            :to="{ path: `${item.link}`, params: { slug: item.slug } }"
+            class="text-sm"
+          >
             {{ item.title }}
           </AppLink>
         </li>
