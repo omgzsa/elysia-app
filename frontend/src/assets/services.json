@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "name": "Bőrgyógyászati kezeléseink",
+    "slug": "borgyogyaszati-kezelesek",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Gyermek bőrgyógyászat",
+        "link": "/szolgaltatas/borgyogyaszat/gyermek-borgyogyaszat"
+      },
+      {
+        "id": 1,
+        "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
+        "link": "/szolgaltatas/borgyogyaszat/dermatoscopos-anyajegy-es-borrak-szures"
+      },
+      {
+        "id": 2,
+        "name": "Pattanásos bőr komplex kezelése",
+        "link": "/szolgaltatas/borgyogyaszat/pattanasos-bor-komplex-kezelese"
+      },
+      {
+        "id": 3,
+        "name": "Bőr- és körömgombásodás kezelése",
+        "link": "/szolgaltatas/borgyogyaszat/bor-es-koromgombasodas-kezeles"
+      },
+      {
+        "id": 4,
+        "name": "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
+        "link": "/szolgaltatas/borgyogyaszat/ekcema-atopia-allergias-borbetegsegek-kezelese"
+      },
+      {
+        "id": 5,
+        "name": "Pikkelysömör (Pszoriázis) kezelés",
+        "link": "/szolgaltatas/borgyogyaszat/pikkelysomor-kezeles"
+      },
+      {
+        "id": 6,
+        "name": "Vírusos szemölcsök kezelése",
+        "link": "/szolgaltatas/borgyogyaszat/virusos-szemolcsok-kezelese"
+      },
+      {
+        "id": 7,
+        "name": "Hajhullás kivizsgálása és kezelése",
+        "link": "/szolgaltatas/borgyogyaszat/hujhullas-kivizsgalas-es-kezeles"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Tüdőgyógyászati Szakrendelés",
+    "slug": "tudogyogyaszati-szakrendeles",
+    "images": [],
+    "open": false
+  },
+  {
+    "id": 2,
+    "name": "Idegsebészeti vizsgálatok",
+    "slug": "idegsebeszeti-vizsgalatok",
+    "images": [],
+    "open": false
+  },
+  {
+    "id": 3,
+    "name": "Lézerkezelések",
+    "slug": "lezerkezelesek",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Lézeres arcfiatalítás",
+        "link": "/szolgaltatas/lezerkezelesek/lezeres-arcfiatalitas"
+      },
+      {
+        "id": 1,
+        "name": "Vagina rejuvenáció (hüvelyszűkítés)",
+        "link": "/szolgaltatas/lezerkezelesek/vagina-rejuvenacio"
+      },
+      {
+        "id": 2,
+        "name": "Lézeres szőrtelenítés",
+        "link": "/szolgaltatas/lezerkezelesek/lezeres-szortelenites"
+      },
+      {
+        "id": 3,
+        "name": "Seprűvénák, értágulatok kezelése",
+        "link": "/szolgaltatas/lezerkezelesek/sepruvenak-ertagulatok-kezelese"
+      },
+      {
+        "id": 4,
+        "name": "Pigmentfoltok kezelése",
+        "link": "/szolgaltatas/lezerkezelesek/pigmentfolt-kezeles"
+      },
+      {
+        "id": 5,
+        "name": "Akne kezelés",
+        "link": "/szolgaltatas/lezerkezelesek/akne-kezeles"
+      },
+      {
+        "id": 6,
+        "name": "Stria kezelés",
+        "link": "/szolgaltatas/lezerkezelesek/stria-kezeles"
+      },
+      {
+        "id": 7,
+        "name": "Körömgomba kezelése",
+        "link": "/szolgaltatas/lezerkezelesek/koromgomba-kezeles"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Orvosi esztétika",
+    "slug": "orvos-esztetika",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Profhiló kezelés",
+        "link": "/szolgaltatas/orvos-esztetika/profhilo-kezeles"
+      },
+      {
+        "id": 1,
+        "name": "Arc és nyak mezoterápiás kezelése",
+        "link": "/szolgaltatas/orvos-esztetika/arc-es-nyak-mezoterapias-kezelese"
+      },
+      {
+        "id": 2,
+        "name": "Hajas fejbőr mezoterápiás kezelése",
+        "link": "/szolgaltatas/orvos-esztetika/hajas-fejbor-mezoterapias-kezelese"
+      },
+      {
+        "id": 3,
+        "name": "Dermaroller kezelés",
+        "link": "/szolgaltatas/orvos-esztetika/demaroller-kezeles"
+      },
+      {
+        "id": 4,
+        "name": "Fokozott hónalji izzadás kezelése",
+        "link": "/szolgaltatas/orvos-esztetika/fokozott-honalji-izzadas-kezeles"
+      },
+      {
+        "id": 5,
+        "name": "Ráncfeltöltés hyaluronsavval",
+        "link": "/szolgaltatas/orvos-esztetika/rancfeltoltes-hyaluronsavval"
+      },
+      {
+        "id": 6,
+        "name": "Ránctalanítás botulinum toxin injekcióval",
+        "link": "/szolgaltatas/orvos-esztetika/ranc-talanitas-botulinum-toxin-injekcioval"
+      },
+      {
+        "id": 7,
+        "name": "Thread lifting: bioszálas arckontúrozás",
+        "link": "/szolgaltatas/orvos-esztetika/thread-lifting-bioszalas-arckonturozas"
+      },
+      {
+        "id": 8,
+        "name": "PRP/Drakula terápia",
+        "link": "/szolgaltatas/orvos-esztetika/prp-drakula-terapia"
+      },
+      {
+        "id": 9,
+        "name": "Skin booster kezelés",
+        "link": "/szolgaltatas/orvos-esztetika/skin-booster-kezeles"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Plasztikai sebészet",
+    "slug": "plasztikai-sebeszet",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Anyajegy eltávolítása szövettani vizsgálattal",
+        "link": "/szolgaltatas/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal"
+      },
+      {
+        "id": 1,
+        "name": "Alsó, felső szemhéjplasztika",
+        "link": "/szolgaltatas/plasztikai-sebeszet/also-felso-szemhejplasztika"
+      },
+      {
+        "id": 2,
+        "name": "Fülkorrekció",
+        "link": "/szolgaltatas/plasztikai-sebeszet/fulkorrekcio"
+      },
+      {
+        "id": 3,
+        "name": "Fülllyuk korrekció",
+        "link": "/szolgaltatas/plasztikai-sebeszet/fulllyuk-korrekcio"
+      },
+      {
+        "id": 4,
+        "name": "Kisajak plasztika",
+        "link": "/szolgaltatas/plasztikai-sebeszet/kisajak-plasztika"
+      },
+      {
+        "id": 5,
+        "name": "Orrkorrekció",
+        "link": "/szolgaltatas/plasztikai-sebeszet/orrkorrekcio"
+      },
+      {
+        "id": 6,
+        "name": "Hegkorrekció",
+        "link": "/szolgaltatas/plasztikai-sebeszet/hegkorrekcio"
+      },
+      {
+        "id": 7,
+        "name": "Ajakfeltöltés",
+        "link": "/szolgaltatas/plasztikai-sebeszet/ajakfeltoltes"
+      },
+      {
+        "id": 8,
+        "name": "COG szálas arclifting",
+        "link": "/szolgaltatas/plasztikai-sebeszet/cog-szalas-arclifting"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Diagnosztikai vizsgálatok",
+    "slug": "diagnosztikai-vizsgalatok",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Standard epicutan teszt",
+        "link": "/szolgaltatas/diagnosztikai-vizsgalatok/standard-epicutan-teszt"
+      },
+      {
+        "id": 1,
+        "name": "Laboratóriumi vizsgálatok",
+        "link": "/szolgaltatas/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Orvosi termékek",
+    "slug": "orvosi-termekek",
+    "images": [],
+    "open": true,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Z0 Skin Health",
+        "link": "/szolgaltatas/orvosi-termek/z0-skin-health"
+      },
+      {
+        "id": 1,
+        "name": "La Roche Posay",
+        "link": "/szolgaltatas/orvosi-termek/la-roche-posay"
+      },
+      {
+        "id": 2,
+        "name": "CeraVe",
+        "link": "/szolgaltatas/orvosi-termek/cerave"
+      },
+      {
+        "id": 3,
+        "name": "Vichy",
+        "link": "/szolgaltatas/orvosi-termek/vichy"
+      },
+      {
+        "id": 4,
+        "name": "Bioderma",
+        "link": "/szolgaltatas/orvosi-termek/bioderma"
+      },
+      {
+        "id": 5,
+        "name": "Thalgo",
+        "link": "/szolgaltatas/orvosi-termek/thalgo"
+      },
+      {
+        "id": 6,
+        "name": "Orvosi lézerkészülékek",
+        "link": "/szolgaltatas/orvosi-termek/orvosi-lezerkeszulekek"
+      }
+    ]
+  }
+]
