@@ -28,194 +28,238 @@ defineProps({
 
 const borgyogyaszat = ref([
   {
-    title: "Gyermek bőrgyógyászat",
+    name: "Gyermek bőrgyógyászat",
+    slug: "gyermek-borgyogyaszat",
     link: "/szolgaltatasok/borgyogyaszat/gyermek-borgyogyaszat",
   },
   {
-    title: "Dermatoscopos anyajegy- és bőrrák szűrés",
+    name: "Dermatoscopos anyajegy- és bőrrák szűrés",
+    slug: "anyajegy-es-borrak-szures",
     link: "/szolgaltatasok/borgyogyaszat/dermatoscopos-anyajegy-es-borrak-szures",
   },
   {
-    title: "Pattanásos bőr komplex kezelése",
+    name: "Pattanásos bőr komplex kezelése",
+    slug: "patanasos-bor-komplex-kezelese",
     link: "/szolgaltatasok/borgyogyaszat/pattanasos-bor-komplex-kezelese",
   },
   {
-    title: "Bőr- és körömgombásodás kezelése",
+    name: "Bőr- és körömgombásodás kezelése",
+    slug: "bor-es-koromgombasodas-kezeles",
     link: "/szolgaltatasok/borgyogyaszat/bor-es-koromgombasodas-kezeles",
   },
   {
-    title: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
+    name: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
+    slug: "allergias-borbetegsegek-kezelese",
     link: "/szolgaltatasok/borgyogyaszat/ekcema-atopia-allergias-borbetegsegek-kezelese",
   },
   {
-    title: "Pikkelysömör (Pszoriázis) kezelés",
+    name: "Pikkelysömör (Pszoriázis) kezelés",
+    slug: "pikkelysomor-kezeles",
     link: "/szolgaltatasok/borgyogyaszat/pikkelysomor-kezeles",
   },
   {
-    title: "Vírusos szemölcsök kezelése",
+    name: "Vírusos szemölcsök kezelése",
+    slug: "virusos-szemolcsok-kezelese",
     link: "/szolgaltatasok/borgyogyaszat/virusos-szemolcsok-kezelese",
   },
   {
-    title: "Hajhullás kivizsgálása és kezelése",
+    name: "Hajhullás kivizsgálása és kezelése",
+    slug: "hajhullas-kivizsgalas-es-kezeles",
     link: "/szolgaltatasok/borgyogyaszat/hujhullas-kivizsgalas-es-kezeles",
   },
 ]);
 
 const lezerkezelesek = ref([
   {
-    title: "Lézeres arcfiatalítás",
+    name: "Lézeres arcfiatalítás",
+    slug: "lezeres-arcfiatalitas",
     link: "/szolgaltatasok/lezerkezelesek/lezeres-arcfiatalitas",
   },
   {
-    title: "Vagina rejuvenáció (hüvelyszűkítés)",
+    name: "Vagina rejuvenáció (hüvelyszűkítés)",
+    slug: "vagina-rejuenacio",
     link: "/szolgaltatasok/lezerkezelesek/vagina-rejuvenacio",
   },
   {
-    title: "Lézeres szőrtelenítés",
+    name: "Lézeres szőrtelenítés",
+    slug: "lezeres-szortelenites",
     link: "/szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
   },
   {
-    title: "Seprűvénák, értágulatok kezelése",
+    name: "Seprűvénák, értágulatok kezelése",
+    slug: "sepruvenak-ertagulatok-kezelese",
     link: "/szolgaltatasok/lezerkezelesek/sepruvenak-ertagulatok-kezelese",
   },
   {
-    title: "Pigmentfoltok kezelése",
+    name: "Pigmentfoltok kezelése",
+    slug: "pigmentfoltok-kezelese",
     link: "/szolgaltatasok/lezerkezelesek/pigmentfolt-kezeles",
   },
   {
-    title: "Akne kezelés",
+    name: "Akne kezelés",
+    slug: "akne-kezelese",
     link: "/szolgaltatasok/lezerkezelesek/akne-kezeles",
   },
   {
-    title: "Stria kezelés",
+    name: "Stria kezelés",
+    slug: "stria-kezelese",
     link: "/szolgaltatasok/lezerkezelesek/stria-kezeles",
   },
   {
-    title: "Körömgomba kezelése",
+    name: "Körömgomba kezelése",
+    slug: "koromgomba-kezelese",
     link: "/szolgaltatasok/lezerkezelesek/koromgomba-kezeles",
   },
 ]);
 
 const orvosEsztetika = ref([
   {
-    title: "Profhiló kezelés",
+    name: "Profhiló kezelés",
+    slug: "profhilo-kezeles",
     link: "/szolgaltatasok/orvos-esztetika/profhilo-kezeles",
   },
   {
-    title: "Arc és nyak mezoterápiás kezelése",
+    name: "Arc és nyak mezoterápiás kezelése",
+    slug: "arc-es-nyak-mezoterapias-kezelese",
     link: "/szolgaltatasok/orvos-esztetika/arc-es-nyak-mezoterapias-kezelese",
   },
   {
-    title: "Hajas fejbőr mezoterápiás kezelése",
+    name: "Hajas fejbőr mezoterápiás kezelése",
+    slug: "hajas-fejbor-mezoterapias-kezelese",
     link: "/szolgaltatasok/orvos-esztetika/hajas-fejbor-mezoterapias-kezelese",
   },
   {
-    title: "Dermaroller kezelés",
+    name: "Dermaroller kezelés",
+    slug: "dermaroller-kezeles",
     link: "/szolgaltatasok/orvos-esztetika/demaroller-kezeles",
   },
   {
-    title: "Fokozott hónalji izzadás kezelése",
+    name: "Fokozott hónalji izzadás kezelése",
+    slug: "fokozott-honalji-izzadas-kezeles",
     link: "/szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezeles",
   },
   {
-    title: "Ráncfeltöltés hyaluronsavval",
+    name: "Ráncfeltöltés hyaluronsavval",
+    slug: "racfeltoltes-hyaluronsavval",
     link: "/szolgaltatasok/orvos-esztetika/rancfeltoltes-hyaluronsavval",
   },
   {
-    title: "Ránctalanítás botulinum toxin injekcióval",
+    name: "Ránctalanítás botulinum toxin injekcióval",
+    slug: "ranctalanitas-botulinum-toxin-injekcioval",
     link: "/szolgaltatasok/orvos-esztetika/ranc-talanitas-botulinum-toxin-injekcioval",
   },
   {
-    title: "Thread lifting: bioszálas arckontúrozás",
+    name: "Thread lifting: bioszálas arckontúrozás",
+    slug: "thread-lifting-bioszalas-arckonturozas",
     link: "/szolgaltatasok/orvos-esztetika/thread-lifting-bioszalas-arckonturozas",
   },
   {
-    title: "PRP/Drakula terápia",
+    name: "PRP/Drakula terápia",
+    slug: "prp-drakula-terapia",
     link: "/szolgaltatasok/orvos-esztetika/prp-drakula-terapia",
   },
   {
-    title: "Skin booster kezelés",
+    name: "Skin booster kezelés",
+    slug: "skin-booster-kezeles",
     link: "/szolgaltatasok/orvos-esztetika/skin-booster-kezeles",
   },
 ]);
 
 const plasztikaiSebeszet = ref([
   {
-    title: "Anyajegy eltávolítása szövettani vizsgálattal",
+    name: "Anyajegy eltávolítása szövettani vizsgálattal",
+    slug: "anyajegy-eltavolitasa-szovettani-vizsgalattal",
     link: "/szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
   },
   {
-    title: "Alsó, felső szemhéjplasztika",
+    name: "Alsó, felső szemhéjplasztika",
+    slug: "also-felso-szemhejplasztika",
     link: "/szolgaltatasok/plasztikai-sebeszet/also-felso-szemhejplasztika",
   },
   {
-    title: "Fülkorrekció",
+    name: "Fülkorrekció",
+    slug: "fulkorrekcio",
     link: "/szolgaltatasok/plasztikai-sebeszet/fulkorrekcio",
   },
   {
-    title: "Fülllyuk korrekció",
+    name: "Fülllyuk korrekció",
+    slug: "fulllyuk-korrekcio",
     link: "/szolgaltatasok/plasztikai-sebeszet/fulllyuk-korrekcio",
   },
   {
-    title: "Kisajak plasztika",
+    name: "Kisajak plasztika",
+    slug: "kisajak-plasztika",
     link: "/szolgaltatasok/plasztikai-sebeszet/kisajak-plasztika",
   },
   {
-    title: "Orrkorrekció",
+    name: "Orrkorrekció",
+    slug: "orrkorrekcio",
     link: "/szolgaltatasok/plasztikai-sebeszet/orrkorrekcio",
   },
   {
-    title: "Hegkorrekció",
+    name: "Hegkorrekció",
+    slug: "hegkorrekcio",
     link: "/szolgaltatasok/plasztikai-sebeszet/hegkorrekcio",
   },
   {
-    title: "Ajakfeltöltés",
+    name: "Ajakfeltöltés",
+    slug: "ajakfeltoltes",
     link: "/szolgaltatasok/plasztikai-sebeszet/ajakfeltoltes",
   },
   {
-    title: "COG szálas arclifting",
+    name: "COG szálas arclifting",
+    slug: "cog-szalas-arclifting",
     link: "/szolgaltatasok/plasztikai-sebeszet/cog-szalas-arclifting",
   },
 ]);
 
 const diagnosztikaiVizsgalatok = ref([
   {
-    title: "Standard epicutan teszt",
+    name: "Standard epicutan teszt",
+    slug: "standard-epicutan-teszt",
     link: "/szolgaltatasok/diagnosztikai-vizsgalatok/standard-epicutan-teszt",
   },
   {
-    title: "Laboratóriumi vizsgálatok",
+    name: "Laboratóriumi vizsgálatok",
+    slug: "laboratoriumi-vizsgalatok",
     link: "/szolgaltatasok/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok",
   },
 ]);
 
 const orvosiTermekek = ref([
   {
-    title: "Z0 Skin Health",
+    name: "Z0 Skin Health",
+    slug: "z0-skin-health",
     link: "/szolgaltatasok/orvosi-termek/z0-skin-health",
   },
   {
-    title: "La Roche Posay",
+    name: "La Roche Posay",
+    slug: "la-roche-posay",
     link: "/szolgaltatasok/orvosi-termek/la-roche-posay",
   },
   {
-    title: "CeraVe",
+    name: "CeraVe",
+    slug: "cerave",
     link: "/szolgaltatasok/orvosi-termek/cerave",
   },
   {
-    title: "Vichy",
+    name: "Vichy",
+    slug: "vichy",
     link: "/szolgaltatasok/orvosi-termek/vichy",
   },
   {
-    title: "Bioderma",
+    name: "Bioderma",
+    slug: "bioderma",
     link: "/szolgaltatasok/orvosi-termek/bioderma",
   },
   {
-    title: "Thalgo",
+    name: "Thalgo",
+    slug: "thalgo",
     link: "/szolgaltatasok/orvosi-termek/thalgo",
   },
   {
-    title: "Orvosi lézerkészülékek",
+    name: "Orvosi lézerkészülékek",
+    slug: "orvosi-lezerkeszulekek",
     link: "/szolgaltatasok/orvosi-termek/orvosi-lezerkeszulekek",
   },
 ]);
@@ -308,20 +352,14 @@ onUnmounted(() => {
                 ref="target"
                 class="absolute right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
-                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
-
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
-                <AppLink class="text-sm" :to="{ name: 'home' }">
-                  Tüdőgyógyászati szakrendelés
-                </AppLink>
-                <AppLink class="text-sm" :to="{ name: 'home' }">
-                  Idegsebészeti vizsgálatok
-                </AppLink>
                 <TheDropdown
                   title="Orvos esztétika"
                   :submenu="orvosEsztetika"
                 />
+
+                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
 
                 <TheDropdown
                   title="Plasztikai sebészet"
@@ -337,6 +375,13 @@ onUnmounted(() => {
                   title="Orvosi termékek"
                   :submenu="orvosiTermekek"
                 />
+
+                <AppLink class="text-sm" :to="{ name: 'home' }">
+                  Tüdőgyógyászati szakrendelés
+                </AppLink>
+                <AppLink class="text-sm" :to="{ name: 'home' }">
+                  Idegsebészeti vizsgálatok
+                </AppLink>
               </ul>
             </Transition>
           </div>

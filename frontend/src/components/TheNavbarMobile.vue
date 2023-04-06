@@ -238,8 +238,6 @@ onClickOutside(target, () => {
                 v-show="isServicesOpen"
                 class="absolute right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
-                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
-
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
                 <TheDropdown
@@ -247,12 +245,8 @@ onClickOutside(target, () => {
                   :submenu="orvosEsztetika"
                 />
 
-                <AppLink class="text-sm" :to="{ name: 'home' }">
-                  Tüdőgyógyászati szakrendelés
-                </AppLink>
-                <AppLink class="text-sm" :to="{ name: 'home' }">
-                  Idegsebészeti vizsgálatok
-                </AppLink>
+                <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
+
                 <TheDropdown
                   title="Plasztikai sebészet"
                   :submenu="plasztikaiSebeszet"
@@ -267,6 +261,13 @@ onClickOutside(target, () => {
                   title="Orvosi termékek"
                   :submenu="orvosiTermekek"
                 />
+
+                <AppLink class="text-sm" :to="{ name: 'home' }">
+                  Tüdőgyógyászati szakrendelés
+                </AppLink>
+                <AppLink class="text-sm" :to="{ name: 'home' }">
+                  Idegsebészeti vizsgálatok
+                </AppLink>
               </ul>
             </Transition>
           </div>
