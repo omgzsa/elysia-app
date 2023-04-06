@@ -1,7 +1,5 @@
-<template lang="">
+<script setup></script>
+
+<template>
   <div>services</div>
 </template>
-<script>
-export default {};
-</script>
-<style lang=""></style>
