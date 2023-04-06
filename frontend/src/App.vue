@@ -239,7 +239,7 @@ const services = ref([
     <!-- <TheNavbarTwo /> -->
   </header>
   <main>
-    <RouterView />
+    <RouterView :key="$route.path" />
   </main>
 
   <TheFooter />
