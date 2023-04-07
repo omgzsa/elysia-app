@@ -2,48 +2,56 @@
   {
     "id": 0,
     "name": "Bőrgyógyászati kezeléseink",
-    "slug": "borgyogyaszati-kezelesek",
+    "category": "borgyogyaszati-kezelesek",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Gyermek bőrgyógyászat",
+        "slug": "gyermek-borgyogyaszat",
         "link": "/szolgaltatas/borgyogyaszat/gyermek-borgyogyaszat"
       },
       {
         "id": 1,
         "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
+        "slug": "dermatoscopos-anyajegy-es-borrak-szures",
         "link": "/szolgaltatas/borgyogyaszat/dermatoscopos-anyajegy-es-borrak-szures"
       },
       {
         "id": 2,
         "name": "Pattanásos bőr komplex kezelése",
+        "slug": "pattanasos-bor-komplex-kezelese",
         "link": "/szolgaltatas/borgyogyaszat/pattanasos-bor-komplex-kezelese"
       },
       {
         "id": 3,
         "name": "Bőr- és körömgombásodás kezelése",
+        "slug": "bor-es-koromgombasodas-kezeles",
         "link": "/szolgaltatas/borgyogyaszat/bor-es-koromgombasodas-kezeles"
       },
       {
         "id": 4,
         "name": "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
+        "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese",
         "link": "/szolgaltatas/borgyogyaszat/ekcema-atopia-allergias-borbetegsegek-kezelese"
       },
       {
         "id": 5,
         "name": "Pikkelysömör (Pszoriázis) kezelés",
+        "slug": "pikkelysomor-kezeles",
         "link": "/szolgaltatas/borgyogyaszat/pikkelysomor-kezeles"
       },
       {
         "id": 6,
         "name": "Vírusos szemölcsök kezelése",
+        "slug": "virusos-szemolcsok-kezelese",
         "link": "/szolgaltatas/borgyogyaszat/virusos-szemolcsok-kezelese"
       },
       {
         "id": 7,
         "name": "Hajhullás kivizsgálása és kezelése",
+        "slug": "hajhullas-kivizsgalas-es-kezeles",
         "link": "/szolgaltatas/borgyogyaszat/hujhullas-kivizsgalas-es-kezeles"
       }
     ]
@@ -51,62 +59,70 @@
   {
     "id": 1,
     "name": "Tüdőgyógyászati Szakrendelés",
-    "slug": "tudogyogyaszati-szakrendeles",
+    "category": "tudogyogyaszati-szakrendeles",
     "images": [],
     "open": false
   },
   {
     "id": 2,
     "name": "Idegsebészeti vizsgálatok",
-    "slug": "idegsebeszeti-vizsgalatok",
+    "category": "idegsebeszeti-vizsgalatok",
     "images": [],
     "open": false
   },
   {
     "id": 3,
     "name": "Lézerkezelések",
-    "slug": "lezerkezelesek",
+    "category": "lezerkezelesek",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Lézeres arcfiatalítás",
+        "slug": "lezeres-arcfiatalitas",
         "link": "/szolgaltatas/lezerkezelesek/lezeres-arcfiatalitas"
       },
       {
         "id": 1,
         "name": "Vagina rejuvenáció (hüvelyszűkítés)",
+        "slug": "vagina-rejuvenacio",
         "link": "/szolgaltatas/lezerkezelesek/vagina-rejuvenacio"
       },
       {
         "id": 2,
         "name": "Lézeres szőrtelenítés",
+        "slug": "lezeres-szortelenites",
         "link": "/szolgaltatas/lezerkezelesek/lezeres-szortelenites"
       },
       {
         "id": 3,
         "name": "Seprűvénák, értágulatok kezelése",
+        "slug": "sepruvenak-ertagulatok-kezelese",
         "link": "/szolgaltatas/lezerkezelesek/sepruvenak-ertagulatok-kezelese"
       },
       {
         "id": 4,
         "name": "Pigmentfoltok kezelése",
+        "slug": "pigmentfoltok-kezelese",
         "link": "/szolgaltatas/lezerkezelesek/pigmentfolt-kezeles"
       },
       {
         "id": 5,
         "name": "Akne kezelés",
+        "slug": "akne-kezeles",
         "link": "/szolgaltatas/lezerkezelesek/akne-kezeles"
       },
       {
         "id": 6,
         "name": "Stria kezelés",
+        "slug": "stria-kezeles",
         "link": "/szolgaltatas/lezerkezelesek/stria-kezeles"
       },
       {
         "id": 7,
         "name": "Körömgomba kezelése",
+        "slug": "koromgomba-kezelese",
         "link": "/szolgaltatas/lezerkezelesek/koromgomba-kezeles"
       }
     ]
@@ -114,58 +130,68 @@
   {
     "id": 4,
     "name": "Orvosi esztétika",
-    "slug": "orvos-esztetika",
+    "category": "orvos-esztetika",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Profhiló kezelés",
+        "slug": "profhilo-kezeles",
         "link": "/szolgaltatas/orvos-esztetika/profhilo-kezeles"
       },
       {
         "id": 1,
         "name": "Arc és nyak mezoterápiás kezelése",
+        "slug": "arc-es-nyak-mezoterapias-kezelese",
         "link": "/szolgaltatas/orvos-esztetika/arc-es-nyak-mezoterapias-kezelese"
       },
       {
         "id": 2,
         "name": "Hajas fejbőr mezoterápiás kezelése",
+        "slug": "hajas-fejbor-mezoterapias-kezelese",
         "link": "/szolgaltatas/orvos-esztetika/hajas-fejbor-mezoterapias-kezelese"
       },
       {
         "id": 3,
         "name": "Dermaroller kezelés",
+        "slug": "dermaroller-kezeles",
         "link": "/szolgaltatas/orvos-esztetika/demaroller-kezeles"
       },
       {
         "id": 4,
         "name": "Fokozott hónalji izzadás kezelése",
+        "slug": "fokozott-honalji-izzadas-kezeles",
         "link": "/szolgaltatas/orvos-esztetika/fokozott-honalji-izzadas-kezeles"
       },
       {
         "id": 5,
         "name": "Ráncfeltöltés hyaluronsavval",
+        "slug": "rancfeltoltes-hyaluronsavval",
         "link": "/szolgaltatas/orvos-esztetika/rancfeltoltes-hyaluronsavval"
       },
       {
         "id": 6,
         "name": "Ránctalanítás botulinum toxin injekcióval",
+        "slug": "ranctalanitas-botulinum-toxin-injekcioval",
         "link": "/szolgaltatas/orvos-esztetika/ranc-talanitas-botulinum-toxin-injekcioval"
       },
       {
         "id": 7,
         "name": "Thread lifting: bioszálas arckontúrozás",
+        "slug": "thread-lifting-bioszalas-arckonturozas",
         "link": "/szolgaltatas/orvos-esztetika/thread-lifting-bioszalas-arckonturozas"
       },
       {
         "id": 8,
         "name": "PRP/Drakula terápia",
+        "slug": "prp-drakula-terapia",
         "link": "/szolgaltatas/orvos-esztetika/prp-drakula-terapia"
       },
       {
         "id": 9,
         "name": "Skin booster kezelés",
+        "slug": "skin-booster-kezeles",
         "link": "/szolgaltatas/orvos-esztetika/skin-booster-kezeles"
       }
     ]
@@ -173,53 +199,62 @@
   {
     "id": 5,
     "name": "Plasztikai sebészet",
-    "slug": "plasztikai-sebeszet",
+    "category": "plasztikai-sebeszet",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Anyajegy eltávolítása szövettani vizsgálattal",
+        "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
         "link": "/szolgaltatas/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal"
       },
       {
         "id": 1,
         "name": "Alsó, felső szemhéjplasztika",
+        "slug": "also-felso-szemhejplasztika",
         "link": "/szolgaltatas/plasztikai-sebeszet/also-felso-szemhejplasztika"
       },
       {
         "id": 2,
         "name": "Fülkorrekció",
+        "slug": "fulkorrekcio",
         "link": "/szolgaltatas/plasztikai-sebeszet/fulkorrekcio"
       },
       {
         "id": 3,
         "name": "Fülllyuk korrekció",
+        "slug": "fulllyuk-korrekcio",
         "link": "/szolgaltatas/plasztikai-sebeszet/fulllyuk-korrekcio"
       },
       {
         "id": 4,
         "name": "Kisajak plasztika",
+        "slug": "kisajak-plasztika",
         "link": "/szolgaltatas/plasztikai-sebeszet/kisajak-plasztika"
       },
       {
         "id": 5,
         "name": "Orrkorrekció",
+        "slug": "orrkorrekcio",
         "link": "/szolgaltatas/plasztikai-sebeszet/orrkorrekcio"
       },
       {
         "id": 6,
         "name": "Hegkorrekció",
+        "slug": "hegkorrekcio",
         "link": "/szolgaltatas/plasztikai-sebeszet/hegkorrekcio"
       },
       {
         "id": 7,
         "name": "Ajakfeltöltés",
+        "slug": "ajakfeltoltes",
         "link": "/szolgaltatas/plasztikai-sebeszet/ajakfeltoltes"
       },
       {
         "id": 8,
         "name": "COG szálas arclifting",
+        "slug": "cog-szalas-arclifting",
         "link": "/szolgaltatas/plasztikai-sebeszet/cog-szalas-arclifting"
       }
     ]
@@ -227,18 +262,20 @@
   {
     "id": 6,
     "name": "Diagnosztikai vizsgálatok",
-    "slug": "diagnosztikai-vizsgalatok",
+    "category": "diagnosztikai-vizsgalatok",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Standard epicutan teszt",
+        "slug": "standard-epicutan-teszt",
         "link": "/szolgaltatas/diagnosztikai-vizsgalatok/standard-epicutan-teszt"
       },
       {
         "id": 1,
         "name": "Laboratóriumi vizsgálatok",
+        "slug": "laboratoriumi-vizsgalatok",
         "link": "/szolgaltatas/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok"
       }
     ]
@@ -246,43 +283,50 @@
   {
     "id": 7,
     "name": "Orvosi termékek",
-    "slug": "orvosi-termekek",
+    "category": "orvosi-termekek",
     "images": [],
     "open": true,
     "submenu": [
       {
         "id": 0,
         "name": "Z0 Skin Health",
+        "slug": "z0-skin-health",
         "link": "/szolgaltatas/orvosi-termek/z0-skin-health"
       },
       {
         "id": 1,
         "name": "La Roche Posay",
+        "slug": "la-roche-posay",
         "link": "/szolgaltatas/orvosi-termek/la-roche-posay"
       },
       {
         "id": 2,
         "name": "CeraVe",
+        "slug": "cerave",
         "link": "/szolgaltatas/orvosi-termek/cerave"
       },
       {
         "id": 3,
         "name": "Vichy",
+        "slug": "vichy",
         "link": "/szolgaltatas/orvosi-termek/vichy"
       },
       {
         "id": 4,
         "name": "Bioderma",
+        "slug": "bioderma",
         "link": "/szolgaltatas/orvosi-termek/bioderma"
       },
       {
         "id": 5,
         "name": "Thalgo",
+        "slug": "thalgo",
         "link": "/szolgaltatas/orvosi-termek/thalgo"
       },
       {
         "id": 6,
         "name": "Orvosi lézerkészülékek",
+        "slug": "orvosi-lezerkeszulekek",
         "link": "/szolgaltatas/orvosi-termek/orvosi-lezerkeszulekek"
       }
     ]
