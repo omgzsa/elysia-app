@@ -15,9 +15,20 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/szolgaltatas/:slug",
+      path: "/szolgaltatas",
+      name: "services",
+      component: () => import("../views/ServicesView.vue"),
+    },
+    {
+      path: "/szolgaltatas/:category",
       name: "services.category",
       component: () => import("../views/ServicesCategoryView.vue"),
+      props: true,
+    },
+    {
+      path: "/szolgaltatas/:category/:slug",
+      name: "service.single",
+      component: () => import("../views/ServiceSingleView.vue"),
       props: true,
     },
   ],
