@@ -44,14 +44,17 @@ onClickOutside(target, () => {
       >
         <li
           v-for="item in submenu"
-          :key="item.title"
+          :key="item.name"
           class="hover:text-secondary-100 flex space-x-1"
         >
           <AppLink
-            :to="{ path: `${item.link}`, params: { slug: item.slug } }"
+            :to="{
+              name: 'service.single',
+              params: { category: item.category, slug: item.slug },
+            }"
             class="text-sm"
           >
-            {{ item.title }}
+            {{ item.name }}
           </AppLink>
         </li>
       </ul>
