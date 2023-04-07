@@ -13,195 +13,239 @@ const toggleServices = () => (isServicesOpen.value = !isServicesOpen.value);
 
 const borgyogyaszat = ref([
   {
-    title: "Gyermek bőrgyógyászat",
-    link: "/szolgaltatasok/borgyogyaszat/gyermek-borgyogyaszat",
+    name: "Gyermek bőrgyógyászat",
+    slug: "gyermek-borgyogyaszat",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Dermatoscopos anyajegy- és bőrrák szűrés",
-    link: "/szolgaltatasok/borgyogyaszat/dermatoscopos-anyajegy-es-borrak-szures",
+    name: "Dermatoscopos anyajegy- és bőrrák szűrés",
+    slug: "anyajegy-es-borrak-szures",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Pattanásos bőr komplex kezelése",
-    link: "/szolgaltatasok/borgyogyaszat/pattanasos-bor-komplex-kezelese",
+    name: "Pattanásos bőr komplex kezelése",
+    slug: "patanasos-bor-komplex-kezelese",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Bőr- és körömgombásodás kezelése",
-    link: "/szolgaltatasok/borgyogyaszat/bor-es-koromgombasodas-kezeles",
+    name: "Bőr- és körömgombásodás kezelése",
+    slug: "bor-es-koromgombasodas-kezeles",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
-    link: "/szolgaltatasok/borgyogyaszat/ekcema-atopia-allergias-borbetegsegek-kezelese",
+    name: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
+    slug: "allergias-borbetegsegek-kezelese",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Pikkelysömör (Pszoriázis) kezelés",
-    link: "/szolgaltatasok/borgyogyaszat/pikkelysomor-kezeles",
+    name: "Pikkelysömör (Pszoriázis) kezelés",
+    slug: "pikkelysomor-kezeles",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Vírusos szemölcsök kezelése",
-    link: "/szolgaltatasok/borgyogyaszat/virusos-szemolcsok-kezelese",
+    name: "Vírusos szemölcsök kezelése",
+    slug: "virusos-szemolcsok-kezelese",
+    category: "borgyogyaszati-kezelesek",
   },
   {
-    title: "Hajhullás kivizsgálása és kezelése",
-    link: "/szolgaltatasok/borgyogyaszat/hujhullas-kivizsgalas-es-kezeles",
+    name: "Hajhullás kivizsgálása és kezelése",
+    slug: "hajhullas-kivizsgalas-es-kezeles",
+    category: "borgyogyaszati-kezelesek",
   },
 ]);
 
 const lezerkezelesek = ref([
   {
-    title: "Lézeres arcfiatalítás",
-    link: "/szolgaltatasok/lezerkezelesek/lezeres-arcfiatalitas",
+    name: "Lézeres arcfiatalítás",
+    slug: "lezeres-arcfiatalitas",
+    category: "lezerkezelesek",
   },
   {
-    title: "Vagina rejuvenáció (hüvelyszűkítés)",
-    link: "/szolgaltatasok/lezerkezelesek/vagina-rejuvenacio",
+    name: "Vagina rejuvenáció (hüvelyszűkítés)",
+    slug: "vagina-rejuenacio",
+    category: "lezerkezelesek",
   },
   {
-    title: "Lézeres szőrtelenítés",
-    link: "/szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
+    name: "Lézeres szőrtelenítés",
+    slug: "lezeres-szortelenites",
+    category: "lezerkezelesek",
   },
   {
-    title: "Seprűvénák, értágulatok kezelése",
-    link: "/szolgaltatasok/lezerkezelesek/sepruvenak-ertagulatok-kezelese",
+    name: "Seprűvénák, értágulatok kezelése",
+    slug: "sepruvenak-ertagulatok-kezelese",
+    category: "lezerkezelesek",
   },
   {
-    title: "Pigmentfoltok kezelése",
-    link: "/szolgaltatasok/lezerkezelesek/pigmentfolt-kezeles",
+    name: "Pigmentfoltok kezelése",
+    slug: "pigmentfoltok-kezelese",
+    category: "lezerkezelesek",
   },
   {
-    title: "Akne kezelés",
-    link: "/szolgaltatasok/lezerkezelesek/akne-kezeles",
+    name: "Akne kezelés",
+    slug: "akne-kezelese",
+    category: "lezerkezelesek",
   },
   {
-    title: "Stria kezelés",
-    link: "/szolgaltatasok/lezerkezelesek/stria-kezeles",
+    name: "Stria kezelés",
+    slug: "stria-kezelese",
+    category: "lezerkezelesek",
   },
   {
-    title: "Körömgomba kezelése",
-    link: "/szolgaltatasok/lezerkezelesek/koromgomba-kezeles",
+    name: "Körömgomba kezelése",
+    slug: "koromgomba-kezelese",
+    category: "lezerkezelesek",
   },
 ]);
 
 const orvosEsztetika = ref([
   {
-    title: "Profhiló kezelés",
-    link: "/szolgaltatasok/orvos-esztetika/profhilo-kezeles",
+    name: "Profhiló kezelés",
+    slug: "profhilo-kezeles",
+    category: "orvos-esztetika",
   },
   {
-    title: "Arc és nyak mezoterápiás kezelése",
-    link: "/szolgaltatasok/orvos-esztetika/arc-es-nyak-mezoterapias-kezelese",
+    name: "Arc és nyak mezoterápiás kezelése",
+    slug: "arc-es-nyak-mezoterapias-kezelese",
+    category: "orvos-esztetika",
   },
   {
-    title: "Hajas fejbőr mezoterápiás kezelése",
-    link: "/szolgaltatasok/orvos-esztetika/hajas-fejbor-mezoterapias-kezelese",
+    name: "Hajas fejbőr mezoterápiás kezelése",
+    slug: "hajas-fejbor-mezoterapias-kezelese",
+    category: "orvos-esztetika",
   },
   {
-    title: "Dermaroller kezelés",
-    link: "/szolgaltatasok/orvos-esztetika/demaroller-kezeles",
+    name: "Dermaroller kezelés",
+    slug: "dermaroller-kezeles",
+    category: "orvos-esztetika",
   },
   {
-    title: "Fokozott hónalji izzadás kezelése",
-    link: "/szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezeles",
+    name: "Fokozott hónalji izzadás kezelése",
+    slug: "fokozott-honalji-izzadas-kezeles",
+    category: "orvos-esztetika",
   },
   {
-    title: "Ráncfeltöltés hyaluronsavval",
-    link: "/szolgaltatasok/orvos-esztetika/rancfeltoltes-hyaluronsavval",
+    name: "Ráncfeltöltés hyaluronsavval",
+    slug: "racfeltoltes-hyaluronsavval",
+    category: "orvos-esztetika",
   },
   {
-    title: "Ránctalanítás botulinum toxin injekcióval",
-    link: "/szolgaltatasok/orvos-esztetika/ranc-talanitas-botulinum-toxin-injekcioval",
+    name: "Ránctalanítás botulinum toxin injekcióval",
+    slug: "ranctalanitas-botulinum-toxin-injekcioval",
+    category: "orvos-esztetika",
   },
   {
-    title: "Thread lifting: bioszálas arckontúrozás",
-    link: "/szolgaltatasok/orvos-esztetika/thread-lifting-bioszalas-arckonturozas",
+    name: "Thread lifting: bioszálas arckontúrozás",
+    slug: "thread-lifting-bioszalas-arckonturozas",
+    category: "orvos-esztetika",
   },
   {
-    title: "PRP/Drakula terápia",
-    link: "/szolgaltatasok/orvos-esztetika/prp-drakula-terapia",
+    name: "PRP/Drakula terápia",
+    slug: "prp-drakula-terapia",
+    category: "orvos-esztetika",
   },
   {
-    title: "Skin booster kezelés",
-    link: "/szolgaltatasok/orvos-esztetika/skin-booster-kezeles",
+    name: "Skin booster kezelés",
+    slug: "skin-booster-kezeles",
+    category: "orvos-esztetika",
   },
 ]);
 
 const plasztikaiSebeszet = ref([
   {
-    title: "Anyajegy eltávolítása szövettani vizsgálattal",
-    link: "/szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    name: "Anyajegy eltávolítása szövettani vizsgálattal",
+    slug: "anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Alsó, felső szemhéjplasztika",
-    link: "/szolgaltatasok/plasztikai-sebeszet/also-felso-szemhejplasztika",
+    name: "Alsó, felső szemhéjplasztika",
+    slug: "also-felso-szemhejplasztika",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Fülkorrekció",
-    link: "/szolgaltatasok/plasztikai-sebeszet/fulkorrekcio",
+    name: "Fülkorrekció",
+    slug: "fulkorrekcio",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Fülllyuk korrekció",
-    link: "/szolgaltatasok/plasztikai-sebeszet/fulllyuk-korrekcio",
+    name: "Fülllyuk korrekció",
+    slug: "fulllyuk-korrekcio",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Kisajak plasztika",
-    link: "/szolgaltatasok/plasztikai-sebeszet/kisajak-plasztika",
+    name: "Kisajak plasztika",
+    slug: "kisajak-plasztika",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Orrkorrekció",
-    link: "/szolgaltatasok/plasztikai-sebeszet/orrkorrekcio",
+    name: "Orrkorrekció",
+    slug: "orrkorrekcio",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Hegkorrekció",
-    link: "/szolgaltatasok/plasztikai-sebeszet/hegkorrekcio",
+    name: "Hegkorrekció",
+    slug: "hegkorrekcio",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "Ajakfeltöltés",
-    link: "/szolgaltatasok/plasztikai-sebeszet/ajakfeltoltes",
+    name: "Ajakfeltöltés",
+    slug: "ajakfeltoltes",
+    category: "plasztikai-sebeszet",
   },
   {
-    title: "COG szálas arclifting",
-    link: "/szolgaltatasok/plasztikai-sebeszet/cog-szalas-arclifting",
+    name: "COG szálas arclifting",
+    slug: "cog-szalas-arclifting",
+    category: "plasztikai-sebeszet",
   },
 ]);
 
 const diagnosztikaiVizsgalatok = ref([
   {
-    title: "Standard epicutan teszt",
-    link: "/szolgaltatasok/diagnosztikai-vizsgalatok/standard-epicutan-teszt",
+    name: "Standard epicutan teszt",
+    slug: "standard-epicutan-teszt",
+    category: "diagnosztikai-vizsgalatok",
   },
   {
-    title: "Laboratóriumi vizsgálatok",
-    link: "/szolgaltatasok/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok",
+    name: "Laboratóriumi vizsgálatok",
+    slug: "laboratoriumi-vizsgalatok",
+    category: "diagnosztikai-vizsgalatok",
   },
 ]);
 
 const orvosiTermekek = ref([
   {
-    title: "Z0 Skin Health",
-    link: "/szolgaltatasok/orvosi-termek/z0-skin-health",
+    name: "Z0 Skin Health",
+    slug: "z0-skin-health",
+    category: "orvosi-termekek",
   },
   {
-    title: "La Roche Posay",
-    link: "/szolgaltatasok/orvosi-termek/la-roche-posay",
+    name: "La Roche Posay",
+    slug: "la-roche-posay",
+    category: "orvosi-termekek",
   },
   {
-    title: "CeraVe",
-    link: "/szolgaltatasok/orvosi-termek/cerave",
+    name: "CeraVe",
+    slug: "cerave",
+    category: "orvosi-termekek",
   },
   {
-    title: "Vichy",
-    link: "/szolgaltatasok/orvosi-termek/vichy",
+    name: "Vichy",
+    slug: "vichy",
+    category: "orvosi-termekek",
   },
   {
-    title: "Bioderma",
-    link: "/szolgaltatasok/orvosi-termek/bioderma",
+    name: "Bioderma",
+    slug: "bioderma",
+    category: "orvosi-termekek",
   },
   {
-    title: "Thalgo",
-    link: "/szolgaltatasok/orvosi-termek/thalgo",
+    name: "Thalgo",
+    slug: "thalgo",
+    category: "orvosi-termekek",
   },
   {
-    title: "Orvosi lézerkészülékek",
-    link: "/szolgaltatasok/orvosi-termek/orvosi-lezerkeszulekek",
+    name: "Orvosi lézerkészülékek",
+    slug: "orvosi-lezerkeszulekek",
+    category: "orvosi-termekek",
   },
 ]);
 
@@ -224,10 +268,10 @@ onClickOutside(target, () => {
         <div class="flex flex-col space-y-2">
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
-          <div class="relative cursor-pointer" ref="target">
+          <div class="relative" ref="target">
             <div
               @click="toggleServices"
-              class="flex items-center space-x-2 hover:text-secondary-100"
+              class="flex items-center cursor-pointer space-x-2 hover:text-secondary-100"
             >
               <p class="text-sm xl:text-base">Szolgáltatások</p>
               <IconDown v-if="isServicesOpen" />
