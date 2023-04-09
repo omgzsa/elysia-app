@@ -12,7 +12,7 @@ const props = defineProps({
 const services = ref(sourceData);
 
 const service = computed(() => {
-  return services.value.find((s) => s.category === props.category);
+  return services.value.find((s) => s.slug === props.category);
 });
 </script>
 
@@ -21,6 +21,6 @@ const service = computed(() => {
     <h2>hello destination {{ props.category }}</h2>
     <p>hello service {{ service.name }}</p>
     <p>and the id is: {{ service.id }}</p>
-    <p>and the category is: {{ service.category }}</p>
+    <p>and the category is: {{ service.slug }}</p>
   </section>
 </template>
