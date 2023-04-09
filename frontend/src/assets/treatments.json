@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
+    "slug": "dermatoscopos-anyajegy-es-borrak-szures",
+    "images": [],
+    "content": {
+      "title": "Dermatoscopos anyajegy- és bőrrák szűrés",
+      "description": "Az utóbbi években növekedett a bőrrákos megbetegedések száma, a napfény összetételének megváltozása, illetve a barnulási szokásoknak köszönhetően. A bőrrák kialakulása megelőzhető, illetve maga a betegség még időben diagnosztizálható, ha betartjuk a napozásra vonatkozó szabályokat, és rendszeresen részt veszünk a bőrgyógyászati anyajegyszűrésen.",
+      "title2": "Dermatoszkópos anyajegyvizsgálat",
+      "description2": "Az anyajegyszűrést kézi dermatoszkóp segítségével végezzük. A rendszeres éves anyajegyszűrés segítségével az anyajegyek változása (növekedése, felülete, színe) követhetővé válik, ezáltal történik az esetleges melanóma kiszűrése. A szűrővizsgálat nem jár kellemetlenséggel, 15-20perc alatt az összes anyajegy felületi vizsgálata megtörténik. \n \n Anyajegyek rosszindulatú elváltozás jele lehet: anyajegy asszimetrikussá válik mérete változás felülete deformálodik anyajegy szne megváltozik folyamatos viszketés vérzés fellépése"
+    },
+    "treatTime": "15-20 perc",
+    "freaquency": "Évente vagy félévente",
+    "category": [
+      {
+        "id": 0,
+        "name": "Bőrgyógyászati kezeléseink",
+        "slug": "borgyogyaszati-kezelesek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "",
+    "slug": "",
+    "images": [],
+    "content": {
+      "title": "Vagina rejuvenáció (hüvelyszűkítés)",
+      "description": "",
+      "title2": "",
+      "description2": ""
+    },
+    "treatTime": "30-45 perc",
+    "freaquency": "Félévente vagy negyedévente",
+    "category": [
+      {
+        "id": 3,
+        "name": "Lézerkezelések",
+        "slug": "lezerkezelesek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hajas fejbőr mezoterápiás kezelése",
+    "slug": "hajas-fejbor-mezoterapias-kezelese",
+    "images": [],
+    "content": {
+      "title": "Hajas fejbőr mezoterápiás kezelése",
+      "description": "",
+      "title2": "",
+      "description2": ""
+    },
+    "treatTime": "30 perc",
+    "freaquency": "1-2 havonta",
+    "category": [
+      {
+        "id": 4,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
+  }
+]
