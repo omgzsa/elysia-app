@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { useMotion } from "@vueuse/motion";
+// import { useMotion } from "@vueuse/motion";
 import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
 import HomeIntroduction from "../components/home/HomeIntroduction.vue";
@@ -44,48 +44,54 @@ const services = ref([
   {
     id: 1,
     title: "Orvosi magánrendelés",
+    slug: "orvosi-maganrendeles",
     img: "orvosi_maganrendeles.webp",
   },
   {
     id: 2,
     title: "Lézerkezelések",
+    slug: "lezerkezelesek",
     img: "lezerkezelesek.webp",
   },
   {
     id: 3,
-    title: "Orvosi esztétika",
-    img: "orvosi_esztetika.webp",
+    title: "Orvos esztétika",
+    slug: "orvos-esztetika",
+    img: "orvos_esztetika.webp",
   },
   {
     id: 4,
     title: "Plasztikai sebészet",
+    slug: "plasztikai-sebeszet",
     img: "plasztikai_sebeszet.webp",
   },
   {
     id: 5,
     title: "Z0 Skin Health",
+    slug: "z0-skin-health",
     img: "z0_skin_health.webp",
   },
 ]);
 
 const targetEl = ref();
 
-useMotion(targetEl, {
-  initial: {
-    y: 100,
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      y: {
-        delay: 400,
-      },
-    },
-  },
-});
+// useMotion(targetEl, {
+//   initial: {
+//     y: 100,
+//     opacity: 0,
+//   },
+//   visible: {
+//     y: 0,
+//     opacity: 1,
+//     transition: {
+//       y: {
+//         delay: 400,
+//       },
+//     },
+//   },
+// });
 </script>
+slug: "",
 
 <template>
   <HomeHero :slides="slides" />
