@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
+import CategoryCard from "@/components/category/CategoryCard.vue";
 import sourceData from "@/assets/services.json";
 
 const props = defineProps({
@@ -17,10 +18,19 @@ const service = computed(() => {
 </script>
 
 <template>
-  <section class="container flex flex-col items-center">
-    <h2>hello destination {{ props.category }}</h2>
-    <p>hello service {{ service.name }}</p>
-    <p>and the id is: {{ service.id }}</p>
-    <p>and the category is: {{ service.slug }}</p>
+  <section>
+    <div class="px-2 md:px-4 flex flex-col">
+      <div class="py-12">
+        <span class="subheading">{{ service.slug }}</span>
+        <h2>{{ service.name }}</h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <CategoryCard
+          v-for="item in service.submenu"
+          :key="item.name"
+          :item="item"
+        />
+      </div>
+    </div>
   </section>
 </template>
