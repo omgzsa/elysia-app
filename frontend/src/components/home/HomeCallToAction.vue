@@ -18,13 +18,13 @@ const bgImage = "CTA_bg.webp";
       <div class="flex flex-col justify-center gap-4 md:flex-row">
         <RouterLink :to="{ name: 'home', path: '/' }">
           <button
-            class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium text-gray-800 bg-secondary-100 border border-secondary-100"
+            class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
           >
             <span
               class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
             ></span>
             <span
-              class="font-bold flex flex-row gap-2 relative text-black transition duration-300 ease"
+              class="font-bold flex flex-row gap-2 relative text-gray-800 group-hover:text-secondary-100 transition duration-300 ease"
               >Szolgáltatások</span
             >
           </button>
