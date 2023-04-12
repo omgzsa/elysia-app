@@ -8,51 +8,50 @@
       {
         "id": 0,
         "name": "Gyermek bőrgyógyászat",
-        "slug": "gyermek-borgyogyaszat"
+        "slug": "gyermek-borgyogyaszat",
+        "image": "gyermek-borgyogyaszat.webp"
       },
       {
         "id": 1,
         "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
         "slug": "dermatoscopos-anyajegy-es-borrak-szures",
-        "content": {
-          "title": "Dermatoscopos anyajegy- és bőrrák szűrés",
-          "description": "Az utóbbi években növekedett a bőrrákos megbetegedések száma, a napfény összetételének megváltozása, illetve a barnulási szokásoknak köszönhetően. A bőrrák kialakulása megelőzhető, illetve maga a betegség még időben diagnosztizálható, ha betartjuk a napozásra vonatkozó szabályokat, és rendszeresen részt veszünk a bőrgyógyászati anyajegyszűrésen.",
-          "title2": "Dermatoszkópos anyajegyvizsgálat",
-          "description2": "Az anyajegyszűrést kézi dermatoszkóp segítségével végezzük. A rendszeres éves anyajegyszűrés segítségével az anyajegyek változása (növekedése, felülete, színe) követhetővé válik, ezáltal történik az esetleges melanóma kiszűrése. A szűrővizsgálat nem jár kellemetlenséggel, 15-20perc alatt az összes anyajegy felületi vizsgálata megtörténik. \n \n Anyajegyek rosszindulatú elváltozás jele lehet: anyajegy asszimetrikussá válik mérete változás felülete deformálodik anyajegy szne megváltozik folyamatos viszketés vérzés fellépése",
-          "images": []
-        },
-        "treatTime": "15-20 perc",
-        "freaquency": "Évente vagy félévente"
+        "image": "dermatoscopos-anyajegy-szures.webp"
       },
       {
         "id": 2,
         "name": "Pattanásos bőr komplex kezelése",
-        "slug": "pattanasos-bor-komplex-kezelese"
+        "slug": "pattanasos-bor-komplex-kezelese",
+        "image": "pattanasos-bor-kezelese.webp"
       },
       {
         "id": 3,
         "name": "Bőr- és körömgombásodás kezelése",
-        "slug": "bor-es-koromgombasodas-kezeles"
+        "slug": "bor-es-koromgombasodas-kezeles",
+        "image": "bor-es-koromgomba.webp"
       },
       {
         "id": 4,
         "name": "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
-        "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese"
+        "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese",
+        "image": "ekcema-atopia.webp"
       },
       {
         "id": 5,
         "name": "Pikkelysömör (Pszoriázis) kezelés",
-        "slug": "pikkelysomor-kezeles"
+        "slug": "pikkelysomor-kezeles",
+        "image": "pikkelysomor.webp"
       },
       {
         "id": 6,
         "name": "Vírusos szemölcsök kezelése",
-        "slug": "virusos-szemolcsok-kezelese"
+        "slug": "virusos-szemolcsok-kezelese",
+        "image": "virusos-szemolcsok-kezeles.webp"
       },
       {
         "id": 7,
         "name": "Hajhullás kivizsgálása és kezelése",
-        "slug": "hajhullas-kivizsgalas-es-kezeles"
+        "slug": "hajhullas-kivizsgalas-es-kezeles",
+        "image": "hajhullas-kivizsgalas.webp"
       }
     ]
   },
