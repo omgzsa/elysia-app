@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import sourceData from "@/assets/services.json";
+import treatmentsData from "@/assets/treatments.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +46,20 @@ const router = createRouter({
       name: "service.single",
       component: () => import("../views/ServiceSingleView.vue"),
       props: true,
+      beforeEnter(to) {
+        const exists = treatmentsData.find(
+          (item) => item.slug === to.params.slug
+        );
+        if (!exists) {
+          return {
+            name: "not.found",
+            // allows keeping the URL in the browser address bar while rendering the 404 page
+            params: { pathMatch: to.path.substring(1).split("/") },
+            query: to.query,
+            hash: to.hash,
+          };
+        }
+      },
     },
     {
       path: "/:pathMatch(.*)*",
