@@ -12,7 +12,7 @@ const props = defineProps({
 });
 
 const services = ref(sourceData);
-
+// mt-14 sm:mt-16 md:mt-18
 const service = computed(() => {
   return services.value.find((s) => s.slug === props.category);
 });
@@ -20,22 +20,24 @@ const service = computed(() => {
 
 <template>
   <section>
-    <div class="flex flex-col mx-auto">
-      <div
-        class="py-16 mt-14 sm:mt-16 md:mt-18 mb-16 bg-right md:bg-cover bg-no-repeat"
+    <div class="flex flex-col space-y-8 mx-auto">
+      <span
+        aria-label="háttérkép az elysia felnagyított logójával"
+        role="img"
+        class="pt-20 pb-10 text-center lg:pt-32 lg:pb-16 bg-right lg:text-left md:bg-cover md:bg-center bg-no-repeat"
         :style="{
           backgroundImage: `url(${useGetImageUrl(
-            'szolgaltatas-header-bg.jpg'
+            'szolgaltatas-header-bg.webp'
           )})`,
         }"
       >
-        <div class="space-y-1 max-w-screen-xl mx-auto px-2 md:px-4">
-          <span class="subheading">{{ service.slug }}</span>
+        <div class="space-y-1 max-w-screen-xl mx-auto px-2 md:px-4 lg:px-8">
+          <span class="subheading">elysia laser clinic</span>
           <h2>{{ service.name }}</h2>
         </div>
-      </div>
+      </span>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 items-start max-w-screen-xl mx-auto px-2 md:px-4"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8 items-start max-w-screen-xl mx-auto px-2 md:px-4"
       >
         <CategoryCard
           v-for="item in service.submenu"
