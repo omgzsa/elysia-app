@@ -3,7 +3,7 @@
     "id": 0,
     "name": "Bőrgyógyászati kezeléseink",
     "slug": "borgyogyaszati-kezelesek",
-    "image": "orvosi_maganrendeles.webp",
+    "image": "",
     "submenu": [
       {
         "id": 0,
@@ -71,47 +71,55 @@
     "id": 3,
     "name": "Lézerkezelések",
     "slug": "lezerkezelesek",
-    "image": "lezerkezelesek.webp",
+    "image": "",
     "submenu": [
       {
         "id": 0,
         "name": "Lézeres arcfiatalítás",
-        "slug": "lezeres-arcfiatalitas"
+        "slug": "lezeres-arcfiatalitas",
+        "image": "lezeres-arcfiatalitas.webp"
       },
       {
         "id": 1,
         "name": "Vagina rejuvenáció (hüvelyszűkítés)",
-        "slug": "vagina-rejuvenacio"
+        "slug": "vagina-rejuvenacio",
+        "image": "vagina-rejuvenacio.webp"
       },
       {
         "id": 2,
         "name": "Lézeres szőrtelenítés",
-        "slug": "lezeres-szortelenites"
+        "slug": "lezeres-szortelenites",
+        "image": "lezeres-szortelenites.webp"
       },
       {
         "id": 3,
         "name": "Seprűvénák, értágulatok kezelése",
-        "slug": "sepruvenak-ertagulatok-kezelese"
+        "slug": "sepruvenak-ertagulatok-kezelese",
+        "image": "sepruvenak-ertagulatok-kezelese.webp"
       },
       {
         "id": 4,
         "name": "Pigmentfoltok kezelése",
-        "slug": "pigmentfoltok-kezelese"
+        "slug": "pigmentfoltok-kezelese",
+        "image": "pigmentfoltok-kezelese.webp"
       },
       {
         "id": 5,
         "name": "Akne kezelés",
-        "slug": "akne-kezeles"
+        "slug": "akne-kezeles",
+        "image": "akne-kezeles.webp"
       },
       {
         "id": 6,
         "name": "Stria kezelés",
-        "slug": "stria-kezeles"
+        "slug": "stria-kezeles",
+        "image": "stria-kezeles.webp"
       },
       {
         "id": 7,
         "name": "Körömgomba kezelése",
-        "slug": "koromgomba-kezelese"
+        "slug": "koromgomba-kezelese",
+        "image": "koromgomba-kezelese.webp"
       }
     ]
   },
@@ -124,52 +132,62 @@
       {
         "id": 0,
         "name": "Profhiló kezelés",
-        "slug": "profhilo-kezeles"
+        "slug": "profhilo-kezeles",
+        "image": "profhilo-kezeles.webp"
       },
       {
         "id": 1,
         "name": "Arc és nyak mezoterápiás kezelése",
-        "slug": "arc-es-nyak-mezoterapias-kezelese"
+        "slug": "arc-es-nyak-mezoterapias-kezelese",
+        "image": "arc-es-nyak-mezoterapias-kezelese.webp"
       },
       {
         "id": 2,
         "name": "Hajas fejbőr mezoterápiás kezelése",
-        "slug": "hajas-fejbor-mezoterapias-kezelese"
+        "slug": "hajas-fejbor-mezoterapias-kezelese",
+        "image": "hajas-fejbor-mezoterapias-kezelese.webp"
       },
       {
         "id": 3,
         "name": "Dermaroller kezelés",
-        "slug": "dermaroller-kezeles"
+        "slug": "dermaroller-kezeles",
+        "image": "dermaroller-kezeles.webp"
       },
       {
         "id": 4,
         "name": "Fokozott hónalji izzadás kezelése",
-        "slug": "fokozott-honalji-izzadas-kezeles"
+        "slug": "fokozott-honalji-izzadas-kezeles",
+        "image": "fokozott-honalji-izzadas-kezeles.webp"
       },
       {
         "id": 5,
         "name": "Ráncfeltöltés hyaluronsavval",
-        "slug": "rancfeltoltes-hyaluronsavval"
+        "slug": "rancfeltoltes-hyaluronsavval",
+        "image": "rancfeltoltes-hyaluronsavval.webp"
       },
       {
         "id": 6,
         "name": "Ránctalanítás botulinum toxin injekcióval",
-        "slug": "ranctalanitas-botulinum-toxin-injekcioval"
+        "slug": "ranctalanitas-botulinum-toxin-injekcioval",
+        "image": "ranctalanitas-botulinum-toxin-injekcioval.webp"
       },
       {
         "id": 7,
         "name": "Thread lifting: bioszálas arckontúrozás",
-        "slug": "thread-lifting-bioszalas-arckonturozas"
+        "slug": "thread-lifting-bioszalas-arckonturozas",
+        "image": "thread-lifting-bioszalas-arckonturozas.webp"
       },
       {
         "id": 8,
         "name": "PRP/Drakula terápia",
-        "slug": "prp-drakula-terapia"
+        "slug": "prp-drakula-terapia",
+        "image": "prp-drakula-terapia.webp"
       },
       {
         "id": 9,
         "name": "Skin booster kezelés",
-        "slug": "skin-booster-kezeles"
+        "slug": "skin-booster-kezeles",
+        "image": "skin-booster-kezeles.webp"
       }
     ]
   },
@@ -182,47 +200,56 @@
       {
         "id": 0,
         "name": "Anyajegy eltávolítása szövettani vizsgálattal",
-        "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal"
+        "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
+        "image": "anyajegy-eltavolitasa-szovettani-vizsgalattal.webp"
       },
       {
         "id": 1,
         "name": "Alsó, felső szemhéjplasztika",
-        "slug": "also-felso-szemhejplasztika"
+        "slug": "also-felso-szemhejplasztika",
+        "image": "also-felso-szemhejplasztika.webp"
       },
       {
         "id": 2,
         "name": "Fülkorrekció",
-        "slug": "fulkorrekcio"
+        "slug": "fulkorrekcio",
+        "image": "fulkorrekcio.webp"
       },
       {
         "id": 3,
         "name": "Fülllyuk korrekció",
-        "slug": "fulllyuk-korrekcio"
+        "slug": "fulllyuk-korrekcio",
+        "image": "fulllyuk-korrekcio.webp"
       },
       {
         "id": 4,
         "name": "Kisajak plasztika",
-        "slug": "kisajak-plasztika"
+        "slug": "kisajak-plasztika",
+        "image": "kisajak-plasztika.webp"
       },
       {
         "id": 5,
         "name": "Orrkorrekció",
-        "slug": "orrkorrekcio"
+        "slug": "orrkorrekcio",
+        "image": "orrkorrekcio.webp"
       },
       {
         "id": 6,
         "name": "Hegkorrekció",
-        "slug": "hegkorrekcio"
+        "slug": "hegkorrekcio",
+        "image": "hegkorrekcio.webp"
       },
       {
         "id": 7,
         "name": "Ajakfeltöltés",
-        "slug": "ajakfeltoltes"
+        "slug": "ajakfeltoltes",
+        "image": "ajakfeltoltes.webp"
       },
       {
         "id": 8,
         "name": "COG szálas arclifting",
-        "slug": "cog-szalas-arclifting"
+        "slug": "cog-szalas-arclifting",
+        "image": "cog-szalas-arclifting.webp"
       }
     ]
   },
@@ -235,12 +262,14 @@
       {
         "id": 0,
         "name": "Standard epicutan teszt",
-        "slug": "standard-epicutan-teszt"
+        "slug": "standard-epicutan-teszt",
+        "image": "standard-epicutan-teszt.webp"
       },
       {
         "id": 1,
         "name": "Laboratóriumi vizsgálatok",
-        "slug": "laboratoriumi-vizsgalatok"
+        "slug": "laboratoriumi-vizsgalatok",
+        "image": "laboratoriumi-vizsgalatok.webp"
       }
     ]
   },
