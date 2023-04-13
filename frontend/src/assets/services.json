@@ -26,7 +26,7 @@
       {
         "id": 3,
         "name": "Bőr- és körömgombásodás kezelése",
-        "slug": "bor-es-koromgombasodas-kezeles",
+        "slug": "bor-es-koromgombasodas-kezelese",
         "image": "bor-es-koromgomba.webp"
       },
       {
@@ -38,7 +38,7 @@
       {
         "id": 5,
         "name": "Pikkelysömör (Pszoriázis) kezelés",
-        "slug": "pikkelysomor-kezeles",
+        "slug": "pikkelysomor-pszoriazis-kezelese",
         "image": "pikkelysomor.webp"
       },
       {
@@ -50,7 +50,7 @@
       {
         "id": 7,
         "name": "Hajhullás kivizsgálása és kezelése",
-        "slug": "hajhullas-kivizsgalas-es-kezeles",
+        "slug": "hajhullas-kivizsgalas-es-kezelese",
         "image": "hajhullas-kivizsgalas.webp"
       }
     ]
@@ -82,7 +82,7 @@
       {
         "id": 1,
         "name": "Vagina rejuvenáció (hüvelyszűkítés)",
-        "slug": "vagina-rejuvenacio",
+        "slug": "vagina-rejuvenacio-huvelyszukites",
         "image": "vagina-rejuvenacio.webp"
       },
       {

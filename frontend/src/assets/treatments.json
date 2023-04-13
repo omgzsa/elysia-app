@@ -140,7 +140,7 @@
   {
     "id": 5,
     "name": "Pattanásos bőr komplex kezelése",
-    "slug": "pattanásos-bor-komplex-kezelese",
+    "slug": "pattanasos-bor-komplex-kezelese",
     "images": [],
     "content": {
       "title": "Mi az a Akne?",
@@ -192,7 +192,7 @@
   {
     "id": 7,
     "name": "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
-    "slug": "Ekcema-atopia-allergias-borbetegsegek-kezelese",
+    "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese",
     "images": [],
     "content": {
       "title": "Mi az ekcéma?",
@@ -1154,7 +1154,7 @@
   {
     "id": 38,
     "name": "Standard epicutan teszt (környezeti kontakt allergének viszgálata)",
-    "slug": "standard-epicutan-teszt-kornyezeti-kontakt-allergenek-vizsgalata",
+    "slug": "standard-epicutan-teszt",
     "images": [],
     "content": {
       "title": "Mi is az a standard epicutan teszt?",
