@@ -35,27 +35,27 @@ const borgyogyaszat = ref([
   },
   {
     name: "Dermatoscopos anyajegy- és bőrrák szűrés",
-    slug: "anyajegy-es-borrak-szures",
+    slug: "dermatoscopos-anyajegy-es-borrak-szures",
     category: "borgyogyaszati-kezelesek",
   },
   {
     name: "Pattanásos bőr komplex kezelése",
-    slug: "patanasos-bor-komplex-kezelese",
+    slug: "pattanasos-bor-komplex-kezelese",
     category: "borgyogyaszati-kezelesek",
   },
   {
     name: "Bőr- és körömgombásodás kezelése",
-    slug: "bor-es-koromgombasodas-kezeles",
+    slug: "bor-es-koromgombasodas-kezelese",
     category: "borgyogyaszati-kezelesek",
   },
   {
     name: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
-    slug: "allergias-borbetegsegek-kezelese",
+    slug: "ekcema-atopia-allergias-borbetegsegek-kezelese",
     category: "borgyogyaszati-kezelesek",
   },
   {
     name: "Pikkelysömör (Pszoriázis) kezelés",
-    slug: "pikkelysomor-kezeles",
+    slug: "pikkelysomor-pszoriazis-kezelese",
     category: "borgyogyaszati-kezelesek",
   },
   {
@@ -65,7 +65,7 @@ const borgyogyaszat = ref([
   },
   {
     name: "Hajhullás kivizsgálása és kezelése",
-    slug: "hajhullas-kivizsgalas-es-kezeles",
+    slug: "hajhullas-kivizsgalasa-es-kezelese",
     category: "borgyogyaszati-kezelesek",
   },
 ]);
@@ -78,7 +78,7 @@ const lezerkezelesek = ref([
   },
   {
     name: "Vagina rejuvenáció (hüvelyszűkítés)",
-    slug: "vagina-rejuenacio",
+    slug: "vagina-rejuvenacio-huvelyszukites",
     category: "lezerkezelesek",
   },
   {
@@ -136,17 +136,17 @@ const orvosEsztetika = ref([
   },
   {
     name: "Fokozott hónalji izzadás kezelése",
-    slug: "fokozott-honalji-izzadas-kezeles",
+    slug: "fokozott-honalji-izzadas-kezelese",
     category: "orvos-esztetika",
   },
   {
     name: "Ráncfeltöltés hyaluronsavval",
-    slug: "racfeltoltes-hyaluronsavval",
+    slug: "rancfeltoltes-hyaluronsavval",
     category: "orvos-esztetika",
   },
   {
     name: "Ránctalanítás botulinum toxin injekcióval",
-    slug: "ranctalanitas-botulinum-toxin-injekcioval",
+    slug: "ranctalanitas-botulinum-toxinnal-botox",
     category: "orvos-esztetika",
   },
   {
@@ -184,7 +184,7 @@ const plasztikaiSebeszet = ref([
   },
   {
     name: "Fülllyuk korrekció",
-    slug: "fulllyuk-korrekcio",
+    slug: "fullyuk-korrekcio",
     category: "plasztikai-sebeszet",
   },
   {
@@ -451,7 +451,7 @@ onUnmounted(() => {
 
     <!-- Mobile sidebar -->
     <div :class="{ block: isMobileMenuOpen, hidden: !isMobileMenuOpen }">
-      <TheNavbarMobile :services="services" ref="target" />
+      <TheNavbarMobile ref="target" />
     </div>
   </nav>
 </template>
