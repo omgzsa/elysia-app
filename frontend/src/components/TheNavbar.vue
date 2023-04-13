@@ -1,9 +1,10 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
-import { RouterLink } from "vue-router";
+import { ref, onMounted, onUnmounted, watch } from "vue";
+import { RouterLink, useRoute } from "vue-router";
 import { useGetImageUrl } from "../composables/getImageUrl";
 import { onClickOutside } from "@vueuse/core";
 
+// components
 import TheNavbarMobile from "./TheNavbarMobile.vue";
 
 // icons
@@ -264,16 +265,16 @@ const orvosiTermekek = ref([
   },
 ]);
 
+const route = useRoute();
+
 // variables for navbar scrollPosition check
 const showNavbar = ref(true);
 const lastScrollPosition = ref(0);
 
+// clickOutside() target
 const target = ref(null);
-onClickOutside(target, () => {
-  isMobileMenuOpen.value = false;
-  isServicesOpen.value = false;
-});
 
+// dropdown menu variables and togglers
 const isMobileMenuOpen = ref(false);
 const isServicesOpen = ref(false);
 const toggleNav = () => (isMobileMenuOpen.value = !isMobileMenuOpen.value);
@@ -303,6 +304,26 @@ function onScroll() {
   isServicesOpen.value = false;
   isMobileMenuOpen.value = false;
 }
+
+function closeDropDown() {
+  isServicesOpen.value = false;
+  isMobileMenuOpen.value = false;
+}
+
+// close mobile menu on click outside
+onClickOutside(target, () => {
+  closeDropDown();
+});
+
+// watch() for route change
+watch(
+  () => route.fullPath,
+  (path) => {
+    if (path !== "/") {
+      closeDropDown();
+    }
+  }
+);
 
 onMounted(() => {
   window.addEventListener("scroll", onScroll);
