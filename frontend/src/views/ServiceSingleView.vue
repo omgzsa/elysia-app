@@ -1,5 +1,42 @@
+<script setup>
+import { ref, computed } from "vue";
+import { useGetImageUrl } from "../composables/getImageUrl";
+import treatmentsData from "@/assets/treatments.json";
+
+const props = defineProps({
+  slug: {
+    type: String,
+    required: true,
+  },
+});
+
+const treatments = ref(treatmentsData);
+
+const treatment = computed(() => {
+  return treatments.value.find((t) => t.slug === props.slug);
+});
+</script>
+
 <template>
-  <div>1es szolgáltatás</div>
+  <section>
+    <div class="flex flex-col space-y-8 mx-auto">
+      <span
+        aria-label="háttérkép az elysia felnagyított logójával"
+        role="img"
+        class="pt-20 pb-10 text-center lg:pt-32 lg:pb-16 bg-right lg:text-left md:bg-cover md:bg-center bg-no-repeat"
+        :style="{
+          backgroundImage: `url(${useGetImageUrl(
+            'szolgaltatas-header-bg.webp'
+          )})`,
+        }"
+      >
+        <div class="space-y-1 max-w-screen-xl mx-auto px-2 md:px-4 lg:px-8">
+          <span class="subheading">{{ treatment.category[0].name }}</span>
+          <h2>{{ treatment.name }}</h2>
+        </div>
+      </span>
+    </div>
+    <div>description</div>
+    <!-- <pre>{{ treatments[2].category }}</pre> -->
+  </section>
 </template>
-<script></script>
-<style lang=""></style>
