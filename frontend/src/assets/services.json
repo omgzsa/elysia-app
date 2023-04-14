@@ -105,14 +105,14 @@
       },
       {
         "id": 5,
-        "name": "Akne kezelés",
-        "slug": "akne-kezeles",
+        "name": "Akne kezelése",
+        "slug": "akne-kezelese",
         "image": "akne-kezeles.webp"
       },
       {
         "id": 6,
-        "name": "Stria kezelés",
-        "slug": "stria-kezeles",
+        "name": "Stria kezelése",
+        "slug": "stria-kezelese",
         "image": "stria-kezeles.webp"
       },
       {
