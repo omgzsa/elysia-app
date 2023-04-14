@@ -361,7 +361,7 @@ onUnmounted(() => {
           <div class="relative cursor-pointer">
             <div
               @click="toggleServices"
-              class="flex items-center space-x-1 hover:text-secondary-100"
+              class="flex items-center space-x-1 hover:text-accent-100"
             >
               <p class="text-sm xl:text-base">Szolgáltatások</p>
               <IconDown v-if="isServicesOpen" />
