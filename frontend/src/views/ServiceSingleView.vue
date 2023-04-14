@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, provide, computed } from "vue";
 import { useGetImageUrl } from "../composables/getImageUrl";
 import treatmentsData from "@/assets/treatments.json";
 
@@ -17,6 +17,8 @@ const treatments = ref(treatmentsData);
 const treatment = computed(() => {
   return treatments.value.find((t) => t.slug === props.slug);
 });
+
+provide("treatment", treatment);
 </script>
 
 <template>
