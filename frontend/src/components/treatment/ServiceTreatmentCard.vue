@@ -1,5 +1,7 @@
 <script setup>
 import { computed } from "vue";
+import TheBreadCrumbs from "@/components/TheBreadCrumbs.vue";
+
 // icons
 import IconLoop from "@/components/icons/IconLoop.vue";
 import IconClock from "@/components/icons/IconClock.vue";
@@ -17,9 +19,9 @@ const props = defineProps({
 </script>
 <template>
   <section class="max-w-screen-xl">
-    <div
-      class="grid grid-cols-1 sm:grid-cols-3 space-y-6 sm:space-y-0 gap-y-6 sm:py-8"
-    >
+    <!-- breadcrumb component -->
+    <TheBreadCrumbs />
+    <div class="grid grid-cols-1 sm:grid-cols-3 space-y-6 sm:space-y-0 gap-y-6">
       <!-- treatment information -->
       <div class="site-padding order-2 sm:col-span-2 space-y-6">
         <h3>{{ treatment.content.title }}</h3>
@@ -27,9 +29,9 @@ const props = defineProps({
           {{ treatment.content.description }}
         </p>
         <h3>{{ treatment.content.title2 }}</h3>
-        <p>{{ treatment.content.description2 }}</p>
+        <p class="whitespace-pre-wrap">{{ treatment.content.description2 }}</p>
         <h3>{{ treatment.content.title3 }}</h3>
-        <p>{{ treatment.content.description3 }}</p>
+        <p class="whitespace-pre-wrap">{{ treatment.content.description3 }}</p>
         <h3>{{ treatment.content.benefitsTitle }}</h3>
         <ul
           role="list"
