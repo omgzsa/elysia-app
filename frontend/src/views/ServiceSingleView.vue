@@ -34,7 +34,7 @@ provide("treatment", treatment);
           )})`,
         }"
       >
-        <div class="space-y-1 max-w-screen-xl mx-auto px-2 md:px-4 lg:px-8">
+        <div class="space-y-1 max-w-screen-xl mx-auto site-padding">
           <span class="subheading">{{ treatment.category[0].name }}</span>
           <h2>{{ treatment.name }}</h2>
         </div>

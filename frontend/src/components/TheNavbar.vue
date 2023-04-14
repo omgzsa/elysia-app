@@ -341,7 +341,7 @@ onUnmounted(() => {
     aria-label="Site Nav"
   >
     <div
-      class="relative max-w-screen-2xl mx-auto flex px-2 sm:px-4 lg:px-6 h-12 sm:h-16 items-center justify-between"
+      class="relative max-w-screen-2xl mx-auto flex site-padding h-12 sm:h-16 items-center justify-between"
     >
       <!-- LOGO -->
       <div class="md:flex md:items-center md:gap-12">

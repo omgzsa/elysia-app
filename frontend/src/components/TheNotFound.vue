@@ -1,5 +1,7 @@
 <template>
-  <div class="grid min-h-screen px-4 bg-white place-content-center gap-4">
+  <div
+    class="grid min-h-screen site-padding bg-white place-content-center gap-4"
+  >
     <h1 class="tracking-widest font-normal text-gray-500 uppercase">
       404 | Not Found
     </h1>

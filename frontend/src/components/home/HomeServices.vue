@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="max-w-screen-xl mx-auto px-2 md:px-4">
+  <div class="max-w-screen-xl mx-auto site-padding">
     <div class="grid grid-cols-1 gap-y-6 text-center mx-auto max-w-3xl">
       <span class="subheading">elysia laser clinic</span>
       <slot name="title"
