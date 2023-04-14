@@ -17,7 +17,7 @@ const image = "contact_bg.webp";
 const openHours = "Hétfő - Péntek: 8:00 - 18:00";
 const contactEmail = "info@elysia.hu";
 const phoneNum = "+36 20 275 0025";
-const address = "9026 Győr, Dózsa György rakpart 29-31.";
+const address = "9026 Győr, Dózsa György rkpt. 29-31.";
 
 defineProps({
   title: {
@@ -43,19 +43,19 @@ defineProps({
 
         <ul class="space-y-2">
           <li class="flex flex-row gap-2 items-center">
-            <IconClock class="text-accent-100" />
+            <IconClock class="text-accent-100 w-6" />
             <p>{{ openHours }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconEmail class="text-accent-100" />
+            <IconEmail class="text-accent-100 w-6" />
             <p>{{ contactEmail }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconPhone class="text-accent-100" />
+            <IconPhone class="text-accent-100 w-6" />
             <p>{{ phoneNum }}</p>
           </li>
           <li class="flex flex-row gap-2 items-center">
-            <IconMarker class="text-accent-100" />
+            <IconMarker class="text-accent-100 w-6" />
             <p>{{ address }}</p>
           </li>
         </ul>
