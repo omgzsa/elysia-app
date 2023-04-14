@@ -328,5 +328,3 @@ onClickOutside(target, () => {
     </nav>
   </aside>
 </template>
-
-<style></style>

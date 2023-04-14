@@ -479,6 +479,8 @@ onUnmounted(() => {
 .dropdown-fade-enter-from,
 .dropdown-fade-leave-to {
   opacity: 0;
-  transform: translateY(-12px);
+  -webkit-transform: translate3d(0, -12px, 0);
+  transform: translate3d(0, -12px, 0);
+  z-index: 1000;
 }
 </style>
