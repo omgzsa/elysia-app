@@ -30,7 +30,7 @@ onClickOutside(target, () => {
 <template>
   <div class="relative cursor-pointer" ref="target">
     <div
-      class="flex items-center space-x-2 hover:text-secondary-100"
+      class="flex items-center space-x-2 hover:text-accent-100"
       @click="toggleVisibility"
     >
       <p class="text-sm">{{ title }}</p>
@@ -45,7 +45,7 @@ onClickOutside(target, () => {
         <li
           v-for="item in submenu"
           :key="item.name"
-          class="hover:text-secondary-100 flex space-x-1"
+          class="flex space-x-1 hover:text-accent-100"
         >
           <AppLink
             :to="{
