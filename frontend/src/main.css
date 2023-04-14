@@ -64,4 +64,10 @@
   .site-padding {
     @apply px-2 sm:px-4 md:px-8 lg:px-10;
   }
+
+  .safari-fix {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 1000;
+  }
 }
