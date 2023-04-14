@@ -28,7 +28,7 @@ onClickOutside(target, () => {
 </script>
 
 <template>
-  <div class="relative cursor-pointer" ref="target">
+  <div class="relative z-auto cursor-pointer" ref="target">
     <div
       class="flex items-center space-x-2 hover:text-accent-100"
       @click="toggleVisibility"
@@ -40,7 +40,7 @@ onClickOutside(target, () => {
     <Transition name="dropdown-fade">
       <ul
         v-if="isVisible"
-        class="absolute z-10 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 max-h-max w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
+        class="absolute z-50 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 max-h-max w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
       >
         <li
           v-for="item in submenu"
@@ -70,9 +70,10 @@ onClickOutside(target, () => {
 
 .dropdown-fade-enter-from,
 .dropdown-fade-leave-to {
-  opacity: 0;
-  -webkit-transform: translate3d(0, -12px, 0);
-  transform: translate3d(0, -12px, 0);
-  z-index: 1000;
+  /* opacity: 0; */
+  /* -webkit-transform: translate3d(0, -12px, 0); */
+  /* transform: translate3d(0, -12px, 0); */
+
+  @apply transform -translate-y-3 opacity-0;
 }
 </style>

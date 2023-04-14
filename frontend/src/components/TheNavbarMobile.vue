@@ -268,7 +268,7 @@ onClickOutside(target, () => {
         <div class="flex flex-col space-y-2">
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
-          <div class="relative" ref="target">
+          <div class="relative z-0" ref="target">
             <div
               @click="toggleServices"
               class="flex items-center cursor-pointer space-x-2 hover:text-accent-100"
@@ -280,7 +280,7 @@ onClickOutside(target, () => {
             <Transition name="dropdown-fade">
               <ul
                 v-show="isServicesOpen"
-                class="absolute right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
+                class="absolute z-10 right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 

@@ -358,7 +358,7 @@ onUnmounted(() => {
         >
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
-          <div class="relative cursor-pointer">
+          <div class="relative z-0 cursor-pointer">
             <div
               @click="toggleServices"
               class="flex items-center space-x-1 hover:text-accent-100"
@@ -371,7 +371,7 @@ onUnmounted(() => {
               <ul
                 v-show="isServicesOpen"
                 ref="target"
-                class="absolute right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
+                class="absolute z-10 right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
