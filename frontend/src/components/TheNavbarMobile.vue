@@ -280,7 +280,7 @@ onClickOutside(target, () => {
             <Transition name="dropdown-fade">
               <ul
                 v-show="isServicesOpen"
-                class="absolute z-10 right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
+                class="absolute z-10 right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max px-6 py-3 [&>*]:py-2 border rounded-xl bg-white flex flex-col divide-y"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
