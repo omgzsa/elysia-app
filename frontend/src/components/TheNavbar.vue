@@ -371,7 +371,7 @@ onUnmounted(() => {
               <ul
                 v-show="isServicesOpen"
                 ref="target"
-                class="absolute z-10 right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max px-6 py-3 [&>*]:py-2 border rounded-xl bg-white flex flex-col divide-y"
+                class="absolute z-10 right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 space-y-2 border rounded-xl bg-white flex flex-col"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
