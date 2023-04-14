@@ -31,7 +31,7 @@ const service = computed(() => {
           )})`,
         }"
       >
-        <div class="space-y-1 max-w-screen-xl mx-auto px-2 md:px-4 lg:px-8">
+        <div class="space-y-1 max-w-screen-xl mx-auto px-2 site-padding">
           <span class="subheading">elysia laser clinic</span>
           <h2>{{ service.name }}</h2>
         </div>
