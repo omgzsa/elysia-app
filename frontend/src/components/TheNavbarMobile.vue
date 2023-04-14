@@ -271,7 +271,7 @@ onClickOutside(target, () => {
           <div class="relative" ref="target">
             <div
               @click="toggleServices"
-              class="flex items-center cursor-pointer space-x-2 hover:text-secondary-100"
+              class="flex items-center cursor-pointer space-x-2 hover:text-accent-100"
             >
               <p class="text-sm xl:text-base">Szolgáltatások</p>
               <IconDown v-if="isServicesOpen" />
