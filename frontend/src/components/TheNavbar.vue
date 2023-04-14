@@ -227,43 +227,43 @@ const diagnosztikaiVizsgalatok = ref([
   },
 ]);
 
-const orvosiTermekek = ref([
-  {
-    name: "Z0 Skin Health",
-    slug: "z0-skin-health",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "La Roche Posay",
-    slug: "la-roche-posay",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "CeraVe",
-    slug: "cerave",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "Vichy",
-    slug: "vichy",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "Bioderma",
-    slug: "bioderma",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "Thalgo",
-    slug: "thalgo",
-    category: "orvosi-termekek",
-  },
-  {
-    name: "Orvosi lézerkészülékek",
-    slug: "orvosi-lezerkeszulekek",
-    category: "orvosi-termekek",
-  },
-]);
+// const orvosiTermekek = ref([
+//   {
+//     name: "Z0 Skin Health",
+//     slug: "z0-skin-health",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "La Roche Posay",
+//     slug: "la-roche-posay",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "CeraVe",
+//     slug: "cerave",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "Vichy",
+//     slug: "vichy",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "Bioderma",
+//     slug: "bioderma",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "Thalgo",
+//     slug: "thalgo",
+//     category: "orvosi-termekek",
+//   },
+//   {
+//     name: "Orvosi lézerkészülékek",
+//     slug: "orvosi-lezerkeszulekek",
+//     category: "orvosi-termekek",
+//   },
+// ]);
 
 const route = useRoute();
 
@@ -392,10 +392,10 @@ onUnmounted(() => {
                   :submenu="diagnosztikaiVizsgalatok"
                 />
 
-                <TheDropdown
+                <!-- <TheDropdown
                   title="Orvosi termékek"
                   :submenu="orvosiTermekek"
-                />
+                /> -->
 
                 <AppLink class="text-sm" :to="{ name: 'home' }">
                   Tüdőgyógyászati szakrendelés
