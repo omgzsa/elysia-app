@@ -16,11 +16,20 @@ const router = createRouter({
       name: "about",
       component: () => import("../views/AboutView.vue"),
     },
-    // {
-    //   path: "/szolgaltatas",
-    //   name: "services",
-    //   component: () => import("../views/ServicesView.vue"),
-    // },
+    {
+      path: "/szolgaltatas",
+      name: "services",
+      component: () => import("../views/ServicesView.vue"),
+      // if visited redirect to first category
+      redirect: () => {
+        return {
+          name: "services.category",
+          params: {
+            category: sourceData[0].slug,
+          },
+        };
+      },
+    },
     {
       path: "/szolgaltatas/:category",
       name: "services.category",
