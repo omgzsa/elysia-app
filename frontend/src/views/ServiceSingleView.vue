@@ -3,6 +3,8 @@ import { ref, computed } from "vue";
 import { useGetImageUrl } from "../composables/getImageUrl";
 import treatmentsData from "@/assets/treatments.json";
 
+import ServiceTreatmentCard from "@/components/treatment/ServiceTreatmentCard.vue";
+
 const props = defineProps({
   slug: {
     type: String,
@@ -36,7 +38,8 @@ const treatment = computed(() => {
         </div>
       </span>
     </div>
-    <div>description</div>
-    <!-- <pre>{{ treatments[2].category }}</pre> -->
+    <div>
+      <ServiceTreatmentCard :key="treatment.id" :treatment="treatment" />
+    </div>
   </section>
 </template>
