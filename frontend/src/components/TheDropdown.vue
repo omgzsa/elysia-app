@@ -70,9 +70,9 @@ onClickOutside(target, () => {
 
 .dropdown-fade-enter-from,
 .dropdown-fade-leave-to {
-  /* opacity: 0; */
-  /* -webkit-transform: translate3d(0, -12px, 0); */
-  /* transform: translate3d(0, -12px, 0); */
+  opacity: 0;
+  -webkit-transform: translate3d(0, -12px, 0);
+  transform: translate3d(0, -12px, 0);
 
   @apply transform -translate-y-3 opacity-0;
 }
