@@ -16,11 +16,11 @@ const router = createRouter({
       name: "about",
       component: () => import("../views/AboutView.vue"),
     },
-    {
-      path: "/szolgaltatas",
-      name: "services",
-      component: () => import("../views/ServicesView.vue"),
-    },
+    // {
+    //   path: "/szolgaltatas",
+    //   name: "services",
+    //   component: () => import("../views/ServicesView.vue"),
+    // },
     {
       path: "/szolgaltatas/:category",
       name: "services.category",
