@@ -5,7 +5,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
 <template>
   <footer class="divide-y bg-accent-100 dark:text-gray-100">
     <div
-      class="container px-4 flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0"
+      class="max-w-screen-xl site-padding flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0"
     >
       <div class="lg:w-1/3">
         <img
