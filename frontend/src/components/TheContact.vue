@@ -29,14 +29,16 @@ defineProps({
 
 <template>
   <div>
-    <section class="mb-0">
+    <section class="">
       <div
-        class="flex items-center justify-center h-72 md:h-[600px] m-auto mt-6 bg-fixed bg-center bg-[length:960px_349px] bg-no-repeat md:bg-[length:1440px_524px] xl:bg-cover"
+        class="flex items-center justify-center h-72 md:h-[600px] m-auto mt-6 bg-fixed bg-center bg-[length:960px_349px] bg-no-repeat md:bg-[length:1440px_524px] xl:bg-[length:1920px_698px]"
         :style="{ backgroundImage: `url(${useGetImageUrl(image)})` }"
       ></div>
     </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-6">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-6 container mx-auto"
+    >
       <!-- contact data -->
       <div class="space-y-8 p-6 mx-auto md:p-12 lg:p-20 max-w-md md:max-w-3xl">
         <h2>{{ title }}</h2>
