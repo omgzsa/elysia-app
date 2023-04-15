@@ -68,6 +68,9 @@ const breakpoints = ref({
 </template>
 
 <style scoped>
+.carousel > * {
+  overflow: hidden;
+}
 .carousel__slide {
   padding: 5px;
 }
