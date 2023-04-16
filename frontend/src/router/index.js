@@ -71,6 +71,25 @@ const router = createRouter({
       },
     },
     {
+      path: "/munkatarsak",
+      name: "employees.show",
+      component: () => import("../views/EmployeesView.vue"),
+      props: true,
+      // beforeEnter(to) {
+      //   const exists = treatmentsData.find(
+      //     (item) => item.slug === to.params.slug
+      //   );
+      //   if (!exists) {
+      //     return {
+      //       name: "not.found",
+      //       params: { pathMatch: to.path.substring(1).split("/") },
+      //       query: to.query,
+      //       hash: to.hash,
+      //     };
+      //   }
+      // },
+    },
+    {
       path: "/:pathMatch(.*)*",
       name: "not.found",
       component: () => import("../components/TheNotFound.vue"),
