@@ -2,9 +2,11 @@
   {
     "id": 1,
     "name": "Dr. Horváth Beáta",
+    "slug": "dr-horvath-beata",
+    "appointmentLink": "",
     "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-    "bio": "Orvosi diplomámat 2002-ben a Debreceni Egyetemen szereztem, majd a Petz Aladár Megyei Oktató Kórház Bőrgyógyászati Osztályán helyezkedtem el, ahol azóta is dolgozom, jelenleg adjunktus beosztásban, osztályvezető-helyettesként. Bőrgyógyászati szakvizsgámat 2010-ben tettem jeles minősítéssel.\n \n Munkám során fekvőbeteg- és nagyforgalmú ambuláns betegellátásban veszek részt. Feladataim közé tartozik az anyajegyszűrés, melanoma malignum gondozás, allergiás, ekcémás kórképek ellátása, pikkelysömör kezelése, fényterápia alkalmazása, krónikus sebek gondozása. Magántevékenységet 2012. óta végzek, járatos vagyok az orvos-esztétikai kezelésekben (mezoterápia, dermaroller, hyaluronsavas feltöltés, BOTOX kezelések, bioszálas arcfiatalítás), rendszeres résztvevője vagyok az esztétikai továbbképzéseknek.\n \n Az orvosi lézer jártasságomat a legmodernebb lézerberendezések, kíváló lézerspecialisták mellett szereztem meg. Saját törekvésem, az élethosszigtartó tanulás, és a mások javára történő cselekvés.",
-    "specialty": [
+    "bio": "Orvosi diplomámat 2002-ben a Debreceni Egyetemen szereztem, majd a Petz Aladár Megyei Oktató Kórház Bőrgyógyászati Osztályán helyezkedtem el, ahol azóta is dolgozom, jelenleg adjunktus beosztásban, osztályvezető-helyettesként. Bőrgyógyászati szakvizsgámat 2010-ben tettem jeles minősítéssel.\n \nMunkám során fekvőbeteg- és nagyforgalmú ambuláns betegellátásban veszek részt. Feladataim közé tartozik az anyajegyszűrés, melanoma malignum gondozás, allergiás, ekcémás kórképek ellátása, pikkelysömör kezelése, fényterápia alkalmazása, krónikus sebek gondozása. Magántevékenységet 2012. óta végzek, járatos vagyok az orvos-esztétikai kezelésekben (mezoterápia, dermaroller, hyaluronsavas feltöltés, BOTOX kezelések, bioszálas arcfiatalítás), rendszeres résztvevője vagyok az esztétikai továbbképzéseknek.\n \nAz orvosi lézer jártasságomat a legmodernebb lézerberendezések, kíváló lézerspecialisták mellett szereztem meg. Saját törekvésem, az élethosszigtartó tanulás, és a mások javára történő cselekvés.",
+    "specialties": [
       {
         "id": 1,
         "title": "Felnőtt és gyermekbőrgyógyászati ellátás"
@@ -26,9 +28,10 @@
         "title": "Orvosi lézeres kezelések"
       }
     ],
-    "image": [],
+    "image": "dr-horvath-beata.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Péntek",
         "hours": "14:00 - 18:00"
       }
@@ -37,9 +40,11 @@
   {
     "id": 2,
     "name": "Dr. Farkas Fruzsina",
+    "slug": "dr-farkas-fruzsina",
+    "appointmentLink": "",
     "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
-    "bio": "Az általános orvosi diplomát 2010-ben szereztem meg a Semmelweis Egyetem Általános Orvostudományi Karán, majd gyermekgyógyászként kezdtem dolgozni a Petz Aladár Egyetemi Kórház Csecsemő,- és Gyermekgyógyászati Centrumban. Ezt követően tanulmányaimat a bőrgyógyászati szakképzésben folytattam a győri kórház Bőrgyógyászati Fekvő,- és Járóbetegellátásban, ahol jelenleg is dolgozom.\n \n Gyakorlataim egy részét a budapesti Bőr,- Nemikórtani és Bőronkológiai Klinikán, az Egyesített Szent István és Szent László Kórház Infectológiai Részlegén, valamint a Heim Pál Gyermekkórházban töltöttem, majd 2021-ben sikeres bőrgyógyászati szakvizsgát tettem.\n \n Pályafutásom kezdetétől fogva különös érdeklődéssel fordulok a gyermekbőrgyógyászat felé. A kisbetegek bőrének gyógyítása mellett azonban a nemi betegek gondozásával, anyajegyek szűrűsével, allergológiával és immunológiával is foglalkozom.",
-    "specialty": [
+    "bio": "Az általános orvosi diplomát 2010-ben szereztem meg a Semmelweis Egyetem Általános Orvostudományi Karán, majd gyermekgyógyászként kezdtem dolgozni a Petz Aladár Egyetemi Kórház Csecsemő,- és Gyermekgyógyászati Centrumban. Ezt követően tanulmányaimat a bőrgyógyászati szakképzésben folytattam a győri kórház Bőrgyógyászati Fekvő,- és Járóbetegellátásban, ahol jelenleg is dolgozom.\n \nGyakorlataim egy részét a budapesti Bőr,- Nemikórtani és Bőronkológiai Klinikán, az Egyesített Szent István és Szent László Kórház Infectológiai Részlegén, valamint a Heim Pál Gyermekkórházban töltöttem, majd 2021-ben sikeres bőrgyógyászati szakvizsgát tettem.\n \nPályafutásom kezdetétől fogva különös érdeklődéssel fordulok a gyermekbőrgyógyászat felé. A kisbetegek bőrének gyógyítása mellett azonban a nemi betegek gondozásával, anyajegyek szűrűsével, allergológiával és immunológiával is foglalkozom.",
+    "specialties": [
       {
         "id": 1,
         "title": "Csecsemő,- és gyermekbőrgyógyászat"
@@ -61,17 +66,20 @@
         "title": "Allergológia és immunológia"
       }
     ],
-    "image": [],
+    "image": "dr-farkas-fruzsina.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Hétfő",
         "hours": "14:00 - 16:00"
       },
       {
+        "id": 2,
         "day": "Szerda",
         "hours": "14:00 - 16:00"
       },
       {
+        "id": 3,
         "day": "Péntek",
         "hours": "14:00 - 16:00"
       }
@@ -80,9 +88,11 @@
   {
     "id": 3,
     "name": "Dr. Görcsi János",
+    "slug": "dr-gorcsi-janos",
+    "appointmentLink": "",
     "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-    "bio": "Napjainkban már többen vannak, akik megteszik, hogy plasztikai sebészhez fordulnak problémáikkal, de még mindig sokan vannak azok, akik negatívan állnak a plasztikai sebészethez. Jómagam nagyon sok olyan pácienssel találkoztam, akiknek gyökeresen megváltozott az élete, kiteljesedtek, elégedettekké váltak miután a felismert problémát szakavatott segítséggel leküzdötték. Annak idején ez indított el a plasztikai sebészet irányába.\n \n Miután egyetemi tanulmányaimat, melyet a Pécsi Orvostudományi Egyetemen kezdve, a budapesti Semmelweis Orvostudományi Egyetemen 1995-ben befejeztem, a győri Petz Aladár Megyei Oktató Kórház sebészeti osztályán kezdtem dolgozni. Ezek után a szakmai fejlődésem érdekében további munkámat a kórház égési és plasztikai sebészeti osztályán folytattam, mely során 2000-ben sebészetből, majd 2004-ben égési és plasztikai sebészetből szakvizsgát szereztem. Az eltelt évek alatt több szakmai konferencián, továbbképzésen vettem részt. 2007-től a budapesti Szent Imre Egyetemi Oktatókórház Plasztikai profilján dolgozom.\n \n Azonban korunk megköveteli, hogy az ember nyitott és sokoldalú legyen, így nemcsak az állami kórházban tevékenykedem, hanem 2007 óta a soproni WABI Szépség Centrum Plasztikai Sebészeti részlegén is.",
-    "specialty": [
+    "bio": "Napjainkban már többen vannak, akik megteszik, hogy plasztikai sebészhez fordulnak problémáikkal, de még mindig sokan vannak azok, akik negatívan állnak a plasztikai sebészethez. Jómagam nagyon sok olyan pácienssel találkoztam, akiknek gyökeresen megváltozott az élete, kiteljesedtek, elégedettekké váltak miután a felismert problémát szakavatott segítséggel leküzdötték. Annak idején ez indított el a plasztikai sebészet irányába.\n \nMiután egyetemi tanulmányaimat, melyet a Pécsi Orvostudományi Egyetemen kezdve, a budapesti Semmelweis Orvostudományi Egyetemen 1995-ben befejeztem, a győri Petz Aladár Megyei Oktató Kórház sebészeti osztályán kezdtem dolgozni. Ezek után a szakmai fejlődésem érdekében további munkámat a kórház égési és plasztikai sebészeti osztályán folytattam, mely során 2000-ben sebészetből, majd 2004-ben égési és plasztikai sebészetből szakvizsgát szereztem. Az eltelt évek alatt több szakmai konferencián, továbbképzésen vettem részt. 2007-től a budapesti Szent Imre Egyetemi Oktatókórház Plasztikai profilján dolgozom.\n \nAzonban korunk megköveteli, hogy az ember nyitott és sokoldalú legyen, így nemcsak az állami kórházban tevékenykedem, hanem 2007 óta a soproni WABI Szépség Centrum Plasztikai Sebészeti részlegén is.",
+    "specialties": [
       {
         "id": 1,
         "title": "Orr-, fül-, szemhéj- kisajak plasztika"
@@ -104,13 +114,15 @@
         "title": "BOTOX kezelés"
       }
     ],
-    "image": [],
+    "image": "dr-gorcsi-janos.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Kedd",
         "hours": "14:00 - 18:00"
       },
       {
+        "id": 2,
         "day": "Csütörtök",
         "hours": "14:00 - 18:00"
       }
@@ -119,9 +131,11 @@
   {
     "id": 4,
     "name": "Dr. Szalai Zsuzsanna PhD",
+    "slug": "dr-szalai-zsuzsanna-phd",
+    "appointmentLink": "",
     "title": "Tüdőgyógyász, allergológus, tüdő-onkológus és szomnológus szakorvos",
-    "bio": "Az egyetemi diploma megszerzáse után 1987-től a mosonmagyaróvári Tüdőosztályon dolgoztam. 1998-ben pályázat útján lettem az akkor még 90 ágyas intézmény osztályvezető főorvosa. 1991-ben tüdőgyógyászatból, 2002-ben allergológiai és klinikai immunológiából szereztem szakvizsgát.\n \n 2013-ban sikeresen pályáztam a PAMOK Pulmonológia osztályvezetői pozíciójára. A következő évben klinikai onkológiából is leszakvizsgáztam. 2016-ban PhD fokozatot szereztem a Pécsi Tudományegyetem Általános Orvosi karán, értekezésemnek témája a COPD szűrés és a betegség különböző stádiumainak differenciál pásztázó kalorimetriás analízissel (DSC) történő vizsgálata. 2020-ban alvásmedicina licenc vizsgát tettem.\n \n Rendszeresen publikálok magyar és nemzetközi folyóiratokban és állandó előadó vagyok a tüdőgyógyászati szakma belföldi és külföldi kongresszusain. Három pulmonológiai szakkönyvet szerkesztettem, és szerkesztő bizottsági tag vagyok két tüdőgyógyászati periodikában. 2019-től neveztek ki a tüdőgyógyászat és gyerektüdőgyógyászat, valamint az allergológia és klinikai immunológia regionális szakfőorvosának.",
-    "specialty": [
+    "bio": "Az egyetemi diploma megszerzáse után 1987-től a mosonmagyaróvári Tüdőosztályon dolgoztam. 1998-ben pályázat útján lettem az akkor még 90 ágyas intézmény osztályvezető főorvosa. 1991-ben tüdőgyógyászatból, 2002-ben allergológiai és klinikai immunológiából szereztem szakvizsgát.\n \n2013-ban sikeresen pályáztam a PAMOK Pulmonológia osztályvezetői pozíciójára. A következő évben klinikai onkológiából is leszakvizsgáztam. 2016-ban PhD fokozatot szereztem a Pécsi Tudományegyetem Általános Orvosi karán, értekezésemnek témája a COPD szűrés és a betegség különböző stádiumainak differenciál pásztázó kalorimetriás analízissel (DSC) történő vizsgálata. 2020-ban alvásmedicina licenc vizsgát tettem.\n \nRendszeresen publikálok magyar és nemzetközi folyóiratokban és állandó előadó vagyok a tüdőgyógyászati szakma belföldi és külföldi kongresszusain. Három pulmonológiai szakkönyvet szerkesztettem, és szerkesztő bizottsági tag vagyok két tüdőgyógyászati periodikában. 2019-től neveztek ki a tüdőgyógyászat és gyerektüdőgyógyászat, valamint az allergológia és klinikai immunológia regionális szakfőorvosának.",
+    "specialties": [
       {
         "id": 1,
         "title": "Asztma és COPD gondozás"
@@ -147,13 +161,15 @@
         "title": "Covid-fertőzés utáni pulmonológiai vizsgálat"
       }
     ],
-    "image": [],
+    "image": "dr-szalai-zsuzsanna-phd.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Kedd",
         "hours": "14:00 - 18:00"
       },
       {
+        "id": 2,
         "day": "Csütörtök",
         "hours": "14:00 - 18:00"
       }
@@ -162,9 +178,11 @@
   {
     "id": 5,
     "name": "Dr. Barcsák Endre",
+    "slug": "dr-barcsak-endre",
+    "appointmentLink": "",
     "title": "Idegsebész adjunktus",
-    "bio": "2011-ben a Szegedi Tudományegyetem Általános Orvostudományi Karán szereztem általános orvosi diplomám summa cum laude minősítéssel. 2011 szeptemberétől a győri Petz Aladár Megyei Kórház Idegsebészeti Osztályának munkatársaként dolgozom, kötelező szakmai gyakorlataim a budapesti Országos Klinikai Idegtudományi Intézetben, illetve a Semmelweis Egyetemen végeztem, majd 2017-ben idegsebészetből tettem szakvizsgát kiváló minősítéssel.\n \n Érdeklődési területem az általános, klasszikus idegsebészeti (koponya -és gerinc) műtétek mellett kiemelten a degeneratív gerincbántalmak kivizsgálása, kezelése továbbá a minimálisan invazív gerincműtétek, mikrosebészeti eljárások. Szakmai társasági tagság: Magyar Orvosi Kamara, Magyar Idegsebészeti Társaság, Magyar Gerincgyógyászati Társaság \n \n A rendelések során a felmerülő idegsebészeti kórképek teljes spektrumának feltérképezése történik a kórelőzmény, a beteg panaszainak részletes elemzése, betegvizsgálat, neurológiai állapotfelmérés segítségével melyet adott esetben képi diagnosztikai (MR, CT, röntgen, ultrahang) vizsgálatok szükségességének meghatározása, beutaló kiállítása követ. \n \n A diagnózis felállítása után a szükséges konzervatív vagy műtéti terápiás terv meghatározása történik részletes beteg tájékoztatás, a felmerülő kérdések megvitatása mellett. \n \n Kontroll vizsgálat, a beteg állapotának nyomonkövetése, utógondozása, egyénre szabott gyógytorna és fizikoterápia meghatározása is részét képezi az ellátásnak.",
-    "specialty": [
+    "bio": "2011-ben a Szegedi Tudományegyetem Általános Orvostudományi Karán szereztem általános orvosi diplomám summa cum laude minősítéssel. 2011 szeptemberétől a győri Petz Aladár Megyei Kórház Idegsebészeti Osztályának munkatársaként dolgozom, kötelező szakmai gyakorlataim a budapesti Országos Klinikai Idegtudományi Intézetben, illetve a Semmelweis Egyetemen végeztem, majd 2017-ben idegsebészetből tettem szakvizsgát kiváló minősítéssel.\n \nÉrdeklődési területem az általános, klasszikus idegsebészeti (koponya -és gerinc) műtétek mellett kiemelten a degeneratív gerincbántalmak kivizsgálása, kezelése továbbá a minimálisan invazív gerincműtétek, mikrosebészeti eljárások. Szakmai társasági tagság: Magyar Orvosi Kamara, Magyar Idegsebészeti Társaság, Magyar Gerincgyógyászati Társaság \n \nA rendelések során a felmerülő idegsebészeti kórképek teljes spektrumának feltérképezése történik a kórelőzmény, a beteg panaszainak részletes elemzése, betegvizsgálat, neurológiai állapotfelmérés segítségével melyet adott esetben képi diagnosztikai (MR, CT, röntgen, ultrahang) vizsgálatok szükségességének meghatározása, beutaló kiállítása követ. \n \nA diagnózis felállítása után a szükséges konzervatív vagy műtéti terápiás terv meghatározása történik részletes beteg tájékoztatás, a felmerülő kérdések megvitatása mellett. \n \nKontroll vizsgálat, a beteg állapotának nyomonkövetése, utógondozása, egyénre szabott gyógytorna és fizikoterápia meghatározása is részét képezi az ellátásnak.",
+    "specialties": [
       {
         "id": 1,
         "title": "Idegsebészeti szakvizsgálat"
@@ -178,9 +196,10 @@
         "title": "Utógondozás"
       }
     ],
-    "image": [],
+    "image": "dr-barcsak-endre.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Csütörtök",
         "hours": "15:00 - 18:00"
       }
@@ -189,17 +208,20 @@
   {
     "id": 6,
     "name": "Dr. Stummer János",
+    "slug": "dr-stummer-janos",
+    "appointmentLink": "",
     "title": "Szülész-nőgyógyász adjunktus, lézerspecialista",
-    "bio": "Orvosi diplomámat 2002-ben a Debreceni Egyetemen szereztem, majd utána és azóta is a győri, Petz Aladár Megyei Kórházban dolgozom, a Szülészeti és Nőgyógyászati osztályon. A szülész-nőgyógyász szakvizsga megszerzése után klinikai onkológiából is szakvizsgát tettem, továbbá szülészeti és nőgyógyászati ultrahang licence vizsgával is rendelkezem.\n \n Napi munkám során foglalkozom várandósok gondozásával, szülésvezetéssel, nőgyógyászati betegek teljes körű vizsgálatával (rákszűrés, ultrahangvizsgálat, HPV szűrés, stb), és a nőgyógyászati műtétek (laparoscopia, hasfeltárás, hüvelyi műtétek, stb) végzésével. A nőgyógyászati daganatos betegek kezelésével, diagnosztizálásával kapcsolatos feladatokat látok el az osztályon illetve rendelésen, valamint elvégzem az ehhez kapcsolódó radikális műtéteket.",
-    "specialty": [
+    "bio": "Orvosi diplomámat 2002-ben a Debreceni Egyetemen szereztem, majd utána és azóta is a győri, Petz Aladár Megyei Kórházban dolgozom, a Szülészeti és Nőgyógyászati osztályon. A szülész-nőgyógyász szakvizsga megszerzése után klinikai onkológiából is szakvizsgát tettem, továbbá szülészeti és nőgyógyászati ultrahang licence vizsgával is rendelkezem.\n \nNapi munkám során foglalkozom várandósok gondozásával, szülésvezetéssel, nőgyógyászati betegek teljes körű vizsgálatával (rákszűrés, ultrahangvizsgálat, HPV szűrés, stb), és a nőgyógyászati műtétek (laparoscopia, hasfeltárás, hüvelyi műtétek, stb) végzésével. A nőgyógyászati daganatos betegek kezelésével, diagnosztizálásával kapcsolatos feladatokat látok el az osztályon illetve rendelésen, valamint elvégzem az ehhez kapcsolódó radikális műtéteket.",
+    "specialties": [
       {
         "id": 1,
         "title": "Lézeres intimplasztika"
       }
     ],
-    "image": [],
+    "image": "dr-stummer-janos.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Kedd",
         "hours": "16:00 - 18:00"
       }
@@ -208,17 +230,20 @@
   {
     "id": 7,
     "name": "Dr. Szántó Dávid",
+    "slug": "dr-szanto-david",
+    "appointmentLink": "",
     "title": "Sebész szakorvos",
-    "bio": "Diplomámat 2012-ben szereztem a Semmelweis Egyetem Általános Orvostudományi Karán. Ezt követően a Petz Aladár Megyei Oktató Kórház Sebészeti Osztályának munkatársa lettem. Az általános és hasi sebészet mellett mellkassebészeti jártasságot is szereztem a fekvő és a járóbetegbetegek ellátási területén is. 2018 végén sebészet szakvizsgát tettem, magántevékenységemet ezt követően kezdtem meg.\n \n Jelentős időd töltöttem plasztikai-esztétikai műtétek asszisztenciájával, valamint esztétikai továbbképzéseken való részvétellel. Fontosnak tartom, hogy a hozzám forduló páciensek igényes, személyre szabott és magas szintű, korrekt ellátásával egy közvetlen és partneri orvos-beteg kapcsolat is létrejöjjön, melyhez elengedhetetlen a folyamatos önképzés. Szeretném pácienseimet a gyógyulásban társként végigkísérni, és a legjobb képességeim szerint segíteni.\n \n Tàrsasàgi tagsàgok: Magyar Sebèsz Tàrsasàg (MST), Magyar Sebèsz Tàrsasàg Fiatal Sebèszek Szekciója (Fisesz), Magyar Mellkassebèszeti Tàrsasàg (MMST), European Society of Thoracic Surgeons (ESTS)",
-    "specialty": [
+    "bio": "Diplomámat 2012-ben szereztem a Semmelweis Egyetem Általános Orvostudományi Karán. Ezt követően a Petz Aladár Megyei Oktató Kórház Sebészeti Osztályának munkatársa lettem. Az általános és hasi sebészet mellett mellkassebészeti jártasságot is szereztem a fekvő és a járóbetegbetegek ellátási területén is. 2018 végén sebészet szakvizsgát tettem, magántevékenységemet ezt követően kezdtem meg.\n \nJelentős időd töltöttem plasztikai-esztétikai műtétek asszisztenciájával, valamint esztétikai továbbképzéseken való részvétellel. Fontosnak tartom, hogy a hozzám forduló páciensek igényes, személyre szabott és magas szintű, korrekt ellátásával egy közvetlen és partneri orvos-beteg kapcsolat is létrejöjjön, melyhez elengedhetetlen a folyamatos önképzés. Szeretném pácienseimet a gyógyulásban társként végigkísérni, és a legjobb képességeim szerint segíteni.\n \nTàrsasàgi tagsàgok: Magyar Sebèsz Tàrsasàg (MST), Magyar Sebèsz Tàrsasàg Fiatal Sebèszek Szekciója (Fisesz), Magyar Mellkassebèszeti Tàrsasàg (MMST), European Society of Thoracic Surgeons (ESTS)",
+    "specialties": [
       {
         "id": 1,
         "title": "Sebész"
       }
     ],
-    "image": [],
+    "image": "dr-szanto-david.webp",
     "consultTime": [
       {
+        "id": 1,
         "day": "Kedd",
         "hours": "16:00 - 18:00"
       }
@@ -227,10 +252,12 @@
   {
     "id": 8,
     "name": "Hauserné Bognár Zsuzsanna",
+    "slug": "hauserne-bognar-zsuzsanna",
+    "appointmentLink": "",
     "title": "Ügyvezető",
-    "bio": "Tanulmányaimat gazdasági ágon végeztem a Széchenyi István Egyetemen, mint közgazdász pénzügy szakirányon, továbbá párhuzamosan a Perfekt Zrt-nél mérlegképes könyvelő. Ebben az irányban dolgoztam könyvelőként, párhuzamosan pedig a szépségiparban kezdtem el tevékenykedni. Kozmetikus szakmát szereztem és vállalkozó lettem. Célom az volt, hogy új szintre emeljem szépségipari vállalkozásomat, mikor Dr. Horváth Beával és két tulajdonostársunkkal megálmodtuk az Elysia Laser Clinicet.\n \n Magas elvárásainkhoz megtaláltuk a megfelelő helyet és technológiát és 2018.07.23-án megnyílt az Elysia Laser Clinic. Célunk, hogy egy olyan központ legyünk, ahol barátságos környezetben, innovatív technológiával és kiváló szakorvos csapatunkkal fogadhassuk pácienseinket. Fontosnak tartjuk, hogy igazodjunk a piac változásaihoz, igényeihez, fejlődjünk és magas minőséget tudjunk biztosítani, amely Győrben egyedülálló.",
-    "specialty": [],
-    "image": [],
+    "bio": "Tanulmányaimat gazdasági ágon végeztem a Széchenyi István Egyetemen, mint közgazdász pénzügy szakirányon, továbbá párhuzamosan a Perfekt Zrt-nél mérlegképes könyvelő. Ebben az irányban dolgoztam könyvelőként, párhuzamosan pedig a szépségiparban kezdtem el tevékenykedni. Kozmetikus szakmát szereztem és vállalkozó lettem. Célom az volt, hogy új szintre emeljem szépségipari vállalkozásomat, mikor Dr. Horváth Beával és két tulajdonostársunkkal megálmodtuk az Elysia Laser Clinicet.\n \nMagas elvárásainkhoz megtaláltuk a megfelelő helyet és technológiát és 2018.07.23-án megnyílt az Elysia Laser Clinic. Célunk, hogy egy olyan központ legyünk, ahol barátságos környezetben, innovatív technológiával és kiváló szakorvos csapatunkkal fogadhassuk pácienseinket. Fontosnak tartjuk, hogy igazodjunk a piac változásaihoz, igényeihez, fejlődjünk és magas minőséget tudjunk biztosítani, amely Győrben egyedülálló.",
+    "specialties": [],
+    "image": "hauserne-bognar-zsuzsanna.webp",
     "consultTime": []
   }
 ]
