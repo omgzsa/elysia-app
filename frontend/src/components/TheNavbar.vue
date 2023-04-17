@@ -411,7 +411,7 @@ onUnmounted(() => {
 
           <AppLink :to="{ name: 'home' }"> Áraink </AppLink>
 
-          <AppLink :to="{ name: 'home' }"> Munkatársak </AppLink>
+          <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
 
           <AppLink :to="{ name: 'home' }"> Kapcsolat </AppLink>
         </ul>
