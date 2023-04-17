@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Lézerkezelések",
+    "treatments": [
+      {
+        "id": "1",
+        "title": "Pigmentfolt kezelés (5x5 cm/kis felület)",
+        "price": "40000 Ft",
+        "isFeatured": "true"
+      },
+      {
+        "id": "2",
+        "title": "Pigmentfolt kezelés (kéz, hát)",
+        "price": "55000 Ft",
+        "isFeatured": "false"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Bőrfiatalítás (rejuvenáció)",
+    "treatments": [
+      {
+        "id": "1",
+        "title": "Arcrejuvenáció (Nd Yag, nonablatív)",
+        "price": "95000 Ft",
+        "isFeatured": "false"
+      },
+      {
+        "id": "2",
+        "title": "Arcrejuvenáció (Frakcionált CO2, ablatív)",
+        "price": "190000 Ft",
+        "isFeatured": "true"
+      }
+    ]
+  }
+]
