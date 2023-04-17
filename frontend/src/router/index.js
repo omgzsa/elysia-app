@@ -74,7 +74,6 @@ const router = createRouter({
       path: "/munkatarsak",
       name: "employees.show",
       component: () => import("../views/EmployeesView.vue"),
-      props: true,
       // beforeEnter(to) {
       //   const exists = treatmentsData.find(
       //     (item) => item.slug === to.params.slug
@@ -88,6 +87,12 @@ const router = createRouter({
       //     };
       //   }
       // },
+    },
+    {
+      path: "/munkatarsak/:slug",
+      name: "employee.single",
+      component: () => import("../views/EmployeeSingleView.vue"),
+      props: true,
     },
     {
       path: "/:pathMatch(.*)*",
