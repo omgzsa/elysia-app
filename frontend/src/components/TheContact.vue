@@ -28,9 +28,7 @@ defineProps({
 <template>
   <section class="mb-0 grid grid-cols-1 sm:grid-cols-2 gap-8">
     <!-- contact data -->
-    <div
-      class="space-y-4 pl-4 sm:pl-5 md:pl-10 lg:pl-12 py-4 sm:py-5 md:py-10 lg:py-12 xl:pl-0 max-w-xl sm:ml-auto"
-    >
+    <div class="">
       <h2>{{ title }}</h2>
 
       <ul class="">
