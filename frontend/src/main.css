@@ -55,7 +55,8 @@
     @apply text-xs md:text-sm lg:text-base tracking-wider uppercase text-gray-600;
   }
 
-  .category-card {
+  .category-card,
+  .employee-card {
     @apply space-y-3 max-w-sm;
   }
 }
