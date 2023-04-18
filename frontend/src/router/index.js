@@ -95,6 +95,12 @@ const router = createRouter({
       props: true,
     },
     {
+      path: "/araink",
+      name: "prices.show",
+      component: () => import("../views/PricesView.vue"),
+      props: true,
+    },
+    {
       path: "/:pathMatch(.*)*",
       name: "not.found",
       component: () => import("../components/TheNotFound.vue"),

@@ -409,7 +409,7 @@ onUnmounted(() => {
 
           <AppLink :to="{ name: 'home' }"> Z0 Skin Health </AppLink>
 
-          <AppLink :to="{ name: 'home' }"> Áraink </AppLink>
+          <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
 
