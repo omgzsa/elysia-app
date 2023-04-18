@@ -318,7 +318,7 @@ onClickOutside(target, () => {
 
           <AppLink :to="{ name: 'home' }"> Z0 Skin Health </AppLink>
 
-          <AppLink :to="{ name: 'price.show' }"> Áraink </AppLink>
+          <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
 
