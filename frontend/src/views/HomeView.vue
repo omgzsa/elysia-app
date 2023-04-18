@@ -74,7 +74,7 @@ const services = ref([
   },
 ]);
 
-const targetEl = ref();
+// const targetEl = ref();
 
 // useMotion(targetEl, {
 //   initial: {
@@ -127,11 +127,7 @@ slug: "",
   <section>
     <HomeCallToAction />
   </section>
-  <BlogList
-    title="Tudjon meg többet szolgáltatásainkról"
-    v-motion
-    ref="targetEl"
-  />
+  <BlogList title="Tudjon meg többet szolgáltatásainkról" />
   <!-- parallax -->
   <TheParallax />
   <TheContact title="Foglalja le időpontját pár kattintással!" />
