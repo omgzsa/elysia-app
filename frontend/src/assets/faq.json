@@ -14,6 +14,48 @@
         "question": "Beutaló szükséges e az anyajegy eltávolításhoz?",
         "description": "A műtét elvégzéséhez bőrgyógyászati beutaló szükséges.",
         "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Hány anyajegyet lehet eltávolítani egy műtéti időpontban?",
+        "description": "Páciens tűrőképességétől függően egy alkalommal maximum négy anyajegyet lehet eltávolítani.\nIdőpont egyeztetésnél kérjük, jelezze, hogy hány darab anyajegy eltávolítását szeretné.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Mennyi ideig nem szabad sportolni, munkát végezni műtét után?",
+        "description": "Varratszedésig tilos a sportolás és nehéz fizikai munka végzés, varratszedés után a műtéti heg további regenerálódása miatt még két hétig kerülni kell a nehéz fizikai munkavégzést",
+        "bulletPoints": []
+      },
+      {
+        "id": 5,
+        "question": "Műtét után mennyi idővel lehet szoláriumba menni vagy napozni?",
+        "description": "Műtét után fontos a műtéti heg fényvédelme, ajánlott a magas faktorszámú fényvédő alkalmazása.\nTilos napozni, szoláriumozni műtétet követően egy hónapig, későbbiekben magas faktorszámú fényvédő mellett javasolt a napozás, szoláriumozás.",
+        "bulletPoints": []
+      },
+      {
+        "id": 6,
+        "question": "A beavatkozás után mikor kell kontrollra és varratszedésre érkezni?",
+        "description": "A kontroll és varratszedés időpontja a plasztikai sebész által meghatározott időpontban történik.\nSebgyógyulástól függően általában két hét után végezhető el a varratszedés.",
+        "bulletPoints": []
+      },
+      {
+        "id": 7,
+        "question": "Szövettan készül-e a műtéti eltávolítás után?",
+        "description": "Minden képlet műtéti eltávolítása után szövettan készül, melynek eredménye kb. két hét alatt készül el.",
+        "bulletPoints": []
+      },
+      {
+        "id": 8,
+        "question": "Várandósság ill. szoptatás időszakában lehet e anyajegyet eltávolítani?",
+        "description": "Várandósság és szoptatás időszakában csak orvosi indikáció esetén végezhető el az anyajegy eltávolítása.",
+        "bulletPoints": []
+      },
+      {
+        "id": 9,
+        "question": "Milyen időszakban ajánlott az anyajegyek eltávolítása?",
+        "description": "A megfelelő sebgyógyulás elősegítése érdekében az őszi-téli időszakban javasolt az anyajegy eltávolítás elvégzése.",
+        "bulletPoints": []
       }
     ]
   },
@@ -90,6 +132,434 @@
             "text": "lézeres kezelések"
           }
         ]
+      },
+      {
+        "id": 3,
+        "question": "Milyen időszakban ajánlott a kezeléseket elvégezni?",
+        "description": "Az esztétikai kezelések többsége bármely évszakban elvégezhető, kivételt képeznek a lézeres kezelések, Drakula terápia és dermaroller kezelés elvégzése.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Az Arckezelés legfőbb ellenjavallatai, amelyek esetében nem végezzük el a kezelést:",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "akut fertőzés (pl.: herpesz) esetén"
+          },
+          {
+            "id": 2,
+            "text": "láz, felső légúti megbetegedés esetén"
+          },
+          {
+            "id": 3,
+            "text": "fogászati kezelés"
+          },
+          {
+            "id": 4,
+            "text": "várandósság és szoptatás ideje alatt"
+          },
+          {
+            "id": 5,
+            "text": "sebgyógyulási zavar (keloid) esetén"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "A Botox kezelés legfőbb ellenjavallatai, amelyek esetében nem végezzük el a kezelést:",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "antibiotikumos terápia esetén"
+          },
+          {
+            "id": 2,
+            "text": "várandósság és szoptatás ideje alatt"
+          },
+          {
+            "id": 3,
+            "text": "akut fertőzés esetén"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bőrgyógyászat/Lézeres kezelések",
+    "content": [
+      {
+        "id": 1,
+        "question": "Milyen esztétikai lézeres kezeléseket végeznek orvosaink?",
+        "description": "Klinkánkon pigmentfolt és öregségi szemölcs, jóindulatú növedék eltávolítást, seprűvéna és éranyajegy kezelést, lézeres Co2 hámlasztást végeznek bőrgyógyászaink. ",
+        "bulletPoints": []
+      },
+      {
+        "id": 2,
+        "question": "Mikor ajánlott lézeres kezeléseket elvégezni?",
+        "description": "Elsősorban őszi-téli időszakban ajánlott a lézeres kezeléseket elvégezni, mert a kezeléseket követően fokozott fényvédelem javasolt.",
+        "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Mi a folyamata, ha a páciens esztétikai kezelést szeretne igénybe venni?",
+        "description": "Előszőr egy orvosi konzultációra van szükség, ahol az orvos felépíti a kezelési tervet a páciens adott bőrproblémája és igényei szerint.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Mennyi ideig nem lehet sportolni, munkát végezni, kozmetikai kezelést igénybe venni?",
+        "description": "Elsősorban az adott esztétikai kezeléstől függ, a beavatkozás után az orvos részletes tájékoztatást ad a sportolást, munkavégzést és a későbbi kozmetikai kezelések elvégzését illetően.",
+        "bulletPoints": []
+      },
+      {
+        "id": 5,
+        "question": "Mennyi ideig nem szabad napozni, szoláriumozni a lézeres kezelések után?",
+        "description": "Adott lézeres kezeléstől függ, de minden lézeres beavatkozás után fokozott fényvédelem és magas faktorszámú fényvédő használata javasolt.\nNyaralás előtt két héttel már nem végzünk lézeres kezelést.",
+        "bulletPoints": []
+      },
+      {
+        "id": 6,
+        "question": "Otthoni utóápolás során mire kell figyelni, milyen bőrápolást javasolt alkalmazni?",
+        "description": "A kezelést követően ajándék bőrápoló készítményt adunk otthoni utóápolás céljából, melynek használatáról részletes tájékoztatás kap a páciens.",
+        "bulletPoints": []
+      },
+      {
+        "id": 7,
+        "question": "A kezelés után kb. mennyi ideig tart a gyógyulási időszak?",
+        "description": "Adott kezeléstől függ, de mindenképp úgy legyen tervezve a kezelési időpont, hogy egyes lézeres beavatkozások után pár napig kerülni kell a sminkelést, sportolást, wellnest-szaunát, napozást.",
+        "bulletPoints": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tüdőgyógyászat",
+    "content": [
+      {
+        "id": 1,
+        "question": "Milyen vizsgálatot végez klinikánkon a tüdőgyógyász?",
+        "description": "Tüdőgyógyászunk egyéni konzultációt, Prick-teszt és légzésfunkció vizsgálatot végez klinikánkon.",
+        "bulletPoints": []
+      },
+      {
+        "id": 2,
+        "question": "Gyermekeket vizsgál e tüdőgyógyász?",
+        "description": "16 éves kortól lehet jelentkezni tüdőgyógyászati vizsgálatra.",
+        "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Online időpontfoglalásra van e lehetőség?",
+        "description": "Honlapunkon online időpont foglalásra is van lehetőség tüdőgyógyászati vizsgálatra.",
+        "bulletPoints": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mona Lisa Touch",
+    "content": [
+      {
+        "id": 1,
+        "question": "Mi a folyamata, ha a páciens nőgyógyászati lézeres kezelést szeretne igénybe venni?",
+        "description": "Először nőgyógyászati vizsgálat és konzultáció szükséges, ahol a nőgyógyász eldönti, hogy alkalmas e a páciens a kezelésre, majd a vizsgálat után kell időpontot egyeztetni a kezelésre.",
+        "bulletPoints": []
+      },
+      {
+        "id": 2,
+        "question": "Szükséges-e cytológiai vizsgálata a kezelés elvégzéséhez?",
+        "description": "Fél évnél nem régebbi citológiai lelet szükséges a kezeléshez melyet a konzultáción be kell mutatni , de ha nem áll rendelkezésre lelet, akkor a nőgyógyászati vizsgálat alkalmával a mintavételt elvégzi a nőgyógyász.",
+        "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Menstruációs ciklusban elvégezhető e a kezelés?",
+        "description": "Menstruáció ideje alatt a kezelés nem végezhető el.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Hány alkalmas és milyen gyakran lehet ismételni a kezelés sorozatot?",
+        "description": "A kezelés sorozat három alkalmas, melyet min. 6-8 hetente lehet ismételni, majd a későbbiekben fenntartó kezelés évente egy alkalommal szükséges.",
+        "bulletPoints": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Epicutan teszt",
+    "content": [
+      {
+        "id": 1,
+        "question": "Hány allergént lehet vizsgálni epicutan teszteléssel?",
+        "description": "A magyar standard sorral 36 allergént vizsgálunk: ",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "kozmetikum származékok "
+          },
+          {
+            "id": 2,
+            "text": "illatanyagok, fémek"
+          },
+          {
+            "id": 3,
+            "text": "festékanyagok"
+          },
+          {
+            "id": 4,
+            "text": "konzerválószerek"
+          },
+          {
+            "id": 5,
+            "text": "gumik stb."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Bőrgyógyászati beutaló szükséges e az epicutan teszt elvégzéséhez?",
+        "description": "A tesztelés elvégzéséhez bőrgyógyászati javaslat szükséges.",
+        "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Hány éves kortól végezhető el az epicutan teszt?",
+        "description": "12 éves kortól végezhető el a vizsgálat.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Várandóság és szoptatás ideje alatt kivitelezhető e a tesztelés?",
+        "description": "Várandóság és szoptatás ideje alatt nem végezhető el a vizsgálat.",
+        "bulletPoints": []
+      },
+      {
+        "id": 5,
+        "question": "Milyen időszakban javasolt az epicutan teszt elvégzése?",
+        "description": "A tesztelést elsősorban őszi-téli időszakban, maximum tavasz végéig végezzük el.",
+        "bulletPoints": []
+      },
+      {
+        "id": 6,
+        "question": "Hogyan történik az epicutan teszt kivitelezése?",
+        "description": "A hát vagy has bőrére helyezzük fel az allergéneket tapasszal.\nA tesztelés folyamata egy hetet vesz igénybe és 4 alkalommal kell megjelenni a vizsgálaton.\nHétfőnként történik a teszt felrakása és azt követően az első leolvasás 72 óra múlva (szerdán), a második leolvasás 96 óra múlva (pénteken), az utolsó leolvasás 1 hét múlva (hétfőn) lesz esedékes.\nMindig az utolsó leolvasás napján kap leletet a páciens, kiskorú páciens esetében szükséges szülő jelenléte a lelet kiadásához.",
+        "bulletPoints": []
+      },
+      {
+        "id": 7,
+        "question": "Milyen gyógyszerek elhagyása szükséges a teszteléshez?",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "A vizsgálat elvégzése előtt 3 nappal fel kell függeszteni az anti-hisztamin allergia gyógyszerek és szteroid gyógyszerek alkalmazását"
+          },
+          {
+            "id": 2,
+            "text": "A vizsgálat elvégzése előtt 2 héttel fel kell függeszteni a lokális készítmények (szteroidos krémek) használatát és a cytostatikus terápiát"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Hogyan kell készülni a teszt elvégzéséhez?",
+        "description": "Kiskorú páciens szülő kíséretével érkezzen a vizsgálatokra, iskolai igazolást tudunk biztosítani a gyermek részére illetve szülő esetében is tudunk igazolást kiállítani a munkahely részére.",
+        "bulletPoints": []
+      },
+      {
+        "id": 9,
+        "question": "A tesztelés ideje alatti fontos tudnivalók:",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "ajánlott pamut ruha viselése"
+          },
+          {
+            "id": 2,
+            "text": "nem szabad sportolni az izzadás elkerülése érdekében"
+          },
+          {
+            "id": 3,
+            "text": "a felhelyezett allergének helyén nem szabad mosakodni"
+          },
+          {
+            "id": 4,
+            "text": "a felhelyezett allergének helyét védeni kell a napfénytől"
+          },
+          {
+            "id": 5,
+            "text": "nem szabad napozni, szoláriumozni"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "DEKA MOVEO lézeres szőrtelenítés",
+    "content": [
+      {
+        "id": 1,
+        "question": "Mi a folyamata, ha a páciens lézeres szőrtelenítés kezelést szeretne igénybe venni?",
+        "description": "A magyar standard sorral 36 allergént vizsgálunk: ",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "A kezelés megkezdése előtt egy konzultációra van szükség, mely során a kezelő asszisztens felméri a kezelendő terület alkalmasságát a szőrtelenítésre."
+          },
+          {
+            "id": 2,
+            "text": "A felméréshez mindenképp aktív, növekedési fázisban lévő szőrtüszők szükségesek, ezért a konzultációra borotválkozás nélkül kell érkezni."
+          },
+          {
+            "id": 3,
+            "text": "A felmérés után a kezelő asszisztens ismerteti a kezelés menetét, hatékonyságot befolyásoló tényezőket és az otthoni teendők és utóápolás részleteit."
+          },
+          {
+            "id": 4,
+            "text": "A konzultáció díja ingyenes."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Mennyire fájdalmas a lézeres szőrtelenítés?",
+        "description": "A Deka MOVEO kezelőfejjel végzett szőrtelenítés során gyakorlatilag nem jelentkezik fájdalomérzet, de csipkedést, melegérzetet tapasztalhat a páciens.",
+        "bulletPoints": []
+      },
+      {
+        "id": 3,
+        "question": "Hány éves kortól lehet a lézeres szőrtelenítést elvégezni?",
+        "description": "Lézeres szőrtelenítés indokolt esetben 16 éves kortól már elvégezhető, de elsősorban 18 éves kortól ajánlott a kezelés elkezdése.",
+        "bulletPoints": []
+      },
+      {
+        "id": 4,
+        "question": "Tetovált területen szabad e lézeres szőrtelenítést végezni?",
+        "description": "Tetovált területen lézeres kezelés nem végezhető, mivel a tetoválás pigmentek vezetik a lézerfényt, ezáltal égési sérülés alakulhat ki.",
+        "bulletPoints": []
+      },
+      {
+        "id": 5,
+        "question": "Meddig nem szabad napozni, szoláriumozni a kezelés előtt és után?",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "Kezelés előtt és után két hétig nem szabad napozni, szoláriumozni."
+          },
+          {
+            "id": 2,
+            "text": "Nyaralás- wellnes előtt 2-3 héttel már nem végezhető el a kezelés (attól függ milyen nyaralást-wellnest tervez a páciens)."
+          },
+          {
+            "id": 3,
+            "text": "Síelés előtt két héttel nem végezhető el arc területén a lézeres szőrtelenítés."
+          },
+          {
+            "id": 4,
+            "text": "Nyári időszakban naphatásnak kitett kezelendő területeken csak fokozott fényvédelem mellett végezhető el a kezelés."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Várandósság és szoptatás idején lehet e kezelést végezni?",
+        "description": "Várandósság és szoptatás ideje alatt nem végezhető lézeres szőrtelenítés.",
+        "bulletPoints": []
+      },
+      {
+        "id": 7,
+        "question": "Benőtt szőrszálak esetén megoldás lehet a lézeres szőrtelenítés?",
+        "description": "Benőtt szőrszálak esetén kifejezetten ajánlott a kezelés.",
+        "bulletPoints": []
+      },
+      {
+        "id": 8,
+        "question": "Hormonzavar esetén elvégezhető e a kezelés?",
+        "description": "Hormonzavar esetén is végezhető a lézeres szőrtelenítés, viszont jelentősen befolyásolja a kezelés hatékonyságát, ezért a kezelés sorozat befejezése után időszakosan fenntartó kezelésekre lehet szükség.",
+        "bulletPoints": []
+      },
+      {
+        "id": 9,
+        "question": "Hány alkalom szükséges egy kezelés sorozathoz?",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "Hatékony kezelési eredmény eléréséhez nők esetében általában 6-8 alkalomra, férfiak esetében 8-10 alkalomra lehet szükség."
+          },
+          {
+            "id": 2,
+            "text": "A kezelés eredményessége függ a kezelni kívánt terület: bőrtípusától, a szőrszálak színétől, sűrűségétől, textúrájától."
+          },
+          {
+            "id": 3,
+            "text": "A kezeléseket legkorábban min. 6-8 hetente lehet ismételni."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Mik a legfőbb ellenjavallatai a kezelésnek?",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "Nem szőrteleníthető a világos, szőke, ősz szőrszál."
+          },
+          {
+            "id": 2,
+            "text": "Aktív bőrbetegség vagy fertőzés a kezelendő területen (pl.: ekcéma, herpes, nemi területen condyloma)."
+          },
+          {
+            "id": 3,
+            "text": "Fényérzékenység vagy fényérzékenységet okozó gyógyszeres kezelés."
+          },
+          {
+            "id": 4,
+            "text": "Epilepszia, melanoma, daganatos megbetegedés esetén nem kezelhető a páciens!"
+          },
+          {
+            "id": 5,
+            "text": "Terhesség és szoptatás ideje alatt nem végezhető el a kezelés."
+          },
+          {
+            "id": 6,
+            "text": "Tetovált terület nem kezelhető."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Otthoni utóápolás során mire kell figyelni, milyen bőrápolást javasolt alkalmazni?",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "A kezelést követően nem szabad dezodort, testápolót vagy masszázs olajt alkalmazni a kezelt régión."
+          },
+          {
+            "id": 2,
+            "text": "A bőr megnyugtatására termálvíz, aloe vera termékek használata javasolt."
+          },
+          {
+            "id": 3,
+            "text": "Ha a kezelés utáni napokban nem irritált a bőr, újra alkalmazható testápoló, dezodor használata."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Menstruációs időszakban elvégezhető e a kezelés?",
+        "description": "Menstruáció ideje alatt higiénés okok miatt csak az intim terület nem kezelhető, minden más régió szőrteleníthető.",
+        "bulletPoints": []
       }
     ]
   }
