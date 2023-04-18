@@ -24,15 +24,11 @@ defineProps({
       :to="{ name: 'employee.single', params: { slug: item.slug } }"
       class="text-xs sm:text-sm text-gray-500"
     >
-      <div
-        @click="navigate"
-        role="link"
-        class="flex flex-col px-4 space-y-2 group-hover:-translate-y-1 transition-transform duration-200"
-      >
+      <div @click="navigate" role="link" class="flex flex-col px-4 space-y-2">
         <img
           :src="useGetEmployeeImageUrl(item.image)"
           :alt="item.name"
-          class="rounded-xl w-full h-72 object-cover object-top mb-4"
+          class="rounded-xl w-full h-72 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
         />
         <h3 class="text-gray-900">
           {{ item.name }}
