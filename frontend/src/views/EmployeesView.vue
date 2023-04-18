@@ -9,7 +9,7 @@ import employeeData from "../assets/coworkers.json";
 
 <template>
   <section>
-    <div class="flex flex-col space-y-8 mx-auto">
+    <div class="flex flex-col space-y-10 mx-auto">
       <AppHeader>
         <template #subtitle> elysia laser clinic </template>
         <template #title> Munkatársaink </template>
