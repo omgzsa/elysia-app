@@ -13,7 +13,7 @@ const treatment = inject("treatment");
 </script>
 
 <template>
-  <nav aria-label="breadcrumb" class="w-full p-4 site-padding">
+  <nav aria-label="breadcrumb" class="w-full p-6 site-padding">
     <ol class="flex items-center space-x-2">
       <li
         class="flex items-center text-xs md:text-sm space-x-2 text-accent-100/70"
