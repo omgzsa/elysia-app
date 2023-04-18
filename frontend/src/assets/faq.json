@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Plasztikai sebészet/anyajegy eltávolítás",
+    "content": [
+      {
+        "id": 1,
+        "question": "Hány éves kortól lehet anyajegy eltávolító műtétre jelentkezni?",
+        "description": "18 éves kortól, abban az esetben ha 18 év alatti a páciens, csak orvosi indikáció esetén lehet a műtéti beavatkozást elvégezni.",
+        "bulletPoints": []
+      },
+      {
+        "id": 2,
+        "question": "Beutaló szükséges e az anyajegy eltávolításhoz?",
+        "description": "A műtét elvégzéséhez bőrgyógyászati beutaló szükséges.",
+        "bulletPoints": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Esztétika/hyaluronos feltöltés/botox/szálazás",
+    "content": [
+      {
+        "id": 1,
+        "question": "PLasztikai sebész által végzett esztétikai kezelések:",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "hyaluronsavas töltések (ránc és ajak töltés)"
+          },
+          {
+            "id": 2,
+            "text": "Botox kezelés"
+          },
+          {
+            "id": 3,
+            "text": "COG szálazás"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Bőrgyógyászok által végzett esztétikai kezelések:",
+        "description": "",
+        "bulletPoints": [
+          {
+            "id": 1,
+            "text": "Z0 Skin Health terápiák"
+          },
+          {
+            "id": 2,
+            "text": "botox kezelés"
+          },
+          {
+            "id": 3,
+            "text": "hónalj botox kezelés"
+          },
+          {
+            "id": 4,
+            "text": "Skinbooster kezelés"
+          },
+          {
+            "id": 5,
+            "text": "Nucleofill kezelés"
+          },
+          {
+            "id": 6,
+            "text": "FTC szálazás"
+          },
+          {
+            "id": 7,
+            "text": "COG szálazás"
+          },
+          {
+            "id": 8,
+            "text": "mezoterápia (arc és haj)"
+          },
+          {
+            "id": 9,
+            "text": "dermaroller kezelés"
+          },
+          {
+            "id": 10,
+            "text": "Drakula terápia"
+          },
+          {
+            "id": 11,
+            "text": "lézeres kezelések"
+          }
+        ]
+      }
+    ]
+  }
+]
