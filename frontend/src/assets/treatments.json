@@ -61,7 +61,7 @@
         }
       ]
     },
-    "treatTime": "kevesebb mint 5 perc",
+    "treatTime": "20 perc",
     "frequency": "Egyszeri alkalom",
     "category": [
       {
@@ -87,7 +87,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "30-60 perc",
+    "treatTime": "30 perc",
     "frequency": "2-3 hetente",
     "category": [
       {
@@ -308,7 +308,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "1 - 1,5 óra",
+    "treatTime": "1 óra",
     "frequency": "3-5 alkalom 6-8 hetente",
     "category": [
       {
@@ -334,7 +334,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "15-30 perc",
+    "treatTime": "20-60 perc, területtől függ",
     "frequency": "4-6 alkalom",
     "category": [
       {
@@ -360,7 +360,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "30-60 perc",
+    "treatTime": "20-60 perc",
     "frequency": "1-3 kezelés javasolt",
     "category": [
       {
@@ -477,7 +477,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "5 perc / köröm",
+    "treatTime": "10 perc",
     "frequency": "4-6 alkalom 2-4 hetente",
     "category": [
       {
@@ -503,7 +503,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "30 perc",
+    "treatTime": "45 perc",
     "frequency": "Évente kétszer",
     "category": [
       {
@@ -615,7 +615,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb. 30 perc",
+    "treatTime": "20 perc",
     "frequency": "6-12 hónap, egyénileg változó",
     "category": [
       {
@@ -641,7 +641,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "30 perc",
+    "treatTime": "45 perc",
     "frequency": "",
     "category": [
       {
@@ -667,7 +667,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "15-20 perc",
+    "treatTime": "20 perc",
     "frequency": "",
     "category": [
       {
@@ -693,7 +693,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 60 perc",
+    "treatTime": "50 perc",
     "frequency": "",
     "category": [
       {
@@ -719,7 +719,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 60 perc",
+    "treatTime": "60 perc",
     "frequency": "3 kezelés fél éven belül",
     "category": [
       {
@@ -745,7 +745,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 45 perc",
+    "treatTime": "40 perc",
     "frequency": "3 alkalom 6 hetente",
     "category": [
       {
@@ -771,7 +771,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 30 perc",
+    "treatTime": "30 - 45 perc",
     "frequency": "",
     "category": [
       {
@@ -822,7 +822,7 @@
         }
       ]
     },
-    "treatTime": "1,5 - 2 óra",
+    "treatTime": "1,5 - 2 óra, egyben végezve 3 óra",
     "frequency": "",
     "category": [
       {
@@ -835,8 +835,8 @@
   },
   {
     "id": 29,
-    "name": "Fülkorrekció",
-    "slug": "fulkorrekcio",
+    "name": "Fülkagyló korrekció",
+    "slug": "fulkagylo-korrekcio",
     "images": [],
     "content": {
       "title": "Mikor indokolt a fülkorrekció?​",
@@ -873,7 +873,7 @@
         }
       ]
     },
-    "treatTime": "40 perc - 1,5 óra",
+    "treatTime": "2,5 óra",
     "frequency": "",
     "category": [
       {
@@ -899,7 +899,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 15 perc",
+    "treatTime": "40 perc",
     "frequency": "",
     "category": [
       {
@@ -925,7 +925,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 60 perc",
+    "treatTime": "1,5 óra",
     "frequency": "",
     "category": [
       {
@@ -951,7 +951,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 30 perc",
+    "treatTime": "40 perc",
     "frequency": "",
     "category": [
       {
@@ -1012,7 +1012,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "kb 30 perc",
+    "treatTime": "45 perc",
     "frequency": "",
     "category": [
       {
@@ -1038,7 +1038,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "40 - 60 perc",
+    "treatTime": "60 perc",
     "frequency": "",
     "category": [
       {
@@ -1093,7 +1093,7 @@
         }
       ]
     },
-    "treatTime": "",
+    "treatTime": "15 perc",
     "frequency": "",
     "category": [
       {
@@ -1140,7 +1140,7 @@
         }
       ]
     },
-    "treatTime": "",
+    "treatTime": "15 perc",
     "frequency": "",
     "category": [
       {
@@ -1166,7 +1166,7 @@
       "benefitsTitle": "",
       "benefits": []
     },
-    "treatTime": "",
+    "treatTime": "kb. 20 perc",
     "frequency": "",
     "category": [
       {
