@@ -33,7 +33,7 @@ const blogs = ref([
 <template>
   <section class="max-w-screen-xl site-padding space-y-12">
     <div class="space-y-4 mb-4 text-center">
-      <span class="subheading">bemutatkozás</span>
+      <span class="subheading">blog</span>
       <h2>{{ title }}</h2>
     </div>
     <div
