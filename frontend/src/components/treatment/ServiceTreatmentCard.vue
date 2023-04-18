@@ -6,8 +6,16 @@ import TheBreadCrumbs from "@/components/TheBreadCrumbs.vue";
 import IconLoop from "@/components/icons/IconLoop.vue";
 import IconClock from "@/components/icons/IconClock.vue";
 
+// const hasTreatTime = computed(() => {
+//   return props.treatment.treatTime;
+// });
+
 const hasData = computed(() => {
-  return props.treatment.treatTime && props.treatment.frequency;
+  return props.treatment.treatTime || props.treatment.frequency;
+});
+
+const hasFrequency = computed(() => {
+  return props.treatment.frequency;
 });
 
 const props = defineProps({
@@ -68,6 +76,7 @@ const props = defineProps({
             </div>
           </div>
           <div
+            v-if="hasFrequency"
             class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
           >
             <IconLoop
