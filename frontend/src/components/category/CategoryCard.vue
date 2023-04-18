@@ -16,13 +16,11 @@ defineProps({
     <div
       class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
     ></div>
-    <div
-      class="flex flex-col px-4 space-y-2 group-hover:-translate-y-1 transition-transform duration-200"
-    >
+    <div class="flex flex-col px-4 space-y-2">
       <img
         :src="useGetServiceImageUrl(item.image)"
         :alt="item.name"
-        class="rounded-xl w-full h-52 object-cover object-top mb-4"
+        class="rounded-xl w-full h-52 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
       />
       <h3 class="">
         {{ item.name }}
