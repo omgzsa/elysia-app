@@ -4,6 +4,14 @@
     "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
     "slug": "dermatoscopos-anyajegy-es-borrak-szures",
     "images": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
     "content": {
       "title": "Dermatoscopos anyajegy- és bőrrák szűrés",
       "description": "Az utóbbi években növekedett a bőrrákos megbetegedések száma, a napfény összetételének megváltozása, illetve a barnulási szokásoknak köszönhetően. A bőrrák kialakulása megelőzhető, illetve maga a betegség még időben diagnosztizálható, ha betartjuk a napozásra vonatkozó szabályokat, és rendszeresen részt veszünk a bőrgyógyászati anyajegyszűrésen.",
@@ -30,6 +38,7 @@
     "name": "Vagina rejuvenáció (hüvelyszűkítés)",
     "slug": "vagina-rejuvenacio-huvelyszukites",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Lézeres intimplasztika - Mona Lisa Touch",
       "description": "Az idő lassú, könyörtelen múlása működésbeli és szerkezeti változásokat okoz az egész szervezeten belül, így a nemi szervekre is hatással van. A szövetek hidratáltságának és feszességének elvesztése a testünk egészére jellemző, ez a női nemi szervek esetén a hüvely falának szárazságával és meggyengülésével, fokozott tágasságérzéssel jár, mely kellemetlen közérzetet, viszketést, továbbá fájdalmat és diszkomfortot, és jelentősen csökkent szexuális élményt eredményez az együttlét során, mindkét fél részéről. \n \nA nemi szervek sorvadása és a kollagénrostok fokozatos csökkenése a hüvely (vagina) rugalmasságának elvesztéséhez vezet,amely nemcsak az életkor előrehaladtával jelentkezhet. Kialakulhat jóval korábban is, például szülések után (nagy magzat, több szülést követően, stb.), egyéni szövetgyengeség, túlsúly kapcsán. Ez a folyamat gyakran vezet vizelettartási problémákhoz is. Továbbá a külső nemi szervek (vulva) esztétikai megjelenése is romlik (feszesség és tónus elvesztése, megnyúlás, pigmentáció). A menopauzához közeledve a nők ösztrogén (női nemi hormon) szintjének meredekebb csökkenése e folyamatokat felgyorsítja, s nemcsak általános hangulatukra, de a szöveti változás miatt párkapcsolatukra is negatív hatással van.",
@@ -77,6 +86,7 @@
     "name": "Hajas fejbőr mezoterápiás kezelése",
     "slug": "hajas-fejbor-mezoterapias-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Milyen esetekben ajánlott a hajas fejbőr mezoterápiás kezelése?",
       "description": "A hajhullás kezelésében a mezoterápia egy kifejezetten hatékony módszer. A beavatkozás alkalmas belső (androgen, hormonalis, stressz), és külső (évszakváltás, toxikus hatás) eredetű hajhullások kezelésére, a fejbőr táplálására, hidratálására.",
@@ -103,6 +113,7 @@
     "name": "Gyermek bőrgyógyászat",
     "slug": "gyermek-borgyogyaszat",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mik a leggyakoribb gyermek bőrbetegségek?",
       "description": "A gyermekek bőre érzékenyebb mint a felnőtteké, több korosztályra jellemző bőrproblémákkal találkozhatunk melyek: \n \nAz újszülöttek, csecsemők bőrének védekező rendszere még nem tökéletes, fényvédelemre nem képes, és 2 éves korig a verejtékmirigyek működése is tökéletlen. \n \nKisgyermekek körében nagyon gyakori az atópiás dermatitis/ekzema, amely egy krónikus bőrgyulladással, viszketéssel járó bőrállapot. \n \nTinédzserkorban pedig a faggyúmirigy túlműködés következtében kialakuló pattanásosság/acne sokrétű tüneteivel találkozunk. \n \nMivel a gyermek nem kis felnőtt, természetesen a gyermekbőr ápolása, az esetleges bőrbetegségek kezelése kiemelt figyelmet igényel.",
@@ -142,6 +153,7 @@
     "name": "Pattanásos bőr komplex kezelése",
     "slug": "pattanasos-bor-komplex-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a Akne?",
       "description": "Az akne a faggyúmirigyek krónikus gyulladásával járó bőrbetegség, mely elsősorban a faggyúmirigyekben gazdag területeken (arc, mellkas, hát felső része) jelentkezik. Enyhébb formában csak mitesszerek és kevés gyulladásos pattanás látható. Súlyosabb formában több a gyulladt pattanás esetleg fájdalmas gyulladásos göbök alakulnak ki, amik gyakran hegek hátrahagyásával gyógyulnak. Multifaktoriális betegség, ami azt jelenti, hogy kialakulásában számos tényező játszik szerepet. Köztük az egyik legfontosabb az androgének (férfihormonok) szerepe.",
@@ -168,6 +180,7 @@
     "name": "Bőr- és körömgombásodás kezelése",
     "slug": "bor-es-koromgombasodas-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Bőr-és körömgombásodás előfordulása",
       "description": "Gombás fertőzés a bőrünkön bárhol kialakulhat. A piheszőrrel fedett testrészeken általában éles szélű, vöröses színű, kerek, enyhén hámló, viszkető bőrtünet formájában jelentkezik. A hajlatokban nedvedzéssel is járhat. Időnként az elváltozás szélén apró hólyagokból álló koszorú alakulhat ki. Nemcsak a bőrünkön, de a körmön is megjelenhet a gomba. A köröm ilyenkor elszíneződik (sárgás, barnás), töredezetté válik, lassabban növekszik, begyulladhat, megvastagodhat.",
@@ -194,6 +207,7 @@
     "name": "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
     "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az ekcéma?",
       "description": "Az ekcéma, egy viszkető, krónikus gyulladásos bőrbetegség, amely nagyon gyakori a gyermekek körében. Számos típusa ismert, azonban a pontos eredet, oka máig nem feltérképezett. Örökletes hajlam, környezeti tényezők együttesen állnak a hátterében.",
@@ -220,6 +234,7 @@
     "name": "Pikkelysömör (Pszoriázis) kezelése",
     "slug": "pikkelysomor-pszoriazis-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Pikkelysömör tünetei",
       "description": "A pszoriásis, pikkelysömör tünetei nagyon jellegzetesek, a bőrgyógyászati vizsgálat alapján felállítható a diagnózis.",
@@ -246,6 +261,7 @@
     "name": "Vírusos szemölcsök kezelése",
     "slug": "virusos-szemolcsok-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Szemölcsök előfordulása és kezelése",
       "description": "Csecsemő- és kora gyermekkorban az uszodaszemölcsökkel találkozunk, iskoláskorban pedig a közönséges szemölcsök, lapos szemölcsök fordulnak elő gyakrabban, ezt követően előfordulásuk csökken. Az ún. molluscum contagiosum vagy uszoda szemölcs 1-5 mm nagyságú, gyöngyházfényű szemölcs közepe köldökszerűen behúzódik, az ‘érett’ növedékekből erős nyomásra kásaszerű massza ürül. \n \nOkozója a poxvírusok közé tartozó nagy DNS vírus. A szemölcsök általában a törzs, végtagok bőrén csoportosan jelennek meg. Ezeket a növedékeket gyakran uszodai szemölcsnek is hívják, mert legtöbbször akkor jelennek meg, amikor a gyerekek uszodába kezdenek járni. A medencék legtöbbjében sajnos jelen van a vírus, amely a bőrön lévő hajszálrepedéseken behatolhat a bőrbe, ott a fent leírt csomócskákat, szemölcsöket okozva. A bőrsérülések gyakoribbak az ekcémás gyerekeknél, így ők jobban ki vannak téve a vírusok támadásának.. \n \nAmíg az szemölcsök nagyon aprók, ecsetelővel, homeopátiás kezeléssel el lehet tüntetni azokat, később azonban már esetleg csak az invazívabb orvosi beavatkozás, általában a speciális éles kanállal történő 'lekaparás' segít. A beavatkozás előtt a felületet fagyasztással vagy erre alkalmas krémmel érzéstelenítjük.",
@@ -272,6 +288,7 @@
     "name": "Hajhullás kivizsgálása és kezelése",
     "slug": "hajhullas-kivizsgalasa-es-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hajhullás kivizsgálása, diagnózisa",
       "description": "Természetes folyamat része a napi 100 hajszál elvesztése, amely még nem ad okot aggodalomra. Probléma akkor jelentkezik, ha az elvesztett hajszálak mennyisége meghaladja a természetes vesztést, így a hajkorona folyamatos csökkenését észleljük. Hajhullással kapcsolatos orvosi vizsgálat az alapos kórtörténet kikérdezésével kezdődik, majd a vizsgálat során a szakember vizsgálja a hajhullás eloszlását, a páciens fejbőr állapotát és a haj minőségét.",
@@ -298,6 +315,7 @@
     "name": "Lézeres arcfiatalítás",
     "slug": "lezeres-arcfiatalitas",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Frakcionált lézeres arcfiatalítás kezelés",
       "description": "Frakcionált CO2 lézeres bőrkezeléssel teljesen át lehet építeni a bőr struktúráját, felfrissül a hám, csökkennek a ráncok és halványabbá válnak a hegek. Az eddig alkalmazott lézeres eljárásokkal szemben az új frakcionális lézeres kezelés nem igényel altatást és szemben a régi technikákkal a teljes gyógyulás nem 3 hónapot, csak 7-10 napot vesz igénybe a bőr regenerálodása.",
@@ -324,6 +342,7 @@
     "name": "Lézeres szőrtelenítés",
     "slug": "lezeres-szortelenites",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Lézeres szőrtelenítés az Elysia Győrben",
       "description": "Szőrszálaink átlagosan 20-30 százaléka van egyidejűleg növekedési (anagén) fázisban, így a tartós szőrtelenítés a szőr növekedési ciklusait követve, több fázisú kezelést igényel. Ez azt jelenti, hogy bármely bőrfelületen mindig csak a szőrszálak egy része fog a kezelésre reagálni, mégpedig azok a szálak, amelyek épp a növekedési fázisnál tartanak. \n \nÁltalában ez 4-6 alkalmat jelent, a kezelések száma egyénenként eltérő, függ a szőrszálak színétől, vastagságától, bőr színétől, testtájtól. Az első kezelés utáni két hét során a szőrszálak körülbelül 70 százaléka kihullik. A szőrtüszőgyulladások és benövések csökkennek, az újra kinövő szálak gyengébbek lesznek. 3-4 kezelés elteltével az aktív fázisban lévő szőrtüszők 100 százaléka roncsolódott, így ezután megerősítő kezelésre van szükség, rendszerint már csak az úgynevezett alvó szőrtüszőket, gyengébb szálakat kell megsemmisíteni.",
@@ -350,6 +369,7 @@
     "name": "Seprűvénák, értágulatok kezelése",
     "slug": "sepruvenak-ertagulatok-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Seprűvén és értágulat (hajszálér) kezelése",
       "description": "Az értágulatok esztétikailag zavaró képletek, amely az életkortól függetlenül jelenhetnek meg, hátterükben genetikai tényezők állhatnak, vagy hormonális okokra visszavezethetően alakulhatnak ki. \n \nA bőr felületén megjelenő hajszálértágulatok, apró visszerek orvosi tekintetben nem jelentenek betegséget, azonban a bőr saját színétől eltérő árnyalatuk miatt gyakran okoznak esztétikai problémát.",
@@ -376,6 +396,7 @@
     "name": "Pigmentfoltok kezelése",
     "slug": "pigmentfoltok-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a pigment?",
       "description": "A bőr hámrétegében található pigment termelő sejtek a melanocyták. Feladatuk a bőr védelme a káros sugárzás ellen, ugyanis a napfény hatására a melanocyták fokozott pigmentanyag termelése megóvja az alatta fekvő hámsejteket. Ha a melanin (pigmentanyag) egy helyen nagyobb koncentrációban felhalmozódik, májfolt keletkezik. \n \nEnnek számos oka lehet: környezeti változás következtében megnövekedett UVB és UVA sugárzás nem megfelelő fényvédelem, bőr gyulladásos betegségei, helytelen bőrápolási termékek, szokások, krémek, kölni, vegyi anyagok “beégése” a bőrbe, fényérzékenységet okozó gyógyszerek, hormonok hatása, májfunkció, gasztroenterológiai problémák, hormonális változás /pl. kismamák/, terhesség után.",
@@ -415,6 +436,7 @@
     "name": "Akne kezelése",
     "slug": "akne-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az akne?",
       "description": "Az akne (pattnások) egyik leggyakoribb bőrbetegség, mely során a bőrben pórusok eltömődnek és miteszerből pattanások jelennek meg az arcon esetleg egyébb testrészeken (mellkas, hát).",
@@ -441,6 +463,7 @@
     "name": "Stria kezelélse",
     "slug": "stria-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a stria?",
       "description": "A striák a bőrfelszín vörös vagy fehér színű, a környezethez képest kissé besüppedt, különböző szélességű csíkjai. Leggyakrabban a hason, a csípőkön, a melleken, a combokon, a vállakon alakulnak ki. Gyakran jelennek meg terhesség alatt, gyors hízáskor vagy fogyáskor, pubertáskorban a bőr nagymértékű és gyors nyúlása miatt.",
@@ -467,6 +490,7 @@
     "name": "Körömgomba kezelése",
     "slug": "koromgomba-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi is az a körömgomba?",
       "description": "A körömgomba (onychomycosis) számos embert érintő kellemetlen fertőzés. A gomba a sérült köröm felszínén, a hám apró sérülésein, vagy a köröm és a körömágy közti kis résen át is behatolhat a körömlemezbe, majd tovább terjedve a körömépítő mátrix állományba. A körmök gombás fertőzései gyakrabban fordulnak elő a lábkörmökön, ahol a sötét, meleg, nyirkos környezet (pl. nedves vagy rosszul szellőző cipőben, izzadó láb zárt cipőben vagy zokniban) kedvez a gomba terjedésének. \n \nKörömgomba fertőzés során a körömlemezek megvastagodnak, feltöredeznek, deformálódnak, a felszínük fényevesztetté válik, vagy besötétedik, pigmentálódik. Nehezen vághatóak lesznek, sőt a fertőzött köröm elválhat a körömágytól. A körömgomba nem múlik el magától, mi több, kezelés nélkül rosszabbodhat is, és az addig egészséges körmöket is megfertőzheti.",
@@ -493,6 +517,7 @@
     "name": "Profhilo kezelés",
     "slug": "profhilo-kezeles",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi is az a Profhilo?",
       "description": "A Profhilo egy forradalmi készítmény a hagyományos töltőanyagokhoz képest. Az első BDDE-től (butándiol-diglicidil-éter) mentes Ha (hyaluronsav) alapú bőrfeszesítő készítmény, amely a piacon a jelenleg legnagyobb 100% tisztaságú hyaluronsav-vegyület koncentrátumú termék. Ez a vegyület teljesen biokompatibilis, vagyis nem károsítja a bőr szövetét. A klinikai tesztek során nem tapasztaltak negatív mellékhatásokat, így a Profhilo anyag a legmagasabb biztonsági besorolást kapta.",
@@ -519,6 +544,7 @@
     "name": "Arc és nyak mezoterápiás kezelése",
     "slug": "arc-es-nyak-mezoterapias-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Arc és nyak mezoterápiás kezelése az Elysia Győrben",
       "description": "A mezoterápia egy olyan orvos-esztétikai beavatkozás, amely jelenleg a legkorszerűbb és leghatékonyabb hatóanyag-bejuttatási módszer. Egyedülálló módon képes áttörni a bőr barrier rétegén, lehetővé téve a hatóanyagok megfelelő mélységbe jutását, ahol gyorsan és látványosan fejtik ki hatásukat. Mezoterápia során nincs hatóanyag veszteség, a személyre szabottan kiválasztott hatóanyagkoktél a legideálisabb helyre, a szövetekbe és sejtekbe jut.",
@@ -562,6 +588,7 @@
     "name": "Dermaroller kezelés",
     "slug": "dermaroller-kezeles",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi történik a dermaroller kezelés alatt?",
       "description": "A mezoterápia egy olyan orvos-esztétikai beavatkozás, amely jelenleg a legkorszerűbb és leghatékonyabb hatóanyag-bejuttatási módszer. Egyedülálló módon képes áttörni a bőr barrier rétegén, lehetővé téve a hatóanyagok megfelelő mélységbe jutását, ahol gyorsan és látványosan fejtik ki hatásukat. Mezoterápia során nincs hatóanyag veszteség, a személyre szabottan kiválasztott hatóanyagkoktél a legideálisabb helyre, a szövetekbe és sejtekbe jut. A mezoterápia egyik vállfaja a dermaroller kezelés, amely során mikrotűs hengerrel számos apró sérülést ejtünk a bőr felszínén, és felső rétegén. A sérülések önmagukban is kollagén stimulációs hatással bírnak, másrészt a keletkezett csatornákon hatóanyagok juttathatók be a bőr mélyebb rétegeibe.",
@@ -605,6 +632,7 @@
     "name": "Fokozott hónalji izzadás kezelése",
     "slug": "fokozott-honalji-izzadas-kezelese",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mitől izzadunk? És milyen megoldást kínálunk az Elysia klinikán?",
       "description": "A botulinum toxin kiválóan alkalmazható a hónalji túlzott izzadás tüneteinek kezelésére is. Az A típusú Botulinum toxin (Botox) egy természetesen is előforduló bakteriális fehérje. Az A típusú Botulinum toxin azáltal fejti ki hatását, hogy blokkolja az ún. neurotranszmittereket, melyek az adott (problémás) terület izzadságmirigyeinek működését fokozzák. A felhasznált anyag mennyisége nagyságrendekkel kevesebb, mint a szer mérgező adagja, ráadásul a beadott mennyiség csak a beadás pontján fejti ki a hatását, és nem hat az egész szervezetre.",
@@ -631,6 +659,7 @@
     "name": "Ráncfeltöltés hyaluronsavval",
     "slug": "rancfeltoltes-hyaluronsavval",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi is az a hyaluronsav?",
       "description": "A hyaluronsav testünk természetes alkotórésze, megköti a vizet a szervezetben, hidratál és feltölti a bőrt. Akoncentrált, biológiailag lebomló hyaluronsav kristálytiszta, természetes alapú gélszerű anyag, amely steril állapotban, üvegfecskendőben kerül forgalomba. Természetes állapotában az élő szervezetben, a bőrben ill. bőr alatti kötőszövetben található. Egyike azon kevés anyagnak, melynek szerkezete minden élő szervezetben azonos.",
@@ -657,6 +686,7 @@
     "name": "Ránctalanítás botulinum toxinnal (botox)",
     "slug": "ranctalanitas-botulinum-toxinnal-botox",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Ránctalanítás botulinum toxinnal",
       "description": "Az A típusú Botulinum toxint (Botox) rendkívül hatásos ránckezelő szerként tarjuk számon, melyet a 90-es évek közepétől használunk a mimikai ráncok megoldására. Különösen a homlok és a glabelláris ránc („haragos ránc”) esetében hatékony. A homlok és szem környékén alkalmazott, rendkívül kis mennyiségű, célzottan az izmokba, apró szúrásokkal beadott Botulinum toxin ezen területek átmeneti ellazítását okozza. Az izmok ellazulása miatt kisimulnak a már meglévő ráncok, és a kezelést követően a mimikai izmok túlzott, erőteljes mozgása miatt a későbbiekben egyébként kialakuló új ráncok keletkezése is megakadályozható. \n \nA kezelés elsősorban a felületesebb ráncok és a mimikai ráncok esetében eredményes önmagában is. A mélyebb ráncok kezeléséhez gyakran alkalmazunk – a Botox mellett kombinációban – hyaluronsavas töltést is. A Botox működési elve Az A típusú Botulinum toxin (Botox) egy természetesen is előforduló bakteriális fehérje. A Clostridium botulinum baktériumból állítják elő anaerob (levegőtől elzárt) körülmények között. Az A típusú Botulinum toxin azáltal fejti ki hatását, hogy blokkolja az ún. neurotranszmittereket, melyek az adott arcterület alatt fekvő izmok összehúzódásáért felelnek . A felhasznált anyag mennyisége nagyságrendekkel kevesebb, mint a szer mérgező adagja, ráadásul a beadott mennyiség csak a beadás pontján fejti ki a hatását, és nem hat az egész szervezetre.",
@@ -683,6 +713,7 @@
     "name": "Thread lifting: bioszálas arckontúrozás",
     "slug": "thread-lifting-bioszalas-arckonturozas",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hatékony kezelés a kollagén termelés beindítására​",
       "description": "A forradalmian új, úgynevezett thread lifiting eljárás felépülési idő és altatás nélkül érhető el klinikánkon. A finomszálas arcfiatalítás a megereszkedett bőr helyreállítására, arcvonalak kontúrozására lett speciálisan kifejlesztve, mely során olyan hajszálvékony szálakat helyezünk a bőr meghatározott rétegeibe, melyek idővel felszívódnak és bőrmegújító hatásukkal stimulálják a természetes kollagén termelését, valamint felgyorsítják a helyi mikrokeringést. \n \nAz eljárás egyszerű és kevés fájdalommal jár, a gyógyulási idő nagyon rövid és akár 2 évig is eredményes.",
@@ -709,6 +740,7 @@
     "name": "PRP/ Drakula terápia",
     "slug": "prp-drakula-terapia",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Drakula terápia a bőr revujenációjára​",
       "description": "A PRP rövidítés az angol Platelet Rich Plazma szavakból ered, mely vérlemezkében gazdag plazma kifejezésként fordítható magyarra. A bőr fiatalítására 2006 óta használják világszerte. A vérben lévő vérlemezkék növekedési faktorokat tartalmaznak, melyek stimulálják a fibroblasztok és keratinociták osztódását, melyek kollagént és keratint termelnek. A kollagén termelése pedig segít a látható ráncok korrigálásában.",
@@ -735,6 +767,7 @@
     "name": "Skin booster kezelés",
     "slug": "skin-booster-kezeles",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hyaluronsavas kezelés: Skinbooster​",
       "description": "Napjainkban egyre nagyobb igény van a fiatalos, ápolt megjelenésre, de a kor előrehaladtával bőrünk megereszkedik, veszít hidratáltságából, rugalmasságából, feszességéből, így a bőrben lévő hyaluronsav mennyisége is csökken. Ebből adódóan a bőr vízmegkötő képessége romlik, a kollagén termelődés lassul. Ráadásul egyéb tényezők is gyorsítják ezeket a folyamatokat, ilyenek pl. az UV sugárzás, szolárium, napfény, dohányzás, nem megfelelő táplálkozás, egyes egészségügyi problémák.",
@@ -761,6 +794,7 @@
     "name": "Anyajegy eltávolítása szövettani vizsgálattal",
     "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Amit az anyajegy eltávolításról tudni kell​",
       "description": "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk. \n \nAz anyajegy eltávolítás előtt bőrgyógyászati szakvéleményre van szükség, amely alapján a sebész elvégzi a bőrképlet eltávolítását. Fontos tudni, hogy az anyajegyeket a Magyar Bőrgyógyászati Társulat ajánlása alapján kizárólag sebészeti úton, kimetszéssel távolítjuk el, majd az eltávolított anyajegyet szövettani vizsgálatnak vetjük alá. \n \nAz anyajegyek más úton történő eltávolítása nem ajánlott!",
@@ -787,6 +821,7 @@
     "name": "Alsó, felső szemhéjplasztika",
     "slug": "also-felso-szemhejplasztika",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mikor indokolt a szemhéjplasztika?​",
       "description": "A szemhéj plasztikai műtét célja az esztétikai és funkcionális helyreállítás, a szem körüli szövetek eredeti állapothoz közeli műtéti rekonstrukciója. A szemhéjplasztikai műtét javítva külsejét, megteremtheti önbizalmát, látási nehezítettség esetében pedig megszünteti a panaszokat is.",
@@ -838,6 +873,7 @@
     "name": "Fülkagyló korrekció",
     "slug": "fulkagylo-korrekcio",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mikor indokolt a fülkorrekció?​",
       "description": "A leggyakoribb fül deformitás az elálló fül vagy aszimmetrikus fül. Elálló fülről akkor beszélhetünk, ha a külső fülkagyló 10-15 foknál nagyobb szöget zár be a fej oldalsíkjával. A fül alaki eltérése lehet egy oldalú, de gyakran az elálló fül mindkét oldalon is jelentkezhet.",
@@ -889,6 +925,7 @@
     "name": "Füllyuk korrekció",
     "slug": "fullyuk-korrekcio",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a füllyuk korrekció?​",
       "description": "Régebbi, rossz helyre került, asszimetrikus lyukasztások korrigálása.",
@@ -915,6 +952,7 @@
     "name": "Kisajak plasztika",
     "slug": "kisajak-plasztika",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Kinek ajánlott az Intim kisajak plasztika?​",
       "description": "Előfordul, hogy a külső női nemi szerv kisajkai nagyobbak, hosszabbak, asszimetrikusak lehetnek. Ez az esztétikai panaszokon kívül, lelki, illetve párkapcsolati problémát is jelenthet a hölgyek számára.  Ebben az esetben ajánlott az intim kisajak plasztikai műtét elvégzése.",
@@ -941,6 +979,7 @@
     "name": "Orrkorrekció",
     "slug": "orrkorrekcio",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hogy történik az orrkorrekció?",
       "description": "Klinikánkon orrcsúcsi lágyrész deformitásokat korrigáló orrplasztikai műtétet végzünk helyi érzéstelenításben. Mivel a probléma általában örökletes és az orr csak 16-18 éves korban éri el végső formáját, ezért a korrekciós műtétet 18 éves kor után végezzük. Az orrcsúcsi deformitás esetén ún. nyitott technikát alkalmazunk, amellyel a műtét jobban korrigálható és precízebb beavatkozás valósítható meg. Ekkor a két orrnyílás közötti bőrön, az ún. columellán ejtünk 3-4 mm-es metszést, amely később szinte nyomtalanul gyógyul.",
@@ -967,6 +1006,7 @@
     "name": "Hegkorrekció",
     "slug": "hegkorrekcio",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hogy történik az hegkorrekció?",
       "description": "A hegek korrekciója gondosan megtervezett hegkimetszéssel történik helyi érzéstelenítésben. \n \nMűtétek, balesetek során a bőr irharétegének sérülése hegképződéssel jár, amely hegek megjelenési formája különböző lehet. Az ideális (optimális) heg vékony, vonalszerű, halvány, nem feltűnő, puha, kevéssé látható. A zavartalan hegesedés folyamata különböző szakaszokra bontható, amely szakaszokban a hegek más és más szöveti folyamatokon mennek keresztül. A műtéti hegek a beavatkozások után tömötté válnak, színük változhat. Az első szakasz kb. 3-4 hónapig tart, amikor a heg tömöttebb, vörhenyesebb színű. Az ezt követő kb. 6-12 hónap (de néha akár 2 év) alatt a heg lassan, fokozatosan felpuhul, elhalványodik és megvékonyodik. A hegek gyógyulásának minőségét csak min. 1 év után lehet értékelni.",
@@ -1002,6 +1042,7 @@
     "name": "Ajakfeltöltés",
     "slug": "ajakfeltoltes",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Hyaluronsavas ajaktöltés",
       "description": "Klinikánkon végzett hyaluronsavas ajakfeltöltés lehetőséget ad arra, hogy az ajkak dúsításával esztétikusabbá tegyük az ajkak megjelenését. A beadásra kerülő hosszú felszívódási idejű hyaluronsav szövetbarát, természetes anyag, amely nem allergizál, hiszen a szervezetben is megtalálható. Ennek térfogatnövelő hatását használjuk ki az ajaktöltés során. Hatása 8-12 hónapig tart, de ez személyenként változik, kinél több, kinél kevesebb. \n \nA beavatkozás legnagyobb előnye, hogy nem végleges, hiszen bármikor pótolható, de nem visszafordíthatatlan.",
@@ -1028,6 +1069,7 @@
     "name": "COG szálas arclifting",
     "slug": "cog-szalas-arclifting",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a COG szálas arclifting?",
       "description": "A felszívódó szálas kezelések egyik formája, amikor jelentősebb arcfeszesítés, emelés és tartás érdekében COG (fogazott) szálakat használunk. Ennél a kezelésnél kevesebb, de erőteljes tartást/húzást biztosító hosszú szálakat fűzünk be. A COG szálas kezelést követően azonnal látható emelő hatás, hiszen a befűzött, és helyére illesztett szálakon elhelyezkedő 'tüskék' a szövetekbe kapaszkodva rögzítik az emelést. A bioaktív szálak a bőr rögzítésén túl fokozzák a kollagén termelődését fokozódását, élénkítik a helyi mikrokeringést és aktiválják a regenerációs folyamatokat. Ezt követően a szervezet reakciója a hagyományos felszívódó szálas kezelésnek megfelelően alakul, így a végleges hatás hónapok múlva alakul ki, jelentős változást eredményezve az azonnali hatáshoz képest is. A szálak nem láthatók sem a kezeléskor sem később. A gyógyulási idő 1-3 nap, a folyamat „ebédidős beavatkozásnak” nevezhető.",
@@ -1054,6 +1096,7 @@
     "name": "Tüdőgyógyászati (pulmonológia) és légúti allergológiai szakrendelés",
     "slug": "tudogyogyaszati-pulmonologia-es-leguti-allergologiai-szakrendeles",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi is az a pulmonológia és milyen tünetek esetén érdemes felkeresni a tüdőgyógyászati (pulmonológia) szakrendelést?",
       "description": "Pulmonológia (tüdőgyógyászat) egy olyan orvosi szakterület, amely a légzőrendszer, vagyis a tüdő-, a légútak és a mellkas betegségeivel foglalkozik. \n \nTünetek melyek esetén érdemes pulmonologushoz fordulni: Elhúzódó (4 hétnél hosszabb ideig fennálló) köhögés, fulladás, nehézlégzés, sípoló légzés, rohamokban fellépő köhögés vagy fizikai terhelés, sportolás során fellépő mellkasi panasz vagy köhögés. Visszatérő vagy krónikus nátha, amelynek a hátterében allergia gyanúja felmerül, illetve dohányzással összefüggő panaszok megváltozása: köhögés jellegének a megváltozása, csökkent terhelhetőség, véres köpetürítés, mellkas körülírt fájdalma, fogyás, étvágytalanság.",
@@ -1109,6 +1152,7 @@
     "name": "Idegsebészeti vizsgálatok",
     "slug": "idegsebeszeti-vizsgalatok",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi történik egy idegsebészeti vizsgálaton?",
       "description": "A rendelésen az idegsebészeti kórképek átfogó feltérképezése történik a panaszok részletes elemzésével, a kórelőzmény megismerésével és neurológiai állapotfelmérés segítségével, melyet adott esetben képi diagnosztikai (MR, CT, röntgen, ultrahang) vizsgálat követ. \n \nA diagnózis felállítása után részletesen átbeszéljük a legcélszerűbb kezelési tervet. Szükség szerint javaslatot teszünk az alapellátást kiegészítő gyógytornára, fizikoterápiára, majd a kontroll vizsgálatokon figyelemmel kísérjük a gyógyulás folymatát.",
@@ -1156,6 +1200,7 @@
     "name": "Standard epicutan teszt (környezeti kontakt allergének viszgálata)",
     "slug": "standard-epicutan-teszt",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi is az a standard epicutan teszt?",
       "description": "A kontakt allergia kimutatására alkalmas bőrteszt. A teszt annak megállapítása irányul, hogy mely kémiai anyaggal való közvetlen érintkezés miatt alakult-e ki az adott bőrgyulladás (ekcéma, dermatitis, csalánkiütés, fogászati allergia). Provokáló anyagok lehetnek: mosószerek, illatanyagok, kozmetikumok tartósítószerei, alapanyagai, fémek stb.",
@@ -1182,6 +1227,7 @@
     "name": "Laboratóriumi vizsgálatok",
     "slug": "laboratoriumi-vizsgalatok",
     "images": [],
+    "relatedDoctor": [],
     "content": {
       "title": "Kinek ajánljuk a laborvizsgálatot?",
       "description": "Általános magán laborvizsgálatot mindenkinek mivel a laboratóriumi vizsgálatok képet adnak a máj, az epeutak, a hasnyálmirigy, a belső elválasztású mirigyek (pl.: pajzsmirigy, mellékvese), az emésztőrendszer és a vese aktuális állapotáról. Az eredmények alapján olyan megváltozott élettani funkciók diagnosztizálhatók, amelyeket a szervezetben lévő ionok, enzimek és hormonok már előre jeleznek. Nagyon fontos, hogy gyakran már a fizikailag érzékelhető változások előtt kimutatják a problémát, így megelőzhető egy komolyabb betegség kialakulása. \n \nRendelőnkben lehetőség van várakozás és beutaló nélkül laboratóriumi vizsgálatok elvégzésére 14 éves kor felett.",
