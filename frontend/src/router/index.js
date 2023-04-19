@@ -114,8 +114,14 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
+    } else if (to.hash) {
+      return { el: to.hash, behavior: "smooth" };
     } else {
-      return { top: 0, behavior: "smooth" };
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({ top: 0, behavior: "smooth" });
+        }, 500);
+      });
     }
   },
 });
