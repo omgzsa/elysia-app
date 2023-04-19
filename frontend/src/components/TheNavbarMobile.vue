@@ -81,12 +81,12 @@ const lezerkezelesek = ref([
     category: "lezerkezelesek",
   },
   {
-    name: "Akne kezelés",
+    name: "Akne kezelése",
     slug: "akne-kezelese",
     category: "lezerkezelesek",
   },
   {
-    name: "Stria kezelés",
+    name: "Stria kezelése",
     slug: "stria-kezelese",
     category: "lezerkezelesek",
   },
@@ -129,7 +129,7 @@ const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
-    name: "Ránctalanítás botulinum toxin injekcióval",
+    name: "Ránctalanítás botulinum toxinnal (botox)",
     slug: "ranctalanitas-botulinum-toxinnal-botox",
     category: "orvos-esztetika",
   },
@@ -162,12 +162,12 @@ const plasztikaiSebeszet = ref([
     category: "plasztikai-sebeszet",
   },
   {
-    name: "Fülkorrekció",
-    slug: "fulkorrekcio",
+    name: "Fülkagyló korrekció",
+    slug: "fulkagylo-korrekcio",
     category: "plasztikai-sebeszet",
   },
   {
-    name: "Fülllyuk korrekció",
+    name: "Füllyuk korrekció",
     slug: "fullyuk-korrekcio",
     category: "plasztikai-sebeszet",
   },
