@@ -37,7 +37,7 @@ const slides = ref([
     alt: "egy mosolygó fiatal nő",
     text: "Az Elysia lézer központ mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes bőr Ön számára is elérhető.",
     img: "woman_hero_3.webp",
-    color: "bg-accent-200",
+    color: "bg-primary-100",
   },
 ]);
 
