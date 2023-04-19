@@ -4,6 +4,7 @@
     "name": "Plasztikai sebészet",
     "slug": "plasztikai-sebeszet",
     "image": "plasztikai_sebeszet.webp",
+    "isFeatured": true,
     "submenu": [
       {
         "id": 0,
@@ -65,7 +66,8 @@
     "id": 1,
     "name": "Lézerkezelések",
     "slug": "lezerkezelesek",
-    "image": "",
+    "image": "lezerkezelesek.webp",
+    "isFeatured": true,
     "submenu": [
       {
         "id": 0,
@@ -122,6 +124,7 @@
     "name": "Orvos esztétika",
     "slug": "orvos-esztetika",
     "image": "orvos_esztetika.webp",
+    "isFeatured": true,
     "submenu": [
       {
         "id": 0,
@@ -189,7 +192,8 @@
     "id": 3,
     "name": "Bőrgyógyászati kezeléseink",
     "slug": "borgyogyaszati-kezelesek",
-    "image": "",
+    "image": "borgyogyaszat.webp",
+    "isFeatured": false,
     "submenu": [
       {
         "id": 0,
@@ -245,19 +249,22 @@
     "id": 4,
     "name": "Tüdőgyógyászati Szakrendelés",
     "slug": "tudogyogyaszati-szakrendeles",
-    "image": ""
+    "image": "tudogyogyaszati-szakrendeles.webp",
+    "isFeatured": true
   },
   {
     "id": 5,
     "name": "Idegsebészeti vizsgálatok",
     "slug": "idegsebeszeti-vizsgalatok",
-    "image": ""
+    "image": "idegsebeszeti-vizsgalatok.webp",
+    "isFeatured": false
   },
   {
     "id": 6,
     "name": "Diagnosztikai vizsgálatok",
     "slug": "diagnosztikai-vizsgalatok",
-    "image": "",
+    "image": "diagnosztikai-vizsgalatok.webp",
+    "isFeatured": false,
     "submenu": [
       {
         "id": 0,
@@ -278,6 +285,7 @@
     "name": "Orvosi termékek",
     "slug": "orvosi-termekek",
     "image": "z0_skin_health.webp",
+    "isFeatured": false,
     "submenu": [
       {
         "id": 0,
