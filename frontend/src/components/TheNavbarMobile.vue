@@ -282,6 +282,11 @@ onClickOutside(target, () => {
                 v-show="isServicesOpen"
                 class="absolute z-10 right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 space-y-2 border rounded-xl bg-white flex flex-col"
               >
+                <TheDropdown
+                  title="Plasztikai sebészet"
+                  :submenu="plasztikaiSebeszet"
+                />
+
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
                 <TheDropdown
@@ -290,11 +295,6 @@ onClickOutside(target, () => {
                 />
 
                 <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
-
-                <TheDropdown
-                  title="Plasztikai sebészet"
-                  :submenu="plasztikaiSebeszet"
-                />
 
                 <TheDropdown
                   title="Diagnosztikai vizsgálatok"
