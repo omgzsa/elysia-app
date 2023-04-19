@@ -48,10 +48,7 @@ const props = defineProps({
         </ul>
       </div>
       <!-- treatment time/frequency -->
-      <div
-        class="site-padding relative sm:order-2 sm:col-span-1"
-        v-if="hasData"
-      >
+      <div class="px-4 relative sm:order-2 sm:col-span-1" v-if="hasData">
         <div
           class="flex flex-col space-y-6 mx-auto w-64 sm:w-full lg:max-w-md bg-primary-200 py-4 px-4 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 sm:sticky top-20"
         >
