@@ -413,7 +413,9 @@ onUnmounted(() => {
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
 
-          <a href="#contact"> Kapcsolat </a>
+          <AppLink :to="{ name: 'home', hash: '#contact' }">
+            Kapcsolat
+          </AppLink>
         </ul>
       </div>
 
