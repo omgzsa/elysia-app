@@ -15,7 +15,7 @@ defineProps({
     <slide
       v-for="slide in slides"
       :key="slide.id"
-      class="grid grid-cols-1 items-center w-full bg-cover lg:bg-cover xl:bg-top min-h-[580px] xl:min-h-screen bg-no-repeat bg-bottom"
+      class="grid grid-cols-1 items-center w-full bg-contain lg:bg-cover xl:bg-top min-h-[580px] xl:min-h-[900px] bg-no-repeat bg-bottom"
       :style="{ backgroundImage: `url(${useGetImageUrl(slide.img)})` }"
       :class="slide.color"
       v-motion-slide-bottom
