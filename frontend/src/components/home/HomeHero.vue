@@ -21,8 +21,10 @@ defineProps({
       v-motion-slide-bottom
       :delay="100"
     >
-      <div class="w-full px-2 md:px-4 mx-auto flex flex-col max-w-md gap-y-8">
-        <h1 v-motion-slide-bottom :delay="300">{{ slide.title }}</h1>
+      <div class="w-full px-2 md:px-4 mx-auto flex max-w-md flex-col gap-y-8">
+        <h1 v-motion-slide-bottom :delay="300">
+          {{ slide.title }}
+        </h1>
         <p v-motion-slide-bottom :delay="200">{{ slide.text }}</p>
 
         <div class="flex flex-col justify-between md:flex-row">
