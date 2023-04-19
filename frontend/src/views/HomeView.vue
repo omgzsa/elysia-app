@@ -41,39 +41,6 @@ const slides = ref([
   },
 ]);
 
-const services = ref([
-  {
-    id: 1,
-    title: "Orvosi magánrendelés",
-    slug: "orvosi-maganrendeles",
-    img: "orvosi_maganrendeles.webp",
-  },
-  {
-    id: 2,
-    title: "Lézerkezelések",
-    slug: "lezerkezelesek",
-    img: "lezerkezelesek.webp",
-  },
-  {
-    id: 3,
-    title: "Orvos esztétika",
-    slug: "orvos-esztetika",
-    img: "orvos_esztetika.webp",
-  },
-  {
-    id: 4,
-    title: "Plasztikai sebészet",
-    slug: "plasztikai-sebeszet",
-    img: "plasztikai_sebeszet.webp",
-  },
-  {
-    id: 5,
-    title: "Z0 Skin Health",
-    slug: "z0-skin-health",
-    img: "z0_skin_health.webp",
-  },
-]);
-
 // const targetEl = ref();
 
 // useMotion(targetEl, {
@@ -98,7 +65,7 @@ slug: "",
   <section>
     <HomeHero :slides="slides" />
     <section>
-      <HomeServices title="Kiemelt szolgáltatások" :services="services">
+      <HomeServices title="Kiemelt szolgáltatások">
         <template #description>
           Jól képzett orvosaink, magas színvonalon, csúcsminőségű készülékeink
           segítségével végzik az Ön számára leginkább megfelelő kezeléseket. Az
