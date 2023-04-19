@@ -239,8 +239,25 @@ const services = ref([
     <!-- <TheNavbarTwo /> -->
   </header>
   <main>
-    <RouterView :key="$route.path" />
+    <RouterView v-slot="{ Component }">
+      <transition name="slide" mode="out-in">
+        <component :is="Component" :key="$route.path"></component>
+      </transition>
+    </RouterView>
   </main>
 
   <TheFooter />
 </template>
+
+<style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-5%);
+}
+</style>
