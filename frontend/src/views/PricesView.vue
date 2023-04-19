@@ -1,8 +1,5 @@
 <script setup>
-// import { computed } from "vue";
 import pricesData from "../assets/prices.json";
-
-// a function that returns if the element is even or odd in an array
 </script>
 
 <template>
@@ -36,7 +33,10 @@ import pricesData from "../assets/prices.json";
             :key="treatment.id"
             class="flex flex-col sm:flex-row sm:items-center pb-4 space-y-1"
           >
-            <p class="max-w-sm lg:max-w-screen-xl">
+            <p
+              class="max-w-sm lg:max-w-screen-xl"
+              :class="{ 'font-semibold': treatment.isFeatured === true }"
+            >
               {{ treatment.title }}
             </p>
             <div
