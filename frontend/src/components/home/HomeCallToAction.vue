@@ -10,7 +10,9 @@ const bgImage = "CTA_bg.webp";
     :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
     class="text-center py-24 lg:py-32 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2"
   >
-    <p class="text-white font-bold text-3xl max-w-screen-md mx-auto mb-8">
+    <p
+      class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto mb-8"
+    >
       Megnyerő mondat, hogy miért akkor jár a legjobban az ide látogató, ha itt
       foglal időpontot.
     </p>
