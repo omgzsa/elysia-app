@@ -12,7 +12,7 @@ defineProps({
       <h2>{{ title }}</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-      <div class="p-6 bg-primary-200 rounded-xl shadow-border">
+      <div class="ml-2 p-6 bg-primary-200 rounded-xl shadow-border">
         <p class="italic mb-4">
           "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
@@ -31,7 +31,7 @@ defineProps({
           </div>
         </div>
       </div>
-      <div class="p-6 bg-primary-200 rounded-xl shadow-border">
+      <div class="ml-2 p-6 bg-primary-200 rounded-xl shadow-border">
         <p class="italic mb-4">
           "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
           quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
