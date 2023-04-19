@@ -11,8 +11,6 @@ const treatmentName = computed(() => {
     return treatment.value.name;
   }
 });
-
-console.log(treatmentName);
 </script>
 
 <template>
