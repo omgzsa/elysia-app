@@ -6,7 +6,7 @@ const treatment = inject("treatment");
 
 const treatmentName = computed(() => {
   if (treatment.value.name.length > 15) {
-    return treatment.value.name.slice(0, 15) + "...";
+    return treatment.value.name.slice(0, 10) + "...";
   } else {
     return treatment.value.name;
   }
