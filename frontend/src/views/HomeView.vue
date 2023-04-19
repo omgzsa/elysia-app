@@ -100,25 +100,25 @@ slug: "",
     <section>
       <HomeServices title="Kiemelt szolgáltatások" :services="services">
         <template #description>
-          Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
-          quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
-          pellentesque a risus.
+          Jól képzett orvosaink, magas színvonalon, csúcsminőségű készülékeink
+          segítségével végzik az Ön számára leginkább megfelelő kezeléseket. Az
+          Ön elégedettsége a mi motivációnk.
         </template>
       </HomeServices>
     </section>
     <section>
-      <HomeIntroduction title="Miért mi? Kik vagyunk?">
+      <HomeIntroduction title="Komplex szolgáltatások exkluzív környezetben">
         <template #introduction>
-          Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
-          quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
-          pellentesque a risus.<br /><br />
-          Quam et ut fusce faucibus in pretium etiam praesent. In diam amet
-          augue tincidunt nec sed iaculis lobortis. Suspendisse commodo in in
-          habitant aliquam sollicitudin egestas congue velit. Dignissim volutpat
-          diam pulvinar mauris aliquet lectus nullam facilisi. Lorem rutrum
-          tortor purus sit est sodales felis vulputate pellentesque. In
-          fringilla a viverra sed facilisis. Egestas pulvinar vitae diam elit
-          diam volutpat quam.
+          Az Elysia Laser Clinic orvos-esztétikai centrumot azzal a céllal
+          hoztuk létre, hogy komplex szolgáltatást nyújthassunk a
+          bőrgyógyászati, esztétikai, nőgyógyászati problémákkal küzdő és
+          szépülni vágyó páciensek számára. <br /><br />
+          Hisszük, hogy a mai rohanó, folyamatosan megújuló világunkban szükség
+          van rövid várakozási idővel igénybe vehető magánszolgáltatásra, ahol
+          barátságos környezetben dolgozó tapasztalt szakorvosok, modern
+          kezelési technikák, innovatív lézerkészülékek állnak rendelkezésre.<br /><br />
+          Az Elysia csapata azon dolgozik, hogy az Ön bőrgyógyászati, esztétikai
+          és nőgyógyászati problémáin hatékonyan segítsen.
         </template>
       </HomeIntroduction>
     </section>
