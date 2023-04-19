@@ -13,11 +13,11 @@ const bgImage = "CTA_bg.webp";
     <p
       class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto mb-8"
     >
-      Megnyerő mondat, hogy miért akkor jár a legjobban az ide látogató, ha itt
-      foglal időpontot.
+      Foglaljon most időpontot az Elysia Lézer Központban, és tapasztalja meg az
+      egyedülálló, testre szabott kezeléseink varázsát!
     </p>
     <div>
-      <div class="flex flex-col justify-center gap-4 md:flex-row">
+      <div class="flex flex-col justify-center gap-2 md:flex-row">
         <RouterLink :to="{ name: 'home', path: '/' }">
           <button
             class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
