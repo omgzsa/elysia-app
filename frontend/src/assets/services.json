@@ -156,7 +156,7 @@
       {
         "id": 4,
         "name": "Fokozott hónalji izzadás kezelése",
-        "slug": "fokozott-honalji-izzadas-kezeles",
+        "slug": "fokozott-honalji-izzadas-kezelese",
         "image": "fokozott-honalji-izzadas-kezeles.webp"
       },
       {
@@ -167,8 +167,8 @@
       },
       {
         "id": 6,
-        "name": "Ránctalanítás botulinum toxin injekcióval",
-        "slug": "ranctalanitas-botulinum-toxin-injekcioval",
+        "name": "Ránctalanítás botulinum toxinnal (botox)",
+        "slug": "ranctalanitas-botulinum-toxinnal-botox",
         "image": "ranctalanitas-botulinum-toxin-injekcioval.webp"
       },
       {
@@ -211,15 +211,15 @@
       },
       {
         "id": 2,
-        "name": "Fülkorrekció",
-        "slug": "fulkorrekcio",
-        "image": "fulkorrekcio.webp"
+        "name": "Fülkagyló korrekció",
+        "slug": "fulkagylo-korrekcio",
+        "image": "fulkagylo-korrekcio.webp"
       },
       {
         "id": 3,
-        "name": "Fülllyuk korrekció",
-        "slug": "fulllyuk-korrekcio",
-        "image": "fulllyuk-korrekcio.webp"
+        "name": "Füllyuk korrekció",
+        "slug": "fullyuk-korrekcio",
+        "image": "fullyuk-korrekcio.webp"
       },
       {
         "id": 4,
