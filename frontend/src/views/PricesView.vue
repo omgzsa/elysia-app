@@ -36,7 +36,9 @@ import pricesData from "../assets/prices.json";
             :key="treatment.id"
             class="flex flex-col sm:flex-row sm:items-center pb-4 space-y-1"
           >
-            <p class="max-w-sm lg:max-w-screen-xl">{{ treatment.title }}</p>
+            <p class="max-w-sm lg:max-w-screen-xl">
+              {{ treatment.title }}
+            </p>
             <div
               class="hidden sm:block border-b border-b-gray-400 border-dotted flex-grow mx-4"
             ></div>
