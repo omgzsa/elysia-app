@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink } from "vue-router";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 
 const bgImage = "CTA_bg.webp";
@@ -18,7 +17,7 @@ const bgImage = "CTA_bg.webp";
     </p>
     <div>
       <div class="flex flex-col justify-center gap-2 md:flex-row">
-        <RouterLink :to="{ name: 'home', path: '/' }">
+        <AppLink :to="{ name: 'services' }">
           <button
             class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
           >
@@ -30,8 +29,8 @@ const bgImage = "CTA_bg.webp";
               >Szolgáltatások</span
             >
           </button>
-        </RouterLink>
-        <RouterLink :to="{ name: 'about', path: '/about' }">
+        </AppLink>
+        <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
           <button
             class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer border font-medium border-white text-white"
           >
@@ -43,7 +42,7 @@ const bgImage = "CTA_bg.webp";
               >Időpontfoglalás</span
             >
           </button>
-        </RouterLink>
+        </AppLink>
       </div>
     </div>
   </div>
