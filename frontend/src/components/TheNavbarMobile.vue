@@ -322,7 +322,9 @@ onClickOutside(target, () => {
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
 
-          <AppLink :to="{ name: 'home' }"> Kapcsolat </AppLink>
+          <AppLink :to="{ name: 'home', hash: '#contact' }">
+            Kapcsolat
+          </AppLink>
         </div>
       </div>
     </nav>
