@@ -29,7 +29,7 @@ const props = defineProps({
   <section class="max-w-screen-xl">
     <!-- breadcrumb component -->
     <TheBreadCrumbs />
-    <div class="grid grid-cols-1 sm:grid-cols-3 space-y-6 sm:space-y-0 gap-y-6">
+    <div class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6">
       <!-- treatment information -->
       <div class="site-padding order-2 sm:col-span-2 space-y-6">
         <h3>{{ treatment.content.title }}</h3>
@@ -49,7 +49,7 @@ const props = defineProps({
       </div>
       <!-- treatment time/frequency -->
       <div
-        class="site-padding pt-2 relative sm:order-2 sm:col-span-1"
+        class="site-padding relative sm:order-2 sm:col-span-1"
         v-if="hasData"
       >
         <div
