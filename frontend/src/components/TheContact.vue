@@ -27,10 +27,11 @@ defineProps({
 
 <template>
   <section
+    id="contact"
     class="max-w-screen-2xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-10"
   >
     <!-- contact data -->
-    <div class="p-6 md:p-12 xl:p-20">
+    <div class="p-6 space-y-6 md:p-12 xl:p-20">
       <h2>{{ title }}</h2>
 
       <ul class="">
