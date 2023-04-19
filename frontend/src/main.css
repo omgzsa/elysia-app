@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-base;
+    @apply font-base scroll-smooth;
   }
 
   section {
