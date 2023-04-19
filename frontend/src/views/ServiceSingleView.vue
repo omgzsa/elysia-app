@@ -1,5 +1,5 @@
 <script setup>
-import { ref, provide, computed } from "vue";
+import { provide, computed } from "vue";
 import treatmentsData from "@/assets/treatments.json";
 
 import ServiceTreatmentCard from "@/components/treatment/ServiceTreatmentCard.vue";
@@ -12,10 +12,8 @@ const props = defineProps({
   },
 });
 
-const treatments = ref(treatmentsData);
-
 const treatment = computed(() => {
-  return treatments.value.find((t) => t.slug === props.slug);
+  return treatmentsData.find((t) => t.slug === props.slug);
 });
 
 provide("treatment", treatment);
