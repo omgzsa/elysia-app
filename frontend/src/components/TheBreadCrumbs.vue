@@ -1,15 +1,18 @@
 <script setup>
+import { computed } from "vue";
 import { inject } from "vue";
 
 const treatment = inject("treatment");
 
-// const treatmentName = computed(() => {
-//   if (treatment.value.name.length > 15) {
-//     return treatment.value.name.slice(0, 15) + "...";
-//   } else {
-//     return treatment.value.name;
-//   }
-// });
+const treatmentName = computed(() => {
+  if (treatment.value.name.length > 15) {
+    return treatment.value.name.slice(0, 15) + "...";
+  } else {
+    return treatment.value.name;
+  }
+});
+
+console.log(treatmentName);
 </script>
 
 <template>
@@ -44,7 +47,7 @@ const treatment = inject("treatment");
       <li class="flex items-center space-x-4 text-xs md:text-sm">
         <span class="text-gray-400">/</span>
         <span class="flex items-center pr-1">
-          {{ treatment.name }}
+          {{ treatmentName }}
         </span>
       </li>
     </ol>
