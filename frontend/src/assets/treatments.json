@@ -9,6 +9,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -43,6 +44,7 @@
         "id": 1,
         "name": "Dr. Stummer János",
         "slug": "dr-stummer-janos",
+        "title": "Szülész-nőgyógyász adjunktus, lézerspecialista",
         "image": "dr-stummer-janos.webp"
       }
     ],
@@ -125,12 +127,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -178,12 +182,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -218,12 +224,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -258,12 +266,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -298,12 +308,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -338,12 +350,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -378,12 +392,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -418,6 +434,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -479,12 +496,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -519,12 +538,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -572,12 +593,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -612,12 +635,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -679,6 +704,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -757,12 +783,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
+        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
         "image": "dr-farkas-fruzsina.webp"
       }
     ],
@@ -814,6 +842,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -848,12 +877,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -888,12 +919,14 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       },
       {
         "id": 2,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -928,6 +961,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -962,6 +996,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -996,6 +1031,7 @@
         "id": 1,
         "name": "Dr. Horváth Beáta",
         "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
       }
     ],
@@ -1030,6 +1066,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1064,6 +1101,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1123,6 +1161,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1182,6 +1221,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1216,6 +1256,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1250,6 +1291,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1284,6 +1326,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1327,6 +1370,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1361,6 +1405,7 @@
         "id": 1,
         "name": "Dr. Görcsi János",
         "slug": "dr-gorcsi-janos",
+        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
         "image": "dr-gorcsi-janos.webp"
       }
     ],
@@ -1395,6 +1440,7 @@
         "id": 1,
         "name": "Dr. Szalai Zsuzsanna",
         "slug": "dr-szalai-zsuzsanna",
+        "title": "Tüdőgyógyász, allergológus, tüdő-onkológus és szomnológus szakorvos",
         "image": "dr-szalai-zsuzsanna.webp"
       }
     ],
@@ -1458,6 +1504,7 @@
         "id": 1,
         "name": "Dr. Barcsák Endre",
         "slug": "dr-barcsak-endre",
+        "title": "Idegsebész adjunktus",
         "image": "dr-barcsak-endre.webp"
       }
     ],
