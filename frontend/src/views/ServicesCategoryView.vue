@@ -1,7 +1,7 @@
 <script setup>
-import { ref, computed } from "vue";
+import { computed } from "vue";
 import CategoryCard from "@/components/category/CategoryCard.vue";
-import sourceData from "@/assets/services.json";
+import servicesData from "@/assets/services.json";
 
 const props = defineProps({
   category: {
@@ -10,10 +10,8 @@ const props = defineProps({
   },
 });
 
-const services = ref(sourceData);
-
 const service = computed(() => {
-  return services.value.find((s) => s.slug === props.category);
+  return servicesData.find((s) => s.slug === props.category);
 });
 </script>
 
