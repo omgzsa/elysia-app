@@ -27,8 +27,8 @@ defineProps({
         </h1>
         <p v-motion-slide-bottom :delay="200">{{ slide.text }}</p>
 
-        <div class="flex flex-col justify-between md:flex-row">
-          <RouterLink :to="{ name: 'home', path: '/' }">
+        <div class="flex flex-col justify-between">
+          <RouterLink :to="{ name: 'services' }">
             <button
               class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
             >
@@ -41,7 +41,7 @@ defineProps({
               >
             </button>
           </RouterLink>
-          <RouterLink :to="{ name: 'about', path: '/about' }">
+          <!-- <RouterLink :to="{ name: 'about', path: '/about' }">
             <button
               class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer border font-medium border-accent-100 text-accent-100"
             >
@@ -53,7 +53,7 @@ defineProps({
                 >Időpontfoglalás</span
               >
             </button>
-          </RouterLink>
+          </RouterLink> -->
         </div>
       </div>
     </slide>
