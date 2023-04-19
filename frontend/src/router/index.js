@@ -101,6 +101,11 @@ const router = createRouter({
       props: true,
     },
     {
+      path: "/gyik",
+      name: "faq.show",
+      component: () => import("../views/FaqView.vue"),
+    },
+    {
       path: "/:pathMatch(.*)*",
       name: "not.found",
       component: () => import("../components/TheNotFound.vue"),
