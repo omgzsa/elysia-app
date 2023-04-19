@@ -63,7 +63,7 @@
 
 @layer utilities {
   .site-padding {
-    @apply px-2 sm:px-4 md:px-8 lg:px-10;
+    @apply px-6 sm:px-8 md:px-10 lg:px-12;
   }
 
   .disabled {
