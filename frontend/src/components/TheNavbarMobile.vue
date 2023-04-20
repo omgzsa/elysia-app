@@ -316,7 +316,7 @@ onClickOutside(target, () => {
             </Transition>
           </div>
 
-          <AppLink :to="{ name: 'home' }"> Z0 Skin Health </AppLink>
+          <AppLink :to="{ name: 'zero.skin' }"> Z0 Skin Health </AppLink>
 
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
