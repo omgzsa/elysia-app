@@ -107,5 +107,8 @@ const images = [
         </div>
       </div>
     </div>
+
+    <!-- before-after images -->
+    <div>images</div>
   </section>
 </template>
