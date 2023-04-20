@@ -1,5 +1,6 @@
 <script setup>
 import { useGetImageUrl } from "../composables/getImageUrl";
+import { ImgComparisonSlider } from "@img-comparison-slider/vue";
 
 const images = [
   {
@@ -109,6 +110,81 @@ const images = [
     </div>
 
     <!-- before-after images -->
-    <div>images</div>
+    <div class="flex flex-col space-y-10 mx-auto site-padding max-w-screen-xl">
+      <h3>Vendégeink a kezelés előtt és után</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- 1st comparison -->
+        <div class="flex flex-col space-y-4">
+          <ImgComparisonSlider>
+            <!-- eslint-disable -->
+            <img
+              slot="first"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_01_before.webp')"
+            />
+            <img
+              slot="second"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_01_after.webp')"
+            />
+            <!-- eslint-enable -->
+          </ImgComparisonSlider>
+          <div>
+            <h4 class="mb-2">
+              Öregedés, bőrfelszíni szín- és texturális egyenetlenségek
+            </h4>
+            <p class="text-sm">A kezelés után fényes, feszes arcbőr.</p>
+          </div>
+        </div>
+        <!-- 2nd comparison -->
+        <div class="flex flex-col space-y-4">
+          <ImgComparisonSlider>
+            <!-- eslint-disable -->
+            <img
+              slot="first"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_02_before.webp')"
+            />
+            <img
+              slot="second"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_02_after.webp')"
+            />
+            <!-- eslint-enable -->
+          </ImgComparisonSlider>
+          <div>
+            <h4 class="mb-2">Melasma, nagy kiterjedésű pigmentfoltok</h4>
+            <p class="text-sm">A kezelés után foltmentes, sima felszínű bőr.</p>
+          </div>
+        </div>
+        <!-- 3rd comparison -->
+        <div class="flex flex-col space-y-4">
+          <ImgComparisonSlider>
+            <!-- eslint-disable -->
+            <img
+              slot="first"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_03_before.webp')"
+            />
+            <img
+              slot="second"
+              class="h-72 object-cover m-auto rounded-xl"
+              style="width: 100%"
+              :src="useGetImageUrl('zoskin_03_after.webp')"
+            />
+            <!-- eslint-enable -->
+          </ImgComparisonSlider>
+          <div>
+            <h4 class="mb-2">Súlyos akne, hegekkel</h4>
+            <p class="text-sm">A kezelés után javuló gyulladásos állapot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
