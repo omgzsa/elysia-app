@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import sourceData from "@/assets/services.json";
+import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
+import employeesData from "@/assets/coworkers.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,9 +13,9 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/about",
-      name: "about",
-      component: () => import("../views/AboutView.vue"),
+      path: "/orvosi-termekek/z0-skin-health",
+      name: "zero.skin",
+      component: () => import("../views/ZeroSkin.vue"),
     },
     {
       path: "/szolgaltatas",
@@ -25,7 +26,7 @@ const router = createRouter({
         return {
           name: "services.category",
           params: {
-            category: sourceData[0].slug,
+            category: servicesData[0].slug,
           },
         };
       },
@@ -36,7 +37,7 @@ const router = createRouter({
       component: () => import("../views/ServicesCategoryView.vue"),
       props: true,
       beforeEnter(to) {
-        const exists = sourceData.find(
+        const exists = servicesData.find(
           (item) => item.slug === to.params.category
         );
         if (!exists) {
@@ -74,25 +75,26 @@ const router = createRouter({
       path: "/munkatarsak",
       name: "employees.show",
       component: () => import("../views/EmployeesView.vue"),
-      // beforeEnter(to) {
-      //   const exists = treatmentsData.find(
-      //     (item) => item.slug === to.params.slug
-      //   );
-      //   if (!exists) {
-      //     return {
-      //       name: "not.found",
-      //       params: { pathMatch: to.path.substring(1).split("/") },
-      //       query: to.query,
-      //       hash: to.hash,
-      //     };
-      //   }
-      // },
     },
     {
       path: "/munkatarsak/:slug",
       name: "employee.single",
       component: () => import("../views/EmployeeSingleView.vue"),
       props: true,
+      beforeEnter(to) {
+        const exists = employeesData.find(
+          (item) => item.slug === to.params.slug
+        );
+        if (!exists) {
+          return {
+            name: "not.found",
+            // allows keeping the URL in the browser address bar while rendering the 404 page
+            params: { pathMatch: to.path.substring(1).split("/") },
+            query: to.query,
+            hash: to.hash,
+          };
+        }
+      },
     },
     {
       path: "/araink",
