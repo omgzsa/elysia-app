@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import { RouterLink } from "vue-router";
 import { GoogleMap, Marker, InfoWindow } from "vue3-google-map";
 
 import IconClock from "../components/icons/IconClock.vue";
@@ -57,7 +56,7 @@ defineProps({
         Ha nem találja amit keres nézzen körül Gyakran Ismételt Kérdések között.
       </p>
 
-      <RouterLink :to="{ name: 'services', path: '/services' }">
+      <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
         <button
           class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-gray-700 bg-secondary-100 border border-secondary-100"
         >
@@ -69,7 +68,7 @@ defineProps({
             ><IconCalendar /> <span>Időpontfoglalás</span></span
           >
         </button>
-      </RouterLink>
+      </AppLink>
     </div>
 
     <!-- google maps -->

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted, watch } from "vue";
-import { RouterLink, useRoute } from "vue-router";
+import { useRoute } from "vue-router";
 import { useGetImageUrl } from "../composables/getImageUrl";
 import { onClickOutside } from "@vueuse/core";
 
@@ -422,7 +422,7 @@ onUnmounted(() => {
       <!-- IDŐPONTFOGLALÁS -->
       <div class="flex items-center gap-2 ml-auto mr-1">
         <div class="sm:flex sm:gap-4">
-          <RouterLink :to="{ name: 'home', path: '/' }">
+          <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
             <button
               class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-gray-700 bg-secondary-100 border border-secondary-100"
             >
@@ -434,7 +434,7 @@ onUnmounted(() => {
                 ><IconCalendar /> <span>Időpontfoglalás</span></span
               >
             </button>
-          </RouterLink>
+          </AppLink>
         </div>
       </div>
 
