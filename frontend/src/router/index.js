@@ -22,14 +22,14 @@ const router = createRouter({
       name: "services",
       component: () => import("../views/ServicesView.vue"),
       // if visited redirect to first category
-      redirect: () => {
-        return {
-          name: "services.category",
-          params: {
-            category: servicesData[0].slug,
-          },
-        };
-      },
+      // redirect: () => {
+      //   return {
+      //     name: "services.category",
+      //     params: {
+      //       category: servicesData[0].slug,
+      //     },
+      //   };
+      // },
     },
     {
       path: "/szolgaltatas/:category",
