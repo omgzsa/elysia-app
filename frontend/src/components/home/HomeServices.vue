@@ -35,7 +35,7 @@ const servicesFeatured = computed(() => {
       <li
         v-for="service in servicesFeatured"
         :key="service.id"
-        class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+        class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
       >
         <AppLink
           class="flex flex-col items-center gap-4"
@@ -55,7 +55,7 @@ const servicesFeatured = computed(() => {
         </AppLink>
       </li>
       <li
-        class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+        class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
       >
         <AppLink
           class="flex flex-col items-center gap-4"
@@ -74,7 +74,7 @@ const servicesFeatured = computed(() => {
         </AppLink>
       </li>
       <li
-        class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+        class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
       >
         <AppLink
           class="flex flex-col items-center gap-4"
