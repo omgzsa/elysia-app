@@ -302,6 +302,12 @@
         "name": "Thalgo",
         "slug": "thalgo",
         "image": "thalgo-products.webp"
+      },
+      {
+        "id": 5,
+        "name": "Orvosi lézerkészülékek",
+        "slug": "orvosi-lezerkeszulekek",
+        "image": "lezer-products.webp"
       }
     ]
   }
