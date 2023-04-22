@@ -13,7 +13,7 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/orvosi-termekek/z0-skin-health",
+      path: "/szolgaltatas/orvosi-termekek/z0-skin-health",
       name: "zero.skin",
       component: () => import("../views/ZeroSkin.vue"),
     },
@@ -21,15 +21,6 @@ const router = createRouter({
       path: "/szolgaltatas",
       name: "services",
       component: () => import("../views/ServicesView.vue"),
-      // if visited redirect to first category
-      // redirect: () => {
-      //   return {
-      //     name: "services.category",
-      //     params: {
-      //       category: servicesData[0].slug,
-      //     },
-      //   };
-      // },
     },
     {
       path: "/szolgaltatas/tudogyogyaszati-szakrendeles",
