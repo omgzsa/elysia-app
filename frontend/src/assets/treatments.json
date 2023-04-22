@@ -1645,7 +1645,7 @@
     "id": 40,
     "name": "La Roche-Posay",
     "slug": "la-roche-posay",
-    "images": [],
+    "images": "la-roche-posay-products.webp",
     "relatedDoctor": [],
     "content": {
       "title": "Jobb életet nyújt az érzékeny bőrűeknek",
@@ -1672,7 +1672,7 @@
     "id": 41,
     "name": "CeraVe",
     "slug": "cerave",
-    "images": [],
+    "images": "cerave-products.webp",
     "relatedDoctor": [],
     "content": {
       "title": "Bőrgyógyászokkal kifejlesztett bőrápolás alapvető ceramidokkal",
@@ -1699,7 +1699,7 @@
     "id": 42,
     "name": "Vichy",
     "slug": "vichy",
-    "images": [],
+    "images": "vichy-products.webp",
     "relatedDoctor": [],
     "content": {
       "title": "„A francia vulkánok szívében született termálvíz ereje az erősebb bőrért.”",
@@ -1726,7 +1726,7 @@
     "id": 43,
     "name": "Bioderma",
     "slug": "bioderma",
-    "images": [],
+    "images": "bioderma-products.webp",
     "relatedDoctor": [],
     "content": {
       "title": "Egyedi megközelítés: biológiai utánzás",
@@ -1786,7 +1786,7 @@
     "id": 44,
     "name": "Thalgo",
     "slug": "thalgo",
-    "images": [],
+    "images": "thalgo-products.webp",
     "relatedDoctor": [],
     "content": {
       "title": "Kozmetikumok az óceánból",
