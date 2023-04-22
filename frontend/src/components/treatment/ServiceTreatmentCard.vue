@@ -54,7 +54,11 @@ const props = defineProps({
           </p>
           <h3>{{ treatment.content.benefitsTitle }}</h3>
           <ul role="list" class="marker:text-accent-100 list-disc list-inside">
-            <li v-for="item in treatment.content.benefits" :key="item.id">
+            <li
+              v-for="item in treatment.content.benefits"
+              :key="item.id"
+              class="whitespace-pre-wrap"
+            >
               {{ item.text }}
             </li>
           </ul>
