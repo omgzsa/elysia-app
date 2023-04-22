@@ -27,7 +27,7 @@
     "frequency": "Évente vagy félévente",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -83,7 +83,7 @@
     "frequency": "Egyszeri alkalom",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -110,7 +110,7 @@
     "frequency": "2-3 hetente",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -165,7 +165,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -207,7 +207,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -249,7 +249,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -291,7 +291,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -333,7 +333,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -375,7 +375,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -417,7 +417,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
+        "id": 3,
         "name": "Bőrgyógyászati kezeléseink",
         "slug": "borgyogyaszati-kezelesek",
         "images": []
@@ -452,7 +452,7 @@
     "frequency": "3-5 alkalom 6-8 hetente",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -479,7 +479,7 @@
     "frequency": "4-6 alkalom",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -521,7 +521,7 @@
     "frequency": "1-3 kezelés javasolt",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -576,7 +576,7 @@
     "frequency": "2-3 kezelés javasolt",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -618,7 +618,7 @@
     "frequency": "súlyosságtól függ",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -660,7 +660,7 @@
     "frequency": "4-6 alkalom",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -687,7 +687,7 @@
     "frequency": "4-6 alkalom 2-4 hetente",
     "category": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
         "images": []
@@ -722,7 +722,7 @@
     "frequency": "Évente kétszer",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -766,7 +766,7 @@
     "frequency": "2-3 alkalom 3 hetente",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -825,7 +825,7 @@
     "frequency": "4-6 alkalom",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -860,7 +860,7 @@
     "frequency": "6-12 hónap, egyénileg változó",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -902,7 +902,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -944,7 +944,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -979,7 +979,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -1014,7 +1014,7 @@
     "frequency": "3 kezelés fél éven belül",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -1049,7 +1049,7 @@
     "frequency": "3 alkalom 6 hetente",
     "category": [
       {
-        "id": 4,
+        "id": 2,
         "name": "Orvos esztétika",
         "slug": "orvos-esztetika",
         "images": []
@@ -1084,7 +1084,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1144,7 +1144,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1204,7 +1204,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1239,7 +1239,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1274,7 +1274,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1309,7 +1309,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1353,7 +1353,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1388,7 +1388,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1423,7 +1423,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 5,
+        "id": 0,
         "name": "Plasztikai sebészet",
         "slug": "plasztikai-sebeszet",
         "images": []
@@ -1570,7 +1570,7 @@
     "frequency": "",
     "category": [
       {
-        "id": 6,
+        "id": 4,
         "name": "Diagnosztikai vizsgálatok",
         "slug": "diagnosztikai-vizsgalatok",
         "images": []
@@ -1634,9 +1634,177 @@
     "frequency": "",
     "category": [
       {
-        "id": 6,
+        "id": 4,
         "name": "Diagnosztikai vizsgálatok",
         "slug": "diagnosztikai-vizsgalatok",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "La Roche-Posay",
+    "slug": "la-roche-posay",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Jobb életet nyújt az érzékeny bőrűeknek",
+      "description": "A kivételesen jótékony hatású termálvíz és az érzékeny bőr szakértőinek rendkívüli tudása egyesül a La Roche-Posay Dermatológiai Laboratórium és világszerte 25.000 bőrgyógyász együttműködésén keresztül. Negyven éves kapcsolat gyümölcse ez a valóságos közösség, amely messze túlmutat az érzékeny bőr mindennapos segítésén.\n \nExkluzív klinikai tanulmányokon való együttműködés, a bőrgyógyászati szakértelem megosztása, a folytonos oktatáshoz és a társadalmilag felelős tevékenységekhez való hozzájárulás... a bőrápolási szakértőkkel való szoros együttműködésünkön keresztül napról napra könnyítjük meg az érzékeny bőrű emberek életét.",
+      "title2": "A szükségletek megértése és a megoldások megalkotása",
+      "description2": "A terápiák kiegészítésének gondolatától vezérelve, bőrápolási készítményeink célja segíteni a bőrgyógyászokat az adagok csökkentésében, a beteg-együttműködés növelésében és akár egyes - orvosi kezelések okozta - bőrfelületet érintő mellékhatások korlátozásában.\n \nAz olyan formulák előállítása, amelyek tökéletesen illeszkednek a bőrgyógyászok elvárásaihoz a hatékonyság, tolerancia és kozmetikai szempontból egyaránt, rendkívül szoros munkakapcsolat létrejöttéhez vezet. Ennek pedig így kell lennie a bőrápolási készítmények létrehozásának minden egyes szakaszában, egészen a szükségletek azonosításától kezdve a szigorú klinikai tanulmányok elvégzéséig.",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "",
+      "benefits": []
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "CeraVe",
+    "slug": "cerave",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Bőrgyógyászokkal kifejlesztett bőrápolás alapvető ceramidokkal",
+      "description": "2005-ben a CeraVe bőrgyógyászai egy 3 alapvető ceramid (ceramid 1, 3, és 6-II), zsírsavak és egyéb lipidek keverékével gazdagított bőrápolási termékcsaládot fejlesztettek ki, a bőr természetes védőrétegének támogatásáért. Egy olyan forradalmi rendszert alkottak meg, mely a hidratáló összetevőket 24 óra leforgása alatt, rétegenként bocsátja ki, a bőr puhításáért, akár egész nap. Ezzel a technológiával született meg a CeraVe 2006-ban a három alaptermékével: a hidratáló krémmel, a hidratáló tejjel és hidratáló tisztító krémmel.\n \nA CeraVe jelenleg több mint 70 terméket kínál, mindenki számára, bőrgyógyászok szakértelmével kifejlesztve. Mivel a CeraVe széles körben elérhető és bőrgyógyászok által ajánlott, hidratáló, regeneráló és bőrfeltöltő márka, több elismerést is kapott már az Egyesült Államokban.",
+      "title2": "A ceramidokról…",
+      "description2": "A bőr védőrétegének akár 50%-át ceramidok alkotják, melyek olyan lipidek, amelyek segítenek támogatni a bőr védőrétegét és megtartani a nedvességét. Ezenkívül a ceramidok segítenek védeni a bőrt a külső hatásoktól, mint az irritáló anyagok és a légszennyezés. A ceramidok megfelelő aránya nélkül a bőr védőrétege sérülhet, ami kiszáradáshoz, viszketéshez és irritációhoz vezethet. A CeraVe termékek 3 alapvető ceramidja a kulcsa a szép bőrnek. A bőrben található ceramidok lecsökkent mennyisége kapcsolódhat egyes bőrproblémákhoz, mint például az akne, az ekcéma, a pikkelysömör vagy a rosacea. A napozás, a hideg idő és az életkor szintén hatással van a ceramidszintre, befolyásolhatja a bőr barrier funkcióját, ami hozzájárulhat a száraz bőr kialakulásához.\n \nA bőrgyógyászok közreműködésével kifejlszetett CeraVe bőrápolók 3 alapvető ceramidot tartalmaznak, melyek megegyeznek a bőrben természetesen megtalálható ceramidokkal. Támogatják a bőr lipidszintjének pótlását és természetes egyensúlyának helyreállítását. A CeraVe táplálja a bőrt a szükséges ceramidokkal, ezáltal hozzájárul a természetes védőrétegének fenntartásához, segít a nedvességet bent, a káros elemeket pedig távol tartani. Minden egyes CeraVe termék legalább három alapvető ceramidot tartalmaz a bőr védőrétegének támogatásáért. Az tisztítóktól, a hidratálókon át a kéz- és lábápolóig, minden CeraVe terméket a bőr védőrétegének szem előtt tartásával fejlesztettek ki. Mivel ceramidok természetesen is előfordulnak a bőrben, minden bőrtípusra megfelelőek —beleértve a zsíros,pattanásokra hajlamos és érzékeny bőrt is.",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "",
+      "benefits": []
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Vichy",
+    "slug": "vichy",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "„A francia vulkánok szívében született termálvíz ereje az erősebb bőrért.”",
+      "description": "A Vichy története Franciaország közepén, az Auvergne régióban kezdődött. A márka 1931-es megszületése óta a küldetése változatlan maradt: segíteni a nőknek hatékony, mindennapos bőrápolást kínálni, függetlenül az életkoruktól és bőrtípusuktól, a környezet védelme és a fenntarthatóság elősegítése mellett\n \nDr. Haller fedezte fel a Vichy termálvíz hihetetlen sebgyógyító erejét. Ezáltal a lenyűgöző hatékonyág által inspirálva, elkezdte tanulmányozni a víz és a benne lévő ásványi anyagok jótékony hatását a bőrre, a Vichy márka létrehozásával. Vas, kalcium, magnézium... csak néhány a termálvízben található 15 különböző ásványból, amelyek biztosítják a Vichy termálvíz regeneráló, bőrnyugtató és erősítő tulajdonságait. 1996-ban mutatta be először a Vichy ezt a termálvizet szórófejes kiszerelésben, ami lehetővé tette a fogyasztói számára, hogy Vichy városán kívül is használhassák.\n \nAzóta a Vichy termálvíz a bőr valódi segítőjévé vált: frissítve a melegben és az egész családnak természetes bőrápolást kínálva. Most már az egész Vichy termékcsalád alapját alkotja az erősebb és még gyönyörűbb bőrért. A célja pedig? Erőteljes, hatékony megoldást kínálni természetes összetevőkkel az üde és ragyogó bőrért.",
+      "title2": "",
+      "description2": "",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "",
+      "benefits": []
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Bioderma",
+    "slug": "bioderma",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Egyedi megközelítés: biológiai utánzás",
+      "description": "A bőr teljes tiszteletben tartásával a BIODERMA olyan termékeket gyárt, amelyek összetevőikkel és hatásukkal a bőr természetes működését utánozzák. Elkészítésükhöz a BIODERMA a legtisztább aktív összetevőket választja, a bőrben természetesen megtalálható molekulákat, a nagyobb tolerancia elérése érdekében. A problémától függően a BIODERMA termékek megőrzik, aktiválják, illetve helyreállítják a bőr természetes folyamatait.",
+      "title2": "Legfontosabb követelmény: a bőrgyógyászati biztonság",
+      "description2": "A BIODERMA mindig is egyszerre törekedett a tökéletes hatékonyságra és nagyobb toleranciára, minden bőrfajta és minden probléma esetén. Azért, hogy a BIODERMA biztosítsa a legnagyobb bőrgyógyászati biztonságot, a termékeink csak nagyon kis számú összetevőből és optimálisan adagolt aktív összetevőkből állnak. Az egészségügyi felügyeleti szervek ajánlásait megelőzve a BIODERMA minden bőrgyógyászatilag megkérdőjelezhető összetevőt kihagy a termékeiből. Ezek az alapelvek jelennek meg a termékösszetevőkre vonatkozó alapszabályunkban, amely minden termék fejlesztésénél érvényes, és amelynek kiemelkedő színvonalát tudományos módszerünk garantálja.\n \nEz a kompromisszumot nem ismerő megközelítés magyarázza, hogy miért növelik a bőr tolerancia szintjét és miért csökkentik a bőr érzékenységét a BIODERMA termékei, melyek a DAF (Bőrgyógyászatilag Fejlesztett Formula) szabadalmaztatott természetes formulától válnak még jobbá.",
+      "title3": "Egyedi modell: egészséges bőr",
+      "description3": "Minden BIODERMA kutatás az egészséges bőr, a bőrsejtek és azok kiegyensúlyozatlan működésének tanulmányozása körül forog. A bőrnek saját nyelve van és a BIODERMA fáradhatatlanul arra törekszik, hogy azt megértse. A BIODERMA megpróbálja a bőr természetes forrásait újra aktiválni, hogy ezzel segítse a bőr ellenálló képességét és helyreállítsa a bőr normál működését, amely az egészséges bőrre jellemző.",
+      "benefitsTitle": "A BIODERMA alapszabályok 8 fő alapelvből állnak:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Biológiai szabadalom\nMinden egyes BIODERMA termék biológusok és bőrgyógyászok által lett kifejlesztve. Olyan biológiai hatásmódra épülnek, amely a bőrprobléma okait és következményeit célozza, hosszútávú megoldást kínálva."
+        },
+        {
+          "id": 2,
+          "text": "Bőr tolerancia\nA BIODERMA formulák segítségével a bőr toleranciája javul, környezeti hatásokkal szembeni ellenálló képessége erősödik, az egyedi, szabadalmaztatott D.A.F. (Bőrgyógyászatilag  Fejlesztett Formula) formula segítségével."
+        },
+        {
+          "id": 3,
+          "text": "Bőrgyógyászati biztonság\n3 szabály a tökéletes hatékonyságért és a nagyobb tolerancia érdekében: a termékek csak a legszükségesebb összetevőkből készülnek, megfelelő mennyiségű tiszta aktív összetevő kiválasztásával, a bőrben természetesen megtalálható molekulák használatával."
+        },
+        {
+          "id": 4,
+          "text": "Tudományosan elismert aktív összetevők\nAz összetevők és alkotóelemek a BIODERMA termékekben 2 alapvető kritériumnak felelnek meg: biológiai hatásosság és bőrgyógyászati biztonság."
+        },
+        {
+          "id": 5,
+          "text": "Nyersanyagok kiválasztása\nA BIODERMA csak olyan összetevőket és anyagokat használ amelyek bőrgyógyászati biztonsága és hatékonysága elismert."
+        },
+        {
+          "id": 6,
+          "text": "Biztonsági és hatékonysági vizsgálatok\nMinden egyes BIODERMA termék megfelel a  egészségügyi felügyeletek és bőrgyógyász szakmai társaságok legszigorúbb ajánlásainak."
+        },
+        {
+          "id": 7,
+          "text": "Klinikai vizsgálatok\nMinden BIODERMA termék klinikai vizsgálatokon megy keresztül szakértő bőrgyógyászok, allergológusok és toxikológusok felügyelete alatt. Ezek a vizsgálatok aztán megjelennek tudományos folyóiratokban is."
+        },
+        {
+          "id": 8,
+          "text": "Teljes nyomon követhetőség\nA BIODERMA elkötelezetten felügyeli a termékek és azok alkotóelemeinek eredetét, és biztosítja a teljes nyomonkövethetőséget, teljesítve ezzel a kozmetikai iparág elvárásait is."
+        }
+      ]
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Thalgo",
+    "slug": "thalgo",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Kozmetikumok az óceánból",
+      "description": "1964-ben André Bouclet gyógyszerész által alapított spa márka, mely az alga és tengeri kivonatokból készült, gyógyászatra és thalasso terápiás célokra szánt bőrápoló termékekre specializálódott. Ezek fő hatóanyaga az 1966-ban egészségügyi szabadalmat kapott, ásványi anyagokban gazdag és nagyon tiszta MMA (mikronizált tengeri alga).\n \nKözös jellemzőjük még, hogy nem tartalmaznak parabént, ásványi olajat, propilén-glikolt, génmódosított vagy állati eredetű anyagokat, mesterséges illatanyagot és szilikont; így még a legérzékenyebb bőrűek számára is ajánlottak.",
+      "title2": "",
+      "description2": "",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "",
+      "benefits": []
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
         "images": []
       }
     ]
