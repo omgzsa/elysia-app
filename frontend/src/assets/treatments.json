@@ -1739,31 +1739,31 @@
       "benefits": [
         {
           "id": 1,
-          "text": "Biológiai szabadalom\nMinden egyes BIODERMA termék biológusok és bőrgyógyászok által lett kifejlesztve. Olyan biológiai hatásmódra épülnek, amely a bőrprobléma okait és következményeit célozza, hosszútávú megoldást kínálva."
+          "text": "Biológiai szabadalom\nMinden egyes BIODERMA termék biológusok és bőrgyógyászok által lett kifejlesztve. Olyan biológiai hatásmódra épülnek, amely a bőrprobléma okait és következményeit célozza, hosszútávú megoldást kínálva.\n"
         },
         {
           "id": 2,
-          "text": "Bőr tolerancia\nA BIODERMA formulák segítségével a bőr toleranciája javul, környezeti hatásokkal szembeni ellenálló képessége erősödik, az egyedi, szabadalmaztatott D.A.F. (Bőrgyógyászatilag  Fejlesztett Formula) formula segítségével."
+          "text": "Bőr tolerancia\nA BIODERMA formulák segítségével a bőr toleranciája javul, környezeti hatásokkal szembeni ellenálló képessége erősödik, az egyedi, szabadalmaztatott D.A.F. (Bőrgyógyászatilag  Fejlesztett Formula) formula segítségével.\n"
         },
         {
           "id": 3,
-          "text": "Bőrgyógyászati biztonság\n3 szabály a tökéletes hatékonyságért és a nagyobb tolerancia érdekében: a termékek csak a legszükségesebb összetevőkből készülnek, megfelelő mennyiségű tiszta aktív összetevő kiválasztásával, a bőrben természetesen megtalálható molekulák használatával."
+          "text": "Bőrgyógyászati biztonság\n3 szabály a tökéletes hatékonyságért és a nagyobb tolerancia érdekében: a termékek csak a legszükségesebb összetevőkből készülnek, megfelelő mennyiségű tiszta aktív összetevő kiválasztásával, a bőrben természetesen megtalálható molekulák használatával.\n"
         },
         {
           "id": 4,
-          "text": "Tudományosan elismert aktív összetevők\nAz összetevők és alkotóelemek a BIODERMA termékekben 2 alapvető kritériumnak felelnek meg: biológiai hatásosság és bőrgyógyászati biztonság."
+          "text": "Tudományosan elismert aktív összetevők\nAz összetevők és alkotóelemek a BIODERMA termékekben 2 alapvető kritériumnak felelnek meg: biológiai hatásosság és bőrgyógyászati biztonság.\n"
         },
         {
           "id": 5,
-          "text": "Nyersanyagok kiválasztása\nA BIODERMA csak olyan összetevőket és anyagokat használ amelyek bőrgyógyászati biztonsága és hatékonysága elismert."
+          "text": "Nyersanyagok kiválasztása\nA BIODERMA csak olyan összetevőket és anyagokat használ amelyek bőrgyógyászati biztonsága és hatékonysága elismert.\n"
         },
         {
           "id": 6,
-          "text": "Biztonsági és hatékonysági vizsgálatok\nMinden egyes BIODERMA termék megfelel a  egészségügyi felügyeletek és bőrgyógyász szakmai társaságok legszigorúbb ajánlásainak."
+          "text": "Biztonsági és hatékonysági vizsgálatok\nMinden egyes BIODERMA termék megfelel a  egészségügyi felügyeletek és bőrgyógyász szakmai társaságok legszigorúbb ajánlásainak.\n"
         },
         {
           "id": 7,
-          "text": "Klinikai vizsgálatok\nMinden BIODERMA termék klinikai vizsgálatokon megy keresztül szakértő bőrgyógyászok, allergológusok és toxikológusok felügyelete alatt. Ezek a vizsgálatok aztán megjelennek tudományos folyóiratokban is."
+          "text": "Klinikai vizsgálatok\nMinden BIODERMA termék klinikai vizsgálatokon megy keresztül szakértő bőrgyógyászok, allergológusok és toxikológusok felügyelete alatt. Ezek a vizsgálatok aztán megjelennek tudományos folyóiratokban is.\n"
         },
         {
           "id": 8,
@@ -1790,13 +1790,61 @@
     "relatedDoctor": [],
     "content": {
       "title": "Kozmetikumok az óceánból",
-      "description": "1964-ben André Bouclet gyógyszerész által alapított spa márka, mely az alga és tengeri kivonatokból készült, gyógyászatra és thalasso terápiás célokra szánt bőrápoló termékekre specializálódott. Ezek fő hatóanyaga az 1966-ban egészségügyi szabadalmat kapott, ásványi anyagokban gazdag és nagyon tiszta MMA (mikronizált tengeri alga).\n \nKözös jellemzőjük még, hogy nem tartalmaznak parabént, ásványi olajat, propilén-glikolt, génmódosított vagy állati eredetű anyagokat, mesterséges illatanyagot és szilikont; így még a legérzékenyebb bőrűek számára is ajánlottak.",
+      "description": "1964-ben André Bouclet gyógyszerész által alapított spa márka, mely az alga és tengeri kivonatokból készült, gyógyászatra és thalasso terápiás célokra szánt bőrápoló termékekre specializálódott. Ezek fő hatóanyaga az 1966-ban egészségügyi szabadalmat kapott, ásványi anyagokban gazdag és nagyon tiszta MMA (mikronizált tengeri alga).\n \nKözös jellemzőjük még, hogy nem tartalmaznak parabént, ásványi olajat, propilén-glikolt, génmódosított vagy állati eredetű anyagokat, mesterséges illatanyagot és szilikont; így még a legérzékenyebb bőrűek számára is ajánlottak.",
       "title2": "",
       "description2": "",
       "title3": "",
       "description3": "",
       "benefitsTitle": "",
       "benefits": []
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 5,
+        "name": "Orvosi termékek",
+        "slug": "orvosi-termekek",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Orvosi lézerkészülékek",
+    "slug": "orvosi-lezerkeszulekek",
+    "images": "lezer-products.webp",
+    "relatedDoctor": [],
+    "content": {
+      "title": "DEKA - A márkáról",
+      "description": "Európa legnagyobb lézergyártó cége, a DEKA, a világ 80 országába exportál. Készülékeit orvosok ezrei használják világszerte.",
+      "title2": "SmartXide lézerkészülékek",
+      "description2": "SMARTXIDE TOUCH C60 A DEKA KÉSZÜLÉK\n \nA világpiacon meghatározó szereplő a CO2 lézerek fejlesztésében és gyártásában. A CO2 lézerek központi részét, a széndioxid gázzal töltött, rádiófrekvenciával gerjesztett üvegcsövet a NASA biztonsági körülményeihez hasonló környezetben, egy műtő tisztaságú laboratóriumban gyártják. Ezen alkatrészek hosszú élettartama a garancia arra, hogy a SmartXide lézerek megbízhatósága egyedülálló.\n \nSMARTXIDE DOT (lézeres arcfiatalítás)\n \nA hagyományos szén-dioxid lézer, melyet sokáig „gold standardnak” tekintettek a ránctalanításban, egy új alkalmazási technikával, a DOT terápiával újult meg. A DOT terápia meggyőző eredményeket produkál a hagyományos CO2 lézerek mellékhatásai (hosszas gyógyulási idő, hegképződés, pigmentációs zavar) nélkül. A HiScan DOT szkennernek köszönhetően a DEKA CO2 lézere csak bizonyos helyeken hatol a bőrbe, oszlopszerűen, mikroterületek hő általi lyukasztásával fejti ki a hatását. A kezelt mikroterületek között ez a kontrollált hőhatás azonnali szöveti feszesítést (shrinking) is eredményez, s másodlagosan stimulálja a neokollagenezis folyamatát.\n \nA kezelt és a kezeletlen területek között a szöveti megújulás gyorsabb, hiszen a gyógyulás a kezeletlen területekből „táplálkozik”. Ezáltal jelentősen lecsökken a gyógyulási idő és a kezelés utáni bőrvörösség mértéke is. A lézer okozta szövetmegújulás összefügg a frakcionált csatornák szélességével. Bizonyos csatornaszélesség alatt a szövetmegújulás mértéke csekély, a „lyukasztás” nem indít be kellő mértékű regenerációt, így a látszólag sikeresen elvégzett kezelés után a várt eredmény elmarad. Számos távol-keleti készüléken választható a lyukasztott csatorna szélessége, azonban ennek növelésével a behatolási mélység csökken, az energialeadás elégtelensége miatt.\n \nSMARTXIDE TOUCH - MonaLisa Touch (lézeres intimplasztika)\n \nVagina rejuvenáció és lézeres inkontinencia kezelés, a női külső nemi szervek és az arc megfiatalítása egyetlen multifunkciós készülékkel. A SmartXideTouch™ technológia egy innovatív, számítógép vezérelt, frakcionált CO2 lézerrel dolgozik, mely a kollagénképződés serkentése által regenerálja az idő múlásával meggyengült rostokat. Az egyik legfejlettebb fotorejuvenációs módszernek, a DOT™ technológiának kiemelkedő a biztonságossága és hatékonysága, köszönhetően a kifejlesztő DEKA cégnek.\n \nA MonaLisa Touch™ a világon elsőként kifejlesztett lézer alapú vulvo-vaginális eszköz, amely Európán kívül az Amerikai Egyesült Államokat is meghódította, ahol jelenleg több mint 850 klinikán használják. Eddig 2500 ilyen készüléket helyeztek üzembe a világon, így naponta több mint tízezer MonaLisa Touch kezelést végeznek világszerte.\n \nMonaLisa Touch® az alábbi panaszokra nyújt megoldást: a hüvely nyálkahártyájának atrófiája, lazasága; a hüvely nyálkahártyájának szárazsága, viszketése; stressz inkontinencia",
+      "title3": "DEKA SYNCHRO REPLA:Y PREMIUM 2.4.2. KÉSZÜLÉK",
+      "description3": "A leghatékonyabb szőrtelenítési, érrendszeri és arcfiatalító kezelések elvégzésére szolgáló kombinált lézerkészülék. Az alexandrit 755 nm lézer a szőrt eredményesen eltávolító és a pigmentált elváltozásokat hatékonyan kezelő nagy teljesítményű lézer. A nagy spot méretek és az ismétlődési ráta mellett a nagy energiasűrűség lehetővé teszi a szőrtüszők teljeskörű eltávolítását az emberi test felületéről. A 755 nm-es hullámhossz a legalkalmasabb szőrtelenítésre, a magas melanin megkötő képesség miatt különösen a Fitzpatrick skála szerint legfeljebb III-as típusú bőr esetén.\n \nTény, hogy nincs más típusú lézer, amely képes hatékonyan egyesíteni a melaninban való tökéletes abszorpciót (755 nm), a magas csúcsteljesítménnyel (több mint 6000 W) és rövid impulzusokkal (2 ms). A MOVEO kezelőfej segítségével el tudja távolítani a nem kívánatos szőrszálakat egy új módszerrel, mely könnyebb, gyorsabb, biztonságosabb és hatékonyabb (fájdalommentes kezelés, sötétebb bőrtípusra is alkalmazható).\n \nA lézeres szőrtelenítés esetében a DEKA fejlesztése révén elérhetővé vált a forradalmian új, innovatív „movingtechnic” (a DEKA cég MOVEO-nak nevezi) , mely az említett készülék esetében számos előnyt hordoz:",
+      "benefitsTitle": "",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "a MOVEO kezelőfej végén egy kristályüveg érintkezik a bőrrel, mely folyamatosan hűtött (a páciensnek kellemesebb és biztonságosabb),"
+        },
+        {
+          "id": 2,
+          "text": "egy 10x10cm-es felületet kezelünk folyamatos „festegetéssel (mozgatással)”, így kisebb eséllyel maradhatnak ki kezeletlen területek,"
+        },
+        {
+          "id": 3,
+          "text": "a készülék a szokásos 18-20 J/cm2 energiasűrűség helyett kb. fele-harmada energiasűrűséggel, de igen nagy sebességgel dolgozik, ezért a páciens számára a kezelés teljesen fájdalmatlan,"
+        },
+        {
+          "id": 4,
+          "text": "pigmentáltabbbőrtipusokon is használható, ellentétben a hagyományos szőrtelenítő lézerekkel,"
+        },
+        {
+          "id": 5,
+          "text": "nem okoz égési sérülést."
+        }
+      ]
     },
     "treatTime": "",
     "frequency": "",
