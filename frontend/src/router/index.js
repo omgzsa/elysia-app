@@ -32,6 +32,16 @@ const router = createRouter({
       // },
     },
     {
+      path: "/szolgaltatas/tudogyogyaszati-szakrendeles",
+      name: "service.pulmonology",
+      component: () => import("../views/services/Tudogyogyaszat.vue"),
+    },
+    {
+      path: "/szolgaltatas/tudogyogyaszati-szakrendeles",
+      name: "service.neurosurgery",
+      component: () => import("../views/services/Idegsebeszet.vue"),
+    },
+    {
       path: "/szolgaltatas/:category",
       name: "services.category",
       component: () => import("../views/ServicesCategoryView.vue"),
