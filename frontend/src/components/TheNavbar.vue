@@ -397,10 +397,10 @@ onUnmounted(() => {
                   :submenu="orvosiTermekek"
                 /> -->
 
-                <AppLink class="text-sm" :to="{ name: 'home' }">
+                <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">
                   Tüdőgyógyászati szakrendelés
                 </AppLink>
-                <AppLink class="text-sm" :to="{ name: 'home' }">
+                <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
                   Idegsebészeti vizsgálatok
                 </AppLink>
               </ul>
