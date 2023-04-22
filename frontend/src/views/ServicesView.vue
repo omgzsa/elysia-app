@@ -38,6 +38,44 @@ import servicesData from "@/assets/services.json";
             </p>
           </AppLink>
         </li>
+        <li
+          class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+        >
+          <AppLink
+            class="flex flex-col items-center gap-4"
+            :to="{
+              name: 'service.pulmonology',
+            }"
+          >
+            <img
+              class="h-24 sm:h-32 w-full object-contain"
+              :src="useGetImageUrl('tudogyogyaszati-szakrendeles.webp')"
+              alt=""
+            />
+            <p class="font-semibold text-center text-xs sm:text-base">
+              Tüdőgyógyászati szakrendelés
+            </p>
+          </AppLink>
+        </li>
+        <li
+          class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+        >
+          <AppLink
+            class="flex flex-col items-center gap-4"
+            :to="{
+              name: 'service.neurosurgery',
+            }"
+          >
+            <img
+              class="h-24 sm:h-32 w-full object-contain"
+              :src="useGetImageUrl('idegsebeszeti-vizsgalatok.webp')"
+              alt=""
+            />
+            <p class="font-semibold text-center text-xs sm:text-base">
+              Idegsebészeti vizsgálatok
+            </p>
+          </AppLink>
+        </li>
       </ul>
     </div>
   </section>
