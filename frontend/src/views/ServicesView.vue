@@ -13,13 +13,13 @@ import servicesData from "@/assets/services.json";
     </div>
     <div class="max-w-screen-xl mx-auto py-16">
       <ul
-        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 px-2 items-start"
+        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 sm:gap-x-6 px-2 items-start"
         name="list"
       >
         <li
           v-for="service in servicesData"
           :key="service.id"
-          class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -39,7 +39,7 @@ import servicesData from "@/assets/services.json";
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -58,7 +58,7 @@ import servicesData from "@/assets/services.json";
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:scale-105"
+          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
