@@ -275,38 +275,33 @@
     "submenu": [
       {
         "id": 0,
-        "name": "Z0 Skin Health",
-        "slug": "z0-skin-health"
+        "name": "La Roche Posay",
+        "slug": "la-roche-posay",
+        "image": "la-roche-posay-products.webp"
       },
       {
         "id": 1,
-        "name": "La Roche Posay",
-        "slug": "la-roche-posay"
+        "name": "CeraVe",
+        "slug": "cerave",
+        "image": "cerave-products.webp"
       },
       {
         "id": 2,
-        "name": "CeraVe",
-        "slug": "cerave"
+        "name": "Vichy",
+        "slug": "vichy",
+        "image": "vichy-products.webp"
       },
       {
         "id": 3,
-        "name": "Vichy",
-        "slug": "vichy"
+        "name": "Bioderma",
+        "slug": "bioderma",
+        "image": "bioderma-products.webp"
       },
       {
         "id": 4,
-        "name": "Bioderma",
-        "slug": "bioderma"
-      },
-      {
-        "id": 5,
         "name": "Thalgo",
-        "slug": "thalgo"
-      },
-      {
-        "id": 6,
-        "name": "Orvosi lézerkészülékek",
-        "slug": "orvosi-lezerkeszulekek"
+        "slug": "thalgo",
+        "image": "thalgo-products.webp"
       }
     ]
   }
