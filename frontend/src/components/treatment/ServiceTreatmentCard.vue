@@ -19,8 +19,14 @@ const hasFrequency = computed(() => {
   return props.treatment.frequency;
 });
 
-const showRelatedDoctorsCard = computed(() => {
-  return props.treatment.category !== "orvosi-termekek";
+// function that returns if treatment has related doctors or not
+const hasRelatedDoctors = computed(() => {
+  return props.treatment.relatedDoctor.length > 0;
+});
+
+// a function that returns if treatment.images is empty or not
+const hasImage = computed(() => {
+  return props.treatment.images.length > 0;
 });
 
 const props = defineProps({
@@ -106,7 +112,7 @@ const props = defineProps({
           </div>
         </div>
         <!-- medical equipment image (treatments have no image yet) -->
-        <div class="px-4 relative sm:order-2 sm:col-span-1" v-else>
+        <div class="px-4 relative sm:order-2 sm:col-span-1" v-if="hasImage">
           <img
             class="sm:sticky top-20"
             :src="useGetServiceImageUrl(props.treatment.images)"
@@ -153,7 +159,7 @@ const props = defineProps({
     <!-- related Doctors -->
     <div
       class="max-w-screen-xl mx-auto py-8 site-padding space-y-6"
-      v-if="!showRelatedDoctorsCard"
+      v-if="hasRelatedDoctors"
     >
       <div class="space-y-2 mb-8">
         <span class="subheading">elysia laser clinic</span>
