@@ -247,20 +247,6 @@
   },
   {
     "id": 4,
-    "name": "Tüdőgyógyászati Szakrendelés",
-    "slug": "tudogyogyaszati-szakrendeles",
-    "image": "tudogyogyaszati-szakrendeles.webp",
-    "isFeatured": true
-  },
-  {
-    "id": 5,
-    "name": "Idegsebészeti vizsgálatok",
-    "slug": "idegsebeszeti-vizsgalatok",
-    "image": "idegsebeszeti-vizsgalatok.webp",
-    "isFeatured": false
-  },
-  {
-    "id": 6,
     "name": "Diagnosztikai vizsgálatok",
     "slug": "diagnosztikai-vizsgalatok",
     "image": "diagnosztikai-vizsgalatok.webp",
@@ -281,7 +267,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "Orvosi termékek",
     "slug": "orvosi-termekek",
     "image": "z0_skin_health.webp",
