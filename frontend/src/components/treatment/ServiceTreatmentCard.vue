@@ -1,16 +1,13 @@
 <script setup>
 import { computed } from "vue";
 import { useGetImageUrl } from "../../composables/getImageUrl";
+import { useGetServiceImageUrl } from "../../composables/getServiceImageUrl";
 import TheBreadCrumbs from "@/components/TheBreadCrumbs.vue";
 import ServiceRelatedDoctorsCard from "@/components/treatment/ServiceRelatedDoctorsCard.vue";
 
 // icons
 import IconLoop from "@/components/icons/IconLoop.vue";
 import IconClock from "@/components/icons/IconClock.vue";
-
-// const hasTreatTime = computed(() => {
-//   return props.treatment.treatTime;
-// });
 
 const bgImage = "CTA_bg.webp";
 
@@ -20,6 +17,10 @@ const hasData = computed(() => {
 
 const hasFrequency = computed(() => {
   return props.treatment.frequency;
+});
+
+const showRelatedDoctorsCard = computed(() => {
+  return props.treatment.category !== "orvosi-termekek";
 });
 
 const props = defineProps({
@@ -100,6 +101,14 @@ const props = defineProps({
             </div>
           </div>
         </div>
+        <!-- medical equipment image (treatments have no image yet) -->
+        <div class="px-4 relative sm:order-2 sm:col-span-1" v-else>
+          <img
+            class="sm:sticky top-20"
+            :src="useGetServiceImageUrl(props.treatment.images)"
+            :alt="props.treatment.title"
+          />
+        </div>
       </div>
     </div>
     <!-- FAQ call to action -->
@@ -108,11 +117,11 @@ const props = defineProps({
         :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
         class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
       >
-        <p
+        <span
           class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
         >
           Kérdése van?
-        </p>
+        </span>
         <p class="text-white max-w-2xl mx-auto">
           Böngéssze át a Gyakran Ismételt Kérdéseket, amelyek az orvosainknál
           felmerülhetnek. Olvashat a hozzájuk tartozó vizsgálatokról és arról
@@ -138,7 +147,10 @@ const props = defineProps({
       </div>
     </div>
     <!-- related Doctors -->
-    <div class="max-w-screen-xl mx-auto py-8 site-padding space-y-6">
+    <div
+      class="max-w-screen-xl mx-auto py-8 site-padding space-y-6"
+      v-if="!showRelatedDoctorsCard"
+    >
       <div class="space-y-2 mb-8">
         <span class="subheading">elysia laser clinic</span>
         <h3>A témában jártas munkatársaink:</h3>
