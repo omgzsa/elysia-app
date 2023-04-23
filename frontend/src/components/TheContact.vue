@@ -33,21 +33,31 @@ defineProps({
     <div class="space-y-6">
       <h2>{{ title }}</h2>
 
-      <ul class="space-y-2">
-        <li class="flex items-start space-x-2 whitespace-pre">
-          <IconClock class="mt-px text-accent-100 w-6 text-xl" />
+      <ul class="space-y-3">
+        <li class="flex items-center space-x-2 whitespace-pre">
+          <IconClock class="mt-px text-accent-100 text-xl" />
           <span>{{ openHours }}</span>
         </li>
         <li class="flex items-center space-x-2">
-          <IconEmail class="text-accent-100 w-6 text-xl" />
-          <span>{{ contactEmail }}</span>
+          <IconEmail class="text-accent-100 text-xl" />
+          <a
+            class="link-underline no-underline hover:text-accent-100"
+            :href="`mailto:${contactEmail}`"
+          >
+            {{ contactEmail }}
+          </a>
         </li>
         <li class="flex items-center space-x-2">
-          <IconPhone class="text-accent-100 w-6 text-xl" />
-          <span>{{ phoneNum }}</span>
+          <IconPhone class="text-accent-100 text-xl" />
+          <a
+            class="link-underline no-underline hover:text-accent-100"
+            :href="`tel:${phoneNum}`"
+          >
+            {{ phoneNum }}
+          </a>
         </li>
-        <li class="flex items-center space-x-2">
-          <IconMarker class="text-accent-100 w-6 text-xl" />
+        <li class="inline-flex items-center space-x-2">
+          <IconMarker class="text-accent-100 text-xl" />
           <span>{{ address }}</span>
         </li>
       </ul>
