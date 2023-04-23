@@ -57,7 +57,7 @@ const images = [
           a ZO® bőrápolási rutinjaival. Átfogó megoldások, állandó bőregészség!
         </p>
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x-2"
+          class="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x-2"
         >
           <div class="flex flex-col text-center">
             <span class="text-accent-100 font-bold text-2xl md:text-4xl"
