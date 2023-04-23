@@ -165,7 +165,7 @@ const props = defineProps({
         <span class="subheading">elysia laser clinic</span>
         <h3>A témában jártas munkatársaink:</h3>
       </div>
-      <div class="flex flex-col sm:flex-row gap-12 items-center">
+      <div class="flex flex-col sm:flex-row gap-12 items-start">
         <ServiceRelatedDoctorsCard
           v-for="item in props.treatment.relatedDoctor"
           :key="item.id"
