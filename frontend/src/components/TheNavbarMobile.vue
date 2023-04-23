@@ -272,6 +272,12 @@ onClickOutside(target, () => {
                 <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
                   Idegsebészeti vizsgálatok
                 </AppLink>
+                <AppLink class="text-sm" :to="{ name: 'service.somnology' }">
+                  Szomnológia
+                </AppLink>
+                <AppLink class="text-sm" :to="{ name: 'service.allergology' }">
+                  Allergológia
+                </AppLink>
               </ul>
             </Transition>
           </div>
