@@ -11,41 +11,68 @@ defineProps({
       <span class="subheading">elégedett ügyfeleink</span>
       <h2>{{ title }}</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-      <div class="ml-2 p-6 bg-primary-200 rounded-xl shadow-border">
+    <div
+      class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
+    >
+      <div
+        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+      >
         <p class="italic mb-4">
-          "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
-          quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
-          pellentesque a risus. Quam et ut fusce faucibus in pretium etiam
-          praesent. In diam amet augue tincidunt nec sed iaculis lobortis.
-          Suspendisse commodo in in habitant aliquam sollicitudin egestas congue
-          velit. Dignissim volutpat diam pulvinar mauris aliquet lectus nullam
-          facilisi."
+          "Rendszeresen a Klinika vendége vagyok. :) Nem csak a
+          bőrgyógyászatban, de az esztétikában is élen járnak. Teljes mértékben
+          meg vagyok elégedve Dr. Horváth Beáta munkájával, és a recepciós
+          hölgyek is mindig mosolyogva és kedvességgel várnak. Dr. Görcsi
+          Jánosnál is jártam szemhéjplasztika műtéten, és az eredmény valami
+          fantasztikus! Köszönöm szépen az Elysia Laser Clinic munkáját!"
         </p>
-        <div class="flex flex-row gap-4 items-center">
-          <img src="../../assets/images/rolunk_pic.jpg" alt="" />
-          <div class="flex gap-2 items-center">
-            <p class="font-bold">Jane Doe</p>
-            |
+        <div class="flex gap-4 items-center">
+          <img
+            src="../../assets/images/rolunk_pic.jpg"
+            alt=""
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <div class="text-sm space-y-1">
+            <p class="font-bold">Zsuzsanna</p>
             <p>Beosztás</p>
           </div>
         </div>
       </div>
-      <div class="ml-2 p-6 bg-primary-200 rounded-xl shadow-border">
+      <div
+        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+      >
         <p class="italic mb-4">
-          "Lorem ipsum dolor sit amet consectetur. Pulvinar hendrerit arcu et
-          quam blandit integer blandit pellentesque maecenas. Amet diam volutpat
-          pellentesque a risus. Quam et ut fusce faucibus in pretium etiam
-          praesent. In diam amet augue tincidunt nec sed iaculis lobortis.
-          Suspendisse commodo in in habitant aliquam sollicitudin egestas congue
-          velit. Dignissim volutpat diam pulvinar mauris aliquet lectus nullam
-          facilisi."
+          "Kedvesség, rugalmasság, szakmai profizmus. Családommal többször
+          jártam már náluk, ezért szívből ajánlom az Elysiát akár bőrgyógyászati
+          probléma megoldására, akár esztétikai kezelésre."
         </p>
-        <div class="flex flex-row gap-4 items-center">
-          <img src="../../assets/images/rolunk_pic.jpg" alt="" />
-          <div class="flex gap-2 items-center">
-            <p class="font-bold">Jane Doe</p>
-            |
+        <div class="flex gap-4 items-center">
+          <img
+            src="../../assets/images/rolunk_pic.jpg"
+            alt=""
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <div class="text-sm space-y-1">
+            <p class="font-bold">Orsolya</p>
+            <p>Beosztás</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+      >
+        <p class="italic mb-4">
+          "Kellemes környezet, kedves fogadtatás párosul magas szakmai
+          színvonallal. Mindig ajánlom Őket ismerőseimnek, és Ők is nagyon
+          elégedettek."
+        </p>
+        <div class="flex gap-4 items-center">
+          <img
+            src="../../assets/images/rolunk_pic.jpg"
+            alt=""
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <div class="text-sm space-y-1">
+            <p class="font-bold">Timi</p>
             <p>Beosztás</p>
           </div>
         </div>
