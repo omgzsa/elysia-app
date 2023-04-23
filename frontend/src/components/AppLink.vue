@@ -14,7 +14,7 @@ const isExternal = computed(
 <template>
   <template v-if="isExternal">
     <a
-      class="cursor-pointer hover:text-accent-100 transition"
+      class="no-underline link-underline cursor-pointer hover:text-accent-100 transition"
       :href="to"
       rel="noopener"
       target="_blank"
