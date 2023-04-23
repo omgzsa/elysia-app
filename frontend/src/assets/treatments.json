@@ -36,8 +36,8 @@
   },
   {
     "id": 2,
-    "name": "Vagina rejuvenáció (hüvelyszűkítés)",
-    "slug": "vagina-rejuvenacio-huvelyszukites",
+    "name": "Intim lézeres kezelések",
+    "slug": "intim-lezeres-kezelesek",
     "images": [],
     "relatedDoctor": [
       {
@@ -50,7 +50,7 @@
     ],
     "content": {
       "title": "Lézeres intimplasztika - Mona Lisa Touch",
-      "description": "Az idő lassú, könyörtelen múlása működésbeli és szerkezeti változásokat okoz az egész szervezeten belül, így a nemi szervekre is hatással van. A szövetek hidratáltságának és feszességének elvesztése a testünk egészére jellemző, ez a női nemi szervek esetén a hüvely falának szárazságával és meggyengülésével, fokozott tágasságérzéssel jár, mely kellemetlen közérzetet, viszketést, továbbá fájdalmat és diszkomfortot, és jelentősen csökkent szexuális élményt eredményez az együttlét során, mindkét fél részéről. \n \nA nemi szervek sorvadása és a kollagénrostok fokozatos csökkenése a hüvely (vagina) rugalmasságának elvesztéséhez vezet,amely nemcsak az életkor előrehaladtával jelentkezhet. Kialakulhat jóval korábban is, például szülések után (nagy magzat, több szülést követően, stb.), egyéni szövetgyengeség, túlsúly kapcsán. Ez a folyamat gyakran vezet vizelettartási problémákhoz is. Továbbá a külső nemi szervek (vulva) esztétikai megjelenése is romlik (feszesség és tónus elvesztése, megnyúlás, pigmentáció). A menopauzához közeledve a nők ösztrogén (női nemi hormon) szintjének meredekebb csökkenése e folyamatokat felgyorsítja, s nemcsak általános hangulatukra, de a szöveti változás miatt párkapcsolatukra is negatív hatással van.",
+      "description": "Inkontinenciához, hüvelyszűkítéshez és hüvelyszárazsághoz \n \nAz idő lassú, könyörtelen múlása működésbeli és szerkezeti változásokat okoz az egész szervezeten belül, így a nemi szervekre is hatással van. A szövetek hidratáltságának és feszességének elvesztése a testünk egészére jellemző, ez a női nemi szervek esetén a hüvely falának szárazságával és meggyengülésével, fokozott tágasságérzéssel jár, mely kellemetlen közérzetet, viszketést, továbbá fájdalmat és diszkomfortot, és jelentősen csökkent szexuális élményt eredményez az együttlét során, mindkét fél részéről. \n \nA nemi szervek sorvadása és a kollagénrostok fokozatos csökkenése a hüvely (vagina) rugalmasságának elvesztéséhez vezet,amely nemcsak az életkor előrehaladtával jelentkezhet. Kialakulhat jóval korábban is, például szülések után (nagy magzat, több szülést követően, stb.), egyéni szövetgyengeség, túlsúly kapcsán. Ez a folyamat gyakran vezet vizelettartási problémákhoz is. Továbbá a külső nemi szervek (vulva) esztétikai megjelenése is romlik (feszesség és tónus elvesztése, megnyúlás, pigmentáció). A menopauzához közeledve a nők ösztrogén (női nemi hormon) szintjének meredekebb csökkenése e folyamatokat felgyorsítja, s nemcsak általános hangulatukra, de a szöveti változás miatt párkapcsolatukra is negatív hatással van.",
       "title2": "Az első természetes technológia a hüvely sorvadásának kezelésére",
       "description2": "Manapság egyre több nő fordul orvosához, hogy a nemi szervek feszességének, működésének (a hüvely szűkítése, vizelettartási nehézségek megoldása) és megjelenésének helyreállításával javítsák az életminőséget. Mindezt egybefoglalóan nevezzük „vagina rejuvenációnak”, vagyis hüvelyi megfiatalodásnak, megújulásnak. Azok a nők, akik úgy döntenek, hogy javítani szeretnének ezen az állapoton, a MonaLisa Touch™ hatására rövid időn belül visszaszerzik magabiztosságukat és nőiességüket, s teljesen elfelejthetik a korábban zavaró kellemetlenségeket a mindennapi és párkapcsolati életükben. \n \nA MonalisaTouch™ vagina rejuvenáció egy minimál invazív kezelés, mely természetes és fájdalommentes megoldást kínál a vagina megereszkedésére, szárazságára és a következményes jelenségekre (hüvelyi tágasságérzés, vizelettartási gondok) – az öregedés lelassítására és bőrfiatalításra alkalmazott arckezelésekhez hasonló módszerrel. A MonaLisaTouch™ az első természetes hatású minimál-invazív megoldás az öregedés megfékezésére a nőgyógyászat területén. Ez az innovatív és fájdalommentes technológia visszaadja a vagina feszességét és hidratáltságát, valamint a külső nemi szervek frissességét a hagyományos műtétek mellékhatásai nélkül.",
       "title3": "Hogyan működik?",
@@ -80,7 +80,7 @@
       ]
     },
     "treatTime": "20 perc",
-    "frequency": "Egyszeri alkalom",
+    "frequency": "3 alkalom, 6-8 hetente",
     "category": [
       {
         "id": 1,
@@ -107,7 +107,7 @@
       "benefits": []
     },
     "treatTime": "30 perc",
-    "frequency": "2-3 hetente",
+    "frequency": "5-10 alkalom, 2-3 hetente",
     "category": [
       {
         "id": 2,
@@ -426,8 +426,8 @@
   },
   {
     "id": 11,
-    "name": "Lézeres arcfiatalítás",
-    "slug": "lezeres-arcfiatalitas",
+    "name": "Lézeres archámlasztás",
+    "slug": "lezeres-archamlasztas",
     "images": [],
     "relatedDoctor": [
       {
@@ -449,7 +449,7 @@
       "benefits": []
     },
     "treatTime": "1 óra",
-    "frequency": "3-5 alkalom 6-8 hetente",
+    "frequency": "1 alkalom, évente ismételhető",
     "category": [
       {
         "id": 1,
@@ -518,7 +518,7 @@
       "benefits": []
     },
     "treatTime": "20-60 perc",
-    "frequency": "1-3 kezelés javasolt",
+    "frequency": "1 kezelés",
     "category": [
       {
         "id": 1,
@@ -530,145 +530,6 @@
   },
   {
     "id": 14,
-    "name": "Pigmentfoltok kezelése",
-    "slug": "pigmentfoltok-kezelese",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Farkas Fruzsina",
-        "slug": "dr-farkas-fruzsina",
-        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
-        "image": "dr-farkas-fruzsina.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi az a pigment?",
-      "description": "A bőr hámrétegében található pigment termelő sejtek a melanocyták. Feladatuk a bőr védelme a káros sugárzás ellen, ugyanis a napfény hatására a melanocyták fokozott pigmentanyag termelése megóvja az alatta fekvő hámsejteket. Ha a melanin (pigmentanyag) egy helyen nagyobb koncentrációban felhalmozódik, májfolt keletkezik. \n \nEnnek számos oka lehet: környezeti változás következtében megnövekedett UVB és UVA sugárzás nem megfelelő fényvédelem, bőr gyulladásos betegségei, helytelen bőrápolási termékek, szokások, krémek, kölni, vegyi anyagok “beégése” a bőrbe, fényérzékenységet okozó gyógyszerek, hormonok hatása, májfunkció, gasztroenterológiai problémák, hormonális változás /pl. kismamák/, terhesség után.",
-      "title2": "Pigmentfoltok (napfoltok) kezelése Elysia Győrben",
-      "description2": "A klasszikus pigmentált anyajegyek nem kezelhetőek lézerrel, csak sebészi kimetszéssel távolíthatóak el korrekt módon. Minden anyajegy eltávolítása esetén szövettani feldolgozás szükséges! Fontos kiemelni Az Alexandrit lézer fénye a bőrfelszín károsítása nélkül hatol a mélyebb rétegekbe, s ott szelektíven elnyelődik a bőr festékanyagában (melanin), majd a festék felmelegszik, károsodik. A szétbontott pigmentet az immunrendszer felelősei eltakarítják. A melanint tartalmazó bőralkotók (szőrszálak, pigmentfoltok) hatékonyan kezelhetőek az erek megkímélése mellett. A melanin bőrből való eltávolításakor a lézerfény a bőrfelszínt nem roncsolja, vagyis a kezelés nem a bőrfelszín hámlasztásával történik. Kezelés előtt legalább 2 héttel a napozást, szoláriumozást kerülni kell, mert fokozzák a festéksejtek pigment termelését. Barnító és szőrtelenítő krémek használata sem javasolt 1 héttel a kezelés előtt. \n \nMár egyetlen kezelés is eredményt hozhat, de a bőrtípustól, a felület nagyságától, a pigmentfoltok színétől függően több kezelés is szükséges lehet a kielégítő hatáshoz. A szeplők, pigmentfolt kezelése után fehéres elszíneződés jelenik meg, majd néhány óra alatt elmúló bőrpír, duzzanat és égő érzés alakul ki. Ezután néhány napig tartó pörkképződés, hámlás történik. A bőrfelület regenerálódását elősegítő, hámosító készítményekkel a gyógyulás felgyorsítható. A kezelések után legalább 2 hónappal, ill. a többlépcsős kezeléssorozat folyamán napozni, szoláriumozni nem szabad, fényvédelem szükséges.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Kezelhető pigment tartalmú képletek:",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "Melasma (májfolt)"
-        },
-        {
-          "id": 2,
-          "text": "Senilis szeplő"
-        },
-        {
-          "id": 3,
-          "text": "Öregségi szemölcs"
-        }
-      ]
-    },
-    "treatTime": "10-30 perc",
-    "frequency": "2-3 kezelés javasolt",
-    "category": [
-      {
-        "id": 1,
-        "name": "Lézerkezelések",
-        "slug": "lezerkezelesek",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Akne kezelése",
-    "slug": "akne-kezelese",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Farkas Fruzsina",
-        "slug": "dr-farkas-fruzsina",
-        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
-        "image": "dr-farkas-fruzsina.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi az akne?",
-      "description": "Az akne (pattnások) egyik leggyakoribb bőrbetegség, mely során a bőrben pórusok eltömődnek és miteszerből pattanások jelennek meg az arcon esetleg egyébb testrészeken (mellkas, hát).",
-      "title2": "Akne hegek kezelése",
-      "description2": "A frakcionált CO2 lézeres arckezelés a leghatékonyabb módszer az inaktív aknés hegek kezelésére. A lézersugár pontról-pontra halad végig a bőrfelszínen, érintett és érintetlen szigeteket alkotva. A lézersugár által képzett hő intenzív regenerálódást indít be, a bőrben lévő kollagént és rugalmas rostokat tartalmazó sejtek újra aktivizálódnak és fokozott termelésbe kezdenek. Lézeres akne kezelés hatására fokozódik a bőr kollagén és rugalmas rost termelése is. A hegek bőrfelszínbe simulnak, vékonyodnak, az apróbb bőrhibák halványodnak, eltűnnek, a bőr rugalmasabbá, üdévé válik. A kezelést követően 3-5 napos felépülési idővel kell számolni.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "",
-      "benefits": []
-    },
-    "treatTime": "60 perc",
-    "frequency": "súlyosságtól függ",
-    "category": [
-      {
-        "id": 1,
-        "name": "Lézerkezelések",
-        "slug": "lezerkezelesek",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Stria kezelélse",
-    "slug": "stria-kezelese",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Farkas Fruzsina",
-        "slug": "dr-farkas-fruzsina",
-        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
-        "image": "dr-farkas-fruzsina.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi az a stria?",
-      "description": "A striák a bőrfelszín vörös vagy fehér színű, a környezethez képest kissé besüppedt, különböző szélességű csíkjai. Leggyakrabban a hason, a csípőkön, a melleken, a combokon, a vállakon alakulnak ki. Gyakran jelennek meg terhesség alatt, gyors hízáskor vagy fogyáskor, pubertáskorban a bőr nagymértékű és gyors nyúlása miatt.",
-      "title2": "Narancsbőr és stria lézeres kezelése",
-      "description2": "A striában a bőr középső rétegét alkotó irhában a kollagén és rugalmas rostok károsodnak, emiatt az irha elveszti rugalmasságát és szakad. Az ezután láthatóvá váló, az irhában lévő erek okozzák kezdeti vöröses elszíneződését majd idővel a striák fehérré válnak. A friss, vékony, felszíni striák jobban reagálnak a kezelésekre, mint a régebbi és mélyebb csíkok. Mivel azt tudomásul kell venni, hogy a striákat nem lehet tökéletesen eltüntetni, a kezeléssorozat a csíkok elhalványítását, vékonyítását és a stria alatti kötőszövet felszaporítását célozza. \n \nMindez jelentősen javíthat a bőr állapotán, ezáltal kielégítő esztétikai eredmény érhető el. A hosszú impuzusú Nd:YAG lézer alkalmas a friss, lilás-vöröses striák kezelésére, míg a fehér striákra a frakcionált CO2 lézer a megoldás. Az Nd:YAG lézer a bőr középső rétegében, az irhában fokozza a kollagén és rugalmas rost termelést, ezáltal a striák vékonyodnak, a lilás színelváltozást okozó érhálózatot a lézerfény elpusztítja, ezáltal a csíkok halványodnak. A frakcionált CO2 lézer kis pontokat lő a bőrbe, érintett és érintetlen szigeteket létrehozva. \n \nA lézersugár által képzett hő intenzív regenerálódást indít be, az irhában lévő kollagént és rugalmas rostokat tartalmazó sejtek újra aktivizálódnak és fokozott termelésbe kezdenek. Kb. 4-10 hét rostképződés elindulása. A bőr felső rétegének leválása és a mélyebb rétegben bekövetkezett bőrmegújulás hatására a striák vékonyodnak, halványulnak, a bőr állapota jelentősen javul.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "",
-      "benefits": []
-    },
-    "treatTime": "30-60 perc",
-    "frequency": "4-6 alkalom",
-    "category": [
-      {
-        "id": 1,
-        "name": "Lézerkezelések",
-        "slug": "lezerkezelesek",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 17,
     "name": "Körömgomba kezelése",
     "slug": "koromgomba-kezelese",
     "images": [],
@@ -684,7 +545,7 @@
       "benefits": []
     },
     "treatTime": "10 perc",
-    "frequency": "4-6 alkalom 2-4 hetente",
+    "frequency": "amíg a kezelendő felület le nem nő 2-4 hetente",
     "category": [
       {
         "id": 1,
@@ -695,7 +556,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 15,
     "name": "Profhilo kezelés",
     "slug": "profhilo-kezeles",
     "images": [],
@@ -730,110 +591,7 @@
     ]
   },
   {
-    "id": 19,
-    "name": "Arc és nyak mezoterápiás kezelése",
-    "slug": "arc-es-nyak-mezoterapias-kezelese",
-    "images": [],
-    "relatedDoctor": [],
-    "content": {
-      "title": "Arc és nyak mezoterápiás kezelése az Elysia Győrben",
-      "description": "A mezoterápia egy olyan orvos-esztétikai beavatkozás, amely jelenleg a legkorszerűbb és leghatékonyabb hatóanyag-bejuttatási módszer. Egyedülálló módon képes áttörni a bőr barrier rétegén, lehetővé téve a hatóanyagok megfelelő mélységbe jutását, ahol gyorsan és látványosan fejtik ki hatásukat. Mezoterápia során nincs hatóanyag veszteség, a személyre szabottan kiválasztott hatóanyagkoktél a legideálisabb helyre, a szövetekbe és sejtekbe jut.",
-      "title2": "Mi történik a mezoterápiás kezelés alatt?",
-      "description2": "A gyógyászati és kozmetikai hatóanyagok akkor fejtik ki hatásukat, ha pontosan oda kerülnek, ahol be szeretnénk avatkozni a szervezet működésébe. Ez legegyszerűbben az atraumatikus mikroinjekciókkal érhető el. Csak steril hatóanyagok adhatók be, és a kezelés során a megfelelő higiénés feltételeket biztosítani kell. Ez azt jelenti, hogy kizárólag steril, egyszer használatos fecskendőkkel, tűkkel ill. alaposan fertőtlenített bőrfelületen történik a beavatkozás, hiszen a testfelületen mikrosérülések keletkeznek. A mezoterápia egyik vállfaja a dermaroller kezelés, amely során mikrotűs hengerrel számos apró sérülést ejtünk a bőr felszínén, és felső rétegén. A sérülések önmagukban is kollagén stimulációs hatással bírnak, másrészt a keletkezett csatornákon hatóanyagok juttathatók be a bőr mélyebb rétegeibe.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Mire jó a mezoterápia kezelés?",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "Öregedő arc, nyak, kézhát, dekoltázs bőrének, ráncainak kezelésére"
-        },
-        {
-          "id": 2,
-          "text": "A bőr rugalmasságának, feszességének fokozására"
-        },
-        {
-          "id": 3,
-          "text": "Hajhullás, kopaszság, fejbőr korpásodás kezelésére"
-        },
-        {
-          "id": 4,
-          "text": "Aknés hegek kezelésére"
-        }
-      ]
-    },
-    "treatTime": "30 perc",
-    "frequency": "2-3 alkalom 3 hetente",
-    "category": [
-      {
-        "id": 2,
-        "name": "Orvos esztétika",
-        "slug": "orvos-esztetika",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "name": "Dermaroller kezelés",
-    "slug": "dermaroller-kezeles",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Farkas Fruzsina",
-        "slug": "dr-farkas-fruzsina",
-        "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
-        "image": "dr-farkas-fruzsina.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi történik a dermaroller kezelés alatt?",
-      "description": "A mezoterápia egy olyan orvos-esztétikai beavatkozás, amely jelenleg a legkorszerűbb és leghatékonyabb hatóanyag-bejuttatási módszer. Egyedülálló módon képes áttörni a bőr barrier rétegén, lehetővé téve a hatóanyagok megfelelő mélységbe jutását, ahol gyorsan és látványosan fejtik ki hatásukat. Mezoterápia során nincs hatóanyag veszteség, a személyre szabottan kiválasztott hatóanyagkoktél a legideálisabb helyre, a szövetekbe és sejtekbe jut. A mezoterápia egyik vállfaja a dermaroller kezelés, amely során mikrotűs hengerrel számos apró sérülést ejtünk a bőr felszínén, és felső rétegén. A sérülések önmagukban is kollagén stimulációs hatással bírnak, másrészt a keletkezett csatornákon hatóanyagok juttathatók be a bőr mélyebb rétegeibe.",
-      "title2": "",
-      "description2": "",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Dermaroller alkalmazás területei:",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "Öregedő arc, nyak, kézhát, dekoltázs bőrének, ráncainak kezelésére"
-        },
-        {
-          "id": 2,
-          "text": "A bőr rugalmasságának, feszességének fokozására"
-        },
-        {
-          "id": 3,
-          "text": "Aknés hegek kezelésére"
-        },
-        {
-          "id": 4,
-          "text": "Striák (növekedési, terhességi, hízási csíkok)"
-        }
-      ]
-    },
-    "treatTime": "20-40 perc",
-    "frequency": "4-6 alkalom",
-    "category": [
-      {
-        "id": 2,
-        "name": "Orvos esztétika",
-        "slug": "orvos-esztetika",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 21,
+    "id": 16,
     "name": "Fokozott hónalji izzadás kezelése",
     "slug": "fokozott-honalji-izzadas-kezelese",
     "images": [],
@@ -868,7 +626,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 17,
     "name": "Ráncfeltöltés hyaluronsavval",
     "slug": "rancfeltoltes-hyaluronsavval",
     "images": [],
@@ -910,7 +668,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 18,
     "name": "Ránctalanítás botulinum toxinnal (botox)",
     "slug": "ranctalanitas-botulinum-toxinnal-botox",
     "images": [],
@@ -952,9 +710,9 @@
     ]
   },
   {
-    "id": 24,
-    "name": "Thread lifting: bioszálas arckontúrozás",
-    "slug": "thread-lifting-bioszalas-arckonturozas",
+    "id": 19,
+    "name": "Thread lifting (bioszálas arcfiatalítás)",
+    "slug": "thread-lifting-bioszalas-arcfiatalitas",
     "images": [],
     "relatedDoctor": [
       {
@@ -976,7 +734,7 @@
       "benefits": []
     },
     "treatTime": "50 perc",
-    "frequency": "",
+    "frequency": "A kezelés hatása 1,5-2 évig tart",
     "category": [
       {
         "id": 2,
@@ -987,42 +745,7 @@
     ]
   },
   {
-    "id": 25,
-    "name": "PRP/ Drakula terápia",
-    "slug": "prp-drakula-terapia",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      }
-    ],
-    "content": {
-      "title": "Drakula terápia a bőr revujenációjára​",
-      "description": "A PRP rövidítés az angol Platelet Rich Plazma szavakból ered, mely vérlemezkében gazdag plazma kifejezésként fordítható magyarra. A bőr fiatalítására 2006 óta használják világszerte. A vérben lévő vérlemezkék növekedési faktorokat tartalmaznak, melyek stimulálják a fibroblasztok és keratinociták osztódását, melyek kollagént és keratint termelnek. A kollagén termelése pedig segít a látható ráncok korrigálásában.",
-      "title2": "Drakula terápia kezelés folyamata",
-      "description2": "A kezelések során általában a szemkörnyéket, az arc középső részét, a mosolyráncokat, a nazolabiális redőt, nyakat, dekoltázst fedik le. Eredményes néhány hajhullás típus kezelésére is. Kezelés előtt közvetlenül vért veszünk le a páciens alkari vénájából. A vért azonnal egy speciális centrifugába helyezzük. A centrifugálás végeztével a vérplazma és a vérlemezkék különválnak, kivonjuk a vérlemezkéket. Ezt a PRP kivonatot injektáljuk vissza a bőrbe. A kezelés előtt a kezelni kívánt területrehelyi érzéstelenítőt krémet helyezünk fel. \n \nA bőr textúrájának változása mintegy három héttel látható először a kezelés után, majd a javulás folytatódik a következő 8 hónap alatt, hiszen egyre több és több kollagén és keratin képződik a felszín alatt. A legjobb eredmény érdekében kezdeti 3 kezelésre van szükség féléven belül. Így az elért hatás akár másfél-két évig is megmarad.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "",
-      "benefits": []
-    },
-    "treatTime": "60 perc",
-    "frequency": "3 kezelés fél éven belül",
-    "category": [
-      {
-        "id": 2,
-        "name": "Orvos esztétika",
-        "slug": "orvos-esztetika",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 26,
+    "id": 20,
     "name": "Skin booster kezelés",
     "slug": "skin-booster-kezeles",
     "images": [],
@@ -1057,7 +780,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 21,
     "name": "Anyajegy eltávolítása szövettani vizsgálattal",
     "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
     "images": [],
@@ -1092,7 +815,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 22,
     "name": "Alsó, felső szemhéjplasztika",
     "slug": "also-felso-szemhejplasztika",
     "images": [],
@@ -1152,7 +875,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 23,
     "name": "Fülkagyló korrekció",
     "slug": "fulkagylo-korrekcio",
     "images": [],
@@ -1212,7 +935,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 24,
     "name": "Füllyuk korrekció",
     "slug": "fullyuk-korrekcio",
     "images": [],
@@ -1247,7 +970,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 25,
     "name": "Kisajak plasztika",
     "slug": "kisajak-plasztika",
     "images": [],
@@ -1282,86 +1005,7 @@
     ]
   },
   {
-    "id": 32,
-    "name": "Orrkorrekció",
-    "slug": "orrkorrekcio",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
-    "content": {
-      "title": "Hogy történik az orrkorrekció?",
-      "description": "Klinikánkon orrcsúcsi lágyrész deformitásokat korrigáló orrplasztikai műtétet végzünk helyi érzéstelenításben. Mivel a probléma általában örökletes és az orr csak 16-18 éves korban éri el végső formáját, ezért a korrekciós műtétet 18 éves kor után végezzük. Az orrcsúcsi deformitás esetén ún. nyitott technikát alkalmazunk, amellyel a műtét jobban korrigálható és precízebb beavatkozás valósítható meg. Ekkor a két orrnyílás közötti bőrön, az ún. columellán ejtünk 3-4 mm-es metszést, amely később szinte nyomtalanul gyógyul.",
-      "title2": "",
-      "description2": "",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "",
-      "benefits": []
-    },
-    "treatTime": "40 perc",
-    "frequency": "",
-    "category": [
-      {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "name": "Hegkorrekció",
-    "slug": "hegkorrekcio",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
-    "content": {
-      "title": "Hogy történik az hegkorrekció?",
-      "description": "A hegek korrekciója gondosan megtervezett hegkimetszéssel történik helyi érzéstelenítésben. \n \nMűtétek, balesetek során a bőr irharétegének sérülése hegképződéssel jár, amely hegek megjelenési formája különböző lehet. Az ideális (optimális) heg vékony, vonalszerű, halvány, nem feltűnő, puha, kevéssé látható. A zavartalan hegesedés folyamata különböző szakaszokra bontható, amely szakaszokban a hegek más és más szöveti folyamatokon mennek keresztül. A műtéti hegek a beavatkozások után tömötté válnak, színük változhat. Az első szakasz kb. 3-4 hónapig tart, amikor a heg tömöttebb, vörhenyesebb színű. Az ezt követő kb. 6-12 hónap (de néha akár 2 év) alatt a heg lassan, fokozatosan felpuhul, elhalványodik és megvékonyodik. A hegek gyógyulásának minőségét csak min. 1 év után lehet értékelni.",
-      "title2": "",
-      "description2": "",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Rendellenes hegformák",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "Keloid Hypertrophias heg"
-        },
-        {
-          "id": 2,
-          "text": "Atrophiás heg"
-        }
-      ]
-    },
-    "treatTime": "kb 60 perc",
-    "frequency": "",
-    "category": [
-      {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 34,
+    "id": 26,
     "name": "Ajakfeltöltés",
     "slug": "ajakfeltoltes",
     "images": [],
@@ -1396,7 +1040,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 27,
     "name": "COG szálas arclifting",
     "slug": "cog-szalas-arclifting",
     "images": [],
@@ -1431,7 +1075,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 28,
     "name": "Tüdőgyógyászati (pulmonológia) és légúti allergológiai szakrendelés",
     "slug": "tudogyogyaszati-pulmonologia-es-leguti-allergologiai-szakrendeles",
     "images": [],
@@ -1495,7 +1139,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 29,
     "name": "Idegsebészeti vizsgálatok",
     "slug": "idegsebeszeti-vizsgalatok",
     "images": [],
@@ -1551,7 +1195,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 30,
     "name": "Standard epicutan teszt (környezeti kontakt allergének viszgálata)",
     "slug": "standard-epicutan-teszt",
     "images": [],
@@ -1571,14 +1215,14 @@
     "category": [
       {
         "id": 4,
-        "name": "Diagnosztikai vizsgálatok",
-        "slug": "diagnosztikai-vizsgalatok",
+        "name": "Labor és diagnosztikai vizsgálatok",
+        "slug": "labor-es-diagnosztikai-vizsgalatok",
         "images": []
       }
     ]
   },
   {
-    "id": 39,
+    "id": 31,
     "name": "Laboratóriumi vizsgálatok",
     "slug": "laboratoriumi-vizsgalatok",
     "images": [],
@@ -1635,14 +1279,14 @@
     "category": [
       {
         "id": 4,
-        "name": "Diagnosztikai vizsgálatok",
-        "slug": "diagnosztikai-vizsgalatok",
+        "name": "Labor és diagnosztikai vizsgálatok",
+        "slug": "labor-es-diagnosztikai-vizsgalatok",
         "images": []
       }
     ]
   },
   {
-    "id": 40,
+    "id": 32,
     "name": "La Roche-Posay",
     "slug": "la-roche-posay",
     "images": "la-roche-posay-products.webp",
@@ -1669,7 +1313,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 33,
     "name": "CeraVe",
     "slug": "cerave",
     "images": "cerave-products.webp",
@@ -1696,7 +1340,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 34,
     "name": "Vichy",
     "slug": "vichy",
     "images": "vichy-products.webp",
@@ -1723,7 +1367,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 35,
     "name": "Bioderma",
     "slug": "bioderma",
     "images": "bioderma-products.webp",
@@ -1783,7 +1427,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 36,
     "name": "Thalgo",
     "slug": "thalgo",
     "images": "thalgo-products.webp",
@@ -1810,7 +1454,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 37,
     "name": "Orvosi lézerkészülékek",
     "slug": "orvosi-lezerkeszulekek",
     "images": "lezer-products.webp",
