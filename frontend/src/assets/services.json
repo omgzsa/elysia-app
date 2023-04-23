@@ -38,24 +38,12 @@
       },
       {
         "id": 5,
-        "name": "Orrkorrekció",
-        "slug": "orrkorrekcio",
-        "image": "orrkorrekcio.webp"
-      },
-      {
-        "id": 6,
-        "name": "Hegkorrekció",
-        "slug": "hegkorrekcio",
-        "image": "hegkorrekcio.webp"
-      },
-      {
-        "id": 7,
         "name": "Ajakfeltöltés",
         "slug": "ajakfeltoltes",
         "image": "ajakfeltoltes.webp"
       },
       {
-        "id": 8,
+        "id": 6,
         "name": "COG szálas arclifting",
         "slug": "cog-szalas-arclifting",
         "image": "cog-szalas-arclifting.webp"
@@ -71,14 +59,14 @@
     "submenu": [
       {
         "id": 0,
-        "name": "Lézeres arcfiatalítás",
-        "slug": "lezeres-arcfiatalitas",
+        "name": "Lézeres archámlasztás",
+        "slug": "lezeres-archamlasztas",
         "image": "lezeres-arcfiatalitas.webp"
       },
       {
         "id": 1,
-        "name": "Vagina rejuvenáció (hüvelyszűkítés)",
-        "slug": "vagina-rejuvenacio-huvelyszukites",
+        "name": "Intim lézeres kezelések",
+        "slug": "intim-lezeres-kezelesek",
         "image": "vagina-rejuvenacio.webp"
       },
       {
@@ -95,24 +83,6 @@
       },
       {
         "id": 4,
-        "name": "Pigmentfoltok kezelése",
-        "slug": "pigmentfoltok-kezelese",
-        "image": "pigmentfoltok-kezelese.webp"
-      },
-      {
-        "id": 5,
-        "name": "Akne kezelése",
-        "slug": "akne-kezelese",
-        "image": "akne-kezeles.webp"
-      },
-      {
-        "id": 6,
-        "name": "Stria kezelése",
-        "slug": "stria-kezelese",
-        "image": "stria-kezeles.webp"
-      },
-      {
-        "id": 7,
         "name": "Körömgomba kezelése",
         "slug": "koromgomba-kezelese",
         "image": "koromgomba-kezelese.webp"
@@ -134,54 +104,36 @@
       },
       {
         "id": 1,
-        "name": "Arc és nyak mezoterápiás kezelése",
-        "slug": "arc-es-nyak-mezoterapias-kezelese",
-        "image": "arc-es-nyak-mezoterapias-kezelese.webp"
-      },
-      {
-        "id": 2,
         "name": "Hajas fejbőr mezoterápiás kezelése",
         "slug": "hajas-fejbor-mezoterapias-kezelese",
         "image": "hajas-fejbor-mezoterapias-kezelese.webp"
       },
       {
-        "id": 3,
-        "name": "Dermaroller kezelés",
-        "slug": "dermaroller-kezeles",
-        "image": "dermaroller-kezeles.webp"
-      },
-      {
-        "id": 4,
+        "id": 2,
         "name": "Fokozott hónalji izzadás kezelése",
         "slug": "fokozott-honalji-izzadas-kezelese",
         "image": "fokozott-honalji-izzadas-kezeles.webp"
       },
       {
-        "id": 5,
+        "id": 3,
         "name": "Ráncfeltöltés hyaluronsavval",
         "slug": "rancfeltoltes-hyaluronsavval",
         "image": "rancfeltoltes-hyaluronsavval.webp"
       },
       {
-        "id": 6,
+        "id": 4,
         "name": "Ránctalanítás botulinum toxinnal (botox)",
         "slug": "ranctalanitas-botulinum-toxinnal-botox",
         "image": "ranctalanitas-botulinum-toxin-injekcioval.webp"
       },
       {
-        "id": 7,
-        "name": "Thread lifting: bioszálas arckontúrozás",
-        "slug": "thread-lifting-bioszalas-arckonturozas",
+        "id": 5,
+        "name": "Thread lifting (bioszálas arcfiatalítás)",
+        "slug": "thread-lifting-bioszalas-arcfiatalitas",
         "image": "thread-lifting-bioszalas-arckonturozas.webp"
       },
       {
-        "id": 8,
-        "name": "PRP/Drakula terápia",
-        "slug": "prp-drakula-terapia",
-        "image": "prp-drakula-terapia.webp"
-      },
-      {
-        "id": 9,
+        "id": 6,
         "name": "Skin booster kezelés",
         "slug": "skin-booster-kezeles",
         "image": "skin-booster-kezeles.webp"
@@ -247,8 +199,8 @@
   },
   {
     "id": 4,
-    "name": "Diagnosztikai vizsgálatok",
-    "slug": "diagnosztikai-vizsgalatok",
+    "name": "Labor és dagnosztikai vizsgálatok",
+    "slug": "labor-es-diagnosztikai-vizsgalatok",
     "image": "diagnosztikai-vizsgalatok.webp",
     "isFeatured": false,
     "submenu": [
@@ -307,7 +259,7 @@
         "id": 5,
         "name": "Orvosi lézerkészülékek",
         "slug": "orvosi-lezerkeszulekek",
-        "image": "lezer-products.webp"
+        "image": "orvosi-lezer.webp"
       }
     ]
   }
