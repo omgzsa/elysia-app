@@ -11,7 +11,7 @@ const props = defineProps({
 });
 
 const hasAppointment = computed(() => {
-  return props.item.appointmentLink;
+  return props.item.hasAppointment;
 });
 
 // a function that returns if item.consultTime is not empty
