@@ -20,8 +20,8 @@ const slides = ref([
     title: "Tökéletes vonalak, magabiztos megjelenés",
     alt: "tükrözött kép egy nőről, az egyik fekete-fehér a másik színes",
     text: "Nyerje vissza önbizalmát szakembereink segítségével. Plasztikai sebészet a legmagasabb minőségben Győrben.",
-    img: "woman_hero_1.webp",
-    color: "bg-white",
+    img: "woman_hero_3.webp",
+    color: "bg-primary-100",
   },
   {
     id: 2,
@@ -36,8 +36,8 @@ const slides = ref([
     title: "Fedezze fel bőre igazi szépségét",
     alt: "egy mosolygó fiatal nő",
     text: "Az Elysia lézer központ mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes bőr Ön számára is elérhető.",
-    img: "woman_hero_3.webp",
-    color: "bg-primary-100",
+    img: "woman_hero_1.webp",
+    color: "bg-white",
   },
 ]);
 

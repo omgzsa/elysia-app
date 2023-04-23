@@ -22,7 +22,7 @@ defineProps({
       :delay="100"
     >
       <div class="max-w-screen-xl px-2 md:px-4 mx-auto flex flex-col gap-y-8">
-        <h1 class="max-w-3xl mx-auto" v-motion-slide-bottom :delay="300">
+        <h1 class="max-w-lg mx-auto" v-motion-slide-bottom :delay="300">
           {{ slide.title }}
         </h1>
         <p class="max-w-md mx-auto" v-motion-slide-bottom :delay="200">
