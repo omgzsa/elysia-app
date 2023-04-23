@@ -28,9 +28,19 @@ const router = createRouter({
       component: () => import("../views/services/Tudogyogyaszat.vue"),
     },
     {
-      path: "/szolgaltatas/tudogyogyaszati-szakrendeles",
+      path: "/szolgaltatas/idegsebeszeti-vizsgalatok",
       name: "service.neurosurgery",
       component: () => import("../views/services/Idegsebeszet.vue"),
+    },
+    {
+      path: "/szolgaltatas/szomnologia",
+      name: "service.somnology",
+      component: () => import("../views/services/Szomnologia.vue"),
+    },
+    {
+      path: "/szolgaltatas/allergologia",
+      name: "service.allergology",
+      component: () => import("../views/services/Allergologia.vue"),
     },
     {
       path: "/szolgaltatas/:category",
