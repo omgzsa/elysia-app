@@ -56,7 +56,7 @@ const bgImage = "CTA_bg.webp";
               class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
             >
               <IconClock
-                class="text-accent-100 flex-shrink text-xs lg:text-base"
+                class="text-accent-100 flex-shrink text-xl md:text-2xl xl:text-3xl"
               />
               <div class="flex flex-col flex-1">
                 <span
