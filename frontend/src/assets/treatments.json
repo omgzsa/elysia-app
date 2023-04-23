@@ -1076,126 +1076,6 @@
   },
   {
     "id": 28,
-    "name": "Tüdőgyógyászati (pulmonológia) és légúti allergológiai szakrendelés",
-    "slug": "tudogyogyaszati-pulmonologia-es-leguti-allergologiai-szakrendeles",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Szalai Zsuzsanna",
-        "slug": "dr-szalai-zsuzsanna",
-        "title": "Tüdőgyógyász, allergológus, tüdő-onkológus és szomnológus szakorvos",
-        "image": "dr-szalai-zsuzsanna.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi is az a pulmonológia és milyen tünetek esetén érdemes felkeresni a tüdőgyógyászati (pulmonológia) szakrendelést?",
-      "description": "Pulmonológia (tüdőgyógyászat) egy olyan orvosi szakterület, amely a légzőrendszer, vagyis a tüdő-, a légútak és a mellkas betegségeivel foglalkozik. \n \nTünetek melyek esetén érdemes pulmonologushoz fordulni: Elhúzódó (4 hétnél hosszabb ideig fennálló) köhögés, fulladás, nehézlégzés, sípoló légzés, rohamokban fellépő köhögés vagy fizikai terhelés, sportolás során fellépő mellkasi panasz vagy köhögés. Visszatérő vagy krónikus nátha, amelynek a hátterében allergia gyanúja felmerül, illetve dohányzással összefüggő panaszok megváltozása: köhögés jellegének a megváltozása, csökkent terhelhetőség, véres köpetürítés, mellkas körülírt fájdalma, fogyás, étvágytalanság.",
-      "title2": "Klinikánkon végzett vizsgálatok",
-      "description2": "Légzésfunkciós vizsgálat (spirometria): A vizsgálat során megvizsgálhatjuk a tüdő térfogatát, a légzés minőségét, valamint a gázcsere és a keringés állapotát. \n \nAllergológiai vizsgálatok (környezeti allergénekre): A vizsgálatot a környezetünkben található allergén anyagokra (pl. poratka, parlagfű, állatszőr) adott allergiás tünetek esetén, a tüneteket okozó allergének kimutatására javasoljuk. \n \nAllergológiai vizsgálat ételekre (kizárólag indokolt esetben - ételallergia 'szűrővizsgálatot' nem végzünk. \n \nRadiológiai vizsgálat rendelőnkben nem érhető el.",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Milyen diagnosztizált problémákra tudunk kezelést nyújtani?",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "légúti allergiás kórképek (szénanátha, por- penész- és állatiszőr allergia), krónikus nátha, orrcsepp abúzus"
-        },
-        {
-          "id": 2,
-          "text": "COPD (dohányos hörghurut)"
-        },
-        {
-          "id": 3,
-          "text": "krónikus köhögés"
-        },
-        {
-          "id": 4,
-          "text": "ritka tüdőbetegségek (fibrózis, szarkoidózis/sarcoidosis, interstitiális tüdőbetegségek, ILD, IPF) konzultációja)"
-        },
-        {
-          "id": 5,
-          "text": "tüdőrákkal kapcsolatos konzultáció"
-        },
-        {
-          "id": 6,
-          "text": "dohányzás leszokás támogatása"
-        },
-        {
-          "id": 7,
-          "text": "lezajlott Covid-fertőzés utáni légúti panaszok vizsgálata"
-        }
-      ]
-    },
-    "treatTime": "15 perc",
-    "frequency": "",
-    "category": [
-      {
-        "id": 1,
-        "name": "Tüdőgyógyásazti szakrendelés",
-        "slug": "tudogyogyaszati-szakrendeles",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Idegsebészeti vizsgálatok",
-    "slug": "idegsebeszeti-vizsgalatok",
-    "images": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Barcsák Endre",
-        "slug": "dr-barcsak-endre",
-        "title": "Idegsebész adjunktus",
-        "image": "dr-barcsak-endre.webp"
-      }
-    ],
-    "content": {
-      "title": "Mi történik egy idegsebészeti vizsgálaton?",
-      "description": "A rendelésen az idegsebészeti kórképek átfogó feltérképezése történik a panaszok részletes elemzésével, a kórelőzmény megismerésével és neurológiai állapotfelmérés segítségével, melyet adott esetben képi diagnosztikai (MR, CT, röntgen, ultrahang) vizsgálat követ. \n \nA diagnózis felállítása után részletesen átbeszéljük a legcélszerűbb kezelési tervet. Szükség szerint javaslatot teszünk az alapellátást kiegészítő gyógytornára, fizikoterápiára, majd a kontroll vizsgálatokon figyelemmel kísérjük a gyógyulás folymatát.",
-      "title2": "",
-      "description2": "",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "Idegsebészeti szakrendelésünket többek közt az alábbi panaszok előfordulása esetén érdemes felkeresni:",
-      "benefits": [
-        {
-          "id": 1,
-          "text": "végtagba sugárzó fájdalom vagy zsibbadás"
-        },
-        {
-          "id": 2,
-          "text": "erős, szokatlan fejfájások"
-        },
-        {
-          "id": 3,
-          "text": "nyaki problémák"
-        },
-        {
-          "id": 4,
-          "text": "hát és derékfájdalom, isiász"
-        },
-        {
-          "id": 5,
-          "text": "gerincpanaszok"
-        }
-      ]
-    },
-    "treatTime": "15 perc",
-    "frequency": "",
-    "category": [
-      {
-        "id": 2,
-        "name": "Idegsebészeti vizsgálatok",
-        "slug": "idegsebeszeti-vizsgalatok",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": 30,
     "name": "Standard epicutan teszt (környezeti kontakt allergének viszgálata)",
     "slug": "standard-epicutan-teszt",
     "images": [],
@@ -1222,7 +1102,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 29,
     "name": "Laboratóriumi vizsgálatok",
     "slug": "laboratoriumi-vizsgalatok",
     "images": [],
@@ -1286,7 +1166,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 30,
     "name": "La Roche-Posay",
     "slug": "la-roche-posay",
     "images": "la-roche-posay-products.webp",
@@ -1313,7 +1193,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 31,
     "name": "CeraVe",
     "slug": "cerave",
     "images": "cerave-products.webp",
@@ -1340,7 +1220,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 32,
     "name": "Vichy",
     "slug": "vichy",
     "images": "vichy-products.webp",
@@ -1367,7 +1247,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 33,
     "name": "Bioderma",
     "slug": "bioderma",
     "images": "bioderma-products.webp",
@@ -1427,7 +1307,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 34,
     "name": "Thalgo",
     "slug": "thalgo",
     "images": "thalgo-products.webp",
@@ -1454,7 +1334,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 35,
     "name": "Orvosi lézerkészülékek",
     "slug": "orvosi-lezerkeszulekek",
     "images": "lezer-products.webp",
