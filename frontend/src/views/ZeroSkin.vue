@@ -56,24 +56,26 @@ const images = [
           függetlenül. Az elért eredmények megtartása hosszútávon is biztosított
           a ZO® bőrápolási rutinjaival. Átfogó megoldások, állandó bőregészség!
         </p>
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x-2"
-        >
-          <div class="flex flex-col text-center">
-            <span class="text-accent-100 font-bold text-2xl md:text-4xl"
-              >20+</span
+        <div class="flex divide-x">
+          <div class="flex flex-col text-center px-4 w-full sm:px-12 md:px-8">
+            <div class="text-accent-100 font-bold text-2xl md:text-4xl">
+              20+
+            </div>
+            <div
+              class="text-xs lg:text-sm xl:text-base text-accent-100 font-medium"
             >
-            <span class="text-accent-100 font-medium"
-              >év bőrgyógyászati szakmai tapasztalat</span
-            >
+              év bőrgyógyászati szakmai tapasztalat
+            </div>
           </div>
-          <div class="flex flex-col text-center pt-4 sm:pt-0 sm:pl-4">
-            <span class="text-accent-100 font-bold text-2xl md:text-4xl"
-              >10+</span
+          <div class="flex flex-col text-center px-4 w-full sm:px-12 md:px-8">
+            <div class="text-accent-100 font-bold text-2xl md:text-4xl">
+              10+
+            </div>
+            <div
+              class="text-xs lg:text-sm xl:text-base text-accent-100 font-medium"
             >
-            <span class="text-accent-100 font-medium"
-              >termékkategória különböző problémákra</span
-            >
+              termékkategória különböző problémákra
+            </div>
           </div>
         </div>
       </div>
