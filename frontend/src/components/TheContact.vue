@@ -63,7 +63,10 @@ defineProps({
       </ul>
 
       <p class="pb-8">
-        Ha nem találja amit keres nézzen körül Gyakran Ismételt Kérdések között.
+        Ha nem találja amit keres nézzen körül
+        <AppLink class="font-medium" :to="{ name: 'faq.show' }"
+          >Gyakran Ismételt Kérdés</AppLink
+        >ek között.
       </p>
 
       <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
