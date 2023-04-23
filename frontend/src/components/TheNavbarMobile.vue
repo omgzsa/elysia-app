@@ -56,13 +56,13 @@ const borgyogyaszat = ref([
 
 const lezerkezelesek = ref([
   {
-    name: "Lézeres arcfiatalítás",
-    slug: "lezeres-arcfiatalitas",
+    name: "Lézeres archámlasztás",
+    slug: "lezeres-archamlasztas",
     category: "lezerkezelesek",
   },
   {
-    name: "Vagina rejuvenáció (hüvelyszűkítés)",
-    slug: "vagina-rejuvenacio-huvelyszukites",
+    name: "Intim lézeres kezelések",
+    slug: "intim-lezeres-kezelesek",
     category: "lezerkezelesek",
   },
   {
@@ -73,21 +73,6 @@ const lezerkezelesek = ref([
   {
     name: "Seprűvénák, értágulatok kezelése",
     slug: "sepruvenak-ertagulatok-kezelese",
-    category: "lezerkezelesek",
-  },
-  {
-    name: "Pigmentfoltok kezelése",
-    slug: "pigmentfoltok-kezelese",
-    category: "lezerkezelesek",
-  },
-  {
-    name: "Akne kezelése",
-    slug: "akne-kezelese",
-    category: "lezerkezelesek",
-  },
-  {
-    name: "Stria kezelése",
-    slug: "stria-kezelese",
     category: "lezerkezelesek",
   },
   {
@@ -104,18 +89,8 @@ const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
-    name: "Arc és nyak mezoterápiás kezelése",
-    slug: "arc-es-nyak-mezoterapias-kezelese",
-    category: "orvos-esztetika",
-  },
-  {
     name: "Hajas fejbőr mezoterápiás kezelése",
     slug: "hajas-fejbor-mezoterapias-kezelese",
-    category: "orvos-esztetika",
-  },
-  {
-    name: "Dermaroller kezelés",
-    slug: "dermaroller-kezeles",
     category: "orvos-esztetika",
   },
   {
@@ -134,13 +109,8 @@ const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
-    name: "Thread lifting: bioszálas arckontúrozás",
-    slug: "thread-lifting-bioszalas-arckonturozas",
-    category: "orvos-esztetika",
-  },
-  {
-    name: "PRP/Drakula terápia",
-    slug: "prp-drakula-terapia",
+    name: "Thread lifting (bioszálas arcfiatalítás)",
+    slug: "thread-lifting-bioszalas-arcfiatalitas",
     category: "orvos-esztetika",
   },
   {
@@ -174,16 +144,6 @@ const plasztikaiSebeszet = ref([
   {
     name: "Kisajak plasztika",
     slug: "kisajak-plasztika",
-    category: "plasztikai-sebeszet",
-  },
-  {
-    name: "Orrkorrekció",
-    slug: "orrkorrekcio",
-    category: "plasztikai-sebeszet",
-  },
-  {
-    name: "Hegkorrekció",
-    slug: "hegkorrekcio",
     category: "plasztikai-sebeszet",
   },
   {
@@ -297,7 +257,7 @@ onClickOutside(target, () => {
                 <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
 
                 <TheDropdown
-                  title="Diagnosztikai vizsgálatok"
+                  title="Labor és diagnosztikai vizsgálatok"
                   :submenu="diagnosztikaiVizsgalatok"
                 />
 
