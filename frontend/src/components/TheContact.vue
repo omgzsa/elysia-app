@@ -27,7 +27,7 @@ defineProps({
 <template>
   <section
     id="contact"
-    class="max-w-screen-2xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-6"
+    class="max-w-screen-xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-6"
   >
     <!-- contact data -->
     <div class="space-y-6">
