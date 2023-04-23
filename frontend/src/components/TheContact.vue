@@ -11,7 +11,7 @@ import IconCalendar from "../components/icons/IconCalendar.vue";
 const center = ref({ lat: 47.6931539, lng: 17.6366309 });
 const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
-const openHours = "Hétfő - Péntek: 8:00 - 18:00";
+const openHours = "Hétfő - Csütörtök: 10:00 - 18:00 \nPéntek: 10:00 - 16:00";
 const contactEmail = "info@elysia.hu";
 const phoneNum = "+36 20 275 0025";
 const address = "9026 Győr, Dózsa György rkpt. 29-31.";
@@ -27,28 +27,28 @@ defineProps({
 <template>
   <section
     id="contact"
-    class="max-w-screen-2xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-10"
+    class="max-w-screen-2xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-6"
   >
     <!-- contact data -->
-    <div class="p-6 space-y-6 md:p-12 xl:p-20">
+    <div class="space-y-6">
       <h2>{{ title }}</h2>
 
-      <ul class="">
-        <li class="flex items-center space-x-2">
-          <IconClock class="text-accent-100 w-6" />
-          <p>{{ openHours }}</p>
+      <ul class="space-y-2">
+        <li class="flex items-start space-x-2 whitespace-pre">
+          <IconClock class="mt-px text-accent-100 w-6 text-xl" />
+          <span>{{ openHours }}</span>
         </li>
         <li class="flex items-center space-x-2">
-          <IconEmail class="text-accent-100 w-6" />
-          <p>{{ contactEmail }}</p>
+          <IconEmail class="text-accent-100 w-6 text-xl" />
+          <span>{{ contactEmail }}</span>
         </li>
         <li class="flex items-center space-x-2">
-          <IconPhone class="text-accent-100 w-6" />
-          <p>{{ phoneNum }}</p>
+          <IconPhone class="text-accent-100 w-6 text-xl" />
+          <span>{{ phoneNum }}</span>
         </li>
         <li class="flex items-center space-x-2">
-          <IconMarker class="text-accent-100 w-6" />
-          <p>{{ address }}</p>
+          <IconMarker class="text-accent-100 w-6 text-xl" />
+          <span>{{ address }}</span>
         </li>
       </ul>
 
