@@ -33,7 +33,6 @@ defineProps({
           />
           <div class="text-sm space-y-1">
             <p class="font-bold">Zsuzsanna</p>
-            <p>Beosztás</p>
           </div>
         </div>
       </div>
@@ -53,7 +52,6 @@ defineProps({
           />
           <div class="text-sm space-y-1">
             <p class="font-bold">Orsolya</p>
-            <p>Beosztás</p>
           </div>
         </div>
       </div>
@@ -73,7 +71,6 @@ defineProps({
           />
           <div class="text-sm space-y-1">
             <p class="font-bold">Timi</p>
-            <p>Beosztás</p>
           </div>
         </div>
       </div>
