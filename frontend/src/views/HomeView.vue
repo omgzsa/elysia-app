@@ -35,7 +35,7 @@ const slides = ref([
     id: 3,
     title: "Fedezze fel bőre igazi szépségét",
     alt: "egy mosolygó fiatal nő",
-    text: "Az Elysia lézer központ mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes bőr Ön számára is elérhető.",
+    text: "Az Elysia lézer központ mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes megjelenés Ön számára is elérhető.",
     img: "woman_hero_1.webp",
     color: "bg-white",
   },
@@ -76,16 +76,21 @@ slug: "",
     <section>
       <HomeIntroduction title="Komplex szolgáltatások exkluzív környezetben">
         <template #introduction>
-          Az Elysia Laser Clinic orvos-esztétikai centrumot azzal a céllal
-          hoztuk létre, hogy komplex szolgáltatást nyújthassunk a
-          bőrgyógyászati, esztétikai, nőgyógyászati problémákkal küzdő és
-          szépülni vágyó páciensek számára. <br /><br />
-          Hisszük, hogy a mai rohanó, folyamatosan megújuló világunkban szükség
-          van rövid várakozási idővel igénybe vehető magánszolgáltatásra, ahol
-          barátságos környezetben dolgozó tapasztalt szakorvosok, modern
-          kezelési technikák, innovatív lézerkészülékek állnak rendelkezésre.<br /><br />
-          Az Elysia csapata azon dolgozik, hogy az Ön bőrgyógyászati, esztétikai
-          és nőgyógyászati problémáin hatékonyan segítsen.
+          Az Elysia Laser Clinic Győrben, Révfalu szívében elhelyezkedő,
+          barátságos környezetű, magas minőséget képviselő magánklinika. Az
+          esztétikus megjelenés hívei vagyunk, nem a szélsőséges
+          megnyilvánulásoké. Fontos számunkra a folyamatos visszajelzés
+          pácienseinktől, mert ezek adják klinikánk lelkét.<br /><br />
+          A megyében egyedülálló ZO Skin Health partnerek vagyunk és talán
+          joggal mondhatjuk, hogy az elsők között voltunk, akik a lézeres
+          kezeléseket elindították Győrben, többek között a végleges lézeres
+          szőrtelenítést, a seprűvéna kezelést, egyéb bőrnövedékek, szemölcsök
+          eltávolítását valamint lézeres hüvely rejuvenációt. A rengeteg pozitív
+          visszajelzés folyamatosan inspirál bennünket, hogy álljunk ki
+          elképzeléseink és jövőbeni terveink mellett. Ha Ön is az Elysiaban
+          jár, reméljük, hasonlóan nagyszerű tapasztalatai lesznek, bízunk a
+          közös együttműködésben!<br />
+          Szívélyes üdvözlettel: Elysia Laser Clinic csapata
         </template>
       </HomeIntroduction>
     </section>
