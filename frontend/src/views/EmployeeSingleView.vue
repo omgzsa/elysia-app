@@ -1,9 +1,7 @@
 <script setup>
-import { ref, computed } from "vue";
+import { computed } from "vue";
 import EmployeeDetails from "../components/employee/EmployeeDetails.vue";
 import employeeData from "../assets/coworkers.json";
-
-const employees = ref(employeeData);
 
 const props = defineProps({
   slug: {
@@ -13,7 +11,7 @@ const props = defineProps({
 });
 
 const employee = computed(() => {
-  return employees.value.find((item) => item.slug === props.slug);
+  return employeeData.find((item) => item.slug === props.slug);
 });
 </script>
 <template>

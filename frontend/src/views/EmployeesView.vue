@@ -1,10 +1,6 @@
 <script setup>
-// import { ref } from "vue";
 import EmployeeCard from "../components/employee/EmployeeCard.vue";
-
 import employeeData from "../assets/coworkers.json";
-
-// const employees = ref(employeeData);
 </script>
 
 <template>
