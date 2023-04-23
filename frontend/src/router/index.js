@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
 import employeesData from "@/assets/coworkers.json";
+import blogsData from "@/assets/blogs.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -111,12 +112,34 @@ const router = createRouter({
       path: "/araink",
       name: "prices.show",
       component: () => import("../views/PricesView.vue"),
-      props: true,
     },
     {
       path: "/gyik",
       name: "faq.show",
       component: () => import("../views/FaqView.vue"),
+    },
+    {
+      path: "/blog",
+      name: "blogs.show",
+      component: () => import("../views/BlogsView.vue"),
+    },
+    {
+      path: "/blog/:slug",
+      name: "blog.single",
+      component: () => import("../views/BlogSingleView.vue"),
+      props: true,
+      beforeEnter(to) {
+        const exists = blogsData.find((item) => item.slug === to.params.slug);
+        if (!exists) {
+          return {
+            name: "not.found",
+            // allows keeping the URL in the browser address bar while rendering the 404 page
+            params: { pathMatch: to.path.substring(1).split("/") },
+            query: to.query,
+            hash: to.hash,
+          };
+        }
+      },
     },
     {
       path: "/:pathMatch(.*)*",
