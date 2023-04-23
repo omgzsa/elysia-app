@@ -9,7 +9,7 @@ defineProps({
 });
 </script>
 <template>
-  <div class="employee-card group relative">
+  <div class="employee-card group relative max-w-xs">
     <div
       class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
     ></div>
