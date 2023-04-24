@@ -27,42 +27,42 @@ const borgyogyaszat = ref([
   {
     name: "Gyermek bőrgyógyászat",
     slug: "gyermek-borgyogyaszat",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
-    name: "Dermatoscopos anyajegy- és bőrrák szűrés",
+    name: "Dermatoszkópos anyajegy- és bőrrák szűrés",
     slug: "dermatoscopos-anyajegy-es-borrak-szures",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Pattanásos bőr komplex kezelése",
     slug: "pattanasos-bor-komplex-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Bőr- és körömgombásodás kezelése",
     slug: "bor-es-koromgombasodas-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Ekcéma, atópia, allergiás bőrbetegségek kezelése",
     slug: "ekcema-atopia-allergias-borbetegsegek-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Pikkelysömör (Pszoriázis) kezelés",
     slug: "pikkelysomor-pszoriazis-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Vírusos szemölcsök kezelése",
     slug: "virusos-szemolcsok-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
   {
     name: "Hajhullás kivizsgálása és kezelése",
     slug: "hajhullas-kivizsgalasa-es-kezelese",
-    category: "borgyogyaszati-kezelesek",
+    category: "borgyogyaszat",
   },
 ]);
 
@@ -96,7 +96,7 @@ const lezerkezelesek = ref([
 
 const orvosEsztetika = ref([
   {
-    name: "Profhiló kezelés",
+    name: "Profhilo kezelés",
     slug: "profhilo-kezeles",
     category: "orvos-esztetika",
   },
@@ -126,7 +126,7 @@ const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
-    name: "Skin booster kezelés",
+    name: "Skinbooster kezelés",
     slug: "skin-booster-kezeles",
     category: "orvos-esztetika",
   },
@@ -349,7 +349,7 @@ onUnmounted(() => {
                 <TheDropdown title="Bőrgyógyászat" :submenu="borgyogyaszat" />
 
                 <TheDropdown
-                  title="Labor és diagnosztikai vizsgálatok"
+                  title="Labor és diagnosztika"
                   :submenu="diagnosztikaiVizsgalatok"
                 />
 
@@ -359,10 +359,10 @@ onUnmounted(() => {
                 />
 
                 <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">
-                  Tüdőgyógyászati szakrendelés
+                  Tüdőgyógyászat
                 </AppLink>
                 <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
-                  Idegsebészeti vizsgálatok
+                  Idegsebészet
                 </AppLink>
                 <AppLink class="text-sm" :to="{ name: 'service.somnology' }">
                   Szomnológia
