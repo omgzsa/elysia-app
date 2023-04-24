@@ -48,29 +48,6 @@ const bgImage = "CTA_bg.webp";
           </p>
         </div>
         <!-- treatment time/frequency -->
-        <!-- <div class="px-4 relative sm:order-2 sm:col-span-1">
-          <div
-            class="flex flex-col space-y-6 mx-auto w-64 sm:w-full lg:max-w-md bg-primary-200 py-4 px-4 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 sm:sticky top-20"
-          >
-            <div
-              class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
-            >
-              <IconClock
-                class="text-accent-100 flex-shrink text-xl md:text-2xl xl:text-3xl"
-              />
-              <div class="flex flex-col flex-1">
-                <span
-                  class="text-xs lg:text-sm xl:text-base tracking-wider uppercase text-gray-800"
-                  >a kezelés időtartama</span
-                >
-                <span
-                  class="text-accent-100 font-medium md:font-semibold text-sm"
-                  >15 - 20 perc</span
-                >
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
     <!-- FAQ call to action -->
@@ -135,6 +112,8 @@ const bgImage = "CTA_bg.webp";
               <img
                 :src="useGetEmployeeImageUrl('dr-szalai-zsuzsanna-phd.webp')"
                 alt="Dr. Szalai Zsuzsanna"
+                height="300"
+                width="280"
                 class="rounded-xl w-full h-72 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
               />
               <h3 class="text-gray-900">Dr. Szalai Zsuzsanna</h3>
