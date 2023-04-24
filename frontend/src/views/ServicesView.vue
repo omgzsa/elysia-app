@@ -55,7 +55,7 @@ import servicesData from "@/assets/services.json";
               alt="tüdőgyógyászati vizsgálatok szimbólum"
             />
             <p class="font-semibold text-center text-xs sm:text-base">
-              Tüdőgyógyászati szakrendelés
+              Tüdőgyógyászat
             </p>
           </AppLink>
         </li>
@@ -76,7 +76,7 @@ import servicesData from "@/assets/services.json";
               width="100"
             />
             <p class="font-semibold text-center text-xs sm:text-base">
-              Idegsebészeti vizsgálatok
+              Idegsebészet
             </p>
           </AppLink>
         </li>
