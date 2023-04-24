@@ -3,8 +3,6 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// const isProduction = import.meta.env.PROD;
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
@@ -23,10 +21,5 @@ export default defineConfig({
     outDir: "dist",
     assetsDir: "assets",
     sourcemap: true,
-    // terserOptions: {
-    //   compress: {
-    //     drop_console: import.meta.env.MODE === "production",
-    //   },
-    // },
   },
 });
