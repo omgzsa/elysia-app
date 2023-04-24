@@ -35,7 +35,7 @@ const slides = ref([
     id: 3,
     title: "Fedezze fel bőre igazi szépségét",
     alt: "egy mosolygó fiatal nő",
-    text: "Az Elysia lézer központ mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes megjelenés Ön számára is elérhető.",
+    text: "Az Elysia Laser Clinic mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes megjelenés Ön számára is elérhető.",
     img: "hero-3-colored.webp",
     color: "bg-primary-400",
   },
