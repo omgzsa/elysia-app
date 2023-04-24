@@ -98,7 +98,7 @@
     "submenu": [
       {
         "id": 0,
-        "name": "Profhiló kezelés",
+        "name": "Profhilo kezelés",
         "slug": "profhilo-kezeles",
         "image": "profhilo-kezeles.webp"
       },
@@ -134,7 +134,7 @@
       },
       {
         "id": 6,
-        "name": "Skin booster kezelés",
+        "name": "Skinbooster kezelés",
         "slug": "skin-booster-kezeles",
         "image": "skin-booster-kezeles.webp"
       }
@@ -142,8 +142,8 @@
   },
   {
     "id": 3,
-    "name": "Bőrgyógyászati kezeléseink",
-    "slug": "borgyogyaszati-kezelesek",
+    "name": "Bőrgyógyászat",
+    "slug": "borgyogyaszat",
     "image": "borgyogyaszat.webp",
     "isFeatured": false,
     "submenu": [
@@ -155,7 +155,7 @@
       },
       {
         "id": 1,
-        "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
+        "name": "Dermatoszkópos anyajegy- és bőrrák szűrés",
         "slug": "dermatoscopos-anyajegy-es-borrak-szures",
         "image": "dermatoscopos-anyajegy-szures.webp"
       },

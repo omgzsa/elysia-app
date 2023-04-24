@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Dermatoscopos anyajegy- és bőrrák szűrés",
+    "name": "Dermatoszkópos anyajegy- és bőrrák szűrés",
     "slug": "dermatoscopos-anyajegy-es-borrak-szures",
     "images": [],
     "relatedDoctor": [
@@ -28,8 +28,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -166,8 +166,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -208,8 +208,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -250,8 +250,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -292,8 +292,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -334,8 +334,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -376,8 +376,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -418,8 +418,8 @@
     "category": [
       {
         "id": 3,
-        "name": "Bőrgyógyászati kezeléseink",
-        "slug": "borgyogyaszati-kezelesek",
+        "name": "Bőrgyógyászat",
+        "slug": "borgyogyaszat",
         "images": []
       }
     ]
@@ -746,7 +746,7 @@
   },
   {
     "id": 20,
-    "name": "Skin booster kezelés",
+    "name": "Skinbooster kezelés",
     "slug": "skin-booster-kezeles",
     "images": [],
     "relatedDoctor": [
