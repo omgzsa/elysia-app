@@ -27,8 +27,7 @@
     @apply font-semibold text-sm;
   }
 
-  p,
-  li {
+  p {
     @apply text-sm lg:text-base;
   }
 
