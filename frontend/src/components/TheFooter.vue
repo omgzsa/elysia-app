@@ -20,7 +20,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
             <li>
               <AppLink
                 :to="{ name: 'services' }"
-                class="hover:text-gray-800 transition"
+                class="hover:text-gray-800 transition text-xs"
               >
                 Szolgáltatások
               </AppLink>
@@ -29,7 +29,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
             <li>
               <AppLink
                 :to="{ name: 'employees.show' }"
-                class="hover:text-gray-800 transition"
+                class="hover:text-gray-800 transition text-xs"
               >
                 Munkatársak
               </AppLink>
@@ -38,7 +38,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
             <li>
               <AppLink
                 :to="{ name: 'prices.show' }"
-                class="hover:text-gray-800 transition"
+                class="hover:text-gray-800 transition text-xs"
               >
                 Árak
               </AppLink>
@@ -47,7 +47,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
             <li>
               <AppLink
                 :to="{ name: 'faq.show' }"
-                class="hover:text-gray-800 transition"
+                class="hover:text-gray-800 transition text-xs"
               >
                 GY.I.K.
               </AppLink>
@@ -55,7 +55,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
             <li>
               <AppLink
                 :to="{ name: 'not.found' }"
-                class="hover:text-gray-800 transition"
+                class="hover:text-gray-800 transition text-xs"
               >
                 Adatvédelmi tájékoztató
               </AppLink>
