@@ -27,7 +27,7 @@ defineProps({
         </p>
         <div class="flex gap-4 items-center">
           <img
-            src="../../assets/images/rolunk_pic.jpg"
+            src="../../assets/images/testimonial-2.webp"
             alt=""
             class="w-14 h-14 rounded-full object-cover"
           />
@@ -65,7 +65,7 @@ defineProps({
         </p>
         <div class="flex gap-4 items-center">
           <img
-            src="../../assets/images/rolunk_pic.jpg"
+            src="../../assets/images/testimonial-3.webp"
             alt=""
             class="w-14 h-14 rounded-full object-cover"
           />
