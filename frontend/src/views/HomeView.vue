@@ -18,6 +18,8 @@ const slides = ref([
   {
     id: 1,
     title: "Tökéletes vonalak, magabiztos megjelenés",
+    buttonText: "Plasztikai sebészet",
+    linkTo: "plasztikai-sebeszet",
     alt: "tükrözött kép egy nőről, az egyik fekete-fehér a másik színes",
     text: "Nyerje vissza önbizalmát szakembereink segítségével. Plasztikai sebészet a legmagasabb minőségben Győrben.",
     img: "hero-1.webp",
@@ -26,6 +28,8 @@ const slides = ref([
   {
     id: 2,
     title: "Élvezze gyönyörű és sima bőrét egész évben",
+    buttonText: "Lézerkezelések",
+    linkTo: "lezerkezelesek",
     alt: "egy nő nyújtja a lábát",
     text: "Lézeres szőrtelenítés a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
     img: "woman_hero_2.webp",
@@ -34,6 +38,8 @@ const slides = ref([
   {
     id: 3,
     title: "Fedezze fel bőre igazi szépségét",
+    buttonText: "Bőrgyógyászat",
+    linkTo: "borgyogyaszat",
     alt: "egy mosolygó fiatal nő",
     text: "Az Elysia Laser Clinic mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes megjelenés Ön számára is elérhető.",
     img: "hero-3-colored.webp",
