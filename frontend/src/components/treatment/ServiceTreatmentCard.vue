@@ -114,7 +114,9 @@ const props = defineProps({
         <!-- medical equipment image (treatments have no image yet) -->
         <div class="px-4 relative sm:order-2 sm:col-span-1" v-if="hasImage">
           <img
-            class="sm:sticky top-20"
+            class="sm:sticky top-20 h-86 object-contain object-top"
+            width="300"
+            height="80"
             :src="useGetServiceImageUrl(props.treatment.images)"
             :alt="props.treatment.title"
           />

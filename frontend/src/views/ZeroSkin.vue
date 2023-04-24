@@ -85,6 +85,8 @@ const images = [
           class="w-96 object-contain h-full m-auto"
           :src="useGetImageUrl('z0-products.webp')"
           alt="z0 skin health termékekcsalád"
+          width="400"
+          height="200"
         />
       </div>
     </div>
@@ -105,6 +107,8 @@ const images = [
             class="w-24 h-24 object-contain m-auto"
             :src="useGetImageUrl(item.image)"
             alt="z0-skin-health megoldás"
+            width="100"
+            height="100"
           />
           <p class="font-medium">{{ item.text }}</p>
         </div>
@@ -113,10 +117,10 @@ const images = [
 
     <!-- before-after images -->
     <div class="flex flex-col space-y-10 mx-auto site-padding max-w-screen-xl">
-      <h3>Vendégeink a kezelés előtt és után</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <h3 class="text-center">Vendégeink a kezelés előtt és után</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto">
         <!-- 1st comparison -->
-        <div class="flex flex-col space-y-4">
+        <div class="flex flex-col space-y-4 max-w-md">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
@@ -124,12 +128,18 @@ const images = [
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_01_before.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés előtti állapot"
             />
             <img
               slot="second"
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_01_after.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés utáni állapot"
             />
             <!-- eslint-enable -->
           </ImgComparisonSlider>
@@ -141,7 +151,7 @@ const images = [
           </div>
         </div>
         <!-- 2nd comparison -->
-        <div class="flex flex-col space-y-4">
+        <div class="flex flex-col space-y-4 max-w-md">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
@@ -149,12 +159,18 @@ const images = [
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_02_before.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés előtti állapot"
             />
             <img
               slot="second"
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_02_after.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés utáni állapot"
             />
             <!-- eslint-enable -->
           </ImgComparisonSlider>
@@ -164,7 +180,7 @@ const images = [
           </div>
         </div>
         <!-- 3rd comparison -->
-        <div class="flex flex-col space-y-4">
+        <div class="flex flex-col space-y-4 max-w-md">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
@@ -172,12 +188,18 @@ const images = [
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_03_before.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés előtti állapot"
             />
             <img
               slot="second"
               class="h-72 object-cover m-auto rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_03_after.webp')"
+              width="220"
+              height="200"
+              alt="Z0 Skin Health kezelés utáni állapot"
             />
             <!-- eslint-enable -->
           </ImgComparisonSlider>

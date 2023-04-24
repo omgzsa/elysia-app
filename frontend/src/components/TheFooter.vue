@@ -13,7 +13,8 @@ const currentYear = computed(() => new Date().getFullYear());
       <div class="space-y-4 pt-8">
         <img
           :src="useGetImageUrl('elysia_logo_new_transparent.webp')"
-          alt="Elysia Laser CLinic"
+          alt="Elysia Laser CLinic logó"
+          height="64"
           class="h-16 py-1"
         />
         <nav aria-label="Footer Navigation - Support">

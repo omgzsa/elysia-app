@@ -22,6 +22,8 @@ defineProps({
         <img
           :src="useGetEmployeeImageUrl(item.image)"
           :alt="item.name"
+          height="250"
+          width="300"
           class="rounded-xl w-full h-72 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
         />
         <h3 class="text-gray-900">

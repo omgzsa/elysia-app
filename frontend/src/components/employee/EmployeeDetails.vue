@@ -14,7 +14,6 @@ const hasAppointment = computed(() => {
   return props.item.hasAppointment;
 });
 
-// a function that returns if item.consultTime is not empty
 const hasConsultTime = computed(() => {
   return props.item.consultTime.length > 0;
 });
@@ -22,10 +21,6 @@ const hasConsultTime = computed(() => {
 const hasSpecialties = computed(() => {
   return props.item.specialties.length > 0;
 });
-
-// function that logs to the console
-// const log = (msg) => console.log(msg);
-// log(hasAppointment);
 </script>
 <template>
   <div class="site-padding">
@@ -47,6 +42,8 @@ const hasSpecialties = computed(() => {
           <img
             :src="useGetEmployeeImageUrl(item.image)"
             :alt="item.title"
+            width="200"
+            height="220"
             class="lg:-mt-24 rounded-xl w-full h-64 md:h-80 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
           />
           <h3 v-if="hasConsultTime" class="text-center">Rendelési idő</h3>

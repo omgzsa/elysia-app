@@ -46,8 +46,10 @@ const servicesFeatured = computed(() => {
         >
           <img
             class="h-24 sm:h-32 w-full object-contain"
+            width="100"
+            height="100"
             :src="useGetImageUrl(service.image)"
-            alt=""
+            :alt="service.name + ' szimbólum'"
           />
           <p class="font-semibold text-center text-xs sm:text-base">
             {{ service.name }}
@@ -66,7 +68,9 @@ const servicesFeatured = computed(() => {
           <img
             class="h-24 sm:h-32 w-full object-contain"
             :src="useGetImageUrl('z0_skin_health.webp')"
-            alt=""
+            width="100"
+            height="100"
+            alt="z0-skin-health szimbólum"
           />
           <p class="font-semibold text-center text-xs sm:text-base">
             Z0 Skin Health
@@ -85,7 +89,9 @@ const servicesFeatured = computed(() => {
           <img
             class="h-24 sm:h-32 w-full object-contain"
             :src="useGetImageUrl('tudogyogyaszati-szakrendeles.webp')"
-            alt=""
+            width="100"
+            height="100"
+            alt="tüdőgyógyászat szimbólum"
           />
           <p class="font-semibold text-center text-xs sm:text-base">
             Tüdőgyógyászati szakrendelés

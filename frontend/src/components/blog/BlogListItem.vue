@@ -15,6 +15,8 @@ defineProps({
     <img
       role="presentation"
       class="object-cover w-full rounded-t-xl h-44"
+      width="128"
+      height="32"
       :src="useGetBlogImageUrl(blog.image)"
     />
     <div class="p-4 space-y-2">

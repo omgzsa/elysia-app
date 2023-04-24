@@ -63,7 +63,13 @@ const breakpoints = ref({
     class="bg-primary-100 py-16"
   >
     <Slide v-for="(image, index) in images" :key="index">
-      <img :src="useGetImageUrl(image.logo)" :alt="image.name" />
+      <img
+        :src="useGetImageUrl(image.logo)"
+        :alt="image.name"
+        width="200"
+        height="42"
+        class="h-12 md:h-16 object-contain object-center"
+      />
     </Slide>
   </Carousel>
 </template>

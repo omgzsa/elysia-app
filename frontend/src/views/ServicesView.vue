@@ -31,7 +31,9 @@ import servicesData from "@/assets/services.json";
             <img
               class="h-24 sm:h-32 w-full object-contain"
               :src="useGetImageUrl(service.image)"
-              alt=""
+              :alt="service.name + 'szimbólum'"
+              height="100"
+              width="100"
             />
             <p class="font-semibold text-center text-xs sm:text-base">
               {{ service.name }}
@@ -50,7 +52,7 @@ import servicesData from "@/assets/services.json";
             <img
               class="h-24 sm:h-32 w-full object-contain"
               :src="useGetImageUrl('tudogyogyaszati-szakrendeles.webp')"
-              alt=""
+              alt="tüdőgyógyászati vizsgálatok szimbólum"
             />
             <p class="font-semibold text-center text-xs sm:text-base">
               Tüdőgyógyászati szakrendelés
@@ -69,7 +71,9 @@ import servicesData from "@/assets/services.json";
             <img
               class="h-24 sm:h-32 w-full object-contain"
               :src="useGetImageUrl('idegsebeszeti-vizsgalatok.webp')"
-              alt=""
+              alt="idegsebészeti vizsgálatok szimbólum"
+              height="100"
+              width="100"
             />
             <p class="font-semibold text-center text-xs sm:text-base">
               Idegsebészeti vizsgálatok

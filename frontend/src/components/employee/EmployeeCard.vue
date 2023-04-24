@@ -1,5 +1,4 @@
 <script setup>
-// import { computed } from "vue";
 import { useGetEmployeeImageUrl } from "../../composables/getEmployeeImageUrl";
 
 defineProps({
@@ -8,10 +7,6 @@ defineProps({
     required: true,
   },
 });
-
-// const hasData = computed(() => {
-
-// });
 </script>
 
 <template>
@@ -28,7 +23,9 @@ defineProps({
         <img
           :src="useGetEmployeeImageUrl(item.image)"
           :alt="item.name"
-          class="rounded-xl w-full h-72 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+          width="128"
+          height="128"
+          class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
         />
         <h3 class="text-gray-900">
           {{ item.name }}

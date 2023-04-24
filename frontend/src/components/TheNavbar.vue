@@ -303,7 +303,12 @@ onUnmounted(() => {
       <div class="md:flex md:items-center md:gap-12">
         <AppLink :to="{ name: 'home' }" class="block h-full w-16 sm:w-20">
           <span class="sr-only">Home</span>
-          <img :src="useGetImageUrl(logo)" alt="" />
+          <img
+            :src="useGetImageUrl(logo)"
+            alt="Elysia Laser Clinic logó"
+            height="64"
+            class="h-14 md:h-16 object-contain object-top py-1"
+          />
         </AppLink>
       </div>
 
