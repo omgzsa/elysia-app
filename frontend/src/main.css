@@ -11,6 +11,10 @@
     @apply mx-auto mb-16 lg:mb-24 xl:mb-28;
   }
 
+  img {
+    @apply max-w-full h-auto;
+  }
+
   h1 {
     @apply font-bold text-4xl sm:text-5xl xl:text-6xl tracking-wide;
   }
