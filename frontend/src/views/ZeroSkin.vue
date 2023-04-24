@@ -41,6 +41,7 @@ const images = [
         <template #title>Z0 Skin Health</template>
       </AppHeader>
     </div>
+    <!-- z0 skin -->
     <div
       class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-xl mx-auto site-padding"
     >
@@ -112,6 +113,58 @@ const images = [
           />
           <p class="font-medium">{{ item.text }}</p>
         </div>
+      </div>
+    </div>
+
+    <!-- red carpet -->
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding"
+    >
+      <div class="space-y-8">
+        <h3>ZO® Red Carpet Hollywood Peeling azonnali ragyogásért</h3>
+        <h4>Mi is az a Z0® Skin Health?</h4>
+        <p>
+          A ZO® Skin health egy orvosok által kifejlesztett exkluzív márka, mely
+          professzionális bőrápolást nyújt a felhasználók részére. A termékek
+          használata és a rendelői kezelések is egyedülálló élményt biztosítanak
+          orvosi felügyelet mellett. A ZO minden problémára, bármely életkorban
+          kiemelkedő eredményt garantál, amit pácienseink visszajelzései is hűen
+          tükröznek!
+        </p>
+        <h4>Mi is az a ZO® Red Carpet Hollywood Peeling?</h4>
+        <p>
+          A ZO® Red Carpet Hollywood Peeling egy fájdalommentes kezelés, mely
+          azonnali hatást eredményez gyógyulási idő nélkül. ZO kezelés nem csak
+          ZO felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események előtt.
+        </p>
+        <h4>Tökéletes hatás:</h4>
+        <ul class="list-disc list-inside marker:bg-accent-100">
+          <li>rosaceás bőrön</li>
+          <li>aknés bőrön</li>
+          <li>anti-aging céllal</li>
+        </ul>
+        <p>
+          A hámlasztás során több fajta ZO® Skin Health terméket használunk
+          megadott sorrendben, beleértve a tisztítást, hámlasztást, táplálást és
+          fényvédelmet, kényeztető masszázzsal kiegészítve az igazi wellness
+          élményért.
+        </p>
+        <h4>
+          A kezelés maximum 40 percet vesz igénybe és teljesen fájdalommentes!
+        </h4>
+        <p>
+          A Red Carpet Peeling akár hetente elvégezhető az igazi Hollywood-i
+          ragyogásért!Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
+        </p>
+      </div>
+      <div class="sticky top-10">
+        <img
+          class="w-96 object-contain h-full"
+          :src="useGetImageUrl('z0-hollywood.webp')"
+          alt="z0 red carpet hollywood kezelés"
+          width="400"
+          height="200"
+        />
       </div>
     </div>
 
