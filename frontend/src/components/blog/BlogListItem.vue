@@ -9,25 +9,26 @@ defineProps({
 });
 </script>
 <template>
-  <AppLink
-    :to="{ name: 'blog.single', params: { slug: blog.slug } }"
-    class="max-w-xs sm:max-w-sm mx-auto group hover:no-underline focus:no-underline border border-gray-400 rounded-xl"
+  <div
+    class="max-w-xs sm:max-w-sm mx-auto group hover:no-underline focus:no-underline border rounded-xl"
   >
     <img
       role="presentation"
-      class="object-cover w-full rounded-t-xl h-44 dark:bg-gray-500"
+      class="object-cover w-full rounded-t-xl h-44"
       :src="useGetBlogImageUrl(blog.image)"
     />
-    <div class="p-6 space-y-2">
-      <h3
-        class="text-2xl font-semibold group-hover:underline group-focus:underline"
-      >
-        {{ blog.title }}
-      </h3>
+    <div class="p-4 space-y-2">
+      <AppLink :to="{ name: 'blog.single', params: { slug: blog.slug } }">
+        <h3
+          class="text-xl font-bold group-hover:underline group-focus:underline"
+        >
+          {{ blog.title }}
+        </h3>
+      </AppLink>
       <span class="text-xs text-accent-100 tracking-wide">{{
         blog.createdAt
       }}</span>
       <p>{{ blog.content.text1.slice(0, 120) }}..</p>
     </div>
-  </AppLink>
+  </div>
 </template>
