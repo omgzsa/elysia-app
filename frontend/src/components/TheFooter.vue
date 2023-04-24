@@ -1,7 +1,10 @@
 <script setup>
+import { computed } from "vue";
 import IconFacebook from "./icons/IconFacebook.vue";
 import IconInstagram from "./icons/IconInstagram.vue";
 import { useGetImageUrl } from "../composables/getImageUrl";
+
+const currentYear = computed(() => new Date().getFullYear());
 </script>
 
 <template>
@@ -78,7 +81,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
         </p>
 
         <p class="block text-accent-100 text-xs text-center">
-          Elysia Laser Clinic © 2021
+          Elysia Laser Clinic © {{ currentYear }}
         </p>
 
         <ul class="flex justify-start gap-6 mt-8 sm:mt-0 lg:justify-end">
