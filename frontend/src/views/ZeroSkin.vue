@@ -118,7 +118,7 @@ const images = [
 
     <!-- red carpet -->
     <div
-      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding"
+      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
     >
       <div class="space-y-8">
         <h3>ZO® Red Carpet Hollywood Peeling azonnali ragyogásért</h3>
@@ -157,7 +157,7 @@ const images = [
           ragyogásért!Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
         </p>
       </div>
-      <div class="sticky top-10">
+      <div class="mx-auto sticky top-10">
         <img
           class="w-96 object-contain h-full"
           :src="useGetImageUrl('z0-hollywood.webp')"
