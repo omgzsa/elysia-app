@@ -21,10 +21,6 @@ defineProps({
     type: String,
     required: true,
   },
-  services: {
-    type: Array,
-    required: true,
-  },
 });
 
 const borgyogyaszat = ref([
