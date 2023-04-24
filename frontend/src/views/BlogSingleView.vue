@@ -39,14 +39,16 @@ const blog = computed(() => {
     <div class="max-w-screen-md site-padding mx-auto py-10 space-y-6">
       <p>{{ blog.content.text1 }}</p>
       <h3>{{ blog.content.header1 }}</h3>
-      <blockquote class="px-6 py-3 bg-primary-300 rounded-xl">
+      <p>{{ blog.content.text2 }}</p>
+      <blockquote
+        class="max-w-md mx-auto italic tracking-wide text-base sm:text-lg px-9 py-10 bg-primary-200 rounded-xl"
+      >
         {{ blog.content.blockQuote }}
       </blockquote>
-      <p>{{ blog.content.text2 }}</p>
-      <img :src="useGetBlogImageUrl(blog.image)" alt="" />
       <h3>{{ blog.content.header2 }}</h3>
       <p>{{ blog.content.text3 }}</p>
       <h3>{{ blog.content.header3 }}</h3>
+      <img :src="useGetBlogImageUrl(blog.image)" alt="" />
       <p>{{ blog.content.text4 }}</p>
       <h3>{{ blog.content.header4 }}</h3>
       <p>{{ blog.content.text5 }}</p>
@@ -59,6 +61,12 @@ const blog = computed(() => {
             {{ point.text }}
           </li>
         </ul>
+      </div>
+      <div
+        class="flex flex-col sm:flex-row sm:items-center sm:gap-x-2 pt-6 text-xs sm:text-sm italic"
+      >
+        <span class="inline">{{ blog.author }}</span> —
+        <span class="inline">{{ blog.createdAt }}</span>
       </div>
     </div>
   </section>
