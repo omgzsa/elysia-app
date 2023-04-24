@@ -12,7 +12,7 @@ const bgImage = "CTA_bg.webp";
     <p
       class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto mb-8"
     >
-      Foglaljon most időpontot az Elysia Lézer Központban, és tapasztalja meg az
+      Foglaljon most időpontot az Elysia Laser Clinic-ben, és tapasztalja meg az
       egyedülálló, testre szabott kezeléseink varázsát!
     </p>
     <div>
