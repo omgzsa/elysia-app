@@ -11,16 +11,24 @@ defineProps({
 
 const images = [
   {
-    name: "rendelo 1",
-    img: "galeria_2.webp",
+    alt: "rendelo 1",
+    img: "galeria-1.webp",
   },
   {
-    name: "rendelo 2",
-    img: "galeria_3.webp",
+    alt: "rendelo 2",
+    img: "galeria-2.webp",
   },
   {
-    name: "rendelo 3",
-    img: "galeria_5.webp",
+    alt: "rendelo 3",
+    img: "galeria-3.webp",
+  },
+  {
+    alt: "rendelo 3",
+    img: "galeria-4.webp",
+  },
+  {
+    alt: "rendelo 3",
+    img: "galeria-5.webp",
   },
 ];
 
@@ -62,10 +70,10 @@ const breakpoints = ref({
       <Slide v-for="(image, index) in images" :key="index">
         <img
           :src="useGetImageUrl(image.img)"
-          :alt="image.name"
+          :alt="image.alt"
           height="250"
           width="400"
-          class="w-full"
+          class="w-full rounded-xl"
         />
       </Slide>
 
