@@ -80,6 +80,48 @@ import servicesData from "@/assets/services.json";
             </p>
           </AppLink>
         </li>
+        <li
+          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+        >
+          <AppLink
+            class="flex flex-col items-center gap-4"
+            :to="{
+              name: 'service.somnology',
+            }"
+          >
+            <img
+              class="h-24 sm:h-32 w-full object-contain"
+              :src="useGetImageUrl('szomnologia.webp')"
+              alt="szomnológia szimbólum"
+              height="100"
+              width="100"
+            />
+            <p class="font-semibold text-center text-xs sm:text-base">
+              Szomnológia
+            </p>
+          </AppLink>
+        </li>
+        <li
+          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+        >
+          <AppLink
+            class="flex flex-col items-center gap-4"
+            :to="{
+              name: 'service.allergology',
+            }"
+          >
+            <img
+              class="h-24 sm:h-32 w-full object-contain"
+              :src="useGetImageUrl('allergologia.webp')"
+              alt="allergológia szimbólum"
+              height="100"
+              width="100"
+            />
+            <p class="font-semibold text-center text-xs sm:text-base">
+              Allergológia
+            </p>
+          </AppLink>
+        </li>
       </ul>
     </div>
   </section>
