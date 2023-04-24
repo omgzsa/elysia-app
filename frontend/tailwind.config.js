@@ -2,11 +2,9 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: "jit",
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      base: ["Ubuntu", "sans"],
-    },
     backgroundSize: {
       auto: "auto",
       cover: "cover",
@@ -14,6 +12,9 @@ module.exports = {
       // custom: "86em",
     },
     extend: {
+      fontFamily: {
+        base: ["Ubuntu", "sans"],
+      },
       colors: {
         primary: {
           100: "#D0CFBB",
