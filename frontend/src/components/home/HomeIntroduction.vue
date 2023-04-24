@@ -21,23 +21,23 @@ defineProps({
     <div class="grid grid-cols-12 grid-rows-5 p-4 gap-4 items-center">
       <img
         v-motion-slide-visible-once-bottom
-        :delay="900"
-        class="row-start-2 row-span-3 col-start-2 col-span-4"
-        src="../../assets/images/elysia_intro_2.webp"
+        :delay="700"
+        class="row-start-2 row-span-3 col-start-2 col-span-4 rounded-xl"
+        src="../../assets/images/bemutatkozas-1.webp"
         alt="szájfeltöltés fecskendővel"
       />
       <img
         v-motion-slide-visible-once-bottom
         :delay="500"
-        class="row-start-1 row-span-3 col-start-6 col-span-6 mb-12 sm:mb-16 md:mb-12 lg:mb-14"
-        src="../../assets/images/elysia_intro_1.webp"
+        class="row-start-1 row-span-3 col-start-6 col-span-6 mb-12 sm:mb-16 md:mb-12 lg:mb-14 rounded-xl"
+        src="../../assets/images/bemutatkozas-2.webp"
         alt="narancsbőr kezelése"
       />
       <img
         v-motion-slide-visible-once-bottom
-        :delay="100"
-        class="row-start-3 row-span-3 col-start-6 col-span-7 w-full"
-        src="../../assets/images/elysia_intro_3.webp"
+        :delay="300"
+        class="row-start-3 row-span-3 col-start-6 col-span-7 w-full rounded-xl"
+        src="../../assets/images/bemutatkozas-3.webp"
         alt="arckezelés"
       />
     </div>
