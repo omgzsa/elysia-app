@@ -83,7 +83,7 @@ const props = defineProps({
               <div class="flex flex-col flex-1">
                 <span
                   class="text-xs lg:text-sm xl:text-base tracking-wider uppercase text-gray-800"
-                  >a kezelés időtartama</span
+                  >időtartam</span
                 >
                 <span
                   class="text-accent-100 font-medium md:font-semibold text-sm"
