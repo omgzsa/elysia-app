@@ -90,7 +90,6 @@ slug: "",
           elképzeléseink és jövőbeni terveink mellett. Ha Ön is az Elysiaban
           jár, reméljük, hasonlóan nagyszerű tapasztalatai lesznek, bízunk a
           közös együttműködésben!<br />
-          Szívélyes üdvözlettel: Elysia Laser Clinic csapata
         </template>
       </HomeIntroduction>
     </section>
