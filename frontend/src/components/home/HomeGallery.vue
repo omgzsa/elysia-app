@@ -35,10 +35,13 @@ const breakpoints = ref({
     snapAlign: "center",
   },
   640: {
-    itemsToShow: 2.5,
+    itemsToShow: 1.5,
   },
   960: {
-    itemsToShow: 3.75,
+    itemsToShow: 2.5,
+  },
+  1280: {
+    itemsToShow: 3.5,
   },
 });
 </script>
@@ -57,7 +60,13 @@ const breakpoints = ref({
       :transition="500"
     >
       <Slide v-for="(image, index) in images" :key="index">
-        <img :src="useGetImageUrl(image.img)" :alt="image.name" />
+        <img
+          :src="useGetImageUrl(image.img)"
+          :alt="image.name"
+          height="250"
+          width="400"
+          class="w-full"
+        />
       </Slide>
 
       <template #addons>
