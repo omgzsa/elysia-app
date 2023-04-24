@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { Carousel, Slide } from "vue3-carousel";
-import { useGetImageUrl } from "../../composables/getImageUrl";
+import { useGetPartnerLogosUrl } from "../../composables/getPartnerLogosUrl";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -29,6 +29,10 @@ const images = [
   {
     name: "Z0 Skin Health",
     logo: "zo-skin-health_logo.webp",
+  },
+  {
+    name: "DEKA",
+    logo: "deka-logo.webp",
   },
 ];
 
@@ -64,10 +68,10 @@ const breakpoints = ref({
   >
     <Slide v-for="(image, index) in images" :key="index">
       <img
-        :src="useGetImageUrl(image.logo)"
+        :src="useGetPartnerLogosUrl(image.logo)"
         :alt="image.name"
-        width="200"
-        height="42"
+        width="180"
+        height="38"
         class="h-12 md:h-16 object-contain object-center"
       />
     </Slide>
