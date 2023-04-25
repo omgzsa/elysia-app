@@ -1,6 +1,17 @@
 <script setup>
+import { useGetEmployeeImageUrl } from "../composables/getEmployeeImageUrl.js";
 import EmployeeCard from "../components/employee/EmployeeCard.vue";
 import employeeData from "../assets/coworkers.json";
+
+const hajnalka = {
+  id: 40,
+  name: "Dr. Simigla Hajnalka",
+  slug: "/munkatarsak",
+  hasAppointment: false,
+  appointmentLink: "",
+  title: "Műtősnő",
+  image: "dr-simigla-hajnalka.webp",
+};
 </script>
 
 <template>
@@ -18,6 +29,27 @@ import employeeData from "../assets/coworkers.json";
           :key="item.id"
           :item="item"
         />
+        <!-- <EmployeeCard :item="hajnalka" /> -->
+        <div class="employee-card group relative">
+          <div
+            class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
+          ></div>
+          <div class="text-xs sm:text-sm text-gray-500">
+            <div class="flex flex-col px-4 space-y-2">
+              <img
+                :src="useGetEmployeeImageUrl(hajnalka.image)"
+                :alt="hajnalka.name"
+                width="128"
+                height="128"
+                class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+              />
+              <h3 class="text-gray-900">
+                {{ hajnalka.name }}
+              </h3>
+              <span>{{ hajnalka.title }}</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
