@@ -18,7 +18,7 @@ defineProps({
       </p>
     </div>
 
-    <div class="grid grid-cols-12 grid-rows-5 p-4 gap-4 items-center">
+    <div class="grid grid-cols-12 grid-rows-5 gap-4 items-center">
       <img
         height="128"
         width="32"
