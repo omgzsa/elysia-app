@@ -1456,5 +1456,60 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 38,
+    "name": "Nucleofill kezelés",
+    "slug": "nucleofill-kezeles",
+    "images": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
+    "content": {
+      "title": "Mit jelent a Nucleofill kezelés?",
+      "description": "Nucleofill, a biostimulációs gélek új termékcsaládja elynek alapját a természetes, nagy viszkozitású polinukleotidok jelentik, a bőr fiatalításának és védelmének céljára. Tiszta, magasan viszko-elasztikus, injektálható, apirogén és teljes mértékben felszívódó gél. Biokémiai tulajdonságainak köszönhetően a Nucleofill javítja a bőr rugalmasságát, hatékony az öregedésgátló kezelésekben, mint például a ráncok megelőzésében, az elveszett bőrturgor, tónus és rugalmasság, valamint a szöveti atrófia kezelésében. Az erős hidratáló képesség főként a strukturális nukleotid-szintű vízvisszatartó képességének köszönhető. Elektrosztatikus „szivacs”, képes garantálni a sejtek jóllétét.",
+      "description2": "A kezelés sikerességéhez 3 alkalom lehet szükséges, 4-6 hetes időközönként ismételve. A ráncok teljes eltüntetése nem kivitelezhető, ráncfeltöltő kezeléssel azok mélységét lehet jelentősen csökkenteni, ezáltal válik az arc fiatalosabbá. A kezelés megkezdése előtt a kezelendő bőrfelületet fertőtlenítjük, érzéstelenítjük.",
+      "title3": "A kezelés menete",
+      "description3": "A töltőanyagot nagyon vékony tűvel a kezelendő bőrbe vagy a bőr alatti rétegbe juttatjuk. A kezelés időtartama területtől függően 10-40 perc. A végleges eredmény nem látható rögtön, mivel a szúrás nyomán duzzanat alakulhat ki. A kezelés hatása átlagosan 6 hónap, mely esetenként lehet ennél rövidebb vagy hosszantartóbb, mivel a kezelés tartóssága függ a páciens bőrtípusától, egyéni alkati kötőszöveti sajátosságaitól, életkorától, életvitelétől, a kezelendő ránc mélységétől, az injektálási technikától, a szervezet egyéni reakciójától. \n \nA kezelést követően a kezelt területet néhány napig kímélni kell, kerülve a túlzott mimikát, nevetést, sok beszédet, erős artikulálást, a rágóizmok túlzott igénybevételét. Továbbá a bőrpír megszűnéséig nem javasolt a kezelt területet napoztatni, kerülendő a szolárium, szauna használata.",
+      "benefitsTitle": "A Nucleofill beavatkozás alkalmas a szemkörnyék kezelésére is. Például:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Sötét karikákra"
+        },
+        {
+          "id": 2,
+          "text": "Periokuláris ráncokra"
+        },
+        {
+          "id": 3,
+          "text": "A demisz-epidermisz szövetének tömörítésére"
+        },
+        {
+          "id": 4,
+          "text": "Mély szövetek bio-rekonstruálására"
+        },
+        {
+          "id": 5,
+          "text": "Sebészeti kezelés előtt és után (szemhéjplasztika, lifting, lézeres felületmegújítás"
+        }
+      ]
+    },
+    "treatTime": "10-40 perc, területtől függően",
+    "frequency": "4-6 hetente, 3 alkalom",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
   }
 ]
