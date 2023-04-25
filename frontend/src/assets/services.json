@@ -149,6 +149,12 @@
         "name": "Skinbooster kezelés",
         "slug": "skin-booster-kezeles",
         "image": "skin-booster-kezeles.webp"
+      },
+      {
+        "id": 8,
+        "name": "Nucleofill kezelés",
+        "slug": "nucleofill-kezeles",
+        "image": "nucleofill-kezeles.webp"
       }
     ]
   },
