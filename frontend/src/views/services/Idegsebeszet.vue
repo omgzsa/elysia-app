@@ -12,7 +12,7 @@ const bgImage = "CTA_bg.webp";
     <div class="flex flex-col space-y-8 mx-auto">
       <AppHeader>
         <template #subtitle> szolgáltatások </template>
-        <template #title> Idegsebészeti vizsgálatok </template>
+        <template #title> Idegsebészet </template>
       </AppHeader>
     </div>
     <div class="max-w-screen-xl mx-auto py-10">

@@ -24,12 +24,12 @@ const router = createRouter({
       component: () => import("../views/ServicesView.vue"),
     },
     {
-      path: "/szolgaltatas/tudogyogyaszati-szakrendeles",
+      path: "/szolgaltatas/tudogyogyaszat",
       name: "service.pulmonology",
       component: () => import("../views/services/Tudogyogyaszat.vue"),
     },
     {
-      path: "/szolgaltatas/idegsebeszeti-vizsgalatok",
+      path: "/szolgaltatas/idegsebeszet",
       name: "service.neurosurgery",
       component: () => import("../views/services/Idegsebeszet.vue"),
     },
