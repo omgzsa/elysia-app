@@ -83,6 +83,12 @@
       },
       {
         "id": 4,
+        "name": "Pigmentfoltok kezelése",
+        "slug": "pigmentfoltok-kezelese",
+        "image": "pigmentfoltok-kezelese.webp"
+      },
+      {
+        "id": 5,
         "name": "Körömgomba kezelése",
         "slug": "koromgomba-kezelese",
         "image": "koromgomba-kezelese.webp"
@@ -134,6 +140,12 @@
       },
       {
         "id": 6,
+        "name": "PRP/Drakula terápia",
+        "slug": "prp-drakula-terapia",
+        "image": "prp-drakula-terapia.webp"
+      },
+      {
+        "id": 7,
         "name": "Skinbooster kezelés",
         "slug": "skin-booster-kezeles",
         "image": "skin-booster-kezeles.webp"
