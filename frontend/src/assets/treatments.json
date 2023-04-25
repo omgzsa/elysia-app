@@ -1380,5 +1380,53 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 36,
+    "name": "Pigmentfoltok kezelése",
+    "slug": "pigmentfoltok-kezelese",
+    "images": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
+    "content": {
+      "title": "Mi az a pigment?",
+      "description": "A bőr hámrétegében található pigment termelő sejtek a melanocyták. Feladatuk a bőr védelme a káros sugárzás ellen, ugyanis a napfény hatására a melanocyták fokozott pigmentanyag termelése megóvja az alatta fekvő hámsejteket. Ha a melanin (pigmentanyag) egy helyen nagyobb koncentrációban felhalmozódik, májfolt keletkezik.\n \nEnnek számos oka lehet: környezeti változás következtében megnövekedett UVB és UVA sugárzás nem megfelelő fényvédelem, bőr gyulladásos betegségei, helytelen bőrápolási termékek, szokások, krémek, kölni, vegyi anyagok “beégése” a bőrbe, fényérzékenységet okozó gyógyszerek, hormonok hatása, májfunkció, gasztroenterológiai problémák, hormonális változás /pl. kismamák/, terhesség után.",
+      "title2": "Pigmentfoltok (napfoltok) kezelése Elysia Győrben",
+      "description2": "A klasszikus pigmentált anyajegyek nem kezelhetőek lézerrel, csak sebészi kimetszéssel távolíthatóak el korrekt módon. Minden anyajegy eltávolítása esetén szövettani feldolgozás szükséges! Fontos kiemelni Az Alexandrit lézer fénye a bőrfelszín károsítása nélkül hatol a mélyebb rétegekbe, s ott szelektíven elnyelődik a bőr festékanyagában (melanin), majd a festék felmelegszik, károsodik. \n \nA szétbontott pigmentet az immunrendszer felelősei eltakarítják. A melanint tartalmazó bőralkotók (szőrszálak, pigmentfoltok) hatékonyan kezelhetőek az erek megkímélése mellett. A melanin bőrből való eltávolításakor a lézerfény a bőrfelszínt nem roncsolja, vagyis a kezelés nem a bőrfelszín hámlasztásával történik. Kezelés előtt legalább 2 héttel a napozást, szoláriumozást kerülni kell, mert fokozzák a festéksejtek pigment termelését. Barnító és szőrtelenítő krémek használata sem javasolt 1 héttel a kezelés előtt. \n \nMár egyetlen kezelés is eredményt hozhat, de a bőrtípustól, a felület nagyságától, a pigmentfoltok színétől függően több kezelés is szükséges lehet a kielégítő hatáshoz. A szeplők, pigmentfolt kezelése után fehéres elszíneződés jelenik meg, majd néhány óra alatt elmúló bőrpír, duzzanat és égő érzés alakul ki. Ezután néhány napig tartó pörkképződés, hámlás történik. A bőrfelület regenerálódását elősegítő, hámosító készítményekkel a gyógyulás felgyorsítható. A kezelések után legalább 2 hónappal, ill. a többlépcsős kezeléssorozat folyamán napozni, szoláriumozni nem szabad, fényvédelem szükséges.",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "Kezelhető pigment tartalmú képletek:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Melasma (májfolt)"
+        },
+        {
+          "id": 2,
+          "text": "Senilis szeplő"
+        },
+        {
+          "id": 3,
+          "text": "Öregségi szemölcs"
+        }
+      ]
+    },
+    "treatTime": "20 perc",
+    "frequency": "3 alkalom, 6-8 hetente",
+    "category": [
+      {
+        "id": 1,
+        "name": "Lézerkezelések",
+        "slug": "lezerkezelesek",
+        "images": []
+      }
+    ]
   }
 ]
