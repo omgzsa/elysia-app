@@ -128,6 +128,11 @@ const orvosEsztetika = ref([
     slug: "skin-booster-kezeles",
     category: "orvos-esztetika",
   },
+  {
+    name: "Nucleofill kezelés",
+    slug: "nucleofill-kezeles",
+    category: "orvos-esztetika",
+  },
 ]);
 
 const plasztikaiSebeszet = ref([
