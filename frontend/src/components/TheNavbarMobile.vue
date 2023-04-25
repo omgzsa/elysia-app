@@ -76,6 +76,11 @@ const lezerkezelesek = ref([
     category: "lezerkezelesek",
   },
   {
+    name: "Pigmentfoltok kezelése",
+    slug: "pigmentfoltok-kezelese",
+    category: "lezerkezelesek",
+  },
+  {
     name: "Körömgomba kezelése",
     slug: "koromgomba-kezelese",
     category: "lezerkezelesek",
