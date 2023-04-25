@@ -17,33 +17,36 @@ import "vue3-carousel/dist/carousel.css";
 const slides = ref([
   {
     id: 1,
-    title: "Tökéletes vonalak, magabiztos megjelenés",
+    title: "Fedezze fel bőre igazi szépségét biostimulációval",
     buttonText: "Plasztikai sebészet",
     linkTo: "plasztikai-sebeszet",
-    alt: "tükrözött kép egy nőről, az egyik fekete-fehér a másik színes",
-    text: "Nyerje vissza önbizalmát szakembereink segítségével. Plasztikai sebészet a legmagasabb minőségben Győrben.",
-    img: "hero-1.webp",
-    color: "bg-primary-100",
+    alt: "Fiatalos 50-es éveiben járó hölgy tapintja a puha bőrét az arcán",
+    text: "A Nucleofill egy innovatív orvos esztétikai kezelés, ami sejt szinten fejti ki biostimuláló hatását, professzionális megoldás nyújtva az idős, dehidratált, megereszkedett bőrnek.",
+    img: "hero-nucleofill.webp",
+    imgTablet: "hero-nucleofill-tablet.webp",
+    imgMobile: "hero-nucleofill-mobil.webp",
   },
   {
     id: 2,
-    title: "Élvezze gyönyörű és sima bőrét egész évben",
+    title: "Átfogó megoldások, állandó bőregészség",
     buttonText: "Lézerkezelések",
     linkTo: "lezerkezelesek",
-    alt: "egy nő nyújtja a lábát",
-    text: "Lézeres szőrtelenítés a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
-    img: "woman_hero_2.webp",
-    color: "bg-secondary-200",
+    alt: "Z0 Skin health termékek egy designos képben",
+    text: "A ZO® Skin Health egyedülállóan hatékony prémium bőrterápiás és bőrápoló rendszer bőrproblémák teljes körű kezelésére.",
+    img: "hero-zo-skin.webp",
+    imgTablet: "hero-zo-tablet.webp",
+    imgMobile: "hero-zo-mobil.webp",
   },
   {
     id: 3,
-    title: "Fedezze fel bőre igazi szépségét",
+    title: "Élvezze sima bőrét egész évben",
     buttonText: "Bőrgyógyászat",
     linkTo: "borgyogyaszat",
-    alt: "egy mosolygó fiatal nő",
-    text: "Az Elysia Laser Clinic mindenki számára biztosítja a legjobb kezeléseket és szolgáltatásokat. Kezeléseink széles választéka általal a tökéletes megjelenés Ön számára is elérhető.",
-    img: "hero-3-colored.webp",
-    color: "bg-primary-400",
+    alt: "Egy fényes bőrű lábait tornásztató hölgy",
+    text: "Lézeres szőrtelenítés a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
+    img: "hero-szortelenites.webp",
+    imgTablet: "hero-szortelenites-tablet.webp",
+    imgMobile: "hero-szortelenites-mobil.webp",
   },
 ]);
 
@@ -65,7 +68,6 @@ const slides = ref([
 //   },
 // });
 </script>
-slug: "",
 
 <template>
   <section>
