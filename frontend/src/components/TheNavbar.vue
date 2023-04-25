@@ -131,6 +131,11 @@ const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
+    name: "PRP/Drakula terápia",
+    slug: "prp-drakula-terapia",
+    category: "orvos-esztetika",
+  },
+  {
     name: "Skinbooster kezelés",
     slug: "skin-booster-kezeles",
     category: "orvos-esztetika",
