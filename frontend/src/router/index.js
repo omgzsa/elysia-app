@@ -14,37 +14,37 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/szolgaltatas/orvosi-termekek/z0-skin-health",
+      path: "/szolgaltatasok/orvosi-termekek/z0-skin-health",
       name: "zero.skin",
       component: () => import("../views/ZeroSkin.vue"),
     },
     {
-      path: "/szolgaltatas",
+      path: "/szolgaltatasok",
       name: "services",
       component: () => import("../views/ServicesView.vue"),
     },
     {
-      path: "/szolgaltatas/tudogyogyaszat",
+      path: "/szolgaltatasok/tudogyogyaszat",
       name: "service.pulmonology",
       component: () => import("../views/services/Tudogyogyaszat.vue"),
     },
     {
-      path: "/szolgaltatas/idegsebeszet",
+      path: "/szolgaltatasok/idegsebeszet",
       name: "service.neurosurgery",
       component: () => import("../views/services/Idegsebeszet.vue"),
     },
     {
-      path: "/szolgaltatas/szomnologia",
+      path: "/szolgaltatasok/szomnologia",
       name: "service.somnology",
       component: () => import("../views/services/Szomnologia.vue"),
     },
     {
-      path: "/szolgaltatas/allergologia",
+      path: "/szolgaltatasok/allergologia",
       name: "service.allergology",
       component: () => import("../views/services/Allergologia.vue"),
     },
     {
-      path: "/szolgaltatas/:category",
+      path: "/szolgaltatasok/:category",
       name: "services.category",
       component: () => import("../views/ServicesCategoryView.vue"),
       props: true,
@@ -64,7 +64,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/szolgaltatas/:category/:slug",
+      path: "/szolgaltatasok/:category/:slug",
       name: "service.single",
       component: () => import("../views/ServiceSingleView.vue"),
       props: true,
