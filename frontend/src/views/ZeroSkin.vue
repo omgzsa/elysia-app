@@ -159,8 +159,56 @@ const images = [
       </div>
       <div class="mx-auto sticky top-10">
         <img
-          class="w-96 object-contain h-full"
+          class="w-96 object-contain h-full rounded-xl"
           :src="useGetImageUrl('z0-hollywood.webp')"
+          alt="z0 red carpet hollywood kezelés"
+          width="400"
+          height="200"
+        />
+      </div>
+    </div>
+
+    <!-- 3 peel -->
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
+    >
+      <div class="space-y-8 md:order-2">
+        <h4>ZO® Skin Health 3 Step Peeling</h4>
+        <p>
+          A ZO® Skin Health 3 Step Peeling egy hatékony hámlasztó kezelés, amely
+          erőteljesem javítja a bőr textúráját és megjelenését. Ez a kezelés
+          számos bőrprobléma kezelésére használható, például pigmentfoltok,
+          ráncok és akne kezelésére. A kezelés előtt legalább 6 hétig szükséges
+          a bőrgyógyász által összeállított ZO® protokoll használata.
+        </p>
+        <h4>A kezelés folyamata</h4>
+        <p>
+          Az első lépés a peeling kezelésében egy mélytisztító folyamat, amely
+          eltávolítja a bőr felületi szennyeződéseit és az elhalt bőrsejteket.
+          Ez a lépés előkészíti a bőrt a következő két lépésre, amelyek közé
+          tartozik a tényleges peeling. A második lépésben a bőrre egy savas
+          keveréket alkalmazunk. Ezek a savak hatékonyan és erőteljesen
+          hámlasztják a bőr felső rétegét. A harmadik és utolsó lépésben egy
+          bőrtápláló krémet alkalmazunk, amely segít hidratálni a bőrt. Ez a
+          lépés fontos a bőr egészségi állapotának megőrzése érdekében, és segít
+          megakadályozni a túlzott irritációt és kiszáradást. A hámlasztás
+          általában 30-45 percig tart, és általában hatékony eredményeket nyújt
+          az első kezelés után is.
+        </p>
+        <h4>Mik a teendők utána?</h4>
+        <p>
+          A kezelést követően javasolt 5-6 napig otthon tartózkodni, hogy a bőr
+          felülfertőződését és a fénytől való bepigmentálódását teljes mértékben
+          elkerülje a páciens. Ez idő után is nagyon fontos a fokozott
+          fényvédelem! Nagyon fontos információ, hogy a ZO® Skin Health 3 Step
+          Peeling kezelést csak kiképzett és tapasztalt bőrgyógyász végezheti
+          el.
+        </p>
+      </div>
+      <div class="mx-auto sticky top-10 md:order-1">
+        <img
+          class="w-96 object-contain h-full rounded-xl"
+          :src="useGetImageUrl('zo-peeling.webp')"
           alt="z0 red carpet hollywood kezelés"
           width="400"
           height="200"
