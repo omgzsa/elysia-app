@@ -14,7 +14,7 @@
       }
     ],
     "content": {
-      "title": "Dermatoscopos anyajegy- és bőrrák szűrés",
+      "title": "Dermatoszkópos anyajegy- és bőrrák szűrés",
       "description": "Az utóbbi években növekedett a bőrrákos megbetegedések száma, a napfény összetételének megváltozása, illetve a barnulási szokásoknak köszönhetően. A bőrrák kialakulása megelőzhető, illetve maga a betegség még időben diagnosztizálható, ha betartjuk a napozásra vonatkozó szabályokat, és rendszeresen részt veszünk a bőrgyógyászati anyajegyszűrésen.",
       "title2": "Dermatoszkópos anyajegyvizsgálat",
       "description2": "Az anyajegyszűrést kézi dermatoszkóp segítségével végezzük. A rendszeres éves anyajegyszűrés segítségével az anyajegyek változása (növekedése, felülete, színe) követhetővé válik, ezáltal történik az esetleges melanóma kiszűrése. A szűrővizsgálat nem jár kellemetlenséggel, 15-20perc alatt az összes anyajegy felületi vizsgálata megtörténik. \n \nAnyajegyek rosszindulatú elváltozás jele lehet: anyajegy asszimetrikussá válik mérete változás felülete deformálodik anyajegy színe megváltozik folyamatos viszketés vérzés fellépése.",
@@ -580,7 +580,7 @@
       "benefits": []
     },
     "treatTime": "45 perc",
-    "frequency": "Évente kétszer",
+    "frequency": "4-6 hetente 3 alkalom, majd igény szerint",
     "category": [
       {
         "id": 2,
@@ -1425,6 +1425,34 @@
         "id": 1,
         "name": "Lézerkezelések",
         "slug": "lezerkezelesek",
+        "images": []
+      }
+    ]
+  },
+
+  {
+    "id": 37,
+    "name": "PRP/Drakula terápia",
+    "slug": "prp-drakula-terapia",
+    "images": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "PRP/Drakula terápia",
+      "description": "A PRP rövidítés az angol Platelet Rich Plazma szavakból ered, mely vérlemezkében gazdag plazma kifejezésként fordítható magyarra. A bőr fiatalítására 2006 óta használják világszerte. A vérben lévő vérlemezkék növekedési faktorokat tartalmaznak, melyek stimulálják a fibroblasztok és keratinociták osztódását, melyek kollagént és keratint termelnek. A kollagén termelése pedig segít a látható ráncok korrigálásában.",
+      "title2": "Drakula terápia kezelés folyamata",
+      "description2": "A kezelések során általában a szemkörnyéket, az arc középső részét, a mosolyráncokat, a nazolabiális redőt, nyakat, dekoltázst fedik le. Eredményes néhány hajhullás típus kezelésére is. Kezelés előtt közvetlenül vért veszünk le a páciens alkari vénájából. A vért azonnal egy speciális centrifugába helyezzük. A centrifugálás végeztével a vérplazma és a vérlemezkék különválnak, kivonjuk a vérlemezkéket. Ezt a PRP kivonatot injektáljuk vissza a bőrbe. A kezelés előtt a kezelni kívánt területrehelyi érzéstelenítőt krémet helyezünk fel. A bőr textúrájának változása mintegy három héttel látható először a kezelés után, majd a javulás folytatódik a következő 8 hónap alatt, hiszen egyre több és több kollagén és keratin képződik a felszín alatt. A legjobb eredmény érdekében kezdeti 3 kezelésre van szükség féléven belül. Így az elért hatás akár másfél-két évig is megmarad.",
+      "title3": "",
+      "description3": "",
+      "benefitsTitle": "",
+      "benefits": []
+    },
+    "treatTime": "60 perc",
+    "frequency": "3 alkalom, 6 hónapon belül",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
         "images": []
       }
     ]
