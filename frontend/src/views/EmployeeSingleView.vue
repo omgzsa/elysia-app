@@ -9,7 +9,7 @@ const employee = computed(() => {
   return employeeData.find((item) => item.slug === props.slug);
 });
 
-const pageTitle = ref("Munkatársaink — Elysia Laser Clinic");
+const pageTitle = ref(employee.value.name + " — Elysia Laser Clinic");
 const pageDescription = ref(
   "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá."
 );
