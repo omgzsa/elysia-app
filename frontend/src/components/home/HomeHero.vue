@@ -1,5 +1,4 @@
 <script setup>
-// import { ref } from "vue";
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 import { useWindowSize } from "@vueuse/core";
@@ -22,8 +21,6 @@ const getResponsiveImage = (id) => {
     return slide.imgMobile;
   }
 };
-
-// console.log(getResponsiveImage(2));
 </script>
 
 <template>
@@ -54,7 +51,7 @@ const getResponsiveImage = (id) => {
 
           <AppLink :to="{ name: 'services' }">
             <button
-              class="rounded-md px-8 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
+              class="fo rounded-md px-8 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
             >
               <span
                 class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
