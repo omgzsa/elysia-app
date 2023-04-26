@@ -1,7 +1,37 @@
 <script setup>
+import { ref } from "vue";
 import { useGetEmployeeImageUrl } from "../composables/getEmployeeImageUrl.js";
 import EmployeeCard from "../components/employee/EmployeeCard.vue";
 import employeeData from "../assets/coworkers.json";
+
+import { useHead } from "@vueuse/head";
+
+const pageTitle = ref("Munkatársaink — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/munkatarsak",
+    },
+  ],
+});
 
 const hajnalka = {
   id: 40,

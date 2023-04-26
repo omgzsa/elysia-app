@@ -1,18 +1,49 @@
 <script setup>
-import { computed } from "vue";
+import { ref, computed } from "vue";
 import { useGetBlogImageUrl } from "@/composables/getBlogImageUrl";
 import { useGetImageUrl } from "@/composables/getImageUrl";
 import blogsData from "@/assets/blogs.json";
+
+import { useHead } from "@vueuse/head";
+
+const blog = computed(() => {
+  return blogsData.find((blog) => blog.slug === props.slug);
+});
+
+const pageTitle = ref(blog.value.title + " — Elysia Laser Clinic");
+const pageDescription = ref(blog.value.content.text1);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/blog/",
+    },
+    {
+      property: "og:author",
+      content: blog.value.author,
+    },
+  ],
+});
 
 const props = defineProps({
   slug: {
     type: String,
     required: true,
   },
-});
-
-const blog = computed(() => {
-  return blogsData.find((blog) => blog.slug === props.slug);
 });
 </script>
 <template>

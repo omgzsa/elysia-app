@@ -1,9 +1,44 @@
 <script setup>
-import { provide, computed } from "vue";
+import { ref, provide, computed } from "vue";
 import treatmentsData from "@/assets/treatments.json";
 
 import ServiceTreatmentCard from "@/components/treatment/ServiceTreatmentCard.vue";
 import AppHeader from "../components/AppHeader.vue";
+
+import { useHead } from "@vueuse/head";
+
+const treatment = computed(() => {
+  return treatmentsData.find((t) => t.slug === props.slug);
+});
+
+provide("treatment", treatment);
+
+const pageTitle = ref(treatment.value.name + " — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével"
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: `https://elysia.hu/szolgaltatasok/${treatment.value.category[0].slug}/${treatment.value.slug}`,
+    },
+  ],
+});
 
 const props = defineProps({
   slug: {
@@ -11,12 +46,6 @@ const props = defineProps({
     required: true,
   },
 });
-
-const treatment = computed(() => {
-  return treatmentsData.find((t) => t.slug === props.slug);
-});
-
-provide("treatment", treatment);
 </script>
 
 <template>

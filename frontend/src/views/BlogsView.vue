@@ -1,15 +1,36 @@
 <script setup>
-// import { computed } from "vue";
+import { ref } from "vue";
 import blogsData from "@/assets/blogs.json";
 import BlogListItem from "../components/blog/BlogListItem.vue";
 
-// const blog = computed(() => {
-//   return blogsData.find(
-//     (blog) => blog.slug === "mire-is-jo-az-intim-lezeres-kezeles"
-//   );
-// });
+import { useHead } from "@vueuse/head";
 
-// console.log(blog.value.slug);
+const pageTitle = ref("Blog — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Böngésszen a legfrissebb bejegyzéseink között, és ismerje meg a legújabb esztétikai és egészségügyi trendeket."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/blog/",
+    },
+  ],
+});
 </script>
 
 <template>

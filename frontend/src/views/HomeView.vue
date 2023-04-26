@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-// import { useMotion } from "@vueuse/motion";
+
 import HomeHero from "../components/home/HomeHero.vue";
 import HomeServices from "../components/home/HomeServices.vue";
 import HomeIntroduction from "../components/home/HomeIntroduction.vue";
@@ -13,6 +13,37 @@ import TheParallax from "../components/TheParallax.vue";
 import TheContact from "../components/TheContact.vue";
 
 import "vue3-carousel/dist/carousel.css";
+
+import { useHead } from "@vueuse/head";
+
+const pageTitle = ref(
+  "Elysia Laser Clinic — Prémium minőségű vizsgálatok és kezelések Győrben."
+);
+const pageDescription = ref(
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével"
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/",
+    },
+  ],
+});
 
 const slides = ref([
   {
@@ -49,24 +80,6 @@ const slides = ref([
     imgMobile: "hero-szortelenites-mobil.webp",
   },
 ]);
-
-// const targetEl = ref();
-
-// useMotion(targetEl, {
-//   initial: {
-//     y: 100,
-//     opacity: 0,
-//   },
-//   visible: {
-//     y: 0,
-//     opacity: 1,
-//     transition: {
-//       y: {
-//         delay: 400,
-//       },
-//     },
-//   },
-// });
 </script>
 
 <template>

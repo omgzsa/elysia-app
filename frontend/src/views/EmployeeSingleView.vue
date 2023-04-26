@@ -1,17 +1,46 @@
 <script setup>
-import { computed } from "vue";
+import { ref, computed } from "vue";
 import EmployeeDetails from "../components/employee/EmployeeDetails.vue";
 import employeeData from "../assets/coworkers.json";
+
+import { useHead } from "@vueuse/head";
+
+const employee = computed(() => {
+  return employeeData.find((item) => item.slug === props.slug);
+});
+
+const pageTitle = ref("Munkatársaink — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: `https://elysia.hu/munkatarsak/${props.slug}`,
+    },
+  ],
+});
 
 const props = defineProps({
   slug: {
     type: String,
     required: true,
   },
-});
-
-const employee = computed(() => {
-  return employeeData.find((item) => item.slug === props.slug);
 });
 </script>
 <template>

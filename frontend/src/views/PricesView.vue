@@ -1,5 +1,35 @@
 <script setup>
+import { ref } from "vue";
 import pricesData from "../assets/prices.json";
+
+import { useHead } from "@vueuse/head";
+
+const pageTitle = ref("Áraink — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Szolgáltatásaink, vizsgálataink és kezeléseink árlistája."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/araink",
+    },
+  ],
+});
 </script>
 
 <template>

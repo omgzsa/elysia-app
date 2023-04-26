@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import faqData from "../assets/faq.json";
 import IconArrowRight from "../components/icons/IconArrowRight.vue";
 
@@ -7,6 +8,35 @@ const scrollTo = (id) => {
   const element = document.getElementById(id);
   element.scrollIntoView({ behavior: "smooth" });
 };
+
+import { useHead } from "@vueuse/head";
+
+const pageTitle = ref("Gyakran Ismételt Kérdések — Elysia Laser Clinic");
+const pageDescription = ref(
+  "A leggyakrabban feltett kérdések és válaszok amik ügyfeleinket érdeklik."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/gyik",
+    },
+  ],
+});
 </script>
 
 <template>
