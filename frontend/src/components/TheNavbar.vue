@@ -402,7 +402,7 @@ onUnmounted(() => {
       </div>
 
       <!-- IDŐPONTFOGLALÁS -->
-      <div class="flex items-center gap-2 ml-auto mr-1">
+      <div class="flex items-center gap-2 ml-auto mr-2.5">
         <div class="sm:flex sm:gap-4">
           <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
             <button
