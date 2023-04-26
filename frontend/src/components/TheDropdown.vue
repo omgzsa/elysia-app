@@ -47,15 +47,17 @@ onClickOutside(target, () => {
           :key="item.name"
           class="flex space-x-1 hover:text-accent-100"
         >
-          <AppLink
-            :to="{
-              name: 'service.single',
-              params: { category: item.category, slug: item.slug },
-            }"
-            class="text-sm"
-          >
-            {{ item.name }}
-          </AppLink>
+          <span>
+            <AppLink
+              :to="{
+                name: 'service.single',
+                params: { category: item.category, slug: item.slug },
+              }"
+              class="text-sm"
+            >
+              {{ item.name }}
+            </AppLink>
+          </span>
         </li>
       </ul>
     </Transition>
