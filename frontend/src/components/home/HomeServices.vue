@@ -94,7 +94,7 @@ const servicesFeatured = computed(() => {
             alt="tüdőgyógyászat szimbólum"
           />
           <p class="font-semibold text-center text-xs sm:text-base">
-            Tüdőgyógyászati szakrendelés
+            Tüdőgyógyászat
           </p>
         </AppLink>
       </li>
