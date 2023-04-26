@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import TheNotFound from "@/components/TheNotFound.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
 import employeesData from "@/assets/coworkers.json";
 import blogsData from "@/assets/blogs.json";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: "/",
@@ -144,7 +145,7 @@ const router = createRouter({
     {
       path: "/:pathMatch(.*)*",
       name: "not.found",
-      component: () => import("../components/TheNotFound.vue"),
+      component: TheNotFound,
     },
   ],
   scrollBehavior(to, from, savedPosition) {
