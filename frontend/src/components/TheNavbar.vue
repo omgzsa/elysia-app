@@ -322,7 +322,8 @@ onUnmounted(() => {
             :src="useGetImageUrl(logo)"
             alt="Elysia Laser Clinic logó"
             height="64"
-            class="h-14 md:h-16 object-contain object-top py-1"
+            width="120"
+            class="h-14 md:h-16 object-contain object-center py-1"
           />
         </AppLink>
       </div>
