@@ -1,8 +1,36 @@
 <script setup>
+import { ref } from "vue";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 import { useGetEmployeeImageUrl } from "../../composables/getEmployeeImageUrl";
 
-// import IconClock from "@/components/icons/IconClock.vue";
+import { useHead } from "@vueuse/head";
+
+const pageTitle = ref("Allergológia — Elysia Laser Clinic");
+const pageDescription = ref(
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével."
+);
+
+useHead({
+  title: pageTitle.value,
+  meta: [
+    {
+      name: "description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:title",
+      content: pageTitle.value,
+    },
+    {
+      property: "og:description",
+      content: pageDescription.value,
+    },
+    {
+      property: "og:url",
+      content: "https://elysia.hu/szolgaltatasok/tudogyogyyaszat",
+    },
+  ],
+});
 
 const bgImage = "CTA_bg.webp";
 </script>
