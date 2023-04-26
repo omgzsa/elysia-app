@@ -75,7 +75,7 @@ const slides = ref([
     linkTo: "borgyogyaszat",
     alt: "Egy fényes bőrű lábait tornásztató hölgy",
     text: "Lézeres szőrtelenítés a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
-    img: "hero-szortelenites.webp",
+    img: "hero-szortelenites.jpg",
     imgTablet: "hero-szortelenites-tablet.webp",
     imgMobile: "hero-szortelenites-mobil.webp",
   },
