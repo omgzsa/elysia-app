@@ -15,7 +15,7 @@ provide("treatment", treatment);
 
 const pageTitle = ref(treatment.value.name + " — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével"
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével."
 );
 
 useHead({
