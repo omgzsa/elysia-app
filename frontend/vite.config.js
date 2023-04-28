@@ -4,32 +4,32 @@ import generateSitemap from "vite-plugin-pages-sitemap";
 import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 
-// import treatmentsData from "@/assets/treatments.json";
-// import employeesData from "@/assets/coworkers.json";
+import treatmentsData from "./src/assets/treatments.json";
+import employeesData from "./src/assets/coworkers.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
     Pages({
-      onRoutesGenerated: (routes) => generateSitemap({ routes }),
-      // onRoutesGenerated: (routes) => {
-      //   const treatments = treatmentsData;
-      //   const employees = employeesData;
-      //   const dynamicTreatmentRoutes = treatments.map((treatment) => {
-      //     `/szolgaltatasok/${treatment.category[0].slug}/${treatment.slug}`;
-      //   });
-      //   const dynamicEmployeeRoutes = employees.map((employee) => {
-      //     `/munkatarsak/${employee.slug}`;
-      //   });
-      //   generateSitemap({
-      //     routes: [
-      //       ...routes,
-      //       ...dynamicTreatmentRoutes,
-      //       ...dynamicEmployeeRoutes,
-      //     ],
-      //   });
-      // },
+      // onRoutesGenerated: (routes) => generateSitemap({ routes }),
+      onRoutesGenerated: (routes) => {
+        const treatments = treatmentsData;
+        const employees = employeesData;
+        const dynamicTreatmentRoutes = treatments.map((treatment) => {
+          `/szolgaltatasok/${treatment.category[0].slug}/${treatment.slug}`;
+        });
+        const dynamicEmployeeRoutes = employees.map((employee) => {
+          `/munkatarsak/${employee.slug}`;
+        });
+        generateSitemap({
+          routes: [
+            ...routes,
+            ...dynamicTreatmentRoutes,
+            ...dynamicEmployeeRoutes,
+          ],
+        });
+      },
     }),
   ],
   base: "/",
