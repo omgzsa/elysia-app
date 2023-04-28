@@ -35,7 +35,7 @@ useHead({
 
 const hajnalka = {
   id: 40,
-  name: "Dr. Simigla Hajnalka",
+  name: "Simigla Hajnalka",
   slug: "/munkatarsak",
   hasAppointment: false,
   appointmentLink: "",
@@ -59,7 +59,7 @@ const hajnalka = {
           :key="item.id"
           :item="item"
         />
-        <!-- <EmployeeCard :item="hajnalka" /> -->
+        <!-- STATIC CARD #1 -->
         <div class="employee-card group relative">
           <div
             class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
@@ -77,6 +77,66 @@ const hajnalka = {
                 {{ hajnalka.name }}
               </h3>
               <span>{{ hajnalka.title }}</span>
+            </div>
+          </div>
+        </div>
+        <!-- STATIC CARD #2 -->
+        <div class="employee-card group relative">
+          <div
+            class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
+          ></div>
+          <div class="text-xs sm:text-sm text-gray-500">
+            <div class="flex flex-col px-4 space-y-2">
+              <div class="h-64"></div>
+              <!-- <img
+                :src="useGetEmployeeImageUrl(hajnalka.image)"
+                :alt="hajnalka.name"
+                width="128"
+                height="128"
+                class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+              /> -->
+              <h3 class="text-gray-900">Szabó ELizabet</h3>
+              <span>recepciós</span>
+            </div>
+          </div>
+        </div>
+        <!-- STATIC CARD #3 -->
+        <div class="employee-card group relative">
+          <div
+            class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
+          ></div>
+          <div class="text-xs sm:text-sm text-gray-500">
+            <div class="flex flex-col px-4 space-y-2">
+              <div class="h-64"></div>
+              <!-- <img
+                :src="useGetEmployeeImageUrl(hajnalka.image)"
+                :alt="hajnalka.name"
+                width="128"
+                height="128"
+                class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+              /> -->
+              <h3 class="text-gray-900">Endrész Anna</h3>
+              <span>recepciós</span>
+            </div>
+          </div>
+        </div>
+        <!-- STATIC CARD #4 -->
+        <div class="employee-card group relative">
+          <div
+            class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
+          ></div>
+          <div class="text-xs sm:text-sm text-gray-500">
+            <div class="flex flex-col px-4 space-y-2">
+              <div class="h-64"></div>
+              <!-- <img
+                :src="useGetEmployeeImageUrl(hajnalka.image)"
+                :alt="hajnalka.name"
+                width="128"
+                height="128"
+                class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+              /> -->
+              <h3 class="text-gray-900">Osváth Edit</h3>
+              <span>asszisztens</span>
             </div>
           </div>
         </div>
