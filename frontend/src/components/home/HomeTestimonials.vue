@@ -26,13 +26,13 @@ defineProps({
           fantasztikus! Köszönöm szépen az Elysia Laser Clinic munkáját!"
         </p>
         <div class="flex gap-4 items-center">
-          <img
+          <!-- <img
             src="../../assets/images/testimonial-2.webp"
             alt="ügyfél avatár"
             height="20"
             width="20"
             class="w-14 h-14 rounded-full object-cover"
-          />
+          /> -->
           <div class="text-sm space-y-1">
             <p class="font-bold">Zsuzsanna</p>
           </div>
@@ -47,13 +47,13 @@ defineProps({
           probléma megoldására, akár esztétikai kezelésre."
         </p>
         <div class="flex gap-4 items-center">
-          <img
+          <!-- <img
             src="../../assets/images/rolunk_pic.jpg"
             alt="ügyfél avatár"
             height="20"
             width="20"
             class="w-14 h-14 rounded-full object-cover"
-          />
+          /> -->
           <div class="text-sm space-y-1">
             <p class="font-bold">Orsolya</p>
           </div>
@@ -68,13 +68,13 @@ defineProps({
           elégedettek."
         </p>
         <div class="flex gap-4 items-center">
-          <img
+          <!-- <img
             src="../../assets/images/testimonial-3.webp"
             alt="ügyfél avatár"
             height="20"
             width="20"
             class="w-14 h-14 rounded-full object-cover"
-          />
+          /> -->
           <div class="text-sm space-y-1">
             <p class="font-bold">Timi</p>
           </div>
