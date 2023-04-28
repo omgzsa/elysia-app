@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 import { useWindowSize } from "@vueuse/core";
@@ -10,6 +11,13 @@ const props = defineProps({
 });
 
 const { width } = useWindowSize();
+
+const settings = ref({
+  autoplay: 12000,
+  wrapAround: true,
+  itemsToShow: 1,
+  snapAlign: "center",
+});
 
 const getResponsiveImage = (id) => {
   const slide = props.slides.find((slide) => slide.id === id);
@@ -24,7 +32,7 @@ const getResponsiveImage = (id) => {
 </script>
 
 <template>
-  <carousel>
+  <carousel :settings="settings">
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
@@ -32,20 +40,16 @@ const getResponsiveImage = (id) => {
       :style="{
         backgroundImage: `url(${useGetImageUrl(getResponsiveImage(slide.id))})`,
       }"
-      v-motion-slide-bottom
-      :delay="300"
     >
       <div class="max-w-screen-xl site-padding grid grid-cols-1 md:grid-cols-2">
         <div class="flex flex-col text-left space-y-6 pb-24">
           <h1
             class="max-w-md sm:max-w-xl xl:max-w-3xl"
             style="line-height: 1.125"
-            v-motion-slide-bottom
-            :delay="500"
           >
             {{ slide.title }}
           </h1>
-          <p class="max-w-lg" v-motion-slide-bottom :delay="700">
+          <p class="max-w-lg">
             {{ slide.text }}
           </p>
 
