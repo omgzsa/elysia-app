@@ -225,29 +225,6 @@
   },
   {
     "id": 7,
-    "name": "Dr. Szántó Dávid",
-    "slug": "dr-szanto-david",
-    "hasAppointment": false,
-    "appointmentLink": "",
-    "title": "Sebész szakorvos",
-    "bio": "Diplomámat 2012-ben szereztem a Semmelweis Egyetem Általános Orvostudományi Karán. Ezt követően a Petz Aladár Megyei Oktató Kórház Sebészeti Osztályának munkatársa lettem. Az általános és hasi sebészet mellett mellkassebészeti jártasságot is szereztem a fekvő és a járóbetegbetegek ellátási területén is. 2018 végén sebészet szakvizsgát tettem, magántevékenységemet ezt követően kezdtem meg.\n \nJelentős időd töltöttem plasztikai-esztétikai műtétek asszisztenciájával, valamint esztétikai továbbképzéseken való részvétellel. Fontosnak tartom, hogy a hozzám forduló páciensek igényes, személyre szabott és magas szintű, korrekt ellátásával egy közvetlen és partneri orvos-beteg kapcsolat is létrejöjjön, melyhez elengedhetetlen a folyamatos önképzés. Szeretném pácienseimet a gyógyulásban társként végigkísérni, és a legjobb képességeim szerint segíteni.\n \nTàrsasàgi tagsàgok: Magyar Sebèsz Tàrsasàg (MST), Magyar Sebèsz Tàrsasàg Fiatal Sebèszek Szekciója (Fisesz), Magyar Mellkassebèszeti Tàrsasàg (MMST), European Society of Thoracic Surgeons (ESTS)",
-    "specialties": [
-      {
-        "id": 1,
-        "title": "Sebész"
-      }
-    ],
-    "image": "dr-szanto-david.webp",
-    "consultTime": [
-      {
-        "id": 1,
-        "day": "Kedd",
-        "hours": "16:00 - 18:00"
-      }
-    ]
-  },
-  {
-    "id": 8,
     "name": "Hauserné Bognár Zsuzsanna",
     "slug": "hauserne-bognar-zsuzsanna",
     "hasAppointment": false,
