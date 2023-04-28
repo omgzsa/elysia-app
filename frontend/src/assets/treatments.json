@@ -129,13 +129,6 @@
     "relatedDoctor": [
       {
         "id": 1,
-        "name": "Dr. Horváth Beáta",
-        "slug": "dr-horvath-beata",
-        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
-        "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
         "name": "Dr. Farkas Fruzsina",
         "slug": "dr-farkas-fruzsina",
         "title": "Felnőtt-, csecsemő-, gyermekbőrgyógyász, nemigyógyász",
@@ -1199,7 +1192,7 @@
     "name": "La Roche-Posay",
     "slug": "la-roche-posay",
     "metaDescription": "",
-    "images": "la-roche-posay-products.webp",
+    "images": ["la-roche-posay-products.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "Jobb életet nyújt az érzékeny bőrűeknek",
@@ -1227,7 +1220,7 @@
     "name": "CeraVe",
     "slug": "cerave",
     "metaDescription": "",
-    "images": "cerave-products.webp",
+    "images": ["cerave-products.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "Bőrgyógyászokkal kifejlesztett bőrápolás alapvető ceramidokkal",
@@ -1255,7 +1248,7 @@
     "name": "Vichy",
     "slug": "vichy",
     "metaDescription": "",
-    "images": "vichy-products.webp",
+    "images": ["vichy-products.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "„A francia vulkánok szívében született termálvíz ereje az erősebb bőrért.”",
@@ -1283,7 +1276,7 @@
     "name": "Bioderma",
     "slug": "bioderma",
     "metaDescription": "",
-    "images": "bioderma-products.webp",
+    "images": ["bioderma-products.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "Egyedi megközelítés: biológiai utánzás",
@@ -1344,7 +1337,7 @@
     "name": "Thalgo",
     "slug": "thalgo",
     "metaDescription": "",
-    "images": "thalgo-products.webp",
+    "images": ["thalgo-products.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "Kozmetikumok az óceánból",
@@ -1372,7 +1365,7 @@
     "name": "Orvosi lézerkészülékek",
     "slug": "orvosi-lezerkeszulekek",
     "metaDescription": "",
-    "images": "lezer-products.webp",
+    "images": ["lezer-products.webp", "deka-laser-product.webp"],
     "relatedDoctor": [],
     "content": {
       "title": "DEKA - A márkáról",
