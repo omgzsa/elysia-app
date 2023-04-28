@@ -7,97 +7,113 @@
         "id": "1",
         "title": "Konzultáció",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": true
       },
       {
         "id": "2",
         "title": "A kezelés azonnali elvégzése esetén a konzultációs díj nem kerül felszámolásra.",
         "price": "",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Pigmentfolt kezelés (5x5 cm/kis felület)",
         "price": "40 000 Ft",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Pigmentfolt kezelés (kéz, hát)",
         "price": "55 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Pigmentfolt kezelés (teljes arc)",
         "price": "80 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Rosacea, hajszálér (max. egy pókangioma)",
         "price": "40 000 Ft",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Rosacea, hajszálér, seprűvéna (egy gyermek tenyérnyi seprűvéna vagy éranyajegy)",
         "price": "47 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Rosacea, hajszálér, seprűvéna (egy tenyérnyi seprűvéna vagy éranyajegy)",
         "price": "60 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "Hajszálér, seprűvéna (nagyszámú seprűvéna / oldal)",
         "price": "105 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "Lézeres körömgomba 1. kezelés 1-5 köröm",
         "price": "20 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "11",
         "title": "Lézeres körömgomba 1. kezelés 6-10 köröm",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "12",
         "title": "Lézeres körömgomba 2., 3., 4…. kezelés 1-5 köröm",
         "price": "8 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "13",
         "title": "Lézeres körömgomba 2., 3., 4.... kezelés 6-10 köröm",
         "price": "10 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "14",
         "title": "Szemölcs (vírusos, öregségi), növedék eltávolítás lézerrel 1 db",
         "price": "40 000 Ft",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "15",
         "title": "Szemölcs (vírusos, öregségi)… minden további db 7.000 Ft/db",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "16",
         "title": "Fibroma lézeres eltávolítás - 1 terület",
         "price": "50 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -109,43 +125,50 @@
         "id": "1",
         "title": "A konzultációs díj levonásra kerül a kezelés árából.",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": true
       },
       {
         "id": "2",
         "title": "Arcfiatalítás - lézeres hámlasztás (Frakcionált CO2 lézerrel, ablatív)",
         "price": "190 000 Ft",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Nyakrejuvenáció - lézeres hámlasztás (Frakcionált CO2 lézerrel, ablatív)",
         "price": "160 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Dekoltázsrejuvenáció - lézeres hámlasztás (Frakcionált CO2 lézerrel, ablatív)",
         "price": "190 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Nyak-+Dekoltázsrejuvenáció - lézeres hámlasztás (Frakcionált CO2 lézerrel, ablatív)",
         "price": "280 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Arc-, nyak - és dekoltázsrejuvenáció - lézeres hámlasztás (Frakcionált CO2 lézerrel, ablatív)",
         "price": "410 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Heg kezelése lézerrel (területnagyságtól függően)",
         "price": "50 000 Ft-tól",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       }
     ]
   },
@@ -157,67 +180,78 @@
         "id": "1",
         "title": "Inkontinentia (stressz-, késztetéses-, kevert típusú inkontinentia)",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "2",
         "title": "Hüvelyfali süllyedés (hüvelysérv)",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Hüvelyszárazság, változókori panaszok kezelése",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Hüvelyszűkítés",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Fenntartó jellegű, kondicionáló kezelés",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Intim fiatalítás (szeméremajak feszesítés)",
         "price": "150 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Kisajak depigmentatio (kifehérítés)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Kondilóma (nemi szemölcs) kezelés (első db)",
         "price": "40 000 Ft/db",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "Kondilóma (nemi szemölcs) kezelés (minden további db)",
         "price": "7 000 Ft/db",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "Lichen vulvae kezelés (kiterjedés mértékétől függően)",
         "price": "40 000 Ft - 100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "11",
         "title": "Méhszáj, méhszájseb kezelése",
         "price": "40 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -229,139 +263,162 @@
         "id": "1",
         "title": "Szőrtelenítés esetén a konzultáció ingyenes.",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": true
       },
       {
         "id": "2",
         "title": "Homlok (3)",
         "price": "18 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Szemöldök között",
         "price": "7 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Pajesz",
         "price": "20 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Orca (3)",
         "price": "29 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Bajusz (3)",
         "price": "17 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Áll",
         "price": "19 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Nyak elől/hátul",
         "price": "27 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "Alkar/felkar",
         "price": "40 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "Kézfej/lábfej",
         "price": "30 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "11",
         "title": "Vállak",
         "price": "40 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "12",
         "title": "Hónalj",
         "price": "38 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "13",
         "title": "Mellkas",
         "price": "55 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "14",
         "title": "Has",
         "price": "55 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "15",
         "title": "Mellbimbó körül (3)",
         "price": "12 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "16",
         "title": "Hascsík",
         "price": "18 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "17",
         "title": "Hát alsó/felső",
         "price": "50 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "18",
         "title": "Lábszár",
         "price": "59 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "19",
         "title": "Comb",
         "price": "69 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "20",
         "title": "Far",
         "price": "49 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "21",
         "title": "Fenék",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "22",
         "title": "Bikini",
         "price": "38 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "23",
         "title": "Teljes fazon",
         "price": "48 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -373,43 +430,50 @@
         "id": "1",
         "title": "Teljes kar (ajándék kezek és váll)",
         "price": "95 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "2",
         "title": "Teljes hát (ajándék vállak)",
         "price": "98 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Teljes láb (ajándék lábfej)",
         "price": "110 800 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Teljes fazon (ajándék fenék anus körül)",
         "price": "48 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Szőrtelenítési bérletek alkalom számtól-, illetve felület darabszámtól függően",
         "price": "5-25% kedvezmény",
-        "isFeatured": true
+        "isFeatured": true,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Kérje személyre szabott ajánlatunkat!",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "A kedvezmények nem összevonhatóak!",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -420,110 +484,128 @@
       {
         "id": "1",
         "title": "Konzultáció",
-        "price": "18 000 Ft",
-        "isFeatured": false
+        "price": "25 000 Ft",
+        "isFeatured": false,
+        "isItalic": true
       },
       {
         "id": "2",
         "title": "A kezelés azonnali elvégzése esetén a konzultációs díj nem kerül felszámolásra.",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Mezoterápia - haj (10)",
         "price": "40 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "BOTOX (ARC)",
         "price": "120 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "BOTOX (hónalj)-nő",
         "price": "120 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "BOTOX (hónalj)-férfi",
         "price": "135 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Hyaluronsavas töltés (1 ampulla)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Bioszálas arcfiatalítás (egy arc kb 30-70 szál)",
         "price": "3 500 Ft / szál",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "COG szálas arcfeszesítés (3-5 szál oldalanként)",
         "price": "25 000 Ft / szál",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "ZO hámlasztás (3 step peel)",
         "price": "120 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "11",
         "title": "ZO Red Carpet Hollywood kezelés",
         "price": "40 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "12",
         "title": "Drakula kezelés (3)",
         "price": "99 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "13",
         "title": "Drakula szem környékére(3)",
         "price": "70 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "14",
         "title": "Skinbooster (hyaluronnal történő ránctalanító kezelés) -teljes arc (3)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "15",
         "title": "Skinbooster (hyaluronnal történő ránctalanító kezelés) - szem környéke",
         "price": "90 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "16",
         "title": "Skinbooster (hyaluronnal történő ránctalanító kezelés) - mezoterápiával kiegészítve, terület nagyságától függően",
         "price": "90 000 Ft-tól",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "17",
         "title": "Skinbooster (hyaluronnal történő ránctalanító kezelés) – több anyag felhasználásával + kiegészítve mezoterápiával",
         "price": "130 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "18",
         "title": "Nucleofill (öregedésgátló, lifting kezelés) (3)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -535,61 +617,71 @@
         "id": "1",
         "title": "Bőrgyógyászati vizsgálat",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "2",
         "title": "Beavatkozás Volkman kanál / fibroma eltávolítás",
         "price": "30 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Kontroll",
         "price": "15 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Anyajegy -, bőrnövedék eltávolítás:",
         "price": "47 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Teljes anyajegy-szűrés (1 fő)",
         "price": "30 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "S.O.S Anyajegy-szűrés (1 db)",
         "price": "10 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Családi anyajegy-szűrés (max. 3 fő)",
         "price": "45 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Családi anyajegy-szűrés (max. 4-5 fő)",
         "price": "60 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "Szemölcs fagyasztás asszisztensi kontrollal",
         "price": "7 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "Receptírás",
         "price": "4 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -601,91 +693,106 @@
         "id": "1",
         "title": "Konzultáció",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": true
       },
       {
         "id": "2",
         "title": "*A konzultációs díj levonásra kerül a kezelés árából.",
         "price": "",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Anyajegy-, bőrnövedék eltávolítás (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
         "price": "47 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Anyajegy-, bőrnövedék eltávolítás minden további(az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
         "price": "30 000 Ft / db",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Bőrnövedék eltávolítás lebenyes (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
         "price": "50 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Felső szemhéjplasztika, kontroll, varratszedés*",
         "price": "260 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "7",
         "title": "Alsó szemhéjplasztika, kontroll, varratszedés*",
         "price": "280 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "8",
         "title": "Alsó és felső szemhéjplasztika, kontroll, varratszedés*",
         "price": "450 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "9",
         "title": "Kisajak plasztika, kontroll*",
         "price": "260 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "10",
         "title": "Bőrköldök műtét, kontroll*",
         "price": "100 000 Ft / db",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "11",
         "title": "Hegkimetszés, korrekció, kontroll, varratszedés*",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "12",
         "title": "Fülkorrekció, kontroll*",
         "price": "330 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "13",
         "title": "Ajak- és ráncfeltöltés / 1 ml Teosyal (azonnal elvégezhető kezelés, konzultációs díj levonásra kerül)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "14",
         "title": "Ránckezelés BOTOX-szal Vistabel (azonnal elvégezhető kezelés, konzultációs díj levonásra kerül)",
         "price": "100 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "15",
         "title": "COG szálas arcfeszesítés (3-5 szál oldalanként)*",
         "price": "25 000 Ft / szál",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -697,7 +804,8 @@
         "id": "1",
         "title": "Konzultáció, kontroll",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -709,37 +817,43 @@
         "id": "1",
         "title": "Konzultáció",
         "price": "20 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "2",
         "title": "Vizsgálat + PRICK-teszt + Légzésfunkció vizsgálat",
         "price": "30 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "PRICK-teszt",
         "price": "20 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "4",
         "title": "Kontroll",
         "price": "15 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "5",
         "title": "Kontroll + Légzésfunkció vizsgálat",
         "price": "20 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "6",
         "title": "Konzultáció + Légzésfunkció vizsgálat",
         "price": "25 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -751,19 +865,22 @@
         "id": "1",
         "title": "Vérvételi díj, mintavételi díj",
         "price": "3 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "2",
         "title": "EPICUTAN teszt (az ár tartalmazza a leolvasási megjelenés díját - 4 alkalom)",
         "price": "30 000 Ft",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       },
       {
         "id": "3",
         "title": "Labor vizsgálatok ára",
         "price": "Érdeklődjön személyesen!",
-        "isFeatured": false
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   }
