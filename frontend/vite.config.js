@@ -30,6 +30,8 @@ export default defineConfig({
           ],
         });
       },
+      filename: "sitemap",
+      readable: true,
     }),
   ],
   base: "/",
