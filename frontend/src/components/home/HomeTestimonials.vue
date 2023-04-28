@@ -12,7 +12,7 @@ defineProps({
       <h2>{{ title }}</h2>
     </div>
     <div
-      class="space-y-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
+      class="space-y-10 sm:space-x-4 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
     >
       <div
         class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
