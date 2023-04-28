@@ -37,7 +37,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <section>
+  <div>
     <div class="max-w-screen-xl mx-auto">
       <!-- breadcrumb component -->
       <TheBreadCrumbs />
@@ -51,10 +51,26 @@ const props = defineProps({
             {{ treatment.content.description }}
           </p>
           <h3>{{ treatment.content.title2 }}</h3>
+          <!-- <img
+            v-if="hasImage"
+            class="h-80 mx-auto object-contain object-top"
+            width="300"
+            height="80"
+            :src="useGetServiceImageUrl(props.treatment.images[0])"
+            :alt="props.treatment.title"
+          /> -->
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description2 }}
           </p>
           <h3>{{ treatment.content.title3 }}</h3>
+          <!-- <img
+            v-if="hasImage"
+            class="h-80 mx-auto object-contain object-top"
+            width="300"
+            height="80"
+            :src="useGetServiceImageUrl(props.treatment.images[1])"
+            :alt="props.treatment.title"
+          /> -->
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description3 }}
           </p>
@@ -112,15 +128,37 @@ const props = defineProps({
           </div>
         </div>
         <!-- medical equipment image (treatments have no image yet) -->
-        <div class="px-4 relative sm:order-2 sm:col-span-1" v-if="hasImage">
+        <div
+          class="flex sm:flex-col justify-evenly px-4 relative sm:order-2 sm:col-span-1"
+          v-if="hasImage"
+        >
           <img
-            class="sm:sticky top-20 h-86 object-contain object-top"
+            v-for="(image, index) in props.treatment.images"
+            :key="index"
+            class="h-60 sm:h-96 object-contain object-top"
             width="300"
             height="80"
-            :src="useGetServiceImageUrl(props.treatment.images)"
+            :src="useGetServiceImageUrl(image)"
             :alt="props.treatment.title"
           />
         </div>
+      </div>
+    </div>
+    <!-- related Doctors -->
+    <div
+      class="max-w-screen-xl mx-auto py-8 site-padding space-y-6 mb-10"
+      v-if="hasRelatedDoctors"
+    >
+      <div class="space-y-2 mb-8">
+        <span class="subheading">elysia laser clinic</span>
+        <h3>A témában jártas munkatársaink:</h3>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-12 items-start">
+        <ServiceRelatedDoctorsCard
+          v-for="item in props.treatment.relatedDoctor"
+          :key="item.id"
+          :item="item"
+        />
       </div>
     </div>
     <!-- FAQ call to action -->
@@ -158,22 +196,5 @@ const props = defineProps({
         </div>
       </div>
     </div>
-    <!-- related Doctors -->
-    <div
-      class="max-w-screen-xl mx-auto py-8 site-padding space-y-6"
-      v-if="hasRelatedDoctors"
-    >
-      <div class="space-y-2 mb-8">
-        <span class="subheading">elysia laser clinic</span>
-        <h3>A témában jártas munkatársaink:</h3>
-      </div>
-      <div class="flex flex-col sm:flex-row gap-12 items-start">
-        <ServiceRelatedDoctorsCard
-          v-for="item in props.treatment.relatedDoctor"
-          :key="item.id"
-          :item="item"
-        />
-      </div>
-    </div>
-  </section>
+  </div>
 </template>
