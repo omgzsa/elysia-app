@@ -8,7 +8,7 @@
   }
 
   section {
-    @apply mx-auto mb-16 lg:mb-24 xl:mb-28;
+    @apply mx-auto mb-16 lg:mb-24;
   }
 
   img {
