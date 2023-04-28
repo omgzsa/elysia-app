@@ -74,7 +74,7 @@ const slides = ref([
     buttonText: "Bőrgyógyászat",
     linkTo: "borgyogyaszat",
     alt: "Egy fényes bőrű lábait tornásztató hölgy",
-    text: "Lézeres szőrtelenítés a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
+    text: "Szőrtelenítés orvosi lézerrel a legújabb technológiával Győrben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
     img: "hero-szortelenites.jpg",
     imgTablet: "hero-szortelenites-tablet.webp",
     imgMobile: "hero-szortelenites-mobil.webp",
