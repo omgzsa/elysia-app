@@ -38,7 +38,7 @@ const images = [
     <div class="flex flex-col space-y-10 mx-auto">
       <AppHeader>
         <template #subtitle>orvosi termékek</template>
-        <template #title>Z0 Skin Health</template>
+        <template #title>Z0® Skin Health</template>
       </AppHeader>
     </div>
     <!-- z0 skin -->
@@ -127,15 +127,16 @@ const images = [
           A ZO® Skin health egy orvosok által kifejlesztett exkluzív márka, mely
           professzionális bőrápolást nyújt a felhasználók részére. A termékek
           használata és a rendelői kezelések is egyedülálló élményt biztosítanak
-          orvosi felügyelet mellett. A ZO minden problémára, bármely életkorban
+          orvosi felügyelet mellett. A ZO® minden problémára, bármely életkorban
           kiemelkedő eredményt garantál, amit pácienseink visszajelzései is hűen
           tükröznek!
         </p>
         <h4>Mi is az a ZO® Red Carpet Hollywood Peeling?</h4>
         <p>
           A ZO® Red Carpet Hollywood Peeling egy fájdalommentes kezelés, mely
-          azonnali hatást eredményez gyógyulási idő nélkül. ZO kezelés nem csak
-          ZO felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események előtt.
+          azonnali hatást eredményez gyógyulási idő nélkül. ZO® kezelés nem csak
+          ZO® felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események
+          előtt.
         </p>
         <h4>Tökéletes hatás:</h4>
         <ul class="list-disc list-inside marker:bg-accent-100">
@@ -154,7 +155,7 @@ const images = [
         </h4>
         <p>
           A Red Carpet Peeling akár hetente elvégezhető az igazi Hollywood-i
-          ragyogásért!Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
+          ragyogásért! Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
         </p>
       </div>
       <div class="mx-auto sticky top-10">
