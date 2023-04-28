@@ -12,10 +12,10 @@ defineProps({
       <h2>{{ title }}</h2>
     </div>
     <div
-      class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
+      class="space-y-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
     >
       <div
-        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
       >
         <p class="italic mb-4">
           "Rendszeresen a Klinika vendége vagyok. :) Nem csak a
@@ -39,7 +39,7 @@ defineProps({
         </div>
       </div>
       <div
-        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
       >
         <p class="italic mb-4">
           "Kedvesség, rugalmasság, szakmai profizmus. Családommal többször
@@ -60,7 +60,7 @@ defineProps({
         </div>
       </div>
       <div
-        class="mb-8 sm:break-inside-avoid ml-2 p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
+        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
       >
         <p class="italic mb-4">
           "Kellemes környezet, kedves fogadtatás párosul magas szakmai
