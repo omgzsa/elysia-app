@@ -65,14 +65,24 @@ useHead({
           >
             <p
               class="max-w-sm lg:max-w-screen-xl"
-              :class="{ 'font-semibold': treatment.isFeatured === true }"
+              :class="{
+                'font-semibold': treatment.isFeatured === true,
+                'italic py-4': treatment.isItalic === true,
+              }"
             >
               {{ treatment.title }}
             </p>
             <div
               class="hidden sm:block border-b border-b-gray-400 border-dotted flex-grow mx-4"
             ></div>
-            <p class="font-medium">{{ treatment.price }}</p>
+            <p
+              class="font-medium"
+              :class="{
+                italic: treatment.isItalic === true,
+              }"
+            >
+              {{ treatment.price }}
+            </p>
             <div
               class="sm:hidden border-b border-b-gray-400 border-dotted flex-grow mx-4"
             ></div>
