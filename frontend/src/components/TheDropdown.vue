@@ -40,7 +40,7 @@ onClickOutside(target, () => {
     <Transition name="dropdown-fade">
       <ul
         v-if="isVisible"
-        class="absolute z-50 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 min-h-fit w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-2"
+        class="absolute z-50 inset-0 sm:right-36 lg:right-auto top-4 xl:top-6 min-h-fit w-60 sm:w-max p-6 border rounded-xl bg-white flex flex-col space-y-1.5"
       >
         <li
           v-for="item in submenu"
