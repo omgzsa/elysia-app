@@ -42,7 +42,7 @@ const props = defineProps({
       <!-- breadcrumb component -->
       <TheBreadCrumbs />
       <div
-        class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6 mb-8"
+        class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6"
       >
         <!-- treatment information -->
         <div class="site-padding order-2 sm:col-span-2 space-y-6">
@@ -129,10 +129,17 @@ const props = defineProps({
         </div>
         <!-- medical equipment image (treatments have no image yet) -->
         <div
-          class="flex sm:flex-col justify-evenly px-4 relative sm:order-2 sm:col-span-1"
+          class="flex sm:flex-col mx-auto px-4 relative sm:order-2 sm:col-span-1"
           v-if="hasImage"
         >
           <img
+            class="h-60 sm:h-96 sm:sticky sm:top-20 object-contain object-top"
+            width="300"
+            height="80"
+            :src="useGetServiceImageUrl(props.treatment.images[0])"
+            :alt="props.treatment.title"
+          />
+          <!-- <img
             v-for="(image, index) in props.treatment.images"
             :key="index"
             class="h-60 sm:h-96 object-contain object-top"
@@ -140,7 +147,7 @@ const props = defineProps({
             height="80"
             :src="useGetServiceImageUrl(image)"
             :alt="props.treatment.title"
-          />
+          /> -->
         </div>
       </div>
     </div>
@@ -150,7 +157,7 @@ const props = defineProps({
       v-if="hasRelatedDoctors"
     >
       <div class="space-y-2 mb-8">
-        <span class="subheading">elysia laser clinic</span>
+        <!-- <span class="subheading">elysia laser clinic</span> -->
         <h3>A témában jártas munkatársaink:</h3>
       </div>
       <div class="flex flex-col sm:flex-row gap-12 items-start">
