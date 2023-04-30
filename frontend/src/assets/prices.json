@@ -818,7 +818,7 @@
         "title": "Konzultáció",
         "price": "20 000 Ft",
         "isFeatured": false,
-        "isItalic": false
+        "isItalic": true
       },
       {
         "id": "2",
