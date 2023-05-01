@@ -407,7 +407,7 @@
       {
         "id": 1,
         "question": "Mi a folyamata, ha a páciens lézeres szőrtelenítés kezelést szeretne igénybe venni?",
-        "description": "A magyar standard sorral 36 allergént vizsgálunk: ",
+        "description": "",
         "bulletPoints": [
           {
             "id": 1,
