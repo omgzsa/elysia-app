@@ -74,7 +74,7 @@ const slides = ref([
     buttonText: "Bőrgyógyászat",
     linkTo: "borgyogyaszat",
     alt: "Egy fényes bőrű lábait tornásztató hölgy",
-    text: "Élvezze sima bőrét egész évben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
+    text: "Élvezze gyönyörű és sima bőrét egész évben. Intsen búcsút a makacsul visszatérő, benőtt szőrszálaknak!",
     img: "hero-szortelenites.jpg",
     imgTablet: "hero-szortelenites-tablet.webp",
     imgMobile: "hero-szortelenites-mobil.webp",
