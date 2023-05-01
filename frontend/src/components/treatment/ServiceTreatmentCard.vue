@@ -169,37 +169,36 @@ const props = defineProps({
       </div>
     </div>
     <!-- FAQ call to action -->
-    <div>
-      <div
-        :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
-        class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
+
+    <div
+      :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
+      class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
+    >
+      <span
+        class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
       >
-        <span
-          class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
-        >
-          Kérdése van?
-        </span>
-        <p class="text-white max-w-2xl mx-auto">
-          Böngéssze át a Gyakran Ismételt Kérdéseket, amelyek az orvosainknál
-          felmerülhetnek. Olvashat a hozzájuk tartozó vizsgálatokról és arról
-          mikor érdemes szakemberhez fordulni.
-        </p>
-        <div>
-          <div class="flex flex-col justify-center gap-2 md:flex-row">
-            <AppLink :to="{ name: 'faq.show' }">
-              <button
-                class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
+        Kérdése van?
+      </span>
+      <p class="text-white max-w-2xl mx-auto">
+        Böngéssze át a Gyakran Ismételt Kérdéseket, amelyek az orvosainknál
+        felmerülhetnek. Olvashat a hozzájuk tartozó vizsgálatokról és arról
+        mikor érdemes szakemberhez fordulni.
+      </p>
+      <div>
+        <div class="flex flex-col justify-center gap-2 md:flex-row">
+          <AppLink :to="{ name: 'faq.show' }">
+            <button
+              class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
+            >
+              <span
+                class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-44 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+              ></span>
+              <span
+                class="font-bold flex flex-row gap-2 relative text-gray-800 group-hover:text-secondary-100 transition duration-300 ease"
+                >GY.I.K.</span
               >
-                <span
-                  class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-44 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
-                ></span>
-                <span
-                  class="font-bold flex flex-row gap-2 relative text-gray-800 group-hover:text-secondary-100 transition duration-300 ease"
-                  >GY.I.K.</span
-                >
-              </button>
-            </AppLink>
-          </div>
+            </button>
+          </AppLink>
         </div>
       </div>
     </div>
