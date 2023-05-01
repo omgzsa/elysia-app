@@ -59,21 +59,21 @@
     "submenu": [
       {
         "id": 0,
+        "name": "Szőrtelenítés orvosi lézerrel",
+        "slug": "lezeres-szortelenites",
+        "image": "lezeres-szortelenites.webp"
+      },
+      {
+        "id": 1,
         "name": "Lézeres archámlasztás",
         "slug": "lezeres-archamlasztas",
         "image": "lezeres-arcfiatalitas.webp"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "Intim lézeres kezelések",
         "slug": "intim-lezeres-kezelesek",
         "image": "vagina-rejuvenacio.webp"
-      },
-      {
-        "id": 2,
-        "name": "Lézeres szőrtelenítés",
-        "slug": "lezeres-szortelenites",
-        "image": "lezeres-szortelenites.webp"
       },
       {
         "id": 3,
