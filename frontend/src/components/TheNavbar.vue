@@ -68,6 +68,11 @@ const borgyogyaszat = ref([
 
 const lezerkezelesek = ref([
   {
+    name: "Szőrtelenítés orvosi lézerrel",
+    slug: "lezeres-szortelenites",
+    category: "lezerkezelesek",
+  },
+  {
     name: "Lézeres archámlasztás",
     slug: "lezeres-archamlasztas",
     category: "lezerkezelesek",
@@ -75,11 +80,6 @@ const lezerkezelesek = ref([
   {
     name: "Intim lézeres kezelések",
     slug: "intim-lezeres-kezelesek",
-    category: "lezerkezelesek",
-  },
-  {
-    name: "Lézeres szőrtelenítés",
-    slug: "lezeres-szortelenites",
     category: "lezerkezelesek",
   },
   {
