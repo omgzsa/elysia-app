@@ -47,7 +47,9 @@ const images = [
     >
       <!-- content -->
       <div class="space-y-8">
-        <h3>Z0® Skin Health megoldások bőrproblémákra</h3>
+        <h3 class="text-base md:text-2xl">
+          Z0® Skin Health megoldások bőrproblémákra
+        </h3>
         <p>
           Ha Ön is szeretné látványosan javítani bőre állapotát és visszanyerni
           annak egészségét, keresse fel orvosainkat. Részletes konzultációt
@@ -121,8 +123,10 @@ const images = [
       class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
     >
       <div class="space-y-8">
-        <h3>ZO® Red Carpet Hollywood Peeling azonnali ragyogásért</h3>
-        <h4>Mi is az a Z0® Skin Health?</h4>
+        <h3 class="text-base md:text-2xl">
+          ZO® Red Carpet Hollywood Peeling azonnali ragyogásért
+        </h3>
+        <h3>Mi is az a Z0® Skin Health?</h3>
         <p>
           A ZO® Skin health egy orvosok által kifejlesztett exkluzív márka, mely
           professzionális bőrápolást nyújt a felhasználók részére. A termékek
@@ -131,14 +135,14 @@ const images = [
           kiemelkedő eredményt garantál, amit pácienseink visszajelzései is hűen
           tükröznek!
         </p>
-        <h4>Mi is az a ZO® Red Carpet Hollywood Peeling?</h4>
+        <h3>Mi is az a ZO® Red Carpet Hollywood Peeling?</h3>
         <p>
           A ZO® Red Carpet Hollywood Peeling egy fájdalommentes kezelés, mely
           azonnali hatást eredményez gyógyulási idő nélkül. ZO® kezelés nem csak
           ZO® felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események
           előtt.
         </p>
-        <h4>Tökéletes hatás:</h4>
+        <h3>Tökéletes hatás:</h3>
         <ul class="list-disc list-inside marker:bg-accent-100">
           <li>rosaceás bőrön</li>
           <li>aknés bőrön</li>
@@ -150,9 +154,9 @@ const images = [
           fényvédelmet, kényeztető masszázzsal kiegészítve az igazi wellness
           élményért.
         </p>
-        <h4>
+        <h3>
           A kezelés maximum 40 percet vesz igénybe és teljesen fájdalommentes!
-        </h4>
+        </h3>
         <p>
           A Red Carpet Peeling akár hetente elvégezhető az igazi Hollywood-i
           ragyogásért! Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
@@ -174,7 +178,7 @@ const images = [
       class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
     >
       <div class="space-y-8 md:order-2">
-        <h4>ZO® Skin Health 3 Step Peeling</h4>
+        <h3 class="text-base md:text-2xl">ZO® Skin Health 3 Step Peeling</h3>
         <p>
           A ZO® Skin Health 3 Step Peeling egy hatékony hámlasztó kezelés, amely
           erőteljesem javítja a bőr textúráját és megjelenését. Ez a kezelés
@@ -182,7 +186,7 @@ const images = [
           ráncok és akne kezelésére. A kezelés előtt legalább 6 hétig szükséges
           a bőrgyógyász által összeállított ZO® protokoll használata.
         </p>
-        <h4>A kezelés folyamata</h4>
+        <h3>A kezelés folyamata</h3>
         <p>
           Az első lépés a peeling kezelésében egy mélytisztító folyamat, amely
           eltávolítja a bőr felületi szennyeződéseit és az elhalt bőrsejteket.
@@ -196,7 +200,7 @@ const images = [
           általában 30-45 percig tart, és általában hatékony eredményeket nyújt
           az első kezelés után is.
         </p>
-        <h4>Mik a teendők utána?</h4>
+        <h3>Mik a teendők utána?</h3>
         <p>
           A kezelést követően javasolt 5-6 napig otthon tartózkodni, hogy a bőr
           felülfertőződését és a fénytől való bepigmentálódását teljes mértékben
@@ -219,7 +223,9 @@ const images = [
 
     <!-- before-after images -->
     <div class="flex flex-col space-y-10 mx-auto site-padding max-w-screen-xl">
-      <h3 class="text-center">Vendégeink a kezelés előtt és után</h3>
+      <h3 class="text-base md:text-2xl text-center">
+        Vendégeink a kezelés előtt és után
+      </h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto">
         <!-- 1st comparison -->
         <div class="flex flex-col space-y-4 max-w-md">
@@ -246,9 +252,9 @@ const images = [
             <!-- eslint-enable -->
           </ImgComparisonSlider>
           <div>
-            <h4 class="mb-2">
+            <h3 class="mb-2">
               Öregedés, bőrfelszíni szín- és texturális egyenetlenségek
-            </h4>
+            </h3>
             <p class="text-sm">A kezelés után fényes, feszes arcbőr.</p>
           </div>
         </div>
@@ -277,7 +283,7 @@ const images = [
             <!-- eslint-enable -->
           </ImgComparisonSlider>
           <div>
-            <h4 class="mb-2">Melasma, nagy kiterjedésű pigmentfoltok</h4>
+            <h3 class="mb-2">Melasma, nagy kiterjedésű pigmentfoltok</h3>
             <p class="text-sm">A kezelés után foltmentes, sima felszínű bőr.</p>
           </div>
         </div>
@@ -306,7 +312,7 @@ const images = [
             <!-- eslint-enable -->
           </ImgComparisonSlider>
           <div>
-            <h4 class="mb-2">Súlyos akne, hegekkel</h4>
+            <h3 class="mb-2">Súlyos akne, hegekkel</h3>
             <p class="text-sm">A kezelés után javuló gyulladásos állapot.</p>
           </div>
         </div>
