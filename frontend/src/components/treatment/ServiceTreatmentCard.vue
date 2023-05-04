@@ -2,6 +2,8 @@
 import { computed } from "vue";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 import { useGetServiceImageUrl } from "../../composables/getServiceImageUrl";
+import { useGetTreatmentImageUrl } from "../../composables/getTreatmentImageUrl";
+import { ImgComparisonSlider } from "@img-comparison-slider/vue";
 import TheBreadCrumbs from "@/components/TheBreadCrumbs.vue";
 import ServiceRelatedDoctorsCard from "@/components/treatment/ServiceRelatedDoctorsCard.vue";
 
@@ -29,6 +31,11 @@ const hasImage = computed(() => {
   return props.treatment.images.length > 0;
 });
 
+// a function that returns if treatment.treatmentImages.images is empty or not
+const hasTreatmentImage = computed(() => {
+  return props.treatment.treatmentImages.length > 0;
+});
+
 const props = defineProps({
   treatment: {
     type: Object,
@@ -45,32 +52,44 @@ const props = defineProps({
         class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6"
       >
         <!-- treatment information -->
-        <div class="site-padding order-2 sm:col-span-2 space-y-6">
+        <div class="site-padding order-2 sm:col-span-2 space-y-6 mb-8">
           <h3>{{ treatment.content.title }}</h3>
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description }}
           </p>
+          <div class="text-center" v-if="hasTreatmentImage">
+            <ImgComparisonSlider>
+              <!-- eslint-disable -->
+              <img
+                slot="first"
+                class="h-72 object-cover m-auto rounded-xl"
+                style="width: 100%"
+                :src="
+                  useGetTreatmentImageUrl(props.treatment.treatmentImages[0])
+                "
+                width="220"
+                height="200"
+                alt=""
+              />
+              <img
+                slot="second"
+                class="h-72 object-cover m-auto rounded-xl"
+                style="width: 100%"
+                :src="
+                  useGetTreatmentImageUrl(props.treatment.treatmentImages[1])
+                "
+                width="220"
+                height="200"
+                alt=""
+              />
+              <!-- eslint-enable -->
+            </ImgComparisonSlider>
+          </div>
           <h3>{{ treatment.content.title2 }}</h3>
-          <!-- <img
-            v-if="hasImage"
-            class="h-80 mx-auto object-contain object-top"
-            width="300"
-            height="80"
-            :src="useGetServiceImageUrl(props.treatment.images[0])"
-            :alt="props.treatment.title"
-          /> -->
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description2 }}
           </p>
           <h3>{{ treatment.content.title3 }}</h3>
-          <!-- <img
-            v-if="hasImage"
-            class="h-80 mx-auto object-contain object-top"
-            width="300"
-            height="80"
-            :src="useGetServiceImageUrl(props.treatment.images[1])"
-            :alt="props.treatment.title"
-          /> -->
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description3 }}
           </p>
@@ -139,15 +158,6 @@ const props = defineProps({
             :src="useGetServiceImageUrl(props.treatment.images[0])"
             :alt="props.treatment.title"
           />
-          <!-- <img
-            v-for="(image, index) in props.treatment.images"
-            :key="index"
-            class="h-60 sm:h-96 object-contain object-top"
-            width="300"
-            height="80"
-            :src="useGetServiceImageUrl(image)"
-            :alt="props.treatment.title"
-          /> -->
         </div>
       </div>
     </div>
@@ -169,7 +179,6 @@ const props = defineProps({
       </div>
     </div>
     <!-- FAQ call to action -->
-
     <div
       :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
       class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
