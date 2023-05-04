@@ -87,15 +87,15 @@ const hajnalka = {
           ></div>
           <div class="text-xs sm:text-sm text-gray-500">
             <div class="flex flex-col px-4 space-y-2">
-              <div class="h-64"></div>
-              <!-- <img
-                :src="useGetEmployeeImageUrl(hajnalka.image)"
-                :alt="hajnalka.name"
+              <!-- <div class="h-64"></div> -->
+              <img
+                :src="useGetEmployeeImageUrl('szabo-elizabet.webp')"
+                alt="Szabó Elizabet"
                 width="128"
                 height="128"
                 class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
-              /> -->
-              <h3 class="text-gray-900">Szabó ELizabet</h3>
+              />
+              <h3 class="text-gray-900">Szabó Elizabet</h3>
               <span>recepciós</span>
             </div>
           </div>
@@ -107,14 +107,14 @@ const hajnalka = {
           ></div>
           <div class="text-xs sm:text-sm text-gray-500">
             <div class="flex flex-col px-4 space-y-2">
-              <div class="h-64"></div>
-              <!-- <img
-                :src="useGetEmployeeImageUrl(hajnalka.image)"
-                :alt="hajnalka.name"
+              <!-- <div class="h-64"></div> -->
+              <img
+                :src="useGetEmployeeImageUrl('endresz-anna.webp')"
+                alt="Endrész Anna"
                 width="128"
                 height="128"
                 class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
-              /> -->
+              />
               <h3 class="text-gray-900">Endrész Anna</h3>
               <span>recepciós</span>
             </div>
@@ -127,14 +127,14 @@ const hajnalka = {
           ></div>
           <div class="text-xs sm:text-sm text-gray-500">
             <div class="flex flex-col px-4 space-y-2">
-              <div class="h-64"></div>
-              <!-- <img
-                :src="useGetEmployeeImageUrl(hajnalka.image)"
-                :alt="hajnalka.name"
+              <!-- <div class="h-64"></div> -->
+              <img
+                :src="useGetEmployeeImageUrl('osvath-edit.webp')"
+                alt="Osváth Edit"
                 width="128"
                 height="128"
                 class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
-              /> -->
+              />
               <h3 class="text-gray-900">Osváth Edit</h3>
               <span>asszisztens</span>
             </div>
