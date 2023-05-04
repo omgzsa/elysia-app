@@ -68,7 +68,7 @@ const borgyogyaszat = ref([
 
 const lezerkezelesek = ref([
   {
-    name: "Szőrtelenítés orvosi lézerrel",
+    name: "Lézeres szőrtelenítés",
     slug: "lezeres-szortelenites",
     category: "lezerkezelesek",
   },

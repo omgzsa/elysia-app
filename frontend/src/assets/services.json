@@ -59,7 +59,7 @@
     "submenu": [
       {
         "id": 0,
-        "name": "Szőrtelenítés orvosi lézerrel",
+        "name": "Lézeres szőrtelenítés",
         "slug": "lezeres-szortelenites",
         "image": "lezeres-szortelenites.webp"
       },
