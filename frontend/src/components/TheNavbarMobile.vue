@@ -85,6 +85,11 @@ const lezerkezelesek = ref([
     slug: "koromgomba-kezelese",
     category: "lezerkezelesek",
   },
+  {
+    name: "Bőrnövedék eltávolítása CO2 lézerrel",
+    slug: "bornovedek-eltavolitasa-co2-lezerrel",
+    category: "lezerkezelesek",
+  },
 ]);
 
 const orvosEsztetika = ref([

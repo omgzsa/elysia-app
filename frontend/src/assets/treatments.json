@@ -1542,5 +1542,57 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 39,
+    "name": "Bőrnövedék eltávolítása CO2 lézerrel",
+    "slug": "bornovedek-eltavolitasa-co2-lezerrel",
+    "metaDescription": "",
+    "images": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
+    "content": {
+      "title": "Bőrnövedék eltávolítása CO2 lézerrel",
+      "description": "Számos, nem anyajegy típusú bőrnövedék eltávolítása történhet lézerkészülékkel.  Rendelőnkben egy helyen állnak rendelkezésre mind a bőrnövedékek vizsgálatában, mind a lézeres eltávolításban jártas szakemberek.",
+      "description2": "A lézer precizitásának köszönhetően az eltávolítás gyors és kiváló kozmetikai eredményt biztosít. A környezet károsítása nélkül, heg nélküli, nyomtalan gyógyulást lehet elérni. A beavatkozás helyi érzéstelenítésben történik, bár az apróbb képletek érzéstelenítés nélkül is eltávolíthatók, mert a rövid ideig tartó lézerhatás okozta fájdalom kisebb, mint egy tűszúrás. Egy kezelés alkalmával akár 10-20 képlet is eltávolítható.",
+      "title3": "",
+      "description3": "Utókezelésre csupán hámosító krémet javaslunk, a pontszerű sebeket folyóvíz érheti,  az áztatás, extrém izzadás kerülendő.",
+      "benefitsTitle": "Leggyakoribb eltávolítható képletek:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Fibrómák"
+        },
+        {
+          "id": 2,
+          "text": "Öregségi szemölcsök, keratózisok"
+        },
+        {
+          "id": 3,
+          "text": "Vírusos közönséges-, nemi- és futószemölcsök"
+        },
+        {
+          "id": 4,
+          "text": "Szem környéki apró cysták, xanthelasmák"
+        }
+      ]
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 1,
+        "name": "Lézerkezelések",
+        "slug": "lezerkezelesek",
+        "images": []
+      }
+    ]
   }
 ]
