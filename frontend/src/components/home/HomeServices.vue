@@ -16,7 +16,8 @@ const servicesFeatured = computed(() => {
 </script>
 
 <template>
-  <div class="max-w-screen-xl mx-auto site-padding">
+  <div class="max-w-screen-xl mx-auto site-padding flex flex-col space-y-12">
+    <!-- title and description -->
     <div class="grid grid-cols-1 gap-y-6 text-center mx-auto max-w-3xl">
       <span class="subheading">elysia laser clinic</span>
       <slot name="title"
@@ -24,10 +25,11 @@ const servicesFeatured = computed(() => {
           {{ title }}
         </h2></slot
       >
-      <p class="mb-8 sm:mb-12">
+      <p>
         <slot name="description" />
       </p>
     </div>
+    <!-- service list with symbols -->
     <ul
       class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 px-2 items-start"
       name="list"
