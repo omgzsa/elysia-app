@@ -5,6 +5,7 @@
     "slug": "dermatoscopos-anyajegy-es-borrak-szures",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -41,6 +42,7 @@
     "slug": "intim-lezeres-kezelesek",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -98,6 +100,7 @@
     "slug": "hajas-fejbor-mezoterapias-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Milyen esetekben ajánlott a hajas fejbőr mezoterápiás kezelése?",
@@ -126,6 +129,7 @@
     "slug": "gyermek-borgyogyaszat",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -175,6 +179,7 @@
     "slug": "pattanasos-bor-komplex-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -218,6 +223,7 @@
     "slug": "bor-es-koromgombasodas-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -261,6 +267,7 @@
     "slug": "ekcema-atopia-allergias-borbetegsegek-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -304,6 +311,7 @@
     "slug": "pikkelysomor-pszoriazis-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -347,6 +355,7 @@
     "slug": "virusos-szemolcsok-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -390,6 +399,7 @@
     "slug": "hajhullas-kivizsgalasa-es-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -433,6 +443,7 @@
     "slug": "lezeres-archamlasztas",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": ["archamlasztas-before.jpg", "archamlasztas-after.jpg"],
     "relatedDoctor": [
       {
         "id": 1,
@@ -469,6 +480,7 @@
     "slug": "lezeres-szortelenites",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Lézeres szőrtelenítés az Elysia Győrben",
@@ -497,6 +509,7 @@
     "slug": "sepruvenak-ertagulatok-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -540,6 +553,7 @@
     "slug": "koromgomba-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Mi is az a körömgomba?",
@@ -568,6 +582,7 @@
     "slug": "profhilo-kezeles",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -604,6 +619,7 @@
     "slug": "fokozott-honalji-izzadas-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -640,6 +656,7 @@
     "slug": "rancfeltoltes-hyaluronsavval",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -683,6 +700,7 @@
     "slug": "ranctalanitas-botulinum-toxinnal-botox",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -726,6 +744,7 @@
     "slug": "thread-lifting-bioszalas-arcfiatalitas",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -762,6 +781,7 @@
     "slug": "skin-booster-kezeles",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -798,6 +818,7 @@
     "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -834,6 +855,7 @@
     "slug": "also-felso-szemhejplasztika",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -895,6 +917,7 @@
     "slug": "fulkagylo-korrekcio",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -956,6 +979,7 @@
     "slug": "fullyuk-korrekcio",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -992,6 +1016,7 @@
     "slug": "kisajak-plasztika",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -1028,6 +1053,7 @@
     "slug": "ajakfeltoltes",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -1064,6 +1090,7 @@
     "slug": "cog-szalas-arclifting",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -1100,6 +1127,7 @@
     "slug": "standard-epicutan-teszt",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Mi is az a standard epicutan teszt?",
@@ -1128,6 +1156,7 @@
     "slug": "laboratoriumi-vizsgalatok",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Kinek ajánljuk a laborvizsgálatot?",
@@ -1193,6 +1222,7 @@
     "slug": "la-roche-posay",
     "metaDescription": "",
     "images": ["la-roche-posay-products.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Jobb életet nyújt az érzékeny bőrűeknek",
@@ -1221,6 +1251,7 @@
     "slug": "cerave",
     "metaDescription": "",
     "images": ["cerave-products.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Bőrgyógyászokkal kifejlesztett bőrápolás alapvető ceramidokkal",
@@ -1249,6 +1280,7 @@
     "slug": "vichy",
     "metaDescription": "",
     "images": ["vichy-products.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "„A francia vulkánok szívében született termálvíz ereje az erősebb bőrért.”",
@@ -1277,6 +1309,7 @@
     "slug": "bioderma",
     "metaDescription": "",
     "images": ["bioderma-products.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Egyedi megközelítés: biológiai utánzás",
@@ -1338,6 +1371,7 @@
     "slug": "thalgo",
     "metaDescription": "",
     "images": ["thalgo-products.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "Kozmetikumok az óceánból",
@@ -1366,6 +1400,7 @@
     "slug": "orvosi-lezerkeszulekek",
     "metaDescription": "",
     "images": ["orvosi-lezerkeszulekek.webp", "deka-laser-product.webp"],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "DEKA - A márkáról",
@@ -1415,6 +1450,7 @@
     "slug": "pigmentfoltok-kezelese",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -1465,6 +1501,7 @@
     "slug": "prp-drakula-terapia",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [],
     "content": {
       "title": "PRP/Drakula terápia",
@@ -1493,6 +1530,7 @@
     "slug": "nucleofill-kezeles",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
@@ -1549,6 +1587,7 @@
     "slug": "bornovedek-eltavolitasa-co2-lezerrel",
     "metaDescription": "",
     "images": [],
+    "treatmentImages": [],
     "relatedDoctor": [
       {
         "id": 1,
