@@ -60,7 +60,7 @@ const breakpoints = ref({
 <template>
   <Carousel
     aria-label="Partnercégek logói"
-    :settings="settings"
+    v-bind="settings"
     :breakpoints="breakpoints"
     :wrap-around="true"
     :autoplay="3000"

@@ -62,7 +62,7 @@ const breakpoints = ref({
     </h2>
     <Carousel
       aria-label="galéria képek"
-      :settings="settings"
+      v-bind="settings"
       :breakpoints="breakpoints"
       :wrap-around="true"
       :transition="500"

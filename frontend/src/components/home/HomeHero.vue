@@ -34,7 +34,7 @@ const getResponsiveImage = (id) => {
 </script>
 
 <template>
-  <carousel :settings="settings">
+  <carousel v-bind="settings">
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
