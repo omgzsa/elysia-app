@@ -98,10 +98,12 @@ const slides = ref([
       <HomeIntroduction title="Komplex szolgáltatások exkluzív környezetben">
         <template #introduction>
           Az Elysia Laser Clinic Győrben, Révfalu szívében elhelyezkedő,
-          barátságos környezetű, magas minőséget képviselő magánklinika. Az
-          esztétikus megjelenés hívei vagyunk, nem a szélsőséges
-          megnyilvánulásoké. Fontos számunkra a folyamatos visszajelzés
-          pácienseinktől, mert ezek adják klinikánk lelkét.<br /><br />
+          barátságos környezetű, magas minőséget képviselő magánklinika. Célunk,
+          hogy továbbra is úgy képviselhessük az esztétika és egészségügy
+          világát, ahol figyelnek a páciensre, ahova szívesen jön az ember, mert
+          minőséget és odafigyelést kap. Az esztétikus megjelenés hívei vagyunk,
+          nem a szélsőséges megnyilvánulásoké. Fontos számunkra a folyamatos
+          visszajelzés pácienseinktől, mert ezek adják klinikánk lelkét.<br /><br />
           A megyében egyedülálló ZO Skin Health partnerek vagyunk és talán
           joggal mondhatjuk, hogy az elsők között voltunk, akik a lézeres
           kezeléseket elindították Győrben, többek között a végleges lézeres
