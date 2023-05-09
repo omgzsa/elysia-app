@@ -92,6 +92,12 @@
         "name": "Körömgomba kezelése",
         "slug": "koromgomba-kezelese",
         "image": "koromgomba-kezelese.webp"
+      },
+      {
+        "id": 6,
+        "name": "Bőrnövedék eltávolítása CO2 lézerrel",
+        "slug": "bornovedek-eltavolitasa-co2-lezerrel",
+        "image": "bornovedek-eltavolitas.webp"
       }
     ]
   },
