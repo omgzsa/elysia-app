@@ -5,28 +5,36 @@
     "slug": "dr-horvath-beata",
     "hasAppointment": false,
     "appointmentLink": "https://medicall.cc/idopontfoglalas/elysia/specializations?qualificationId=90006",
-    "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+    "title": "Bőrgyógyász, kozmetológus adjunktus, lézerspecialista, szakmai vezető",
     "bio": "Orvosi diplomámat 2002-ben a Debreceni Egyetemen szereztem, majd a Petz Aladár Megyei Oktató Kórház Bőrgyógyászati Osztályán helyezkedtem el, ahol azóta is dolgozom, jelenleg adjunktus beosztásban, osztályvezető-helyettesként. Bőrgyógyászati szakvizsgámat 2010-ben tettem jeles minősítéssel.\n \nMunkám során fekvőbeteg- és nagyforgalmú ambuláns betegellátásban veszek részt. Feladataim közé tartozik az anyajegyszűrés, melanoma malignum gondozás, allergiás, ekcémás kórképek ellátása, pikkelysömör kezelése, fényterápia alkalmazása, krónikus sebek gondozása. Magántevékenységet 2012. óta végzek, járatos vagyok az orvos-esztétikai kezelésekben (mezoterápia, dermaroller, hyaluronsavas feltöltés, BOTOX kezelések, bioszálas arcfiatalítás), rendszeres résztvevője vagyok az esztétikai továbbképzéseknek.\n \nAz orvosi lézer jártasságomat a legmodernebb lézerberendezések, kíváló lézerspecialisták mellett szereztem meg. Saját törekvésem, az élethosszigtartó tanulás, és a mások javára történő cselekvés.",
     "specialties": [
       {
         "id": 1,
-        "title": "Felnőtt és gyermekbőrgyógyászati ellátás"
+        "title": "Felnőtt bőrgyógyászat"
       },
       {
         "id": 2,
-        "title": "Arc/fejbőr mezoterápiás kezelések"
+        "title": "Z0 Skin Health specialista"
       },
       {
         "id": 3,
-        "title": "Dermarolleres arckezelés"
+        "title": "BOTOX kezelések (ránctalanítás, izzadásgátlás)"
       },
       {
         "id": 4,
-        "title": "Hónalji izzadásgátlás BOTOX hatóanyaggal"
+        "title": "Arc esztétikai kezelések (hialuronsavas töltés, Skinbooster kezelés)"
       },
       {
         "id": 5,
-        "title": "Orvosi lézeres kezelések"
+        "title": "Orvosi lézerkezelések: orvosi hámlasztás, seprűvénák, értágulatok kezelése pigmentfolt kezelése, bőrnövedékek eltávolítása"
+      },
+      {
+        "id": 6,
+        "title": "FTC, COG szálazás, biorekonstrukciós kezelés (PRP, Nucleofill)"
+      },
+      {
+        "id": 7,
+        "title": "Mezoterápia (arc, hajas, fejbőr)"
       }
     ],
     "image": "dr-horvath-beata.webp",
@@ -230,9 +238,45 @@
     "hasAppointment": false,
     "appointmentLink": "",
     "title": "Ügyvezető",
-    "bio": "Tanulmányaimat gazdasági ágon végeztem a Széchenyi István Egyetemen, mint közgazdász pénzügy szakirányon, továbbá párhuzamosan a Perfekt Zrt-nél mérlegképes könyvelő. Ebben az irányban dolgoztam könyvelőként, párhuzamosan pedig a szépségiparban kezdtem el tevékenykedni. Kozmetikus szakmát szereztem és vállalkozó lettem. Célom az volt, hogy új szintre emeljem szépségipari vállalkozásomat, mikor Dr. Horváth Beával és két tulajdonostársunkkal megálmodtuk az Elysia Laser Clinicet.\n \nMagas elvárásainkhoz megtaláltuk a megfelelő helyet és technológiát és 2018.07.23-án megnyílt az Elysia Laser Clinic. Célunk, hogy egy olyan központ legyünk, ahol barátságos környezetben, innovatív technológiával és kiváló szakorvos csapatunkkal fogadhassuk pácienseinket. Fontosnak tartjuk, hogy igazodjunk a piac változásaihoz, igényeihez, fejlődjünk és magas minőséget tudjunk biztosítani, amely Győrben egyedülálló.",
+    "bio": "Tanulmányaimat gazdasági ágon végeztem a Széchenyi István Egyetemen, mint közgazdász, továbbá párhuzamosan mérlegképes könyvelő szakmát is szereztem. Könyvelőként kezdtem el dolgozni, mellette pedig először csak hobbyként, majd vállalkozóként a szépségiparban tevékenykedtem. Végül a kozmetikus szakma megszerzése után vállalkozó lettem. Célom az volt, hogy új szintre emeljem szépségipari vállalkozásomat, mikor Dr. Horváth Beával és két tulajdonostársunkkal megálmodtuk az Elysia Laser Clinicet. Vezetőként és szülőként sem volt kérdés soha számomra, hogy csak példamutatással fejlődhetek és működtethetek egy családot vagy egy vállalkozást. Ez a hitvallás az életem számos területén visszaigazol, ebben hiszek és abban, hogy tetteinkkel értéket teremtünk. Az Elysia életében is ezzel a hozzáállással veszek részt, ezáltal úgy érzem, hogy nagyszerű emberekkel sikerült körbevennem magam, akik az énük legjavát adják nap, mint nap, hogy mások segítségére legyenek. Szeretem az embereket, szeretek kapcsolódni velük és meghallani, amit mondanak. Bízom benne, hogy aki nálunk jár, az pontosan érzi ezt az odafigyelő környezetet a mai rohanó világunkban.\n \nCélom, hogy egy olyan központ legyünk továbbra is, ahol barátságos környezetben, innovatív technológiával és kiváló szakorvos csapatunkkal fogadhassuk pácienseinket. Fontosnak tartom, hogy igazodjunk a piac változásaihoz, igényeihez, folyamatosan fejlődjünk és magas minőséget tudjunk biztosítani, amely Győrben egyedülálló.",
     "specialties": [],
     "image": "hauserne-bognar-zsuzsanna.webp",
+    "consultTime": []
+  },
+  {
+    "id": 8,
+    "name": "Szabó Elizabet",
+    "slug": "szabo-elizabet",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "Recepciós",
+    "bio": "Rábapordányban születtem és sokáig vidéken életem. Miután Győrbe költöztem a több éves kereskedelmi munkám után egy felemelő lehetőséget sodort elém az élet, azzal, hogy az Elysia Laser Clinicben elkezdhettem dolgozni. Szerencsésnek mondhatom magam, mivel itt rengeteg lehetőségem nyílt a fejlődésre az évek alatt és a kreativitásomat is rendszeresen kamatoztathatom.\n \nFontos számomra, hogy a rendelő mindennapjai gördülékenyen telhessenek, ezt igyekszem precizitásommal és lelkiismeretes munkámmal teljesíteni.\n \nJó érzéssel tölt el, hogy átadhatom a klinikára érkezőknek is ezt a pozitív energiát, amit az Elysia egésze képvisel.\n \"Egy nő, ha dolgozik, nem csak magát, hanem az egész világot felemeli.\" Eleanor Roosevelt",
+    "specialties": [],
+    "image": "szabo-elizabet.webp",
+    "consultTime": []
+  },
+  {
+    "id": 9,
+    "name": "Endrész Anna",
+    "slug": "endresz-anna",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "Recepciós",
+    "bio": "Siófokon születtem, Pécsett érettségiztem, majd Veszprémben éltem 4 évig. 2021 végén költöztem a folyók városába újabb lehetőségeket keresve. Nem is olyan régen sokat küszködtem bőrproblémákkal, így át tudom érezni, hogy min mennek keresztül vendégeink, akik megoldást keresve érkeznek hozzánk. Mindig is érdekelt az esztétika és a szépítkezés világa, és úgy gondolom hogy az Elysia Laser Clinic minden értelemben megfelel a szépülni vágyók elvárásainak. Kollégáimmal együtt igyekszem mindenkihez empátiával fordulni, és legjobb tudásom szerint segíteni pácienseinknek.",
+    "specialties": [],
+    "image": "endresz-anna.webp",
+    "consultTime": []
+  },
+  {
+    "id": 10,
+    "name": "Osváth Edit",
+    "slug": "osvath-edit",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "Asszisztens",
+    "bio": "Székesfehérvárról költöztem Győrbe, ahol csaknem 30 éves egészségügyi szakmai tapasztalatom után kaptam a megtisztelő lehetőséget, hogy az Elysia Laser Clinic csapatához tartozzam és asszisztensi feladataimat tovább fejleszthessem a bőrgyógyászat és az esztétika területén. Nőként számomra is fontos a külső megjelenés épp annyira, mint a belső. Szeretek emberekkel foglalkozni és mindig melegséggel tölt el, ha pácienseink elégedetten távoznak. Az Elysia számomra egy olyan hely, ahol teret kapok a bennem lévő ötletek megvalósítására, önzetlen segítségnyújtásra, ahol nemcsak a páciens fizikai állapotával foglalkozhatom, hanem lelkével is.",
+    "specialties": [],
+    "image": "osvath-edit.webp",
     "consultTime": []
   }
 ]
