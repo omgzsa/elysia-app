@@ -1,7 +1,7 @@
 <script setup>
 import { useGetImageUrl } from "../composables/getImageUrl";
 
-const image = "elysia-bg.webp";
+const image = "elysia-bg-2.webp";
 </script>
 
 <template>
