@@ -12,23 +12,23 @@
   }
 
   img {
-    @apply max-w-full h-auto;
+    @apply h-auto max-w-full;
   }
 
   h1 {
-    @apply font-bold text-2xl sm:text-3xl md:text-4xl xl:text-5xl tracking-wide;
+    @apply text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl xl:text-5xl;
   }
 
   h2 {
-    @apply font-bold text-xl md:text-3xl lg:text-4xl xl:text-5xl tracking-wide;
+    @apply text-xl font-bold tracking-wide md:text-3xl lg:text-4xl xl:text-5xl;
   }
 
   h3 {
-    @apply font-medium text-base md:text-lg lg:text-xl tracking-wide;
+    @apply text-base font-medium tracking-wide md:text-lg lg:text-xl;
   }
 
   h4 {
-    @apply font-semibold text-sm;
+    @apply text-sm font-semibold;
   }
 
   p,
@@ -56,12 +56,12 @@
 
 @layer components {
   .subheading {
-    @apply text-xs md:text-sm lg:text-base tracking-wider uppercase text-gray-600;
+    @apply text-xs tracking-wider text-gray-600 uppercase md:text-sm lg:text-base;
   }
 
   .category-card,
   .employee-card {
-    @apply space-y-3 max-w-sm;
+    @apply max-w-sm;
   }
 }
 
@@ -95,7 +95,7 @@
   }
 
   .disabled {
-    @apply hover:opacity-50 hover:line-through cursor-not-allowed;
+    @apply cursor-not-allowed hover:opacity-50 hover:line-through;
   }
 
   /* .safari-fix {
