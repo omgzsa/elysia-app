@@ -42,17 +42,27 @@ const hajnalka = {
   title: "Műtősnő",
   image: "dr-simigla-hajnalka.webp",
 };
+
+const katalin = {
+  id: 41,
+  name: "Horváth Katalin",
+  slug: "/munkatarsak",
+  hasAppointment: false,
+  appointmentLink: "",
+  title: "Asszisztens",
+  image: "dr-horvath-katalin.webp",
+};
 </script>
 
 <template>
   <section>
-    <div class="flex flex-col space-y-10 mx-auto">
+    <div class="flex flex-col mx-auto space-y-10">
       <AppHeader>
         <template #subtitle> elysia laser clinic </template>
         <template #title> Munkatársaink </template>
       </AppHeader>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8 items-start max-w-screen-xl mx-auto px-2 md:px-4"
+        class="grid items-start max-w-screen-xl grid-cols-1 px-2 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8 md:px-4"
       >
         <EmployeeCard
           v-for="item in employeeData"
@@ -60,23 +70,44 @@ const hajnalka = {
           :item="item"
         />
         <!-- STATIC CARD #1 -->
-        <div class="employee-card group relative">
+        <div class="relative employee-card group">
           <div
-            class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
+            class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
           ></div>
-          <div class="text-xs sm:text-sm text-gray-500">
+          <div class="text-xs text-gray-500 sm:text-sm">
             <div class="flex flex-col px-4 space-y-2">
               <img
                 :src="useGetEmployeeImageUrl(hajnalka.image)"
                 :alt="hajnalka.name"
                 width="128"
                 height="128"
-                class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+                class="object-cover object-top w-full h-64 mb-4 transition-transform duration-200 rounded-xl group-hover:-translate-y-1"
               />
               <h3 class="text-gray-900">
                 {{ hajnalka.name }}
               </h3>
               <span>{{ hajnalka.title }}</span>
+            </div>
+          </div>
+        </div>
+        <!-- STATIC CARD #2 -->
+        <div class="relative employee-card group">
+          <div
+            class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
+          ></div>
+          <div class="text-xs text-gray-500 sm:text-sm">
+            <div class="flex flex-col px-4 space-y-2">
+              <img
+                :src="useGetEmployeeImageUrl(katalin.image)"
+                :alt="katalin.name"
+                width="128"
+                height="128"
+                class="object-cover object-top w-full h-64 mb-4 transition-transform duration-200 rounded-xl group-hover:-translate-y-1"
+              />
+              <h3 class="text-gray-900">
+                {{ katalin.name }}
+              </h3>
+              <span>{{ katalin.title }}</span>
             </div>
           </div>
         </div>
