@@ -40,6 +40,11 @@
           "text": "Legalább 2 héten át ne menjen arcmasszázsra! "
         }
       ]
+    },
+    "hasCrossLink": true,
+    "crossLink": {
+      "label": "Mutasd!",
+      "linkName": "szolgaltatasok/orvosi-termekek/z0-skin-health"
     }
   },
   {
@@ -66,6 +71,11 @@
       "text6": "Bár a lézeres szőrtelenítés kezdeti költségei magasabbak lehetnek, hosszú távon mégis megtakaríthatunk vele. A hagyományos szőrtelenítési módszerek állandó költséggel járnak, például a borotvák, a viaszok vagy a szőrtelenítő krémek árának miatt.\n \nA lézeres szőrtelenítés előnyeit figyelembe véve, nem meglepő, hogy egyre több ember választja ezt az eljárást a tartós és kényelmes szőrtelenítés érdekében. Ha te is szeretnél tartós megoldást találni a szőrtelenítésre, akkor érdemes kérni egy konzultációt a bőrgyógyászoddal a lézeres szőrtelenítésről.",
       "bulletpointsTitle": "",
       "bulletpoints": []
+    },
+    "hasCrossLink": true,
+    "crossLink": {
+      "label": "Tovább a kezeléshez!",
+      "linkName": "szolgaltatasok/lezerkezelesek/sepruvenak-ertagulatok-kezelese"
     }
   },
   {
@@ -92,6 +102,11 @@
       "text6": "A lézeres hüvely kezelés viszonylag rövid idő alatt elvégezhető, és általában nem okoz fájdalmat vagy kellemetlenséget. Az eljárás után azonnal vissza lehet térni a mindennapi tevékenységekhez.\n \nA lézeres hüvely kezelés tehát hatékony és kíméletes megoldást nyújthat a női intim problémákra, amelyek jelentősen befolyásolhatják az életminőséget és a szexuális életet. Ha úgy érzi, hogy Önnek is segíthetne a lézeres hüvely kezelés, akkor érdemes felkeresni",
       "bulletpointsTitle": "",
       "bulletpoints": []
+    },
+    "hasCrossLink": true,
+    "crossLink": {
+      "label": "Több info",
+      "linkName": "szolgaltatasok/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok"
     }
   }
 ]
