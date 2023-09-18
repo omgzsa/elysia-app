@@ -15,7 +15,7 @@ provide("treatment", treatment);
 
 const pageTitle = ref(treatment.value.name + " — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével."
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével.",
 );
 
 useHead({
@@ -50,7 +50,7 @@ const props = defineProps({
 
 <template>
   <section>
-    <div class="flex flex-col space-y-8 mx-auto">
+    <div class="flex flex-col mx-auto space-y-8">
       <AppHeader>
         <template #subtitle>
           {{ treatment.category[0].name }}

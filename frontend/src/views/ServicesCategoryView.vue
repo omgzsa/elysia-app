@@ -11,7 +11,7 @@ const service = computed(() => {
 
 const pageTitle = ref(service.value.name + " — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével"
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével",
 );
 
 useHead({
@@ -46,7 +46,7 @@ const props = defineProps({
 
 <template>
   <section>
-    <div class="flex flex-col space-y-8 mx-auto">
+    <div class="flex flex-col mx-auto space-y-8">
       <AppHeader>
         <template #subtitle> elysia laser clinic </template>
         <template #title>
@@ -54,7 +54,7 @@ const props = defineProps({
         </template>
       </AppHeader>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8 items-start max-w-screen-xl mx-auto site-padding"
+        class="grid items-start max-w-screen-xl grid-cols-1 mx-auto sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8 site-padding"
       >
         <CategoryCard
           v-for="item in service.submenu"

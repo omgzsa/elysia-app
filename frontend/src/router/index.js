@@ -51,7 +51,7 @@ const router = createRouter({
       props: true,
       beforeEnter(to) {
         const exists = servicesData.find(
-          (item) => item.slug === to.params.category
+          (item) => item.slug === to.params.category,
         );
         if (!exists) {
           return {
@@ -71,7 +71,7 @@ const router = createRouter({
       props: true,
       beforeEnter(to) {
         const exists = treatmentsData.find(
-          (item) => item.slug === to.params.slug
+          (item) => item.slug === to.params.slug,
         );
         if (!exists) {
           return {
@@ -96,7 +96,7 @@ const router = createRouter({
       props: true,
       beforeEnter(to) {
         const exists = employeesData.find(
-          (item) => item.slug === to.params.slug
+          (item) => item.slug === to.params.slug,
         );
         if (!exists) {
           return {

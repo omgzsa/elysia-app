@@ -11,7 +11,7 @@ const employee = computed(() => {
 
 const pageTitle = ref(employee.value.name + " — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá."
+  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá.",
 );
 
 useHead({
@@ -45,7 +45,7 @@ const props = defineProps({
 </script>
 <template>
   <section class="">
-    <div class="flex flex-col space-y-8 mx-auto">
+    <div class="flex flex-col mx-auto space-y-8">
       <AppHeader>
         <template #subtitle> elysia laser clinic </template>
         <template #title>

@@ -24,7 +24,9 @@ const logo = "elysia_logo_new_transparent.webp";
 <style>
 .slide-enter-active,
 .slide-leave-active {
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
 }
 
 .slide-enter-from,

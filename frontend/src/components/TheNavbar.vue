@@ -298,7 +298,7 @@ watch(
     if (path !== "/") {
       closeDropDown();
     }
-  }
+  },
 );
 
 onMounted(() => {
@@ -312,31 +312,31 @@ onUnmounted(() => {
 
 <template>
   <nav
-    class="navbar w-full pl-1 pr-3 md:pr-2 py-1"
+    class="w-full py-1 pl-1 pr-3 navbar md:pr-2"
     :class="{ 'navbar--hidden': !showNavbar }"
     aria-label="Site Nav"
   >
     <div
-      class="relative max-w-screen-2xl mx-auto flex px-2 sm:px-4 h-12 sm:h-16 items-center justify-between"
+      class="relative flex items-center justify-between h-12 px-2 mx-auto max-w-screen-2xl sm:px-4 sm:h-16"
     >
       <!-- LOGO -->
       <div class="md:flex md:items-center md:gap-12">
-        <AppLink :to="{ name: 'home' }" class="block h-full w-16 sm:w-20">
+        <AppLink :to="{ name: 'home' }" class="block w-16 h-full sm:w-20">
           <span class="sr-only">Home</span>
           <img
             :src="useGetImageUrl(logo)"
             alt="Elysia Laser Clinic logó"
             height="64"
             width="120"
-            class="h-14 md:h-16 object-contain object-center py-1"
+            class="object-contain object-center py-1 h-14 md:h-16"
           />
         </AppLink>
       </div>
 
       <!-- DESKTOP MENU -->
-      <div class="hidden lg:block ml-auto">
+      <div class="hidden ml-auto lg:block">
         <ul
-          class="flex items-center gap-6 font-medium text-xs lg:text-sm xl:text-base"
+          class="flex items-center gap-6 text-xs font-medium lg:text-sm xl:text-base"
         >
           <AppLink :to="{ name: 'home' }"> Kezdőlap </AppLink>
 
@@ -353,7 +353,7 @@ onUnmounted(() => {
               <ul
                 v-show="isServicesOpen"
                 ref="target"
-                class="absolute z-10 right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max p-6 space-y-2 border rounded-xl bg-white flex flex-col"
+                class="absolute z-10 flex flex-col p-6 space-y-2 bg-white border right-6 sm:right-36 lg:right-auto top-4 xl:top-5 max-h-max w-max rounded-xl"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
@@ -412,13 +412,13 @@ onUnmounted(() => {
         <div class="sm:flex sm:gap-4">
           <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
             <button
-              class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-gray-700 bg-secondary-100 border border-secondary-100"
+              class="relative px-4 py-2 overflow-hidden font-medium text-gray-700 border rounded-md cursor-pointer group bg-secondary-100 border-secondary-100"
             >
               <span
                 class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
               ></span>
               <span
-                class="text-xs sm:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-secondary-100 ease"
+                class="relative flex flex-row items-center gap-2 text-xs font-bold transition duration-300 sm:text-sm group-hover:text-secondary-100 ease"
                 ><IconCalendar /> <span>Időpontfoglalás</span></span
               >
             </button>

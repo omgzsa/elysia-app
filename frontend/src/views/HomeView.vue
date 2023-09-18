@@ -17,10 +17,10 @@ import "vue3-carousel/dist/carousel.css";
 import { useHead } from "@vueuse/head";
 
 const pageTitle = ref(
-  "Elysia Laser Clinic — Prémium minőségű vizsgálatok és kezelések Győrben."
+  "Elysia Laser Clinic — Prémium minőségű vizsgálatok és kezelések Győrben.",
 );
 const pageDescription = ref(
-  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével"
+  "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével",
 );
 
 useHead({
