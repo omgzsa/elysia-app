@@ -45,34 +45,36 @@ const props = defineProps({
     required: true,
   },
 });
+
+// console.log(blog.value.crossLink.linkTo);
 </script>
 <template>
   <section>
-    <div class="flex flex-col space-y-8 mx-auto">
+    <div class="flex flex-col mx-auto space-y-8">
       <span
         aria-label="háttérkép az elysia felnagyított logójával"
         role="img"
-        class="pt-20 pb-10 text-center lg:pt-32 lg:pb-16 bg-right lg:text-left md:bg-cover md:bg-center bg-no-repeat"
+        class="pt-20 pb-10 text-center bg-right bg-no-repeat lg:pt-32 lg:pb-16 lg:text-left md:bg-cover md:bg-center"
         :style="{
           backgroundImage: `url(${useGetImageUrl(
-            'szolgaltatas-header-bg.webp'
+            'szolgaltatas-header-bg.webp',
           )})`,
         }"
       >
         <div
-          class="flex flex-col space-y-1 max-w-screen-md mx-auto site-padding"
+          class="flex flex-col max-w-screen-md mx-auto space-y-1 site-padding"
         >
           <span class="subheading">blog</span>
           <h2>{{ blog.title }}</h2>
         </div>
       </span>
     </div>
-    <div class="max-w-screen-md site-padding mx-auto py-10 space-y-6">
+    <div class="max-w-screen-md py-10 mx-auto space-y-6 site-padding">
       <p>{{ blog.content.text1 }}</p>
       <h3>{{ blog.content.header1 }}</h3>
       <p>{{ blog.content.text2 }}</p>
       <blockquote
-        class="max-w-md mx-auto italic tracking-wide text-base sm:text-lg px-9 py-10 bg-primary-200 rounded-xl"
+        class="max-w-md py-10 mx-auto text-base italic tracking-wide sm:text-lg px-9 bg-primary-200 rounded-xl"
       >
         {{ blog.content.blockQuote }}
       </blockquote>
@@ -93,8 +95,25 @@ const props = defineProps({
           </li>
         </ul>
       </div>
+      <div v-if="blog.hasCrossLink">
+        <AppLink v-slot="{ navigate }" :to="`/${blog.crossLink.linkName}`">
+          <button
+            class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
+            @click="navigate"
+            role="link"
+          >
+            <span
+              class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+            ></span>
+            <span
+              class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
+              >{{ blog.crossLink.label }}</span
+            >
+          </button>
+        </AppLink>
+      </div>
       <div
-        class="flex flex-col sm:flex-row sm:items-center sm:gap-x-2 pt-6 text-xs sm:text-sm italic"
+        class="flex flex-col pt-6 text-xs italic sm:flex-row sm:items-center sm:gap-x-2 sm:text-sm"
       >
         <span class="inline">{{ blog.author }}</span> —
         <span class="inline">{{ blog.createdAt }}</span>
