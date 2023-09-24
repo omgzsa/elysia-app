@@ -1,9 +1,8 @@
 <script setup>
 import { ref } from "vue";
+import { useHead } from "@vueuse/head";
 import blogsData from "@/assets/blogs.json";
 import BlogListItem from "@/components/blog/BlogListItem.vue";
-
-import { useHead } from "@vueuse/head";
 
 const pageTitle = ref("Blog — Elysia Laser Clinic");
 const pageDescription = ref(
@@ -44,12 +43,7 @@ useHead({
     <div
       class="grid justify-center max-w-screen-xl grid-cols-1 gap-6 py-12 mx-auto sm:grid-cols-2 lg:grid-cols-3 site-padding"
     >
-      <BlogListItem
-        v-for="blog in blogsData"
-        :key="blog.slug"
-        :blog="blog"
-        class="mx-auto"
-      />
+      <BlogListItem v-for="blog in blogsData" :key="blog.slug" :blog="blog" />
     </div>
   </div>
 </template>

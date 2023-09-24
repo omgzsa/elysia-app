@@ -45,9 +45,8 @@ const props = defineProps({
     required: true,
   },
 });
-
-// console.log(blog.value.crossLink.linkTo);
 </script>
+
 <template>
   <section>
     <div class="flex flex-col mx-auto space-y-8">
