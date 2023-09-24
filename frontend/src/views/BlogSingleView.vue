@@ -45,8 +45,6 @@ const props = defineProps({
     required: true,
   },
 });
-
-// console.log(blog.value.crossLink.linkTo);
 </script>
 <template>
   <section>
@@ -81,19 +79,39 @@ const props = defineProps({
       <h3>{{ blog.content.header2 }}</h3>
       <p>{{ blog.content.text3 }}</p>
       <h3>{{ blog.content.header3 }}</h3>
-      <img :src="useGetBlogImageUrl(blog.image)" alt="" />
       <p>{{ blog.content.text4 }}</p>
-      <h3>{{ blog.content.header4 }}</h3>
-      <p>{{ blog.content.text5 }}</p>
-      <h3>{{ blog.content.header5 }}</h3>
-      <p>{{ blog.content.text6 }}</p>
-      <div>
+      <img :src="useGetBlogImageUrl(blog.image)" alt="" />
+      <div class="space-y-6">
         <h3>{{ blog.content.bulletPointsTitle }}</h3>
-        <ul>
+        <ul class="list-disc list-inside">
           <li v-for="point in blog.content.bulletPoints" :key="point.id">
             {{ point.text }}
           </li>
         </ul>
+      </div>
+      <h3>{{ blog.content.header4 }}</h3>
+      <p>{{ blog.content.text5 }}</p>
+      <h3>{{ blog.content.header5 }}</h3>
+      <p>{{ blog.content.text6 }}</p>
+      <div class="space-y-6">
+        <h3>{{ blog.content.bulletPointsTitle2 }}</h3>
+        <ul class="list-disc list-inside">
+          <li v-for="point in blog.content.bulletPoints2" :key="point.id">
+            {{ point.text }}
+          </li>
+        </ul>
+      </div>
+      <h3>{{ blog.content.header6 }}</h3>
+      <p>{{ blog.content.text7 }}</p>
+      <h3>{{ blog.content.header7 }}</h3>
+      <p>{{ blog.content.text8 }}</p>
+      <h3>{{ blog.content.header8 }}</h3>
+      <p>{{ blog.content.text9 }}</p>
+      <div
+        class="flex flex-col text-xs italic sm:flex-row sm:items-center sm:gap-x-2 sm:text-sm"
+      >
+        <span class="inline">{{ blog.author }}</span> —
+        <span class="inline">{{ blog.createdAt }}</span>
       </div>
       <div v-if="blog.hasCrossLink">
         <AppLink v-slot="{ navigate }" :to="`/${blog.crossLink.linkName}`">
@@ -111,12 +129,6 @@ const props = defineProps({
             >
           </button>
         </AppLink>
-      </div>
-      <div
-        class="flex flex-col pt-6 text-xs italic sm:flex-row sm:items-center sm:gap-x-2 sm:text-sm"
-      >
-        <span class="inline">{{ blog.author }}</span> —
-        <span class="inline">{{ blog.createdAt }}</span>
       </div>
     </div>
   </section>
