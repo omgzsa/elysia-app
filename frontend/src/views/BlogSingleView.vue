@@ -46,6 +46,7 @@ const props = defineProps({
   },
 });
 </script>
+
 <template>
   <section>
     <div class="flex flex-col mx-auto space-y-8">
