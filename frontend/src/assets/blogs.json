@@ -41,7 +41,7 @@
         }
       ]
     },
-    "hasCrossLink": true,
+    "hasCrossLink": false,
     "crossLink": {
       "label": "Mutasd!",
       "linkName": "szolgaltatasok/orvosi-termekek/z0-skin-health"
@@ -72,7 +72,7 @@
       "bulletpointsTitle": "",
       "bulletpoints": []
     },
-    "hasCrossLink": true,
+    "hasCrossLink": false,
     "crossLink": {
       "label": "Tovább a kezeléshez!",
       "linkName": "szolgaltatasok/lezerkezelesek/sepruvenak-ertagulatok-kezelese"
@@ -103,7 +103,7 @@
       "bulletpointsTitle": "",
       "bulletpoints": []
     },
-    "hasCrossLink": true,
+    "hasCrossLink": false,
     "crossLink": {
       "label": "Több info",
       "linkName": "szolgaltatasok/diagnosztikai-vizsgalatok/laboratoriumi-vizsgalatok"
