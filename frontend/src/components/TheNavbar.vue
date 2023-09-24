@@ -400,6 +400,8 @@ onUnmounted(() => {
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
+          
+          <AppLink :to="{ name: 'blogs.show' }"> Blog </AppLink>
 
           <AppLink :to="{ name: 'home', hash: '#contact' }">
             Kapcsolat
