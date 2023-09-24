@@ -33,7 +33,7 @@
 
   p,
   li {
-    @apply text-sm lg:text-base;
+    @apply text-sm lg:text-base 2xl:text-lg;
   }
 
   /* 
@@ -91,7 +91,7 @@
   }
 
   .site-padding {
-    @apply px-6 sm:px-8 md:px-10 lg:px-12;
+    @apply px-6 sm:px-8 md:px-10 lg:px-12 xl:px-0;
   }
 
   .disabled {
