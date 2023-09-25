@@ -38,7 +38,7 @@ const getResponsiveImage = (id) => {
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
-      class="w-full bg-cover min-h-screen sm:min-h-[720px] bg-no-repeat bg-right-bottom lg:min-h-[820px]"
+      class="w-full bg-cover min-h-[90vh] sm:min-h-[720px] bg-no-repeat bg-right-bottom lg:min-h-[820px]"
       :style="{
         backgroundImage: `url(${useGetImageUrl(getResponsiveImage(slide.id))})`,
       }"
