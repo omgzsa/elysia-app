@@ -49,7 +49,7 @@ const slides = ref([
   {
     id: 1,
     title: "Lézeres szőrtelenítés óriási kedvezménnyel",
-    buttonText: "Plasztikai sebészet",
+    // buttonText: "Plasztikai sebészet",
     linkTo: "szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
     alt: "Lézeres szőrtelenítő beavatkozás egy fiatal nőn",
     text: "Min. 4 alkalmas bérlet vásárlása esetén 50% kedvezmény, 2 testrész esetén pedig 60% kedvezmény a kezelések árából! A kedvezmény novemberig érvényes.",
@@ -60,7 +60,7 @@ const slides = ref([
   {
     id: 2,
     title: "Red Carpet Hollywood Peeling AKCIÓ!",
-    buttonText: "Lézerkezelések",
+    // buttonText: "Lézerkezelések",
     linkTo: "szolgaltatasok/orvosi-termekek/z0-skin-health",
     alt: "Z0 Skin health kezelés egy fiatal nő arcán",
     text: "Próbáld ki a ZO Skin Health fájdalommentes kezelését, mely azonnali hatást eredményez gyógyulási idő nélkül. Most 20% kedvezményt adunk a kezelés árából október végéig.",
@@ -71,9 +71,9 @@ const slides = ref([
   {
     id: 3,
     title: "Intim lézeres kezelés 10% kedvezménnyel",
-    buttonText: "Bőrgyógyászat",
+    // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
-    alt: "Egy fényes bőrű, intim területeit két kézzel takaró nő",
+    alt: "Egy fényes bőrű, mosolygós göndör hajú nő",
     text: "Az első természetes technológia a hüvely sorvadásának kezelésére. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából október végéig.",
     img: "hero-intim-lezeres-kezeles.jpg",
     imgTablet: "hero-intim-lezeres-kezeles-tablet.jpg",
@@ -82,7 +82,7 @@ const slides = ref([
   {
     id: 4,
     title: "Hatékony módszer a hajhullás kezelésében",
-    buttonText: "Bőrgyógyászat",
+    // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/orvos-esztetika/hajas-fejbor-mezoterapias-kezelese",
     alt: "Speciális fejbőr injekciózás egy nőn a kopaszodás és hajhullás ellen",
     text: "A mezoterápiás kezelés alkalmas belső és külső eredetű hajhullás kezelésére is. Vásárolj most bérletet és vedd igénybe október végéig az egyedi kedvezményeket.",
@@ -93,7 +93,7 @@ const slides = ref([
   {
     id: 5,
     title: "Szálas arckontúrozás 20% kedvezménnyel",
-    buttonText: "Bőrgyógyászat",
+    // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/plasztikai-sebeszet/cog-szalas-arclifting",
     alt: "Feszes és fényes bőrű fiatal nő tapintja az arcát",
     text: "Feszesíti az arcot, fokozza a kollagéntermelést és aktiválja a regenerációs folyamatokat. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából október végéig.",
