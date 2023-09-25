@@ -236,7 +236,7 @@ onClickOutside(target, () => {
 
 <template>
   <aside
-    class="absolute z-10 right-6 sm:right-10 ml-auto p-6 sm:w-60 border rounded-xl bg-white"
+    class="absolute z-10 p-6 ml-auto bg-white border right-6 sm:right-10 sm:w-60 rounded-xl"
   >
     <nav class="space-y-8 text-sm">
       <div class="space-y-2">
@@ -251,7 +251,7 @@ onClickOutside(target, () => {
           <div class="relative z-0" ref="target">
             <div
               @click="toggleServices"
-              class="flex items-center cursor-pointer space-x-2 hover:text-accent-100"
+              class="flex items-center space-x-2 cursor-pointer hover:text-accent-100"
             >
               <p class="text-sm xl:text-base">Szolgáltatások</p>
               <IconDown v-if="isServicesOpen" />
@@ -260,7 +260,7 @@ onClickOutside(target, () => {
             <Transition name="dropdown-fade">
               <ul
                 v-show="isServicesOpen"
-                class="absolute z-10 right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max p-6 space-y-2 border rounded-xl bg-white flex flex-col"
+                class="absolute z-10 flex flex-col p-6 space-y-2 bg-white border right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max rounded-xl"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
@@ -307,6 +307,8 @@ onClickOutside(target, () => {
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
+
+          <AppLink :to="{ name: 'blogs.show' }"> Blog </AppLink>
 
           <AppLink :to="{ name: 'home', hash: '#contact' }">
             Kapcsolat
