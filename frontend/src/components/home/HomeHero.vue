@@ -23,7 +23,7 @@ const settings = ref({
 
 const getResponsiveImage = (id) => {
   const slide = props.slides.find((slide) => slide.id === id);
-  if (width.value > 1024) {
+  if (width.value > 1280) {
     return slide.img;
   } else if (width.value > 640) {
     return slide.imgTablet;
@@ -38,13 +38,13 @@ const getResponsiveImage = (id) => {
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
-      class="w-full bg-cover min-h-[820px] bg-no-repeat bg-bottom"
+      class="w-full bg-cover min-h-screen sm:min-h-[720px] bg-no-repeat bg-right-bottom lg:min-h-[820px]"
       :style="{
         backgroundImage: `url(${useGetImageUrl(getResponsiveImage(slide.id))})`,
       }"
     >
       <div class="grid max-w-screen-xl grid-cols-1 site-padding md:grid-cols-2">
-        <div class="flex flex-col space-y-6 text-left pb-36 md:pb-0">
+        <div class="flex flex-col pb-48 space-y-6 text-left md:pb-0">
           <h1
             class="max-w-md sm:max-w-xl xl:max-w-3xl"
             style="line-height: 1.125"
