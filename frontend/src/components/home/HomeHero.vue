@@ -38,13 +38,13 @@ const getResponsiveImage = (id) => {
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
-      class="w-full bg-cover min-h-[620px] xl:min-h-[860px] bg-no-repeat bg-bottom"
+      class="w-full bg-cover min-h-[800px] bg-no-repeat bg-left-bottom"
       :style="{
         backgroundImage: `url(${useGetImageUrl(getResponsiveImage(slide.id))})`,
       }"
     >
       <div class="grid max-w-screen-xl grid-cols-1 site-padding md:grid-cols-2">
-        <div class="flex flex-col col-start-2 pb-20 space-y-6 text-left">
+        <div class="flex flex-col space-y-6 text-left lg:col-start-2 pb-36 md:pb-0">
           <h1
             class="max-w-md sm:max-w-xl xl:max-w-3xl"
             style="line-height: 1.125"
