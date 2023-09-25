@@ -52,10 +52,10 @@ const slides = ref([
     buttonText: "Plasztikai sebészet",
     linkTo: "szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
     alt: "Lézeres szőrtelenítő beavatkozás egy fiatal nőn",
-    text: "Min. 4 alkalmas bérlet vásárlása esetén 50% kedvezmény,2 testrész esetén pedig 60% kedvezmény a kezelések árából! A kedvezmény novemberig érvényes.",
+    text: "Min. 4 alkalmas bérlet vásárlása esetén 50% kedvezmény, 2 testrész esetén pedig 60% kedvezmény a kezelések árából! A kedvezmény novemberig érvényes.",
     img: "hero-lezeres-szortelenites.webp",
-    imgTablet: "hero-lezeres-szortelenites.webp",
-    imgMobile: "hero-lezeres-szortelenites.webp",
+    imgTablet: "hero-lezeres-szortelenites-tablet.webp",
+    imgMobile: "hero-lezeres-szortelenites-mobil.webp",
   },
   {
     id: 2,
@@ -65,8 +65,8 @@ const slides = ref([
     alt: "Z0 Skin health kezelés egy fiatal nő arcán",
     text: "Próbáld ki a ZO Skin Health fájdalommentes kezelését, mely azonnali hatást eredményez gyógyulási idő nélkül. Most 20% kedvezményt adunk a kezelés árából október végéig.",
     img: "hero-hollywood-red-carpet.webp",
-    imgTablet: "hero-hollywood-red-carpet.webp",
-    imgMobile: "hero-hollywood-red-carpet.webp",
+    imgTablet: "hero-hollywood-red-carpet-tablet.webp",
+    imgMobile: "hero-hollywood-red-carpet-mobil.webp",
   },
   {
     id: 3,
@@ -76,8 +76,8 @@ const slides = ref([
     alt: "Egy fényes bőrű, intim területeit két kézzel takaró nő",
     text: "Az első természetes technológia a hüvely sorvadásának kezelésére. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából október végéig.",
     img: "hero-intim-lezeres-kezeles.webp",
-    imgTablet: "hero-intim-lezeres-kezeles.webp",
-    imgMobile: "hero-intim-lezeres-kezeles.webp",
+    imgTablet: "hero-intim-lezeres-kezeles-tablet.webp",
+    imgMobile: "hero-intim-lezeres-kezeles-mobil.webp",
   },
   {
     id: 4,
@@ -87,8 +87,8 @@ const slides = ref([
     alt: "Speciális fejbőr injekciózás egy nőn a kopaszodás és hajhullás ellen",
     text: "A mezoterápiás kezelés alkalmas belső és külső eredetű hajhullás kezelésére is. Vásárolj most bérletet és vedd igénybe október végéig az egyedi kedvezményeket.",
     img: "hero-hajmezoterapia.webp",
-    imgTablet: "hero-hajmezoterapia.webp",
-    imgMobile: "hero-hajmezoterapia.webp",
+    imgTablet: "hero-hajmezoterapia-tablet.webp",
+    imgMobile: "hero-hajmezoterapia-mobil.webp",
   },
   {
     id: 5,
@@ -98,8 +98,8 @@ const slides = ref([
     alt: "Feszes és fényes bőrű fiatal nő tapintja az arcát",
     text: "Feszesíti az arcot, fokozza a kollagéntermelést és aktiválja a regenerációs folyamatokat. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából október végéig.",
     img: "hero-cogszalas-arckontur.webp",
-    imgTablet: "hero-cogszalas-arckontur.webp",
-    imgMobile: "hero-cogszalas-arckontur.webp",
+    imgTablet: "hero-cogszalas-arckontur-tablet.webp",
+    imgMobile: "hero-cogszalas-arckontur-mobil.webp",
   },
 ]);
 </script>
