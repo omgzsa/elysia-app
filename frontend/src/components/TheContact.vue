@@ -27,7 +27,7 @@ defineProps({
 <template>
   <section
     id="contact"
-    class="max-w-screen-xl site-padding grid grid-cols-1 sm:grid-cols-2 gap-6"
+    class="grid max-w-screen-xl grid-cols-1 gap-6 site-padding sm:grid-cols-2"
   >
     <!-- contact data -->
     <div class="space-y-6">
@@ -35,29 +35,29 @@ defineProps({
 
       <ul class="space-y-3">
         <li class="flex items-center space-x-2 whitespace-pre">
-          <IconClock class="mt-px text-accent-100 text-xl" />
+          <IconClock class="mt-px text-xl text-accent-100" />
           <span>{{ openHours }}</span>
         </li>
         <li class="flex items-center space-x-2">
-          <IconEmail class="text-accent-100 text-xl" />
+          <IconEmail class="text-xl text-accent-100" />
           <a
-            class="link-underline no-underline hover:text-accent-100"
+            class="no-underline link-underline hover:text-accent-100"
             :href="`mailto:${contactEmail}`"
           >
             {{ contactEmail }}
           </a>
         </li>
         <li class="flex items-center space-x-2">
-          <IconPhone class="text-accent-100 text-xl" />
+          <IconPhone class="text-xl text-accent-100" />
           <a
-            class="link-underline no-underline hover:text-accent-100"
+            class="no-underline link-underline hover:text-accent-100"
             :href="`tel:${phoneNum}`"
           >
             {{ phoneNum }}
           </a>
         </li>
         <li class="inline-flex items-center space-x-2">
-          <IconMarker class="text-accent-100 text-xl" />
+          <IconMarker class="text-xl text-accent-100" />
           <span>{{ address }}</span>
         </li>
       </ul>
@@ -71,13 +71,13 @@ defineProps({
 
       <AppLink to="https://medicall.cc/idopontfoglalas/elysia/index">
         <button
-          class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-gray-700 bg-secondary-100 border border-secondary-100"
+          class="relative px-4 py-2 overflow-hidden font-medium text-gray-700 border rounded-md cursor-pointer group bg-secondary-100 border-secondary-100"
         >
           <span
             class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
           ></span>
           <span
-            class="text-xs sm:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-secondary-100 ease"
+            class="relative flex flex-row items-center gap-2 text-xs font-bold transition duration-300 sm:text-sm group-hover:text-secondary-100 ease"
             ><IconCalendar /> <span>Időpontfoglalás</span></span
           >
         </button>
