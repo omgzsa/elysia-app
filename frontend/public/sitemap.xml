@@ -13,6 +13,10 @@
       <priority>0.8</priority>
    </url>
    <url>
+      <loc>https://elysia.hu/blog</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
       <loc>https://elysia.hu/munkatarsak/dr-horvath-beata</loc>
       <priority>0.8</priority>
    </url>
@@ -38,6 +42,18 @@
    </url>
    <url>
       <loc>https://elysia.hu/munkatarsak/hauserne-bognar-zsuzsanna</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://elysia.hu/munkatarsak/szabo-elizabet</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://elysia.hu/munkatarsak/endresz-anna</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://elysia.hu/munkatarsak/osvath-edit</loc>
       <priority>0.8</priority>
    </url>
    <url>
