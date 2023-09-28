@@ -13,7 +13,7 @@ import { useHead } from "@vueuse/head";
 
 const pageTitle = ref("Gyakran Ismételt Kérdések — Elysia Laser Clinic");
 const pageDescription = ref(
-  "A leggyakrabban feltett kérdések és válaszok amik ügyfeleinket érdeklik."
+  "A leggyakrabban feltett kérdések és válaszok amik ügyfeleinket érdeklik.",
 );
 
 useHead({
