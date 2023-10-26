@@ -94,6 +94,11 @@ const props = defineProps({
       <p>{{ blog.content.text5 }}</p>
       <h3>{{ blog.content.header5 }}</h3>
       <p>{{ blog.content.text6 }}</p>
+      <blockquote
+        class="max-w-md py-10 mx-auto text-base italic tracking-wide sm:text-lg px-9 bg-primary-200 rounded-xl"
+      >
+        {{ blog.content.blockQuote2 }}
+      </blockquote>
       <div class="space-y-6">
         <h3>{{ blog.content.bulletPointsTitle2 }}</h3>
         <ul class="list-disc list-inside">
