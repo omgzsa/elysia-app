@@ -35,7 +35,7 @@ const images = [
 </script>
 <template>
   <section class="space-y-12">
-    <div class="flex flex-col space-y-10 mx-auto">
+    <div class="flex flex-col mx-auto space-y-10">
       <AppHeader>
         <template #subtitle>orvosi termékek</template>
         <template #title>Z0® Skin Health</template>
@@ -43,7 +43,7 @@ const images = [
     </div>
     <!-- z0 skin -->
     <div
-      class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-xl mx-auto site-padding"
+      class="grid max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <!-- content -->
       <div class="space-y-8">
@@ -54,28 +54,29 @@ const images = [
           Ha Ön is szeretné látványosan javítani bőre állapotát és visszanyerni
           annak egészségét, keresse fel orvosainkat. Részletes konzultációt
           követően a bőrproblémájára egyedileg szabott megoldási javaslatot kap.
-          <br /><br />A ZO® Skin Health termékek otthoni használatával rövid idő
-          alatt látványos bőrminőség javulást érhet el bőrproblémától és kortól
-          függetlenül. Az elért eredmények megtartása hosszútávon is biztosított
-          a ZO® bőrápolási rutinjaival. Átfogó megoldások, állandó bőregészség!
+          <br /><br />A ZO® Skin Health termékek otthoni használatával rövid
+          idő alatt látványos bőrminőség javulást érhet el bőrproblémától és
+          kortól függetlenül. Az elért eredmények megtartása hosszútávon is
+          biztosított a ZO® bőrápolási rutinjaival. Átfogó megoldások, állandó
+          bőregészség!
         </p>
         <div class="flex divide-x">
-          <div class="flex flex-col text-center px-4 w-full sm:px-12 md:px-8">
-            <div class="text-accent-100 font-bold text-2xl md:text-4xl">
+          <div class="flex flex-col w-full px-4 text-center sm:px-12 md:px-8">
+            <div class="text-2xl font-bold text-accent-100 md:text-4xl">
               20+
             </div>
             <div
-              class="text-xs lg:text-sm xl:text-base text-accent-100 font-medium"
+              class="text-xs font-medium lg:text-sm xl:text-base text-accent-100"
             >
               év bőrgyógyászati szakmai tapasztalat
             </div>
           </div>
-          <div class="flex flex-col text-center px-4 w-full sm:px-12 md:px-8">
-            <div class="text-accent-100 font-bold text-2xl md:text-4xl">
+          <div class="flex flex-col w-full px-4 text-center sm:px-12 md:px-8">
+            <div class="text-2xl font-bold text-accent-100 md:text-4xl">
               10+
             </div>
             <div
-              class="text-xs lg:text-sm xl:text-base text-accent-100 font-medium"
+              class="text-xs font-medium lg:text-sm xl:text-base text-accent-100"
             >
               termékkategória különböző problémákra
             </div>
@@ -85,7 +86,7 @@ const images = [
       <!-- image -->
       <div>
         <img
-          class="w-96 object-contain h-full m-auto"
+          class="object-contain h-full m-auto w-96"
           :src="useGetImageUrl('z0-products.webp')"
           alt="z0 skin health termékekcsalád"
           width="400"
@@ -94,20 +95,20 @@ const images = [
       </div>
     </div>
     <!-- symbols -->
-    <div class="bg-primary-200 space-y-10 text-center py-16">
+    <div class="py-16 space-y-10 text-center bg-primary-200">
       <h3 class="site-padding">
         Bőrproblémák amelyek esetén a Z0® Skin Health megoldást nyújt
       </h3>
       <div
-        class="grid grid-cols-2 gap-y-6 sm:grid-cols-4 xl:grid-cols-7 max-w-screen-xl m-auto"
+        class="grid items-start max-w-screen-xl grid-cols-2 mx-auto gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7"
       >
         <div
           v-for="(item, index) in images"
           :key="index"
-          class="site-padding mx-auto space-y-2"
+          class="flex flex-col items-center space-y-2"
         >
           <img
-            class="w-24 h-24 object-contain m-auto"
+            class="object-contain w-24 h-24"
             :src="useGetImageUrl(item.image)"
             alt="z0-skin-health megoldás"
             width="100"
@@ -120,7 +121,7 @@ const images = [
 
     <!-- red carpet -->
     <div
-      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
+      class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8">
         <h3 class="text-base md:text-2xl">
@@ -128,18 +129,18 @@ const images = [
         </h3>
         <h3>Mi is az a Z0® Skin Health?</h3>
         <p>
-          A ZO® Skin health egy orvosok által kifejlesztett exkluzív márka, mely
-          professzionális bőrápolást nyújt a felhasználók részére. A termékek
-          használata és a rendelői kezelések is egyedülálló élményt biztosítanak
-          orvosi felügyelet mellett. A ZO® minden problémára, bármely életkorban
-          kiemelkedő eredményt garantál, amit pácienseink visszajelzései is hűen
-          tükröznek!
+          A ZO® Skin health egy orvosok által kifejlesztett exkluzív márka,
+          mely professzionális bőrápolást nyújt a felhasználók részére. A
+          termékek használata és a rendelői kezelések is egyedülálló élményt
+          biztosítanak orvosi felügyelet mellett. A ZO® minden problémára,
+          bármely életkorban kiemelkedő eredményt garantál, amit pácienseink
+          visszajelzései is hűen tükröznek!
         </p>
         <h3>Mi is az a ZO® Red Carpet Hollywood Peeling?</h3>
         <p>
           A ZO® Red Carpet Hollywood Peeling egy fájdalommentes kezelés, mely
-          azonnali hatást eredményez gyógyulási idő nélkül. ZO® kezelés nem csak
-          ZO® felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események
+          azonnali hatást eredményez gyógyulási idő nélkül. ZO® kezelés nem
+          csak ZO® felhasználóknak! Kiváló nagyobb, "vörös-szőnyeges" események
           előtt.
         </p>
         <h3>Tökéletes hatás:</h3>
@@ -162,9 +163,9 @@ const images = [
           ragyogásért! Kérje a kezelést, hogy ez a 40 perc csak önről szóljon!
         </p>
       </div>
-      <div class="mx-auto sticky top-10">
+      <div class="sticky mx-auto top-10">
         <img
-          class="w-96 object-contain h-full rounded-xl"
+          class="object-contain h-full w-96 rounded-xl"
           :src="useGetImageUrl('z0-hollywood.webp')"
           alt="z0 red carpet hollywood kezelés"
           width="400"
@@ -175,16 +176,17 @@ const images = [
 
     <!-- 3 peel -->
     <div
-      class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-screen-xl site-padding mx-auto"
+      class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8 md:order-2">
         <h3 class="text-base md:text-2xl">ZO® Skin Health 3 Step Peeling</h3>
         <p>
-          A ZO® Skin Health 3 Step Peeling egy hatékony hámlasztó kezelés, amely
-          erőteljesem javítja a bőr textúráját és megjelenését. Ez a kezelés
-          számos bőrprobléma kezelésére használható, például pigmentfoltok,
-          ráncok és akne kezelésére. A kezelés előtt legalább 6 hétig szükséges
-          a bőrgyógyász által összeállított ZO® protokoll használata.
+          A ZO® Skin Health 3 Step Peeling egy hatékony hámlasztó kezelés,
+          amely erőteljesem javítja a bőr textúráját és megjelenését. Ez a
+          kezelés számos bőrprobléma kezelésére használható, például
+          pigmentfoltok, ráncok és akne kezelésére. A kezelés előtt legalább 6
+          hétig szükséges a bőrgyógyász által összeállított ZO® protokoll
+          használata.
         </p>
         <h3>A kezelés folyamata</h3>
         <p>
@@ -210,9 +212,9 @@ const images = [
           el.
         </p>
       </div>
-      <div class="mx-auto sticky top-10 md:order-1">
+      <div class="sticky mx-auto top-10 md:order-1">
         <img
-          class="w-96 object-contain h-full rounded-xl"
+          class="object-contain h-full w-96 rounded-xl"
           :src="useGetImageUrl('zo-peeling.webp')"
           alt="z0 red carpet hollywood kezelés"
           width="400"
@@ -222,18 +224,18 @@ const images = [
     </div>
 
     <!-- before-after images -->
-    <div class="flex flex-col space-y-10 mx-auto site-padding max-w-screen-xl">
-      <h3 class="text-base md:text-2xl text-center">
+    <div class="flex flex-col max-w-screen-xl mx-auto space-y-10 site-padding">
+      <h3 class="text-base text-center md:text-2xl">
         Vendégeink a kezelés előtt és után
       </h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto">
+      <div class="grid grid-cols-1 gap-4 mx-auto md:grid-cols-3">
         <!-- 1st comparison -->
-        <div class="flex flex-col space-y-4 max-w-md">
+        <div class="flex flex-col max-w-md space-y-4">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
               slot="first"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_01_before.webp')"
               width="220"
@@ -242,7 +244,7 @@ const images = [
             />
             <img
               slot="second"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_01_after.webp')"
               width="220"
@@ -259,12 +261,12 @@ const images = [
           </div>
         </div>
         <!-- 2nd comparison -->
-        <div class="flex flex-col space-y-4 max-w-md">
+        <div class="flex flex-col max-w-md space-y-4">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
               slot="first"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_02_before.webp')"
               width="220"
@@ -273,7 +275,7 @@ const images = [
             />
             <img
               slot="second"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_02_after.webp')"
               width="220"
@@ -288,12 +290,12 @@ const images = [
           </div>
         </div>
         <!-- 3rd comparison -->
-        <div class="flex flex-col space-y-4 max-w-md">
+        <div class="flex flex-col max-w-md space-y-4">
           <ImgComparisonSlider>
             <!-- eslint-disable -->
             <img
               slot="first"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_03_before.webp')"
               width="220"
@@ -302,7 +304,7 @@ const images = [
             />
             <img
               slot="second"
-              class="h-72 object-cover m-auto rounded-xl"
+              class="object-cover m-auto h-72 rounded-xl"
               style="width: 100%"
               :src="useGetImageUrl('zoskin_03_after.webp')"
               width="220"
