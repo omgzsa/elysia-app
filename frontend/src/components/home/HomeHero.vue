@@ -71,6 +71,9 @@ const getResponsiveImage = (id) => {
               >
             </button>
           </AppLink>
+          <p class="text-sm italic">
+            Áraink február 1-től (ill. néhány tétel március 1-től) aktuálisak.
+          </p>
         </div>
       </div>
     </slide>
