@@ -6,7 +6,7 @@ import { useHead } from "@vueuse/head";
 
 const pageTitle = ref("Áraink — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Szolgáltatásaink, vizsgálataink és kezeléseink árlistája."
+  "Szolgáltatásaink, vizsgálataink és kezeléseink árlistája.",
 );
 
 useHead({
