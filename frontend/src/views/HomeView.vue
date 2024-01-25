@@ -75,6 +75,18 @@ const slides = ref([
   // },
   {
     id: 2,
+    title: "Árváltozás Februártól!",
+    // buttonText: "Plasztikai sebészet",
+    linkTo: "araink",
+    alt: "hajmezoterápiás kezelés az elysia központban",
+    text: "Néhány szolgáltatásunk ára Február 1-gyel változik, bizonyos szolgáltatásoké pedig március 1-től. A pontos árlista az Áraink menüpont alatt található.",
+    // list: [],
+    img: "arvaltozas-februartol.jpg",
+    imgTablet: "arvaltozas-februartol-tablet.jpg",
+    imgMobile: "arvaltozas-februartol-mobil.jpg",
+  },
+  {
+    id: 3,
     title: "Intim lézeres kezelés 10% kedvezménnyel",
     // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
@@ -85,7 +97,7 @@ const slides = ref([
     imgMobile: "hero-intim-lezeres-kezeles-mobil.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Hatékony módszer a hajhullás kezelésében",
     // buttonText: "Bőrgyógyászat",
     linkTo: "blog/hajmezoterapia-a-haj-egeszsegeert-es-szepsegeert",
