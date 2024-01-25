@@ -636,8 +636,8 @@
       },
       {
         "id": "2",
-        "title": "Beavatkozás Volkman kanál / fibroma eltávolítás",
-        "price": "30 000 Ft",
+        "title": "Beavatkozás Volkman kanál / fibróma eltávolítás",
+        "price": "40 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
@@ -650,55 +650,48 @@
       },
       {
         "id": "4",
-        "title": "Anyajegy -, bőrnövedék eltávolítás:",
-        "price": "47 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "5",
-        "title": "Teljes anyajegy-szűrés (1 fő)",
+        "title": "Teljes anyajegyszűrés (1 fő)",
         "price": "30 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "6",
-        "title": "S.O.S Anyajegy-szűrés (1 db)",
+        "id": "5",
+        "title": "S.O.S anyajegyszűrés (1 db)",
         "price": "12 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "7",
-        "title": "Családi anyajegy-szűrés (max. 3 fő)",
+        "id": "6",
+        "title": "Családi anyajegyszűrés (max. 3 fő)",
         "price": "50 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "8",
-        "title": "Családi anyajegy-szűrés (max. 4-5 fő)",
+        "id": "7",
+        "title": "Családi anyajegyszűrés (max. 4-5 fő)",
         "price": "60 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "9",
+        "id": "8",
         "title": "Szemölcs fagyasztás asszisztensi kontrollal",
         "price": "7 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "10",
+        "id": "9",
         "title": "Kis kontroll",
         "price": "12 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "11",
+        "id": "10",
         "title": "Receptírás",
         "price": "4 000 Ft",
         "isFeatured": false,
@@ -755,7 +748,7 @@
       {
         "id": "7",
         "title": "Alsó és felső szemhéjplasztika, kontroll, varratszedés*",
-        "price": "400 000 Ft",
+        "price": "490 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
