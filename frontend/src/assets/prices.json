@@ -104,7 +104,7 @@
       {
         "id": "15",
         "title": "Fibroma lézeres eltávolítás - 1 terület",
-        "price": "50 000 Ft",
+        "price": "60 000 Ft",
         "isFeatured": false,
         "isItalic": false
       }
@@ -221,14 +221,14 @@
       {
         "id": "8",
         "title": "Kondilóma (nemi szemölcs) kezelés (első db)",
-        "price": "40 000 Ft/db",
+        "price": "50 000 Ft/db",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "9",
         "title": "Kondilóma (nemi szemölcs) kezelés (minden további db)",
-        "price": "7 000 Ft/db",
+        "price": "10 000 Ft/db",
         "isFeatured": false,
         "isItalic": false
       },
@@ -526,7 +526,7 @@
       {
         "id": "8",
         "title": "COG szálas arcfeszesítés (3-5 szál oldalanként)",
-        "price": "25 000 Ft / szál",
+        "price": "30 000 Ft / szál",
         "isFeatured": false,
         "isItalic": false
       },
@@ -588,8 +588,36 @@
       },
       {
         "id": "17",
+        "title": "Dermaquest -orvosi hámlasztás makacs hiperpigmentációra, melazmara",
+        "price": "80 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "18",
+        "title": "Dermaquest brighten & glow AHA peel KIT - kezelés utáni  otthoni bőrápolási csomag pigmentált bőrre",
+        "price": "40 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "17",
+        "title": "Profhilo kezelés (3)",
+        "price": "140 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "18",
         "title": "Nucleofill (öregedésgátló, lifting kezelés) (3)",
-        "price": "100 000 Ft",
+        "price": "110 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "19",
+        "title": "Nucleofill (szem környéki kezelés) (3)",
+        "price": "80 000 Ft",
         "isFeatured": false,
         "isItalic": false
       }
@@ -597,7 +625,7 @@
   },
   {
     "id": "7",
-    "title": "Bőrgyógyászat",
+    "title": "Bőrgyógyászati magánrendelés",
     "treatments": [
       {
         "id": "1",
@@ -608,8 +636,8 @@
       },
       {
         "id": "2",
-        "title": "Beavatkozás Volkman kanál / fibroma eltávolítás",
-        "price": "30 000 Ft",
+        "title": "Beavatkozás Volkman kanál / fibróma eltávolítás",
+        "price": "40 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
@@ -622,55 +650,48 @@
       },
       {
         "id": "4",
-        "title": "Anyajegy -, bőrnövedék eltávolítás:",
-        "price": "47 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "5",
-        "title": "Teljes anyajegy-szűrés (1 fő)",
+        "title": "Teljes anyajegyszűrés (1 fő)",
         "price": "30 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
+        "id": "5",
+        "title": "S.O.S anyajegyszűrés (1 db)",
+        "price": "12 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
         "id": "6",
-        "title": "S.O.S Anyajegy-szűrés (1 db)",
-        "price": "10 000 Ft",
+        "title": "Családi anyajegyszűrés (max. 3 fő)",
+        "price": "50 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "7",
-        "title": "Családi anyajegy-szűrés (max. 3 fő)",
-        "price": "45 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "8",
-        "title": "Családi anyajegy-szűrés (max. 4-5 fő)",
+        "title": "Családi anyajegyszűrés (max. 4-5 fő)",
         "price": "60 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "9",
+        "id": "8",
         "title": "Szemölcs fagyasztás asszisztensi kontrollal",
         "price": "7 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "10",
+        "id": "9",
         "title": "Kis kontroll",
-        "price": "11 000 Ft",
+        "price": "12 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "11",
+        "id": "10",
         "title": "Receptírás",
         "price": "4 000 Ft",
         "isFeatured": false,
@@ -692,7 +713,7 @@
       {
         "id": "2",
         "title": "Anyajegy-, bőrnövedék eltávolítás (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "47 000 Ft",
+        "price": "50 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
@@ -706,35 +727,35 @@
       {
         "id": "4",
         "title": "Bőrnövedék eltávolítás lebenyes (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "50 000 Ft",
+        "price": "60 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "5",
         "title": "Felső szemhéjplasztika, kontroll, varratszedés*",
-        "price": "260 000 Ft",
+        "price": "295 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "6",
         "title": "Alsó szemhéjplasztika, kontroll, varratszedés*",
-        "price": "280 000 Ft",
+        "price": "320 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "7",
         "title": "Alsó és felső szemhéjplasztika, kontroll, varratszedés*",
-        "price": "450 000 Ft",
+        "price": "490 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "8",
         "title": "Kisajak plasztika, kontroll*",
-        "price": "260 000 Ft",
+        "price": "295 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
@@ -762,21 +783,21 @@
       {
         "id": "12",
         "title": "Ajak- és ráncfeltöltés / 1 ml Teosyal (azonnal elvégezhető kezelés, konzultációs díj levonásra kerül)",
-        "price": "100 000 Ft",
+        "price": "110 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "13",
         "title": "Ránckezelés BOTOX-szal Vistabel (azonnal elvégezhető kezelés, konzultációs díj levonásra kerül)",
-        "price": "100 000 Ft",
+        "price": "110 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "14",
         "title": "COG szálas arcfeszesítés (3-5 szál oldalanként)*",
-        "price": "25 000 Ft / szál",
+        "price": "30 000 Ft / szál",
         "isFeatured": false,
         "isItalic": false
       }
@@ -789,6 +810,13 @@
       {
         "id": "1",
         "title": "Konzultáció, kontroll",
+        "price": "30 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "2",
+        "title": "Kontroll (3 hónapon belüli megjelenés esetén)",
         "price": "25 000 Ft",
         "isFeatured": false,
         "isItalic": false
@@ -816,26 +844,33 @@
       {
         "id": "3",
         "title": "PRICK-teszt",
-        "price": "20 000 Ft",
+        "price": "25 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "4",
+        "title": "PRICK-teszt + étel allergia teszt",
+        "price": "30 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "5",
         "title": "Kontroll",
         "price": "15 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "5",
+        "id": "6",
         "title": "Kontroll + Légzésfunkció vizsgálat",
         "price": "20 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "6",
+        "id": "7",
         "title": "Konzultáció + Légzésfunkció vizsgálat",
         "price": "25 000 Ft",
         "isFeatured": false,
