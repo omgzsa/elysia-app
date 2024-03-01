@@ -7,7 +7,7 @@ import { useHead } from "@vueuse/head";
 
 const pageTitle = ref("Szolgáltatásaink");
 const pageDescription = ref(
-  "Fedezd fel a legjobb orvosi és esztétikai lézerkezeléseket szolgáltatásaink között, tapasztalt szakembereink és korszerű technológiáink segítségével."
+  "Fedezd fel a legjobb orvosi és esztétikai lézerkezeléseket szolgáltatásaink között, tapasztalt szakembereink és korszerű technológiáink segítségével.",
 );
 
 useHead({
@@ -35,22 +35,22 @@ useHead({
 
 <template>
   <section class="mb-0">
-    <div class="flex flex-col space-y-10 mx-auto">
+    <div class="flex flex-col mx-auto space-y-10">
       <AppHeader>
         <template #subtitle> elysia laser clinic </template>
         <template #title> Szolgáltatásaink </template>
       </AppHeader>
     </div>
-    <div class="max-w-screen-xl site-padding space-y-10 mx-auto py-16">
-      <!-- <p class="max-w-lg text-center mx-auto">{{ pageDescription }}</p> -->
+    <div class="max-w-screen-xl py-16 mx-auto space-y-10 site-padding">
+      <!-- <p class="max-w-lg mx-auto text-center">{{ pageDescription }}</p> -->
       <ul
-        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 sm:gap-x-6 px-2 items-start"
+        class="grid items-start grid-cols-2 px-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 sm:gap-x-6"
         name="list"
       >
         <li
           v-for="service in servicesData"
           :key="service.id"
-          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+          class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -60,19 +60,19 @@ useHead({
             }"
           >
             <img
-              class="h-24 sm:h-32 w-full object-contain"
+              class="object-contain w-full h-24 sm:h-32"
               :src="useGetImageUrl(service.image)"
               :alt="service.name + 'szimbólum'"
               height="100"
               width="100"
             />
-            <p class="font-semibold text-center text-xs sm:text-base">
+            <p class="text-xs font-semibold text-center sm:text-base">
               {{ service.name }}
             </p>
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+          class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -81,17 +81,17 @@ useHead({
             }"
           >
             <img
-              class="h-24 sm:h-32 w-full object-contain"
+              class="object-contain w-full h-24 sm:h-32"
               :src="useGetImageUrl('tudogyogyaszati-szakrendeles.webp')"
               alt="tüdőgyógyászati vizsgálatok szimbólum"
             />
-            <p class="font-semibold text-center text-xs sm:text-base">
+            <p class="text-xs font-semibold text-center sm:text-base">
               Tüdőgyógyászat
             </p>
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+          class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -100,19 +100,19 @@ useHead({
             }"
           >
             <img
-              class="h-24 sm:h-32 w-full object-contain"
+              class="object-contain w-full h-24 sm:h-32"
               :src="useGetImageUrl('idegsebeszeti-vizsgalatok.webp')"
               alt="idegsebészeti vizsgálatok szimbólum"
               height="100"
               width="100"
             />
-            <p class="font-semibold text-center text-xs sm:text-base">
+            <p class="text-xs font-semibold text-center sm:text-base">
               Idegsebészet
             </p>
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+          class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -121,19 +121,19 @@ useHead({
             }"
           >
             <img
-              class="h-24 sm:h-32 w-full object-contain"
+              class="object-contain w-full h-24 sm:h-32"
               :src="useGetImageUrl('szomnologia.webp')"
               alt="szomnológia szimbólum"
               height="100"
               width="100"
             />
-            <p class="font-semibold text-center text-xs sm:text-base">
+            <p class="text-xs font-semibold text-center sm:text-base">
               Szomnológia
             </p>
           </AppLink>
         </li>
         <li
-          class="list-item transform transition duration-300 ease-in-out hover:-translate-y-1"
+          class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
             class="flex flex-col items-center gap-4"
@@ -142,13 +142,13 @@ useHead({
             }"
           >
             <img
-              class="h-24 sm:h-32 w-full object-contain"
+              class="object-contain w-full h-24 sm:h-32"
               :src="useGetImageUrl('allergologia.webp')"
               alt="allergológia szimbólum"
               height="100"
               width="100"
             />
-            <p class="font-semibold text-center text-xs sm:text-base">
+            <p class="text-xs font-semibold text-center sm:text-base">
               Allergológia
             </p>
           </AppLink>
