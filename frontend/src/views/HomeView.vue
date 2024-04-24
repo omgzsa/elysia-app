@@ -48,6 +48,18 @@ useHead({
 const slides = ref([
   {
     id: 1,
+    title: "Márjus 31-ig kedvezményes hónalj botox kezelés!",
+    // buttonText: "Plasztikai sebészet",
+    linkTo: "szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezelese",
+    alt: "hónalj botoxos injekciózása",
+    text: "",
+    list: ["Hölgyeknek: 100.000 Ft", "Uraknak: 110.000 Ft"],
+    img: "hero-slide-honalj-botox.jpg",
+    imgTablet: "hero-slide-honalj-botox-tablet.jpg",
+    imgMobile: "hero-slide-honalj-botox-tablet.jpg",
+  },
+  {
+    id: 2,
     title: "Élvezze gyönyörű és sima bőrét egész évben",
     // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
@@ -57,24 +69,8 @@ const slides = ref([
     imgTablet: "hero-lezeres-szortelenites-tablet.jpg",
     imgMobile: "hero-lezeres-szortelenites-mobil.jpg",
   },
-  // {
-  //   id: 1,
-  //   title: "Klinikánk nyitvatartása az ünnepek alatt változik!",
-  //   buttonText: "Plasztikai sebészet",
-  //   linkTo: "szolgaltatasok/lezerkezelesek/lezeres-szortelenites",
-  //   alt: "asztalon lévő piros karácsonyi díszgömb",
-  //   text: "",
-  //   list: [
-  //     "2023. December 21. 10:00 - 15:00",
-  //     "2023. December 22 és Január 1 között zárva tartunk!",
-  //     "2024. Január 2. 10:00 - 18:00",
-  //   ],
-  //   img: "christmas-slider.jpg",
-  //   imgTablet: "christmas-slider-tablet.jpg",
-  //   imgMobile: "christmas-slider-mobil.jpg",
-  // },
   {
-    id: 2,
+    id: 3,
     title: "Árváltozás Februártól!",
     // buttonText: "Plasztikai sebészet",
     linkTo: "araink",
@@ -86,7 +82,7 @@ const slides = ref([
     imgMobile: "arvaltozas-februartol-mobil.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Intim lézeres kezelés 10% kedvezménnyel",
     // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
@@ -97,7 +93,7 @@ const slides = ref([
     imgMobile: "hero-intim-lezeres-kezeles-mobil.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Hatékony módszer a hajhullás kezelésében",
     // buttonText: "Bőrgyógyászat",
     linkTo: "blog/hajmezoterapia-a-haj-egeszsegeert-es-szepsegeert",
