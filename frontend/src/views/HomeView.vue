@@ -56,7 +56,7 @@ const slides = ref([
     list: ["Hölgyeknek: 100.000 Ft", "Uraknak: 110.000 Ft"],
     img: "hero-slide-honalj-botox.jpg",
     imgTablet: "hero-slide-honalj-botox-tablet.jpg",
-    imgMobile: "hero-slide-honalj-botox-tablet.jpg",
+    imgMobile: "hero-slide-honalj-botox-mobil.jpg",
   },
   {
     id: 2,
