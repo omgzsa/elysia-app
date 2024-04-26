@@ -46,7 +46,7 @@ const getResponsiveImage = (id) => {
       <div class="grid max-w-screen-xl grid-cols-1 site-padding md:grid-cols-2">
         <div class="flex flex-col pb-48 space-y-6 text-left md:pb-0">
           <h1
-            class="max-w-md text-4xl xl:text-5xl sm:max-w-xl xl:max-w-3xl"
+            class="max-w-md pt-10 text-4xl xl:text-5xl sm:max-w-xl xl:max-w-3xl"
             style="line-height: 1.125"
           >
             {{ slide.title }}
