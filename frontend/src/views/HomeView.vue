@@ -48,7 +48,7 @@ useHead({
 const slides = ref([
   {
     id: 1,
-    title: "Márjus 31-ig kedvezményes hónalj botox kezelés!",
+    title: "Május 31-ig kedvezményes hónalj botox kezelés!",
     // buttonText: "Plasztikai sebészet",
     linkTo: "szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezelese",
     alt: "hónalj botoxos injekciózása",
