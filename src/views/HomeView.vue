@@ -46,18 +46,18 @@ useHead({
 });
 
 const slides = ref([
-  {
-    id: 1,
-    title: "Május 31-ig kedvezményes hónalj botox kezelés!",
-    // buttonText: "Plasztikai sebészet",
-    linkTo: "szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezelese",
-    alt: "hónalj botoxos injekciózása",
-    text: "",
-    list: ["Hölgyeknek: 100.000 Ft", "Uraknak: 110.000 Ft"],
-    img: "hero-slide-honalj-botox.jpg",
-    imgTablet: "hero-slide-honalj-botox-tablet.jpg",
-    imgMobile: "hero-slide-honalj-botox-mobil.jpg",
-  },
+  // {
+  //   id: 1,
+  //   title: "Május 31-ig kedvezményes hónalj botox kezelés!",
+  //   // buttonText: "Plasztikai sebészet",
+  //   linkTo: "szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezelese",
+  //   alt: "hónalj botoxos injekciózása",
+  //   text: "",
+  //   list: ["Hölgyeknek: 100.000 Ft", "Uraknak: 110.000 Ft"],
+  //   img: "hero-slide-honalj-botox.jpg",
+  //   imgTablet: "hero-slide-honalj-botox-tablet.jpg",
+  //   imgMobile: "hero-slide-honalj-botox-mobil.jpg",
+  // },
   {
     id: 2,
     title: "Élvezze gyönyörű és sima bőrét egész évben",
