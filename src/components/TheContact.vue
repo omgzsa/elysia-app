@@ -98,5 +98,15 @@ defineProps({
         <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
       </InfoWindow>
     </GoogleMap>
+    <!-- <iframe
+      width="100%"
+      height="100%"
+      frameborder="0"
+      style="border: 0"
+      referrerpolicy="no-referrer-when-downgrade"
+      :src="`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=Elysia+Orvos-Esztétikai+Központ`"
+      allowfullscreen
+    >
+    </iframe> -->
   </section>
 </template>
