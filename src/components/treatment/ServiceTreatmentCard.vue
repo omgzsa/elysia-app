@@ -49,10 +49,10 @@ const props = defineProps({
       <!-- breadcrumb component -->
       <TheBreadCrumbs />
       <div
-        class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6"
+        class="grid grid-cols-1 space-y-2 sm:grid-cols-3 sm:space-y-0 gap-y-6"
       >
         <!-- treatment information -->
-        <div class="site-padding order-2 sm:col-span-2 space-y-6 mb-8">
+        <div class="order-2 mb-8 space-y-6 site-padding sm:col-span-2">
           <h3>{{ treatment.content.title }}</h3>
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description }}
@@ -62,7 +62,7 @@ const props = defineProps({
               <!-- eslint-disable -->
               <img
                 slot="first"
-                class="h-72 object-cover m-auto rounded-xl"
+                class="object-cover m-auto h-72 rounded-xl"
                 style="width: 100%"
                 :src="
                   useGetTreatmentImageUrl(props.treatment.treatmentImages[0])
@@ -73,7 +73,7 @@ const props = defineProps({
               />
               <img
                 slot="second"
-                class="h-72 object-cover m-auto rounded-xl"
+                class="object-cover m-auto h-72 rounded-xl"
                 style="width: 100%"
                 :src="
                   useGetTreatmentImageUrl(props.treatment.treatmentImages[1])
@@ -89,12 +89,8 @@ const props = defineProps({
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description2 }}
           </p>
-          <h3>{{ treatment.content.title3 }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description3 }}
-          </p>
           <h3>{{ treatment.content.benefitsTitle }}</h3>
-          <ul role="list" class="marker:text-accent-100 list-disc list-inside">
+          <ul role="list" class="list-disc list-inside marker:text-accent-100">
             <li
               v-for="item in treatment.content.benefits"
               :key="item.id"
@@ -103,25 +99,42 @@ const props = defineProps({
               {{ item.text }}
             </li>
           </ul>
+          <h3>{{ treatment.content.title3 }}</h3>
+          <p class="whitespace-pre-wrap">
+            {{ treatment.content.description3 }}
+          </p>
+          <h3>{{ treatment.content.benefitsTitle2 }}</h3>
+          <ul role="list" class="list-disc list-inside marker:text-accent-100">
+            <li
+              v-for="item in treatment.content.benefits2"
+              :key="item.id"
+              class="whitespace-pre-wrap"
+            >
+              {{ item.text }}
+            </li>
+          </ul>
+          <p class="whitespace-pre-wrap">
+            {{ treatment.content.description4 }}
+          </p>
         </div>
         <!-- treatment time/frequency -->
-        <div class="px-4 relative sm:order-2 sm:col-span-1" v-if="hasData">
+        <div class="relative px-4 sm:order-2 sm:col-span-1" v-if="hasData">
           <div
-            class="flex flex-col space-y-6 mx-auto w-64 sm:w-full lg:max-w-md bg-primary-200 py-4 px-4 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 sm:sticky top-20"
+            class="flex flex-col w-64 px-4 py-4 mx-auto space-y-6 sm:w-full lg:max-w-md bg-primary-200 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 sm:sticky top-20"
           >
             <div
               class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
             >
               <IconClock
-                class="text-accent-100 flex-shrink text-xl md:text-2xl xl:text-3xl"
+                class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
               />
               <div class="flex flex-col flex-1">
                 <span
-                  class="text-xs lg:text-sm xl:text-base tracking-wider uppercase text-gray-800"
+                  class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
                   >időtartam</span
                 >
                 <span
-                  class="text-accent-100 font-medium md:font-semibold text-sm"
+                  class="text-sm font-medium text-accent-100 md:font-semibold"
                   >{{ props.treatment.treatTime }}</span
                 >
               </div>
@@ -131,15 +144,15 @@ const props = defineProps({
               class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
             >
               <IconLoop
-                class="text-accent-100 flex-shrink text-xl md:text-2xl xl:text-3xl"
+                class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
               />
               <div class="flex flex-col flex-1">
                 <span
-                  class="text-xs lg:text-sm xl:text-base tracking-wider uppercase text-gray-800"
+                  class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
                   >gyakorisága</span
                 >
                 <span
-                  class="text-accent-100 font-medium md:font-semibold text-sm"
+                  class="text-sm font-medium text-accent-100 md:font-semibold"
                   >{{ props.treatment.frequency }}</span
                 >
               </div>
@@ -148,11 +161,11 @@ const props = defineProps({
         </div>
         <!-- medical equipment image (treatments have no image yet) -->
         <div
-          class="flex sm:flex-col mx-auto px-4 relative sm:order-2 sm:col-span-1"
+          class="relative flex px-4 mx-auto sm:flex-col sm:order-2 sm:col-span-1"
           v-if="hasImage"
         >
           <img
-            class="h-60 sm:h-96 sm:sticky sm:top-20 object-contain object-top"
+            class="object-contain object-top h-60 sm:h-96 sm:sticky sm:top-20"
             width="300"
             height="80"
             :src="useGetServiceImageUrl(props.treatment.images[0])"
@@ -163,14 +176,14 @@ const props = defineProps({
     </div>
     <!-- related Doctors -->
     <div
-      class="max-w-screen-xl mx-auto py-8 site-padding space-y-6 mb-10"
+      class="max-w-screen-xl py-8 mx-auto mb-10 space-y-6 site-padding"
       v-if="hasRelatedDoctors"
     >
-      <div class="space-y-2 mb-8">
+      <div class="mb-8 space-y-2">
         <!-- <span class="subheading">elysia laser clinic</span> -->
         <h3>A témában jártas munkatársaink:</h3>
       </div>
-      <div class="flex flex-col sm:flex-row gap-12 items-start">
+      <div class="flex flex-col items-start gap-12 sm:flex-row">
         <ServiceRelatedDoctorsCard
           v-for="item in props.treatment.relatedDoctor"
           :key="item.id"
@@ -181,14 +194,14 @@ const props = defineProps({
     <!-- FAQ call to action -->
     <div
       :style="{ backgroundImage: `url(${useGetImageUrl(bgImage)})` }"
-      class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
+      class="px-2 py-20 space-y-6 text-center bg-left bg-no-repeat bg-cover 3xl:bg-contain"
     >
       <span
-        class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
+        class="max-w-screen-md mx-auto text-xl font-bold text-white lg:text-2xl xl:text-3xl"
       >
         Kérdése van?
       </span>
-      <p class="text-white max-w-2xl mx-auto">
+      <p class="max-w-2xl mx-auto text-white">
         Böngéssze át a Gyakran Ismételt Kérdéseket, amelyek az orvosainknál
         felmerülhetnek. Olvashat a hozzájuk tartozó vizsgálatokról és arról
         mikor érdemes szakemberhez fordulni.
@@ -197,13 +210,13 @@ const props = defineProps({
         <div class="flex flex-col justify-center gap-2 md:flex-row">
           <AppLink :to="{ name: 'faq.show' }">
             <button
-              class="rounded-md px-8 py-2 m-1 overflow-hidden relative group cursor-pointer font-medium bg-secondary-100 border border-secondary-100"
+              class="relative px-8 py-2 m-1 overflow-hidden font-medium border rounded-md cursor-pointer group bg-secondary-100 border-secondary-100"
             >
               <span
-                class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-44 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+                class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 bg-white -translate-x-44 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
               ></span>
               <span
-                class="font-bold flex flex-row gap-2 relative text-gray-800 group-hover:text-secondary-100 transition duration-300 ease"
+                class="relative flex flex-row gap-2 font-bold text-gray-800 transition duration-300 group-hover:text-secondary-100 ease"
                 >GY.I.K.</span
               >
             </button>
