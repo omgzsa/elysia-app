@@ -161,6 +161,18 @@
         "name": "Nucleofill kezelés",
         "slug": "nucleofill-kezeles",
         "image": "nucleofill-kezeles.webp"
+      },
+      {
+        "id": 9,
+        "name": "DermaQuest hámlasztás",
+        "slug": "dermaquest-hamlasztas",
+        "image": "dermaquest-hamlasztas.jpg"
+      },
+      {
+        "id": 10,
+        "name": "EXOHEAL terápia",
+        "slug": "exoheal-terapia",
+        "image": "exoheal-terapia.jpg"
       }
     ]
   },

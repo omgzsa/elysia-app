@@ -1633,5 +1633,106 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 40,
+    "name": "DermaQuest hámlasztás",
+    "slug": "dermaquest-hamlasztas",
+    "metaDescription": "",
+    "images": [],
+    "treatmentImages": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Fedezze fel a DermaQuest kombinált orvosi peeling kezelésünket",
+      "description": "Ha bőre vastag, durva textúrájú, és speciális kezelésre van szüksége az öregedés jeleinek és hiperpigmentációjának kezelésére, vagy esetleg az akne okozta hegek enyhítésére, akkor a DermaQuest peeling hatékony megoldást nyújt.",
+      "title2": "Miért Válassza a DermaQuest kombinált peelinget?",
+      "description2": "A DermaQuest peeling hatékonyan eltávolítja az elhalt hámsejteket, így a bőr simább, puhább megjelenést kap. A kezelések öregedésgátló és hiperpigmentáció-szabályozó hatásúak, csökkentik a finom vonalakat, ráncokat és a bőr egyenetlenségeit, beleértve a hiperpigmentációt. Emellett hatékony megoldást nyújtanak az akne okozta hegek kezelésére is. Az irritált bőrre gyulladáscsökkentő hatást fejtenek ki, segítve a bőr nyugalmát és egészségét. A DermaQuest hámlasztás még érzékenyebb bőr esetén is biztonságosan alkalmazható, így a kezelés mindenkinek megfelelő.",
+      "title3": "",
+      "description3": "",
+      "description4": "Ennek eredményeképpen a bőr újra egységesebb és  fiatalosabb megjelenést kap. Lehetőség van otthoni ápolási szett megvásárlására a kezelés után, a maximális eredmény elérése érdekében. A kezelést minden esetben orvos végzi, konzultáció során részletes tájékoztatást adunk a kezelés kockázatairól, előtti és utáni teendőkről.",
+      "benefitsTitle": "A kombinált peeling során többlépcsős kémiai hámlasztás zajlik, amelynek fő alkotói:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Dermaprime előkészítő oldat: AHA, BHA összetevők és réz keverékéből álló előkésztő oldat, mely eltávolítja a felesleges faggyút és óvja bőrét. Ahogy a bőr pH értéke fokozatosan csökken, felkészíti azt a kezelésre."
+        },
+        {
+          "id": 2,
+          "text": "Módosított Jessner peel oldat: szalicilsav, tejsav és rezorcin összetevőkből álló komplex, amely akne mellett a hiperpigmentáció gyulladás utáni tüneteit és a tág pórusokat is enyhíti."
+        },
+        {
+          "id": 3,
+          "text": "TCA szalicilsavas peel oldat: triklórecetsav (7%) és szalcilsav elegye, amely átfogó fiatalító és hámlasztó termék, mely hatékonyan kezeli a napsütés okozta súlyosabb károsodásokat, mint például a finomabb ráncokat és durva textúrájú bőrfelületet."
+        },
+        {
+          "id": 4,
+          "text": "Retinol oldat: 4% retinolt tartalmaz, a kémiai peel kezelések hatékonyságát növeli, egyenletes hámlasztást biztosít."
+        }
+      ]
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "EXOHEAL terápia",
+    "slug": "exoheal-terapia",
+    "metaDescription": "",
+    "images": [],
+    "treatmentImages": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "EXOHEAL TERÁPIA",
+      "description": "A valódi őssejt EXOSOME terápia forradalmi módon újítja meg a bőrápolást. Az Exoheal egyedülálló keveréke valódi öregedésgátló és kollagén-erősítő összetevőknek, amelyek új életet lehelnek bőrébe és fejbőrébe.",
+      "title2": "Miért Válassza az Exoheal Kezelést?",
+      "description2": "Az Exoheal kezelés valódi őssejteket és exoszómákat alkalmaz, amelyek különleges módon támogatják a bőr regenerálódását és megújulását. Az összetevők hatékonyan támogatják a kollagén termelését, ami segít megőrizni a bőr fiatalos rugalmasságát. Az antioxidánsokban gazdag formula védi a bőrt a környezeti káros hatásoktól, miközben elősegíti a bőr megfiatalítását.",
+      "title3": "",
+      "description3": "Ennek eredményeképpen a bőr újra egységesebb és  fiatalosabb megjelenést kap. Lehetőség van otthoni ápolási szett megvásárlására a kezelés után, a maximális eredmény elérése érdekében. A kezelést minden esetben orvos végzi, konzultáció során részletes tájékoztatást adunk a kezelés kockázatairól, előtti és utáni teendőkről.",
+      "description4": "",
+      "benefitsTitle": "Várható Hatások a Kezelés Után:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Kollagén Támogatása: Serkenti a kollagén termelést, ami javítja a bőr rugalmasságát és textúráját."
+        },
+        {
+          "id": 2,
+          "text": "Rugalmasság Fokozása és Hidratálás: Serkenti a bőr rugalmasságát és intenzíven hidratálja azt, így a bőr feszesebb és ragyogóbb lesz."
+        },
+        {
+          "id": 3,
+          "text": "Anti-Aging és Sebgyógyulás: Hatékonyan csökkenti a kis ráncokat és segíti a sebgyógyulást, így a bőr fiatalosabb és egészségesebb megjelenést kap."
+        }
+      ],
+      "benefitsTitle2": "Tökéletes kiegészítés:",
+      "benefits2": [
+        {
+          "id": 1,
+          "text": "CO2 archámlasztás"
+        },
+        {
+          "id": 2,
+          "text": "Esztétikai beavatkozások után"
+        }
+      ]
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
   }
 ]
