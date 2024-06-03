@@ -150,6 +150,16 @@ const orvosEsztetika = ref([
     slug: "nucleofill-kezeles",
     category: "orvos-esztetika",
   },
+  {
+    name: "Dermaquest hámlasztás",
+    slug: "dermaquest-hamlasztas",
+    category: "orvos-esztetika",
+  },
+  {
+    name: "EXOHEAL terápia",
+    slug: "exoheal-terapia",
+    category: "orvos-esztetika",
+  },
 ]);
 
 const plasztikaiSebeszet = ref([
@@ -400,7 +410,7 @@ onUnmounted(() => {
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 
           <AppLink :to="{ name: 'employees.show' }"> Munkatársak </AppLink>
-          
+
           <AppLink :to="{ name: 'blogs.show' }"> Blog </AppLink>
 
           <AppLink :to="{ name: 'home', hash: '#contact' }">
