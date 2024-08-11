@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import TestView from "../views/TestView.vue";
 import TheNotFound from "@/components/TheNotFound.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
@@ -13,6 +14,11 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+    },
+    {
+      path: "/test",
+      name: "test",
+      component: TestView,
     },
     {
       path: "/szolgaltatasok/orvosi-termekek/z0-skin-health",
