@@ -46,18 +46,19 @@ useHead({
 });
 
 const slides = ref([
-  // {
-  //   id: 1,
-  //   title: "Május 31-ig kedvezményes hónalj botox kezelés!",
-  //   // buttonText: "Plasztikai sebészet",
-  //   linkTo: "szolgaltatasok/orvos-esztetika/fokozott-honalji-izzadas-kezelese",
-  //   alt: "hónalj botoxos injekciózása",
-  //   text: "",
-  //   list: ["Hölgyeknek: 100.000 Ft", "Uraknak: 110.000 Ft"],
-  //   img: "hero-slide-honalj-botox.jpg",
-  //   imgTablet: "hero-slide-honalj-botox-tablet.jpg",
-  //   imgMobile: "hero-slide-honalj-botox-mobil.jpg",
-  // },
+  {
+    id: 1,
+    title: "Anyajegy eltávolítása szövettani vizsgálattal",
+    // buttonText: "Plasztikai sebészet",
+    linkTo:
+      "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    alt: "Egy nő és egy férfi anyajegyekkel a hátukon",
+    text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
+    // list: [],
+    img: "hero-anyajegy-eltavolitas-desktop.jpg",
+    imgTablet: "hero-anyajegy-eltavolitas-tablet.jpg",
+    imgMobile: "hero-anyajegy-eltavolitas-mobil.jpg",
+  },
   {
     id: 2,
     title: "Élvezze gyönyörű és sima bőrét egész évben",
@@ -71,18 +72,6 @@ const slides = ref([
   },
   {
     id: 3,
-    title: "Árváltozás Februártól!",
-    // buttonText: "Plasztikai sebészet",
-    linkTo: "araink",
-    alt: "hajmezoterápiás kezelés az elysia központban",
-    text: "Néhány szolgáltatásunk ára Február 1-gyel változik, bizonyos szolgáltatásoké pedig március 1-től. A pontos árlista az Áraink menüpont alatt található.",
-    // list: [],
-    img: "arvaltozas-februartol.jpg",
-    imgTablet: "arvaltozas-februartol-tablet.jpg",
-    imgMobile: "arvaltozas-februartol-mobil.jpg",
-  },
-  {
-    id: 4,
     title: "Intim lézeres kezelés 10% kedvezménnyel",
     // buttonText: "Bőrgyógyászat",
     linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
@@ -93,7 +82,7 @@ const slides = ref([
     imgMobile: "hero-intim-lezeres-kezeles-mobil.jpg",
   },
   {
-    id: 5,
+    id: 4,
     title: "Hatékony módszer a hajhullás kezelésében",
     // buttonText: "Bőrgyógyászat",
     linkTo: "blog/hajmezoterapia-a-haj-egeszsegeert-es-szepsegeert",
