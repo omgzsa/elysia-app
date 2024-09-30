@@ -83,14 +83,14 @@ const slides = ref([
   },
   {
     id: 4,
-    title: "Hatékony módszer a hajhullás kezelésében",
+    title: "Alsó és felső szemhéjplasztika",
     // buttonText: "Bőrgyógyászat",
-    linkTo: "blog/hajmezoterapia-a-haj-egeszsegeert-es-szepsegeert",
+    linkTo: "szolgaltatasok/plasztikai-sebeszet/also-felso-szemhejplasztika",
     alt: "Speciális fejbőr injekciózás egy nőn a kopaszodás és hajhullás ellen",
-    text: "A mezoterápiás kezelés alkalmas belső és külső eredetű hajhullás kezelésére is. Vásárolj most bérletet és vedd igénybe az egyedi kedvezményeket.",
-    img: "hero-hajmezoterapia.jpg",
-    imgTablet: "hero-hajmezoterapia-tablet.jpg",
-    imgMobile: "hero-hajmezoterapia-mobil.jpg",
+    text: "Célja az esztétikai és funkcionális helyreállítás, a szem körüli szövetek eredeti állapothoz közeli műtéti rekonstrukciója. Látási nehezítettség esetén megszünteti a panaszokat is.",
+    img: "hero-szemhejplasztika.jpg",
+    imgTablet: "hero-szemhejplasztika-tablet.jpg",
+    imgMobile: "hero-szemhejplasztika-mobil.jpg",
   },
 ]);
 </script>

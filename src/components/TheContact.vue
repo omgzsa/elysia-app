@@ -16,6 +16,7 @@ defineProps({
 });
 
 const center = ref({ lat: 47.6931539, lng: 17.6366309 });
+const mapId = import.meta.env.VITE_GOOGLE_MAPS_ID;
 const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const openHours = "Hétfő - Csütörtök: 10:00 - 18:00 \nPéntek: 10:00 - 16:00";
@@ -88,9 +89,9 @@ const address = "9026 Győr, Dózsa György rkpt. 29-31.";
     <!-- google maps -->
     <GoogleMap
       :api-key="apiKey"
+      :map-id="mapId"
       :center="center"
       :zoom="15"
-      :map-id="`elysia-map`"
       class="w-full h-96 md:h-full"
     >
       <AdvancedMarker :options="{ position: center }" />
@@ -99,15 +100,5 @@ const address = "9026 Győr, Dózsa György rkpt. 29-31.";
         <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
       </InfoWindow>
     </GoogleMap>
-    <!-- <iframe
-      width="100%"
-      height="100%"
-      frameborder="0"
-      style="border: 0"
-      referrerpolicy="no-referrer-when-downgrade"
-      :src="`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=Elysia+Orvos-Esztétikai+Központ`"
-      allowfullscreen
-    >
-    </iframe> -->
   </section>
 </template>

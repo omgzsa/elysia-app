@@ -3,9 +3,6 @@ import { ref } from "vue";
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 import { useWindowSize } from "@vueuse/core";
-
-// import IconArrowRight from "../icons/IconArrowRight.vue";
-
 import "vue3-carousel/dist/carousel.css";
 
 const props = defineProps({
