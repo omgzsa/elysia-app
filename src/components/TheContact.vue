@@ -1,12 +1,19 @@
 <script setup>
 import { ref } from "vue";
-import { GoogleMap, Marker, InfoWindow } from "vue3-google-map";
+import { GoogleMap, InfoWindow, AdvancedMarker } from "vue3-google-map";
 
 import IconClock from "../components/icons/IconClock.vue";
 import IconEmail from "../components/icons/IconEmail.vue";
 import IconPhone from "../components/icons/IconPhone.vue";
 import IconMarker from "../components/icons/IconMarker.vue";
 import IconCalendar from "../components/icons/IconCalendar.vue";
+
+defineProps({
+  title: {
+    type: String,
+    default: "Kapcsolat",
+  },
+});
 
 const center = ref({ lat: 47.6931539, lng: 17.6366309 });
 const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -15,13 +22,6 @@ const openHours = "Hétfő - Csütörtök: 10:00 - 18:00 \nPéntek: 10:00 - 16:0
 const contactEmail = "info@elysia.hu";
 const phoneNum = "+36 20 275 0025";
 const address = "9026 Győr, Dózsa György rkpt. 29-31.";
-
-defineProps({
-  title: {
-    type: String,
-    default: "Kapcsolat",
-  },
-});
 </script>
 
 <template>
@@ -90,9 +90,10 @@ defineProps({
       :api-key="apiKey"
       :center="center"
       :zoom="15"
+      :map-id="`elysia-map`"
       class="w-full h-96 md:h-full"
     >
-      <Marker :options="{ position: center }" />
+      <AdvancedMarker :options="{ position: center }" />
       <InfoWindow :options="{ position: { lat: 47.6942539, lng: center.lng } }">
         <h4>Elysia Laser Clinic</h4>
         <p class="text-xs">9026 Győr, Dózsa György rakpart 29-31.</p>
