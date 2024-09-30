@@ -163,7 +163,7 @@ const router = createRouter({
       return new Promise((resolve) => {
         setTimeout(() => {
           resolve({ top: 0, behavior: "smooth" });
-        }, 500);
+        }, 300);
       });
     }
   },
