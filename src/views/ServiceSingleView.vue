@@ -7,6 +7,13 @@ import AppHeader from "../components/AppHeader.vue";
 
 import { useHead } from "@vueuse/head";
 
+const props = defineProps({
+  slug: {
+    type: String,
+    required: true,
+  },
+});
+
 const treatment = computed(() => {
   return treatmentsData.find((t) => t.slug === props.slug);
 });
@@ -38,13 +45,6 @@ useHead({
       content: `https://elysia.hu/szolgaltatasok/${treatment.value.category[0].slug}/${treatment.value.slug}`,
     },
   ],
-});
-
-const props = defineProps({
-  slug: {
-    type: String,
-    required: true,
-  },
 });
 </script>
 

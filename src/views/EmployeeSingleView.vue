@@ -5,6 +5,13 @@ import employeeData from "../assets/coworkers.json";
 
 import { useHead } from "@vueuse/head";
 
+const props = defineProps({
+  slug: {
+    type: String,
+    required: true,
+  },
+});
+
 const employee = computed(() => {
   return employeeData.find((item) => item.slug === props.slug);
 });
@@ -34,13 +41,6 @@ useHead({
       content: `https://elysia.hu/munkatarsak/${props.slug}`,
     },
   ],
-});
-
-const props = defineProps({
-  slug: {
-    type: String,
-    required: true,
-  },
 });
 </script>
 <template>

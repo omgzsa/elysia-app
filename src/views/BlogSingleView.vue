@@ -6,6 +6,13 @@ import blogsData from "@/assets/blogs.json";
 
 import { useHead } from "@vueuse/head";
 
+const props = defineProps({
+  slug: {
+    type: String,
+    required: true,
+  },
+});
+
 const blog = computed(() => {
   return blogsData.find((blog) => blog.slug === props.slug);
 });
@@ -37,13 +44,6 @@ useHead({
       content: blog.value.author,
     },
   ],
-});
-
-const props = defineProps({
-  slug: {
-    type: String,
-    required: true,
-  },
 });
 </script>
 

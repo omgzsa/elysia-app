@@ -5,6 +5,13 @@ import servicesData from "@/assets/services.json";
 
 import { useHead } from "@vueuse/head";
 
+const props = defineProps({
+  category: {
+    type: String,
+    required: true,
+  },
+});
+
 const service = computed(() => {
   return servicesData.find((s) => s.slug === props.category);
 });
@@ -34,13 +41,6 @@ useHead({
       content: `https://elysia.hu/szolgaltatasok/${props.category}`,
     },
   ],
-});
-
-const props = defineProps({
-  category: {
-    type: String,
-    required: true,
-  },
 });
 </script>
 

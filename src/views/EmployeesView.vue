@@ -8,7 +8,7 @@ import { useHead } from "@vueuse/head";
 
 const pageTitle = ref("Munkatársaink — Elysia Laser Clinic");
 const pageDescription = ref(
-  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá."
+  "Ismerje meg magasan képzett munkatársainkat, akár még időpontot is foglalhat hozzá.",
 );
 
 useHead({
