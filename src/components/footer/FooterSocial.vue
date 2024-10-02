@@ -5,7 +5,7 @@ import AppLink from '../AppLink.vue';
 </script>
 
 <template>
-  <ul class="flex justify-start gap-2 mt-8 sm:mt-0 lg:justify-end">
+  <ul class="flex justify-start gap-2 sm:mt-0 lg:justify-end">
     <li>
       <AppLink
         to="https://www.facebook.com/elysiagyor"

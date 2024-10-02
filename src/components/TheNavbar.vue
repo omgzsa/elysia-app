@@ -7,6 +7,7 @@ import {
   plasztikaiSebeszet,
   diagnosztikaiVizsgalatok,
   orvosiTermekek,
+  sebeszet,
 } from "@/utils/links";
 import { useRoute } from "vue-router";
 import { useGetImageUrl } from "../composables/getImageUrl";
@@ -167,6 +168,11 @@ onUnmounted(() => {
                 <TheDropdown
                   title="Orvosi termékek"
                   :submenu="orvosiTermekek"
+                />
+                
+                <TheDropdown
+                  title="Sebészet"
+                  :submenu="sebeszet"
                 />
 
                 <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">

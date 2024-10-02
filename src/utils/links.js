@@ -137,14 +137,19 @@ export const orvosEsztetika = ref([
     slug: "exoheal-terapia",
     category: "orvos-esztetika",
   },
+  {
+    name: "Ajakfeltöltés",
+    slug: "ajakfeltoltes",
+    category: "orvos-esztetika",
+  },
+  {
+    name: "COG szálas arclifting",
+    slug: "cog-szalas-arclifting",
+    category: "orvos-esztetika",
+  },
 ]);
 
 export const plasztikaiSebeszet = ref([
-  {
-    name: "Anyajegy eltávolítása szövettani vizsgálattal",
-    slug: "anyajegy-eltavolitasa-szovettani-vizsgalattal",
-    category: "plasztikai-sebeszet",
-  },
   {
     name: "Alsó, felső szemhéjplasztika",
     slug: "also-felso-szemhejplasztika",
@@ -163,16 +168,6 @@ export const plasztikaiSebeszet = ref([
   {
     name: "Kisajak plasztika",
     slug: "kisajak-plasztika",
-    category: "plasztikai-sebeszet",
-  },
-  {
-    name: "Ajakfeltöltés",
-    slug: "ajakfeltoltes",
-    category: "plasztikai-sebeszet",
-  },
-  {
-    name: "COG szálas arclifting",
-    slug: "cog-szalas-arclifting",
     category: "plasztikai-sebeszet",
   },
 ]);
@@ -220,6 +215,14 @@ export const orvosiTermekek = ref([
     name: "Orvosi lézerkészülékek",
     slug: "orvosi-lezerkeszulekek",
     category: "orvosi-termekek",
+  },
+]);
+
+export const sebeszet = ref([
+  {
+    name: "Anyajegy eltávolítása szövettani vizsgálattal",
+    slug: "anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    category: "sebeszet",
   },
 ]);
 

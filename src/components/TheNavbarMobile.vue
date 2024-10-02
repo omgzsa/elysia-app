@@ -7,6 +7,7 @@ import {
   plasztikaiSebeszet,
   diagnosztikaiVizsgalatok,
   orvosiTermekek,
+  sebeszet,
 } from "@/utils/links";
 import FooterSocial from "./footer/FooterSocial.vue";
 import TheDropdown from "./TheDropdown.vue";
@@ -27,7 +28,7 @@ onClickOutside(target, () => {
 
 <template>
   <aside
-    class="absolute z-10 p-6 ml-auto bg-white border right-6 sm:right-10 sm:w-60 rounded-xl"
+    class="absolute z-10 p-6 ml-auto bg-white border right-6 sm:right-10 sm:w-60 rounded-xl top-10"
   >
     <nav class="text-sm">
       <div class="space-y-3">
@@ -51,7 +52,7 @@ onClickOutside(target, () => {
             <Transition name="dropdown-fade">
               <ul
                 v-show="isServicesOpen"
-                class="absolute z-10 flex flex-col p-5 space-y-2 bg-white border right-1 sm:right-36 lg:right-auto top-4 xl:top-7 max-h-max w-max rounded-xl"
+                class="absolute z-10 flex flex-col p-5 space-y-2 bg-white border right-10 xs:right-28 sm:right-36 lg:right-auto -top-16 sm:top-5 xl:top-7 max-h-max w-max rounded-xl"
               >
                 <TheDropdown title="Lézerkezelések" :submenu="lezerkezelesek" />
 
@@ -75,6 +76,11 @@ onClickOutside(target, () => {
                 <TheDropdown
                   title="Orvosi termékek"
                   :submenu="orvosiTermekek"
+                />
+                
+                <TheDropdown
+                  title="Sebészet"
+                  :submenu="sebeszet"
                 />
 
                 <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">
