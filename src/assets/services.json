@@ -6,48 +6,31 @@
     "image": "plasztikai_sebeszet.webp",
     "isFeatured": true,
     "submenu": [
+      
       {
         "id": 0,
-        "name": "Anyajegy eltávolítása szövettani vizsgálattal",
-        "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
-        "image": "anyajegy-eltavolitasa-szovettani-vizsgalattal.webp"
-      },
-      {
-        "id": 1,
         "name": "Alsó, felső szemhéjplasztika",
         "slug": "also-felso-szemhejplasztika",
         "image": "also-felso-szemhejplasztika.webp"
       },
       {
-        "id": 2,
+        "id": 1,
         "name": "Fülkagyló korrekció",
         "slug": "fulkagylo-korrekcio",
         "image": "fulkagylo-korrekcio.webp"
       },
       {
-        "id": 3,
+        "id": 2,
         "name": "Füllyuk korrekció",
         "slug": "fullyuk-korrekcio",
         "image": "fullyuk-korrekcio.webp"
       },
       {
-        "id": 4,
+        "id": 3,
         "name": "Kisajak plasztika",
         "slug": "kisajak-plasztika",
         "image": "kisajak-plasztika.webp"
-      },
-      {
-        "id": 5,
-        "name": "Ajakfeltöltés",
-        "slug": "ajakfeltoltes",
-        "image": "ajakfeltoltes.webp"
-      },
-      {
-        "id": 6,
-        "name": "COG szálas arclifting",
-        "slug": "cog-szalas-arclifting",
-        "image": "cog-szalas-arclifting.webp"
-      }
+      }      
     ]
   },
   {
@@ -173,6 +156,18 @@
         "name": "EXOHEAL terápia",
         "slug": "exoheal-terapia",
         "image": "exoheal-terapia.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Ajakfeltöltés",
+        "slug": "ajakfeltoltes",
+        "image": "ajakfeltoltes.webp"
+      },
+      {
+        "id": 12,
+        "name": "COG szálas arclifting",
+        "slug": "cog-szalas-arclifting",
+        "image": "cog-szalas-arclifting.webp"
       }
     ]
   },
@@ -296,6 +291,21 @@
         "name": "Orvosi lézerkészülékek",
         "slug": "orvosi-lezerkeszulekek",
         "image": "orvosi-lezer.webp"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sebészet",
+    "slug": "sebeszet",
+    "image": "sebeszet.webp",
+    "isFeatured": false,
+    "submenu": [
+      {
+        "id": 0,
+        "name": "Anyajegy eltávolítása szövettani vizsgálattal",
+        "slug": "anyajegy-eltavolitasa-szovettani-vizsgalattal",
+        "image": "anyajegy-eltavolitasa-szovettani-vizsgalattal.webp"
       }
     ]
   }

@@ -620,6 +620,13 @@
         "price": "80 000 Ft",
         "isFeatured": false,
         "isItalic": false
+      },
+      {
+        "id": "20",
+        "title": "Ajak- és ráncfeltöltés / 1 ml Teosyal (azonnal elvégezhető kezelés, konzultációs díj levonásra kerül)",
+        "price": "110 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },
@@ -711,27 +718,6 @@
         "isItalic": true
       },
       {
-        "id": "2",
-        "title": "Anyajegy-, bőrnövedék eltávolítás (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "50 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "3",
-        "title": "Anyajegy-, bőrnövedék eltávolítás minden további(az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "30 000 Ft / db",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "4",
-        "title": "Bőrnövedék eltávolítás lebenyes (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "60 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
         "id": "5",
         "title": "Felső szemhéjplasztika, kontroll, varratszedés*",
         "price": "330 000 Ft",
@@ -793,18 +779,31 @@
         "price": "110 000 Ft",
         "isFeatured": false,
         "isItalic": false
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Sebészet",
+    "treatments": [
+      {
+        "id": "2",
+        "title": "Anyajegy-, bőrnövedék eltávolítás (az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
+        "price": "50 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
       },
       {
-        "id": "14",
-        "title": "COG szálas arcfeszesítés (3-5 szál oldalanként)*",
-        "price": "30 000 Ft / szál",
+        "id": "3",
+        "title": "Anyajegy-, bőrnövedék eltávolítás minden további(az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
+        "price": "30 000 Ft / db",
         "isFeatured": false,
         "isItalic": false
       }
     ]
   },
   {
-    "id": "9",
+    "id": "10",
     "title": "Idegsebészet",
     "treatments": [
       {
@@ -824,7 +823,7 @@
     ]
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "Tüdőgyógyászat és allergológia",
     "treatments": [
       {
@@ -879,7 +878,7 @@
     ]
   },
   {
-    "id": "11",
+    "id": "12",
     "title": "Labor és diagnosztikai vizsgálatok",
     "treatments": [
       {

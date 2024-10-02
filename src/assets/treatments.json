@@ -664,13 +664,6 @@
         "slug": "dr-horvath-beata",
         "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
       }
     ],
     "content": {
@@ -708,13 +701,6 @@
         "slug": "dr-horvath-beata",
         "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
         "image": "dr-horvath-beata.webp"
-      },
-      {
-        "id": 2,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
       }
     ],
     "content": {
@@ -819,15 +805,7 @@
     "metaDescription": "",
     "images": [],
     "treatmentImages": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
+    "relatedDoctor": [],
     "content": {
       "title": "Amit az anyajegy eltávolításról tudni kell​",
       "description": "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk. \n \nAz anyajegy eltávolítás előtt bőrgyógyászati szakvéleményre van szükség, amely alapján a sebész elvégzi a bőrképlet eltávolítását. Fontos tudni, hogy az anyajegyeket a Magyar Bőrgyógyászati Társulat ajánlása alapján kizárólag sebészeti úton, kimetszéssel távolítjuk el, majd az eltávolított anyajegyet szövettani vizsgálatnak vetjük alá. \n \nAz anyajegyek más úton történő eltávolítása nem ajánlott!",
@@ -842,9 +820,9 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
+        "id": 6,
+        "name": "Sebészet",
+        "slug": "sebeszet",
         "images": []
       }
     ]
@@ -918,15 +896,7 @@
     "metaDescription": "",
     "images": [],
     "treatmentImages": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
+    "relatedDoctor": [],
     "content": {
       "title": "Mikor indokolt a fülkorrekció?​",
       "description": "A leggyakoribb fül deformitás az elálló fül vagy aszimmetrikus fül. Elálló fülről akkor beszélhetünk, ha a külső fülkagyló 10-15 foknál nagyobb szöget zár be a fej oldalsíkjával. A fül alaki eltérése lehet egy oldalú, de gyakran az elálló fül mindkét oldalon is jelentkezhet.",
@@ -980,15 +950,7 @@
     "metaDescription": "",
     "images": [],
     "treatmentImages": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a füllyuk korrekció?​",
       "description": "A füllyuk korrekció visszaállítja a sérült, megnyúlt, vagy az életkor végett megereszkedett fülcimpákat. Sebészi beavatkozással a fülcimpák asszimetriája vagy akár a megnyúlt fülcimpa is korrigálható. A műtét helyi érzéstelenítéssel történik.",
@@ -1054,15 +1016,7 @@
     "metaDescription": "",
     "images": [],
     "treatmentImages": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
+    "relatedDoctor": [],
     "content": {
       "title": "Hyaluronsavas ajaktöltés",
       "description": "Klinikánkon végzett hyaluronsavas ajakfeltöltés lehetőséget ad arra, hogy az ajkak dúsításával esztétikusabbá tegyük az ajkak megjelenését. A beadásra kerülő hosszú felszívódási idejű hyaluronsav szövetbarát, természetes anyag, amely nem allergizál, hiszen a szervezetben is megtalálható. Ennek térfogatnövelő hatását használjuk ki az ajaktöltés során. Hatása 8-12 hónapig tart, de ez személyenként változik, kinél több, kinél kevesebb. \n \nA beavatkozás legnagyobb előnye, hogy nem végleges, hiszen bármikor pótolható, de nem visszafordíthatatlan.",
@@ -1077,9 +1031,9 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
         "images": []
       }
     ]
@@ -1091,15 +1045,7 @@
     "metaDescription": "",
     "images": [],
     "treatmentImages": [],
-    "relatedDoctor": [
-      {
-        "id": 1,
-        "name": "Dr. Görcsi János",
-        "slug": "dr-gorcsi-janos",
-        "title": "Sebész-, esztétikai és égési plasztikai sebész szakorvos",
-        "image": "dr-gorcsi-janos.webp"
-      }
-    ],
+    "relatedDoctor": [],
     "content": {
       "title": "Mi az a COG szálas arclifting?",
       "description": "A felszívódó szálas kezelések egyik formája, amikor jelentősebb arcfeszesítés, emelés és tartás érdekében COG (fogazott) szálakat használunk. Ennél a kezelésnél kevesebb, de erőteljes tartást/húzást biztosító hosszú szálakat fűzünk be. A COG szálas kezelést követően azonnal látható emelő hatás, hiszen a befűzött, és helyére illesztett szálakon elhelyezkedő 'tüskék' a szövetekbe kapaszkodva rögzítik az emelést. A bioaktív szálak a bőr rögzítésén túl fokozzák a kollagén termelődését fokozódását, élénkítik a helyi mikrokeringést és aktiválják a regenerációs folyamatokat. Ezt követően a szervezet reakciója a hagyományos felszívódó szálas kezelésnek megfelelően alakul, így a végleges hatás hónapok múlva alakul ki, jelentős változást eredményezve az azonnali hatáshoz képest is. A szálak nem láthatók sem a kezeléskor sem később. A gyógyulási idő 1-3 nap, a folyamat „ebédidős beavatkozásnak” nevezhető.",
@@ -1114,9 +1060,9 @@
     "frequency": "",
     "category": [
       {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
         "images": []
       }
     ]
