@@ -30,6 +30,9 @@ module.exports = {
           100: "#586C63",
         },
       },
+      screens: {
+        xs: '420px'
+      }
     },
   },
   plugins: [],
