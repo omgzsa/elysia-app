@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import AppLink from "./AppLink.vue";
 import IconDown from "./icons/IconDown.vue";
 import IconRight from "./icons/IconRight.vue";
 import { onClickOutside } from "@vueuse/core";
@@ -40,7 +41,7 @@ onClickOutside(target, () => {
     <Transition name="dropdown-fade">
       <ul
         v-if="isVisible"
-        class="absolute inset-0 z-50 flex flex-col p-5 space-y-2 bg-white border sm:right-36 lg:right-auto top-4 xl:top-6 min-h-fit w-60 sm:w-max rounded-xl"
+        class="absolute inset-0 z-50 flex flex-col p-5 space-y-2 bg-white border lg:space-y-1 sm:right-36 lg:right-auto top-4 xl:top-6 min-h-max w-60 sm:w-max rounded-xl"
       >
         <li
           v-for="item in submenu"

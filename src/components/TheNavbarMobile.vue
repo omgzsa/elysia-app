@@ -8,6 +8,7 @@ import {
   diagnosztikaiVizsgalatok,
   orvosiTermekek,
 } from "@/utils/links";
+import FooterSocial from "./footer/FooterSocial.vue";
 import TheDropdown from "./TheDropdown.vue";
 import IconDown from "./icons/IconDown.vue";
 import IconRight from "./icons/IconRight.vue";
@@ -28,8 +29,8 @@ onClickOutside(target, () => {
   <aside
     class="absolute z-10 p-6 ml-auto bg-white border right-6 sm:right-10 sm:w-60 rounded-xl"
   >
-    <nav class="space-y-8 text-sm">
-      <div class="space-y-2">
+    <nav class="text-sm">
+      <div class="space-y-3">
         <span
           class="text-sm font-semibold tracking-widest uppercase dark:text-gray-400"
         >
@@ -100,9 +101,12 @@ onClickOutside(target, () => {
 
           <AppLink :to="{ name: 'blogs.show' }"> Blog </AppLink>
 
-          <AppLink :to="{ name: 'home', hash: '#contact' }">
+          <AppLink :to="{ name: 'home', hash: '#contact' }" class="pb-1">
             Kapcsolat
           </AppLink>
+          <div class="pt-2.5 border-t border-neutral-200">
+            <FooterSocial />
+          </div>
         </div>
       </div>
     </nav>

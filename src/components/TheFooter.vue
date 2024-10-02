@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from "vue";
+import FooterSocial from "./footer/FooterSocial.vue";
 import IconFacebook from "./icons/IconFacebook.vue";
 import IconInstagram from "./icons/IconInstagram.vue";
 import { useGetImageUrl } from "../composables/getImageUrl";
@@ -9,8 +10,8 @@ const currentYear = computed(() => new Date().getFullYear());
 
 <template>
   <footer aria-label="Site Footer" class="bg-primary-200">
-    <div class="max-w-screen-xl site-padding pb-6 mx-auto">
-      <div class="space-y-4 pt-8">
+    <div class="max-w-screen-xl pb-6 mx-auto site-padding">
+      <div class="pt-8 space-y-4">
         <img
           :src="useGetImageUrl('elysia_logo_new_transparent.webp')"
           alt="Elysia Laser CLinic logó"
@@ -19,12 +20,12 @@ const currentYear = computed(() => new Date().getFullYear());
         />
         <nav aria-label="Footer Navigation - Support">
           <ul
-            class="text-accent-100 flex flex-wrap justify-start gap-4 text-xs"
+            class="flex flex-wrap justify-start gap-4 text-xs text-accent-100"
           >
             <li>
               <AppLink
                 :to="{ name: 'services' }"
-                class="hover:text-gray-800 transition text-xs"
+                class="text-xs transition hover:text-gray-800"
               >
                 Szolgáltatások
               </AppLink>
@@ -33,7 +34,7 @@ const currentYear = computed(() => new Date().getFullYear());
             <li>
               <AppLink
                 :to="{ name: 'employees.show' }"
-                class="hover:text-gray-800 transition text-xs"
+                class="text-xs transition hover:text-gray-800"
               >
                 Munkatársak
               </AppLink>
@@ -42,7 +43,7 @@ const currentYear = computed(() => new Date().getFullYear());
             <li>
               <AppLink
                 :to="{ name: 'prices.show' }"
-                class="hover:text-gray-800 transition text-xs"
+                class="text-xs transition hover:text-gray-800"
               >
                 Árak
               </AppLink>
@@ -51,7 +52,7 @@ const currentYear = computed(() => new Date().getFullYear());
             <li>
               <AppLink
                 :to="{ name: 'faq.show' }"
-                class="hover:text-gray-800 transition text-xs"
+                class="text-xs transition hover:text-gray-800"
               >
                 GY.I.K.
               </AppLink>
@@ -59,7 +60,7 @@ const currentYear = computed(() => new Date().getFullYear());
             <li>
               <AppLink
                 :to="{ name: 'not.found' }"
-                class="hover:text-gray-800 transition text-xs"
+                class="text-xs transition hover:text-gray-800"
               >
                 Adatvédelmi tájékoztató
               </AppLink>
@@ -69,45 +70,23 @@ const currentYear = computed(() => new Date().getFullYear());
       </div>
 
       <div
-        class="pt-4 border-t border-gray-400 flex flex-col items-start sm:flex-row sm:justify-between sm:items-center sm:space-y-0 space-y-4 mt-6"
+        class="flex flex-col items-start pt-4 mt-6 space-y-4 border-t border-gray-400 sm:flex-row sm:justify-between sm:items-center sm:space-y-0"
       >
-        <p class="text-accent-100 text-xs">
+        <p class="text-xs text-accent-100">
           Az oldalt a
           <AppLink
-            class="hover:text-gray-800 transition font-semibold"
+            class="font-semibold transition hover:text-gray-800"
             to="https://blackand.hu"
             >BLACK/AND</AppLink
           >
           készítette.
         </p>
 
-        <p class="block text-accent-100 text-xs text-center">
+        <p class="block text-xs text-center text-accent-100">
           Elysia Laser Clinic © {{ currentYear }}
         </p>
 
-        <ul class="flex justify-start gap-6 mt-8 sm:mt-0 lg:justify-end">
-          <li>
-            <AppLink
-              to="https://www.facebook.com/elysiagyor"
-              class="text-gray-700 transition hover:opacity-75"
-            >
-              <span class="sr-only">Facebook</span>
-
-              <IconFacebook class="text-lg" />
-            </AppLink>
-          </li>
-
-          <li>
-            <AppLink
-              to="https://www.instagram.com/elysiagyor/"
-              class="text-gray-700 transition hover:opacity-75"
-            >
-              <span class="sr-only">Instagram</span>
-
-              <IconInstagram class="text-lg" />
-            </AppLink>
-          </li>
-        </ul>
+        <FooterSocial />
       </div>
     </div>
   </footer>
