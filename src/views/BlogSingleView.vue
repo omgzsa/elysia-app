@@ -104,6 +104,18 @@ useHead({
     </div>
     <div class="grid items-center max-w-screen-md pt-8 mx-auto md:pt-16 blog-body site-padding" v-html="blog.szoveg" />
     <div class="max-w-screen-md mx-auto mt-10 site-padding">
+      <router-link 
+          class="mx-auto transition-colors duration-200 hover:underline underline-offset-2 hover:text-secondary-100"
+          :to="`/${blog.link}`"
+        >
+        <button>
+          <span class="">
+            Több infó
+          </span>
+        </button>
+      </router-link>
+    </div>
+    <div class="max-w-screen-md mx-auto mt-10 site-padding">
       <AppLink :to="{ name: 'blogs.show' }">
         <p
           class="text-xl font-bold group-hover:underline group-focus:underline"

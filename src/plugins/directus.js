@@ -20,7 +20,7 @@ export const directusPlugin = {
       async getBlog(id, query = {}) {
         return await client.request(
           readItem('Blog', id, {
-            fields: ['id', 'status', 'datum', 'szerzo', 'cim', 'slug', 'szoveg', 'leiras', 'kep', 'kategoria'],
+            fields: ['id', 'status', 'datum', 'szerzo', 'cim', 'slug', 'szoveg', 'leiras', 'kep', 'link', 'kategoria'],
             ...query
           })
         );
