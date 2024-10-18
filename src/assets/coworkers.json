@@ -217,6 +217,37 @@
   },
   {
     "id": 7,
+    "name": "Dr. Haris Ákos",
+    "slug": "dr-haris-akos",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "Sebész szakorvos",
+    "bio": "Az általános orvosi diplomámat 2017-ben a Szegedi Tudományegyetem Általános Orvostudományi Karán szereztem. Ezt követően a sebészeti pályafutásomat a Tatabányai Szent Borbála Kórházban kezdtem meg, ahol már rezidens éveim alatt is foglalkoztam bőrsebészettel, bőrelváltozások sebészeti eltávolításával. A Petz Aladár Egyetemi Oktató Kórház Sebészeti Osztályán 2022-től dolgozom. Általános sebészeti szakvizsgámat kiválóan megfelelt minősítéssel 2024-ben tettem le.Mindennapi fekvőbeteg osztályos és műtétes munkámon felül szinte napi rendszerességgel végzek ambuláns műtétetek, melyek többek közt a bőrelváltozások és a bőr alatti szövetek elváltozásainak az eltávolítását is magába foglalják. Munkásságom során a szakma szabályait betartva mindig törekszem a szép esztétikai végeredményre.",
+    "specialties": [
+      {
+        "id": 1,
+        "title": "Sebészeti szakvizsgálat"
+      },
+      {
+        "id": 2,
+        "title": "Műtét utáni kontrollvizsgálat"
+      },
+      {
+        "id": 3,
+        "title": "Utógondozás"
+      }
+    ],
+    "image": "dr-haris-akos.jpg",
+    "consultTime": [
+      {
+        "id": 1,
+        "day": "Szerda",
+        "hours": "16:00 - 18:00"
+      }
+    ]
+  },
+  {
+    "id": 8,
     "name": "Hauserné Bognár Zsuzsanna",
     "slug": "hauserne-bognar-zsuzsanna",
     "hasAppointment": false,
@@ -228,7 +259,7 @@
     "consultTime": []
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Szabó Elizabet",
     "slug": "szabo-elizabet",
     "hasAppointment": false,
@@ -240,7 +271,7 @@
     "consultTime": []
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Endrész Anna",
     "slug": "endresz-anna",
     "hasAppointment": false,
@@ -252,7 +283,7 @@
     "consultTime": []
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Osváth Edit",
     "slug": "osvath-edit",
     "hasAppointment": false,
