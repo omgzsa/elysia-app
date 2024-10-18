@@ -1,8 +1,32 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, inject } from "vue";
 import { useHead } from "@vueuse/head";
-import blogsData from "@/assets/blogs.json";
 import BlogListItem from "@/components/blog/BlogListItem.vue";
+
+const directus = inject('$directus');
+
+const loading = ref(false);
+const blogs = ref([]);
+const error = ref(null);
+
+async function fetchBlogs() {
+  loading.value = true;
+  try {
+    const response = await directus.getBlogs({
+      sort: "-datum",
+    });
+    blogs.value = response;
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+    error.value = error;
+  } finally {
+    loading.value = false;
+  }
+};
+
+onMounted(async () => {
+  await fetchBlogs();
+});
 
 const pageTitle = ref("Blog — Elysia Laser Clinic");
 const pageDescription = ref(
@@ -43,7 +67,10 @@ useHead({
     <div
       class="grid justify-center max-w-screen-xl grid-cols-1 gap-6 py-12 mx-auto sm:grid-cols-2 lg:grid-cols-3 site-padding"
     >
-      <BlogListItem v-for="blog in blogsData" :key="blog.slug" :blog="blog" />
+      <div v-if="loading" class="flex items-center mx-auto">
+        Blog betöltése ...
+      </div>
+      <BlogListItem v-else v-for="blog in blogs" :key="blog.id" :blog="blog" />
     </div>
   </div>
 </template>

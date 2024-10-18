@@ -1,5 +1,9 @@
 <script setup>
-import { useGetBlogImageUrl } from "../../composables/getBlogImageUrl";
+import { formatDate } from "../../utils/utils";
+
+const getDirectusImg = (imageId) => {
+  return `${import.meta.env.VITE_ELYSIA_API_URL}/assets/${imageId}?width=600&height=300&format=webp`;
+};
 
 defineProps({
   blog: {
@@ -8,29 +12,30 @@ defineProps({
   },
 });
 </script>
+
 <template>
   <div
-    class="max-w-xs sm:max-w-sm mx-auto group hover:no-underline focus:no-underline border rounded-xl"
+    class="max-w-xs mx-auto border sm:max-w-sm group hover:no-underline focus:no-underline rounded-xl"
   >
     <img
       role="presentation"
       class="object-cover w-full rounded-t-xl h-44"
       width="128"
       height="32"
-      :src="useGetBlogImageUrl(blog.image)"
+      :src="getDirectusImg(blog.kep)"
     />
     <div class="p-4 space-y-2">
-      <AppLink :to="{ name: 'blog.single', params: { slug: blog.slug } }">
+      <AppLink :to="{ name: 'blog.single', params: { id: blog?.id, slug: blog?.slug } }">
         <h3
           class="text-xl font-bold group-hover:underline group-focus:underline"
         >
-          {{ blog.title }}
+          {{ blog?.cim }}
         </h3>
       </AppLink>
-      <span class="text-xs text-accent-100 tracking-wide">{{
-        blog.createdAt
+      <span class="text-xs tracking-wide text-accent-100">{{
+        formatDate(blog?.datum, 'hu-HU')
       }}</span>
-      <p>{{ blog.content.text1.slice(0, 120) }}..</p>
+      <p>{{ blog?.leiras.slice(0, 120) }}..</p>
     </div>
   </div>
 </template>

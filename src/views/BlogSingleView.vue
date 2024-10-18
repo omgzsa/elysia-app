@@ -1,51 +1,78 @@
 <script setup>
-import { ref, computed } from "vue";
-import { useGetBlogImageUrl } from "@/composables/getBlogImageUrl";
+import { ref, computed, onMounted, inject, watch } from "vue";
 import { useGetImageUrl } from "@/composables/getImageUrl";
-import blogsData from "@/assets/blogs.json";
-
+import { formatDate } from "../utils/utils";
 import { useHead } from "@vueuse/head";
+// import AnimPulse from "../components/icons/AnimPulse.vue";
 
 const props = defineProps({
+  id: {
+    type: String,
+    required: true,
+  },
   slug: {
     type: String,
     required: true,
   },
 });
 
-const blog = computed(() => {
-  return blogsData.find((blog) => blog.slug === props.slug);
+const directus = inject('$directus');
+
+const blog = ref({});
+const loading = ref(false);
+const error = ref(null);
+
+const pageTitle = computed(() => `${blog.value.cim} — Elysia Laser Clinic`);
+const pageDescription = computed(() => blog.value.leiras || '');
+
+async function fetchBlog() {
+  loading.value = true;
+  try {
+    const response = await directus.getBlog(props.id);
+    blog.value = response;
+  } catch (err) {
+    console.error('Error fetching blog:', err);
+    error.value = err;
+  } finally {
+    loading.value = false;
+  }
+}
+
+onMounted(async () => {
+  await fetchBlog();
 });
 
-const pageTitle = ref(blog.value.title + " — Elysia Laser Clinic");
-const pageDescription = ref(blog.value.content.text1);
+watch(() => props.id, async (newId) => {
+  if (newId) await fetchBlog();
+});
 
 useHead({
-  title: pageTitle.value,
+  title: pageTitle,
   meta: [
     {
       name: "description",
-      content: pageDescription.value,
+      content: pageDescription,
     },
     {
       property: "og:title",
-      content: pageTitle.value,
+      content: pageTitle,
     },
     {
       property: "og:description",
-      content: pageDescription.value,
+      content: pageDescription,
     },
     {
       property: "og:url",
-      content: "https://elysia.hu/blog/",
+      content: `https://elysia.hu/blog/${props.slug}-${props.id}`,
     },
     {
       property: "og:author",
-      content: blog.value.author,
+      content: computed(() => blog.value.szerzo),
     },
   ],
 });
 </script>
+
 
 <template>
   <section>
@@ -64,79 +91,26 @@ useHead({
           class="flex flex-col max-w-screen-md mx-auto space-y-1 site-padding"
         >
           <span class="subheading">blog</span>
-          <h2>{{ blog.title }}</h2>
+          <h2 class="pb-4">{{ blog.cim }}</h2>
+          <div class="flex items-center gap-2 mx-auto text-xs italic lg:m-0 subheading">
+            <span>{{ formatDate(blog.datum, 'hu-HU') }}</span>
+            <span>
+              &mdash;
+            </span>
+            <span>{{ blog.szerzo }}</span>
+          </div>
         </div>
       </span>
     </div>
-    <div class="max-w-screen-md py-10 mx-auto space-y-6 site-padding">
-      <p>{{ blog.content.text1 }}</p>
-      <h3>{{ blog.content.header1 }}</h3>
-      <p>{{ blog.content.text2 }}</p>
-      <blockquote
-        class="max-w-md py-10 mx-auto text-base italic tracking-wide sm:text-lg px-9 bg-primary-200 rounded-xl"
-      >
-        {{ blog.content.blockQuote }}
-      </blockquote>
-      <h3>{{ blog.content.header2 }}</h3>
-      <p>{{ blog.content.text3 }}</p>
-      <h3>{{ blog.content.header3 }}</h3>
-      <p>{{ blog.content.text4 }}</p>
-      <img :src="useGetBlogImageUrl(blog.image)" alt="" />
-      <div class="space-y-6">
-        <h3>{{ blog.content.bulletPointsTitle }}</h3>
-        <ul class="list-disc list-inside">
-          <li v-for="point in blog.content.bulletPoints" :key="point.id">
-            {{ point.text }}
-          </li>
-        </ul>
-      </div>
-      <h3>{{ blog.content.header4 }}</h3>
-      <p>{{ blog.content.text5 }}</p>
-      <h3>{{ blog.content.header5 }}</h3>
-      <p>{{ blog.content.text6 }}</p>
-      <blockquote
-        v-if="blog.content.blockQuote2"
-        class="max-w-md py-10 mx-auto text-base italic tracking-wide sm:text-lg px-9 bg-primary-200 rounded-xl"
-      >
-        {{ blog.content.blockQuote2 }}
-      </blockquote>
-      <div class="space-y-6">
-        <h3>{{ blog.content.bulletPointsTitle2 }}</h3>
-        <ul class="list-disc list-inside">
-          <li v-for="point in blog.content.bulletPoints2" :key="point.id">
-            {{ point.text }}
-          </li>
-        </ul>
-      </div>
-      <h3>{{ blog.content.header6 }}</h3>
-      <p>{{ blog.content.text7 }}</p>
-      <h3>{{ blog.content.header7 }}</h3>
-      <p>{{ blog.content.text8 }}</p>
-      <h3>{{ blog.content.header8 }}</h3>
-      <p>{{ blog.content.text9 }}</p>
-      <div
-        class="flex flex-col text-xs italic sm:flex-row sm:items-center sm:gap-x-2 sm:text-sm"
-      >
-        <span class="inline">{{ blog.author }}</span> —
-        <span class="inline">{{ blog.createdAt }}</span>
-      </div>
-      <div v-if="blog.hasCrossLink">
-        <AppLink v-slot="{ navigate }" :to="`/${blog.crossLink.linkName}`">
-          <button
-            class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
-            @click="navigate"
-            role="link"
-          >
-            <span
-              class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
-            ></span>
-            <span
-              class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
-              >{{ blog.crossLink.label }}</span
-            >
-          </button>
-        </AppLink>
-      </div>
+    <div class="grid items-center max-w-screen-md pt-8 mx-auto md:pt-16 blog-body site-padding" v-html="blog.szoveg" />
+    <div class="max-w-screen-md mx-auto mt-10 site-padding">
+      <AppLink :to="{ name: 'blogs.show' }">
+        <p
+          class="text-xl font-bold group-hover:underline group-focus:underline"
+        >
+          Vissza
+        </p>
+      </AppLink>
     </div>
   </section>
 </template>

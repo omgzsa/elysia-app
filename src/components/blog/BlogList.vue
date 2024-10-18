@@ -1,10 +1,34 @@
 <script setup>
-import { computed } from "vue";
-import blogsData from "@/assets/blogs.json";
+import { ref, computed, onMounted, inject } from "vue";
 import BlogListItem from "./BlogListItem.vue";
 
+const directus = inject('$directus');
+
+const loading = ref(false);
+const blogs = ref([]);
+const error = ref(null);
+
+async function fetchBlogs() {
+  loading.value = true;
+  try {
+    const response = await directus.getBlogs({
+      sort: "-datum",
+    });
+    blogs.value = response;
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+    error.value = error;
+  } finally {
+    loading.value = false;
+  }
+};
+
+onMounted(async () => {
+  await fetchBlogs();
+});
+
 const lastThreeBlogs = computed(() => {
-  return blogsData.slice(0, 3);
+  return blogs.value.slice(0, 3);
 });
 
 defineProps({
@@ -30,7 +54,6 @@ defineProps({
       />
     </div>
     <div class="mx-auto">
-
       <AppLink to="/blog">
         <button
           class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
