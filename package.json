@@ -9,6 +9,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@directus/sdk": "^17.0.2",
     "@img-comparison-slider/vue": "^8.0.0",
     "@vueuse/core": "^11.1.0",
     "@vueuse/head": "^2.0.0",
