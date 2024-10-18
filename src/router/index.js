@@ -131,22 +131,22 @@ const router = createRouter({
       component: () => import("../views/BlogsView.vue"),
     },
     {
-      path: "/blog/:slug",
+      path: "/blog/:slug/:id",
       name: "blog.single",
       component: () => import("../views/BlogSingleView.vue"),
       props: true,
-      beforeEnter(to) {
-        const exists = blogsData.find((item) => item.slug === to.params.slug);
-        if (!exists) {
-          return {
-            name: "not.found",
-            // allows keeping the URL in the browser address bar while rendering the 404 page
-            params: { pathMatch: to.path.substring(1).split("/") },
-            query: to.query,
-            hash: to.hash,
-          };
-        }
-      },
+      // beforeEnter(to) {
+      //   const exists = blogsData.find((item) => item.slug === to.params.slug);
+      //   if (!exists) {
+      //     return {
+      //       name: "not.found",
+      //       // allows keeping the URL in the browser address bar while rendering the 404 page
+      //       params: { pathMatch: to.path.substring(1).split("/") },
+      //       query: to.query,
+      //       hash: to.hash,
+      //     };
+      //   }
+      // },
     },
     {
       path: "/:pathMatch(.*)*",
