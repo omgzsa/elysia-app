@@ -103,7 +103,7 @@ useHead({
       </span>
     </div>
     <div class="grid items-center max-w-screen-md pt-8 mx-auto md:pt-16 blog-body site-padding" v-html="blog.szoveg" />
-    <div class="max-w-screen-md mx-auto mt-10 site-padding">
+    <div v-if="blog.link" class="max-w-screen-md mx-auto mt-10 site-padding">
       <router-link 
           class="mx-auto transition-colors duration-200 hover:underline underline-offset-2 hover:text-secondary-100"
           :to="`/${blog.link}`"
