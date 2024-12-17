@@ -48,16 +48,20 @@ useHead({
 const slides = ref([
   {
     id: 1,
-    title: "Anyajegy eltávolítása szövettani vizsgálattal",
+    title: "Ünnepi nyitvatartás",
     // buttonText: "Plasztikai sebészet",
-    linkTo:
-      "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
-    alt: "Egy nő és egy férfi anyajegyekkel a hátukon",
-    text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
-    // list: [],
-    img: "hero-anyajegy-eltavolitas-desktop.jpg",
-    imgTablet: "hero-anyajegy-eltavolitas-tablet.jpg",
-    imgMobile: "hero-anyajegy-eltavolitas-mobil.jpg",
+    // linkTo:
+    //   "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    alt: "Egy piros fenyőfadísz egy fa asztalon.",
+    // text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
+    list: [
+      '2024. December 20. 8:30-12:30',
+      '2024. December 21 - 2025 Január 5 között ZÁRVA TARTUNK',
+      '2024. Január 6. 10:00-18:00'
+    ],
+    img: "christmas-slider.jpg",
+    imgTablet: "christmas-slider-tablet.jpg",
+    imgMobile: "christmas-slider-mobil.jpg",
   },
   {
     id: 2,
@@ -91,6 +95,19 @@ const slides = ref([
     img: "hero-szemhejplasztika.jpg",
     imgTablet: "hero-szemhejplasztika-tablet.jpg",
     imgMobile: "hero-szemhejplasztika-mobil.jpg",
+  },
+  {
+    id: 5,
+    title: "Anyajegy eltávolítása szövettani vizsgálattal",
+    // buttonText: "Plasztikai sebészet",
+    linkTo:
+      "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    alt: "Egy nő és egy férfi anyajegyekkel a hátukon",
+    text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
+    // list: [],
+    img: "hero-anyajegy-eltavolitas-desktop.jpg",
+    imgTablet: "hero-anyajegy-eltavolitas-tablet.jpg",
+    imgMobile: "hero-anyajegy-eltavolitas-mobil.jpg",
   },
 ]);
 </script>
