@@ -48,7 +48,7 @@ useHead({
 const slides = ref([
   {
     id: 1,
-    title: "Árváltozás január 13-tól!",
+    title: "Árváltozás január 15-től!",
     // buttonText: "Áraink",
     linkTo: "araink",
     alt: "Egy piros fenyőfadísz egy fa asztalon.",
