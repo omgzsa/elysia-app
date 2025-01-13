@@ -42,7 +42,7 @@ useHead({
     <div
       class="flex flex-col space-y-8 py-10 max-w-screen-xl site-padding mx-auto rounded-xl [&>*:nth-child(even)]:bg-primary-200"
     >
-      <p>Áraink február 1-től (ill. néhány tétel március 1-től) aktuálisak.</p>
+      <p>Áraink január 15-től aktuálisak.</p>
       <div
         v-for="item in pricesData"
         :key="item.id"
