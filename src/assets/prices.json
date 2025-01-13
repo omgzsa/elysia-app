@@ -61,15 +61,15 @@
       },
       {
         "id": "9",
-        "title": "Rosacea, hajszálér, seprűvéna (egy gyermek tenyérnyi seprűvéna vagy éranyajegy)",
-        "price": "47 000 Ft",
+        "title": "Rosacea, hajszálér, seprűvéna (egy gyermek tenyérnyi seprűvéna)",
+        "price": "50 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "10",
-        "title": "Rosacea, hajszálér, seprűvéna (egy tenyérnyi seprűvéna vagy éranyajegy)",
-        "price": "60 000 Ft",
+        "title": "Rosacea, hajszálér, seprűvéna (egy tenyérnyi seprűvéna)",
+        "price": "70 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
@@ -851,35 +851,28 @@
     "treatments": [
       {
         "id": "1",
-        "title": "Anyajegy-, bőrnövedék eltávolítás testről (az ár tartalmazza továbbá a szövettant, kontrollt, varratszedést)",
+        "title": "Első db anyajegy-, bőrnövedék eltávolítás testről (ár tartalmazza a szövettant, kontrollt, varratszedést)",
         "price": "55 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
-        "id": "2",
-        "title": "Anyajegy-, bőrnövedék eltávolítás minden további(az ár tartalmazza továbbá a szövettant, konrollt, varratszedést)",
-        "price": "30 000 Ft / db",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
         "id": "3",
-        "title": "Anyajegy-, bőrnövedék eltávolítás testről minden további (az ár tartalmazza továbbá a szövettant, kontrollt, varratszedést)",
+        "title": "Anyajegy-, bőrnövedék eltávolítás testről minden további (ár tartalmazza a szövettant, kontrollt, varratszedést)",
         "price": "40 000 Ft / db",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "4",
-        "title": "Anyajegy-, bőrnövedék eltávolítás arcról (az ár tartalmazza továbbá a szövettant, kontrollt, varratszedést)",
+        "title": "Első db anyajegy-, bőrnövedék eltávolítás arcról (ár tartalmazza a szövettant, kontrollt, varratszedést)",
         "price": "60 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "5",
-        "title": "Anyajegy-, bőrnövedék eltávolítás arcról minden további (az ár tartalmazza továbbá a szövettant, kontrollt, varratszedést)",
+        "title": "Anyajegy-, bőrnövedék eltávolítás arcról minden további (ár tartalmazza a szövettant, kontrollt, varratszedést)",
         "price": "45 000 Ft / db",
         "isFeatured": false,
         "isItalic": false

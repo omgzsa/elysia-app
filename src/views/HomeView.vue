@@ -48,21 +48,37 @@ useHead({
 const slides = ref([
   {
     id: 1,
-    title: "Ünnepi nyitvatartás",
-    // buttonText: "Plasztikai sebészet",
-    // linkTo:
-    //   "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+    title: "Árváltozás január 13-tól!",
+    // buttonText: "Áraink",
+    linkTo: "araink",
     alt: "Egy piros fenyőfadísz egy fa asztalon.",
-    // text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
-    list: [
-      '2024. December 20. 8:30-12:30',
-      '2024. December 21 - 2025 Január 5 között ZÁRVA TARTUNK',
-      '2024. Január 6. 10:00-18:00'
-    ],
-    img: "christmas-slider.jpg",
-    imgTablet: "christmas-slider-tablet.jpg",
-    imgMobile: "christmas-slider-mobil.jpg",
+    text: "Módosult árak és új szolgáltatások január 13-tól! A teljes listát az Áraink oldalon találja.",
+    // list: [
+    //   "2024. December 20. 8:30-12:30",
+    //   "2024. December 21 - 2025 Január 5 között ZÁRVA TARTUNK",
+    //   "2024. Január 6. 10:00-18:00",
+    // ],
+    img: "arvaltozas.jpg",
+    imgTablet: "arvaltozas-tablet.jpg",
+    imgMobile: "arvaltozas-mobil.jpg",
   },
+  //  {
+  //    id: 1,
+  //    title: "Ünnepi nyitvatartás",
+  //    buttonText: "Plasztikai sebészet",
+  //    linkTo:
+  //      "szolgaltatasok/plasztikai-sebeszet/anyajegy-eltavolitasa-szovettani-vizsgalattal",
+  //    alt: "Egy piros fenyőfadísz egy fa asztalon.",
+  //    text: "Akár esztétikai, akár egészségügyi okból történik az anyajegy eltávolítása, minden esetben plasztikai sebész által végzett sebészeti eljárást alkalmazunk.",
+  //    list: [
+  //      "2024. December 20. 8:30-12:30",
+  //      "2024. December 21 - 2025 Január 5 között ZÁRVA TARTUNK",
+  //      "2024. Január 6. 10:00-18:00",
+  //    ],
+  //    img: "christmas-slider.jpg",
+  //    imgTablet: "christmas-slider-tablet.jpg",
+  //    imgMobile: "christmas-slider-mobil.jpg",
+  //  },
   {
     id: 2,
     title: "Élvezze gyönyörű és sima bőrét egész évben",
