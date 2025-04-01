@@ -52,6 +52,26 @@ const katalin = {
   title: "Asszisztens",
   image: "dr-horvath-katalin.webp",
 };
+
+const eva = {
+  id: 42,
+  name: "Dobó Éva",
+  slug: "/munkatarsak",
+  hasAppointment: false,
+  appointmentLink: "",
+  title: "Műtősnő",
+  image: "dobo-eva.webp",
+};
+
+const mira = {
+  id: 43,
+  name: "Murányi Míra",
+  slug: "/munkatarsak",
+  hasAppointment: false,
+  appointmentLink: "",
+  title: "Recepciós",
+  image: "muranyi-mira.webp",
+};
 </script>
 
 <template>
@@ -108,6 +128,50 @@ const katalin = {
                 {{ katalin.name }}
               </h3>
               <span>{{ katalin.title }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STATIC CARD #3 -->
+        <div class="relative employee-card group">
+          <div
+            class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
+          ></div>
+          <div class="text-xs text-gray-500 sm:text-sm">
+            <div class="flex flex-col px-4 space-y-2">
+              <img
+                :src="useGetEmployeeImageUrl(eva.image)"
+                :alt="eva.name"
+                width="128"
+                height="128"
+                class="object-cover object-top w-full h-64 mb-4 transition-transform duration-200 rounded-xl group-hover:-translate-y-1"
+              />
+              <h3 class="text-gray-900">
+                {{ eva.name }}
+              </h3>
+              <span>{{ eva.title }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STATIC CARD #4 -->
+        <div class="relative employee-card group">
+          <div
+            class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
+          ></div>
+          <div class="text-xs text-gray-500 sm:text-sm">
+            <div class="flex flex-col px-4 space-y-2">
+              <img
+                :src="useGetEmployeeImageUrl(mira.image)"
+                :alt="mira.name"
+                width="128"
+                height="128"
+                class="object-cover object-top w-full h-64 mb-4 transition-transform duration-200 rounded-xl group-hover:-translate-y-1"
+              />
+              <h3 class="text-gray-900">
+                {{ mira.name }}
+              </h3>
+              <span>{{ mira.title }}</span>
             </div>
           </div>
         </div>

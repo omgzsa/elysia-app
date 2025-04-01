@@ -41,7 +41,7 @@ onClickOutside(target, () => {
     <Transition name="dropdown-fade">
       <ul
         v-if="isVisible"
-        class="absolute inset-0 z-50 flex flex-col p-5 space-y-2 bg-white border -left-6 w-72 lg:space-y-1 sm:right-36 lg:right-auto top-5 xs:left-8 xl:top-6 min-h-max sm:w-max rounded-xl"
+        class="absolute left-0 top-full z-50 flex flex-col p-5 space-y-2 bg-white border w-72 lg:space-y-1 sm:right-36 lg:right-auto rounded-xl shadow-md"
       >
         <li
           v-for="item in submenu"
@@ -75,8 +75,7 @@ onClickOutside(target, () => {
 .dropdown-fade-leave-to {
   opacity: 0;
   -webkit-transform: translate3d(0, -12px, 0);
+  -moz-transform: translate3d(0, -12px, 0);
   transform: translate3d(0, -12px, 0);
-
-  @apply transform -translate-y-3 opacity-0;
 }
 </style>

@@ -120,7 +120,7 @@ const images = [
     </div>
 
     <!-- red carpet -->
-    <div
+    <!-- <div
       class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8">
@@ -172,10 +172,10 @@ const images = [
           height="200"
         />
       </div>
-    </div>
+    </div> -->
 
     <!-- 3 peel -->
-    <div
+    <!-- <div
       class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8 md:order-2">
@@ -221,7 +221,7 @@ const images = [
           height="200"
         />
       </div>
-    </div>
+    </div> -->
 
     <!-- before-after images -->
     <div class="flex flex-col max-w-screen-xl mx-auto space-y-10 site-padding">

@@ -48,11 +48,11 @@ useHead({
 const slides = ref([
   {
     id: 1,
-    title: "Árváltozás január 15-től!",
+    title: "Üdvözlünk a honlapon!",
     // buttonText: "Áraink",
     linkTo: "araink",
-    alt: "Egy piros fenyőfadísz egy fa asztalon.",
-    text: "Módosult árak és új szolgáltatások január 13-tól! A teljes listát az Áraink oldalon találja.",
+    alt: "Hajmezoterápiás kezelés a központban.",
+    text: "A legmodernebb technológiákkal és a legjobb szakemberekkel várjuk, hogy segítsünk Önnek megtalálni a megfelelő kezelést.",
     // list: [
     //   "2024. December 20. 8:30-12:30",
     //   "2024. December 21 - 2025 Január 5 között ZÁRVA TARTUNK",
@@ -90,17 +90,17 @@ const slides = ref([
     imgTablet: "hero-lezeres-szortelenites-tablet.jpg",
     imgMobile: "hero-lezeres-szortelenites-mobil.jpg",
   },
-  {
-    id: 3,
-    title: "Intim lézeres kezelés 10% kedvezménnyel",
-    // buttonText: "Bőrgyógyászat",
-    linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
-    alt: "Egy fényes bőrű, mosolygós göndör hajú nő",
-    text: "Az első természetes technológia a hüvely sorvadásának kezelésére. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából.",
-    img: "hero-intim-lezeres-kezeles.jpg",
-    imgTablet: "hero-intim-lezeres-kezeles-tablet.jpg",
-    imgMobile: "hero-intim-lezeres-kezeles-mobil.jpg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Intim lézeres kezelés 10% kedvezménnyel",
+  //   // buttonText: "Bőrgyógyászat",
+  //   linkTo: "szolgaltatasok/lezerkezelesek/intim-lezeres-kezelesek",
+  //   alt: "Egy fényes bőrű, mosolygós göndör hajú nő",
+  //   text: "Az első természetes technológia a hüvely sorvadásának kezelésére. Most bérlet vásárlása esetén 10% kedvezményt adunk a kezelés árából.",
+  //   img: "hero-intim-lezeres-kezeles.jpg",
+  //   imgTablet: "hero-intim-lezeres-kezeles-tablet.jpg",
+  //   imgMobile: "hero-intim-lezeres-kezeles-mobil.jpg",
+  // },
   {
     id: 4,
     title: "Alsó és felső szemhéjplasztika",

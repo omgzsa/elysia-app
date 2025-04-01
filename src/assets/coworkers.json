@@ -259,18 +259,6 @@
     "consultTime": []
   },
   {
-    "id": 9,
-    "name": "Szabó Elizabet",
-    "slug": "szabo-elizabet",
-    "hasAppointment": false,
-    "appointmentLink": "",
-    "title": "Recepciós",
-    "bio": "Rábapordányban születtem és sokáig vidéken életem. Miután Győrbe költöztem a több éves kereskedelmi munkám után egy felemelő lehetőséget sodort elém az élet, azzal, hogy az Elysia Laser Clinicben elkezdhettem dolgozni. Szerencsésnek mondhatom magam, mivel itt rengeteg lehetőségem nyílt a fejlődésre az évek alatt és a kreativitásomat is rendszeresen kamatoztathatom.\n \nFontos számomra, hogy a rendelő mindennapjai gördülékenyen telhessenek, ezt igyekszem precizitásommal és lelkiismeretes munkámmal teljesíteni.\n \nJó érzéssel tölt el, hogy átadhatom a klinikára érkezőknek is ezt a pozitív energiát, amit az Elysia egésze képvisel.\n \"Egy nő, ha dolgozik, nem csak magát, hanem az egész világot felemeli.\" Eleanor Roosevelt",
-    "specialties": [],
-    "image": "szabo-elizabet.webp",
-    "consultTime": []
-  },
-  {
     "id": 10,
     "name": "Endrész Anna",
     "slug": "endresz-anna",
@@ -293,5 +281,41 @@
     "specialties": [],
     "image": "osvath-edit.webp",
     "consultTime": []
+  },
+  {
+    "id": 12,
+    "name": "Dr. Harmati Imrich",
+    "slug": "dr-harmati-imrich",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "fül-orr-gégegyógyász, fej-nyak sebész szakorvos",
+    "bio": "Az általános orvosi diplomát 2017-ben a Semmelweis Egyetem Általános Orvostudományi Karán szereztem summa cum laude minősítéssel. Ezt követően Győrben, a Petz Aladár Egyetemi Oktató Kórház Fül-Orr-Gégészeti és Fej-, Nyaksebészeti Osztályán kezdtem meg szakképzésemet, ahol a mai napig dolgozom. 2022-ben sikeres szakvizsgát tettem. Osztályos munkám során a fül-orr- gégészeti műtétek mellett a fej-nyak területi bőrdaganatok eltávolításában is széleskörű jártasságot szereztem. A szakmában töltött évek alatt számos kongresszuson és műtéttechnikai továbbképzésen gyarapíthattam tudásomat. Munkám során nagy motiváló erő számomra, ha betegeim a gyógyulás után az esztétikai eredménnyel is elégedettek.",
+    "specialties": [],
+    "image": "dr-harmati-imrich.webp",
+    "consultTime": [
+      {
+        "id": 1,
+        "day": "Kedd",
+        "hours": "16:00 - 18:00"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Dr. Bekő Boglárka",
+    "slug": "dr-beko-boglarka",
+    "hasAppointment": false,
+    "appointmentLink": "",
+    "title": "bőrgyógyász szakorvos jelölt",
+    "bio": "Általános orvosi diplomámat a Pécsi Tudományegyetemen szereztem 2013-ban. Ezt követően Svájcban léptem a rezidensképzésbe pszichoszomatikus orvoslás, majd belgyógyászat szakirányon. Bőrgyógyász szakképzésemet 2019-ben, az aaraui Kantonsspital Dermatológia és Allergológia osztályán kezdtem, ahol nemzetközileg elismert szakmai vezetőktől tanulhattam, kisebb bőrképleteket önállóan operálhattam, illetve Co2-lézert es IPL- technikát is alkalmazhattam. 2021 júniusa óta a Petz Aladár Egyetemi Oktató Kórház bőrgyógyászati osztályán dolgozom.",
+    "specialties": [],
+    "image": "dr-beko-boglarka.webp",
+    "consultTime": [
+      {
+        "id": 1,
+        "day": "Szerda",
+        "hours": "11:00 - 14:00"
+      }
+    ]
   }
 ]

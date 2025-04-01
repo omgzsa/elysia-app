@@ -823,23 +823,9 @@
         "isItalic": false
       },
       {
-        "id": "9",
-        "title": "Bőrköldök műtét, kontroll*",
-        "price": "100 000 Ft / db",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
-        "id": "10",
-        "title": "Hegkimetszés, korrekció, kontroll, varratszedés*",
-        "price": "100 000 Ft",
-        "isFeatured": false,
-        "isItalic": false
-      },
-      {
         "id": "11",
         "title": "Fülkorrekció, kontroll*",
-        "price": "330 000 Ft",
+        "price": "410 000 Ft",
         "isFeatured": false,
         "isItalic": false
       }

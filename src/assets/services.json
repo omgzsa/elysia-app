@@ -6,7 +6,6 @@
     "image": "plasztikai_sebeszet.webp",
     "isFeatured": true,
     "submenu": [
-      
       {
         "id": 0,
         "name": "Alsó, felső szemhéjplasztika",
@@ -30,7 +29,7 @@
         "name": "Kisajak plasztika",
         "slug": "kisajak-plasztika",
         "image": "kisajak-plasztika.webp"
-      }      
+      }
     ]
   },
   {
@@ -126,12 +125,6 @@
         "name": "Thread lifting (bioszálas arcfiatalítás)",
         "slug": "thread-lifting-bioszalas-arcfiatalitas",
         "image": "thread-lifting-bioszalas-arckonturozas.webp"
-      },
-      {
-        "id": 6,
-        "name": "PRP/Drakula terápia",
-        "slug": "prp-drakula-terapia",
-        "image": "prp-drakula-terapia.webp"
       },
       {
         "id": 7,
