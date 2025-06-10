@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import TestView from "../views/TestView.vue";
+// import TestView from "../views/TestView.vue";
 import TheNotFound from "@/components/TheNotFound.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
 import employeesData from "@/assets/coworkers.json";
-import blogsData from "@/assets/blogs.json";
+// import blogsData from "@/assets/blogs.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_APP_BASE_URL),
@@ -15,11 +15,11 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
-    {
-      path: "/test",
-      name: "test",
-      component: TestView,
-    },
+    // {
+    //   path: "/test",
+    //   name: "test",
+    //   component: TestView,
+    // },
     {
       path: "/szolgaltatasok/orvosi-termekek/z0-skin-health",
       name: "zero.skin",

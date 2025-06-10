@@ -693,8 +693,29 @@
       },
       {
         "id": "15",
-        "title": "Nucleofill (szem környéki kezelés) (3)",
+        "title": "Nucleofill (szem környéki kezelés) 1. kezelés",
         "price": "80 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "16",
+        "title": "Nucleofill (szem környéki kezelés) 2. kezelés",
+        "price": "80 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "17",
+        "title": "Nucleofill (szem környéki kezelés) 3. kezelés (2ml)",
+        "price": "110 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
+      },
+      {
+        "id": "18",
+        "title": "Nucleofill (szem környéki kezelés) frissítő, ismétlő kezelés (2ml)",
+        "price": "110 000 Ft",
         "isFeatured": false,
         "isItalic": false
       }
