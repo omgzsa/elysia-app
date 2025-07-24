@@ -36,7 +36,7 @@ defineProps({
         v-motion-slide-visible-once-bottom
         :delay="500"
         class="w-full col-span-4 col-start-2 row-span-3 row-start-2 rounded-xl"
-        src="../../assets/images/bemutatkozas-2.webp"
+        src="../../assets/images/bemutatkozas-1.jpg"
         alt="szájfeltöltés fecskendővel"
       />
       <img
@@ -45,7 +45,7 @@ defineProps({
         v-motion-slide-visible-once-bottom
         :delay="300"
         class="w-full col-span-6 col-start-6 row-span-3 row-start-1 mb-12 sm:mb-16 md:mb-12 lg:mb-14 rounded-xl"
-        src="../../assets/images/bemutatkozas-1.jpg"
+        src="../../assets/images/bemutatkozas-2.webp"
         alt="narancsbőr kezelése"
       />
       <img

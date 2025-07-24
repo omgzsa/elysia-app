@@ -24,7 +24,7 @@ const images = [
   },
   {
     alt: "rendelo 3",
-    img: "galeria-4.webp",
+    img: "galeria-4.jpg",
   },
   {
     alt: "rendelo 3",
