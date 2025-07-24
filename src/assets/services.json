@@ -161,6 +161,12 @@
         "name": "COG szálas arclifting",
         "slug": "cog-szalas-arclifting",
         "image": "cog-szalas-arclifting.webp"
+      },
+      {
+        "id": 13,
+        "name": "NCTF 135 HA mezoterápia",
+        "slug": "nctf-135-ha-mezoterapia",
+        "image": "nctf-mezoterapia.png"
       }
     ]
   },

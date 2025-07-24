@@ -142,6 +142,11 @@ export const orvosEsztetika = ref([
     slug: "cog-szalas-arclifting",
     category: "orvos-esztetika",
   },
+  {
+    name: "NCTF 135 HA Mezoterápia",
+    slug: "nctf-135-ha-mezoterapia",
+    category: "orvos-esztetika",
+  },
 ]);
 
 export const plasztikaiSebeszet = ref([

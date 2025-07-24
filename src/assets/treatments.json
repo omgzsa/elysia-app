@@ -1709,5 +1709,91 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 41,
+    "name": "NCTF 135 HA mezoterápia",
+    "slug": "nctf-135-ha-mezoterapia",
+    "metaDescription": "",
+    "images": [],
+    "treatmentImages": [],
+    "relatedDoctor": [],
+    "content": {
+      "title": "Szépséginfúzió közvetlenül a bőrben",
+      "description": "A Fillmed cég méltán híres vívmánya a Natural Cellular Treatment Factor (NCTF), a sejtszinten ható rejuvenációs koktél egyedelülálló termék az esztétikai kezelések között.",
+      "title2": "",
+      "description2": "Az NCTF steril folyadék, a felhasználása bőr alá célzott injektálástól, mezoterápián át, kombinált mezobotox kezelésig sokrétű és képes igazodni az életkor és a bőrminőség aktuális igényeihez. Alkalmazhatjuk csak a szem alatti karikák kezelésére, akár egész arcon is, sőt kombinálható botox hatóanyaggal amellyel fokozható a bőr állapotának javítása.",
+      "title3": "",
+      "description3": "A kezelés minimális fájdalommal jár, előtte helyi érzéstelenítő krémet alkalmazunk. Apró tűszűrásokkal juttatjuk be a készítményt, amely azonnal felszívódik a bőrben. A kezelést követően bőrnyugtató krémet, maszkot alkalmazunk. A pozitív hatás már az első kezelés után érzékelhet.",
+      "description4": "Maximális hatás eléréséhez három alkalmas kúra elvégzését javasoljuk 3-4 hetes időközökkel. A hatás megőrzése érdekében fenntartó kezelést ajánlunk 3-6 havonta.",
+      "benefitsTitle": "55+ hatóanyag tartalma biztosítja a bőr intenzív revitalizációját:",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "hialuronsav"
+        },
+        {
+          "id": 2,
+          "text": "ásványi anyagok"
+        },
+        {
+          "id": 3,
+          "text": "vitaminok"
+        },
+        {
+          "id": 4,
+          "text": "koenzimek"
+        },
+        {
+          "id": 5,
+          "text": "antioxidánsok"
+        },
+        {
+          "id": 6,
+          "text": "aminósavak"
+        },
+        {
+          "id": 7,
+          "text": "nukleinsavak"
+        }
+      ],
+      "benefitsTitle2": "A bőrtökéletesítő hatás több fronton is megnyilvánul:",
+      "benefits2": [
+        {
+          "id": 1,
+          "text": "hidratálás"
+        },
+        {
+          "id": 2,
+          "text": "pórusösszehúzás"
+        },
+        {
+          "id": 3,
+          "text": "anti-aging"
+        },
+        {
+          "id": 4,
+          "text": "ragyogás"
+        },
+        {
+          "id": 5,
+          "text": "egyenletes bőrfelszín"
+        },
+        {
+          "id": 6,
+          "text": "finom ráncok mérséklése"
+        }
+      ]
+    },
+    "treatTime": "",
+    "frequency": "",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
   }
 ]

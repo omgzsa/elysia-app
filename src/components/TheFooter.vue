@@ -58,12 +58,12 @@ const currentYear = computed(() => new Date().getFullYear());
               </AppLink>
             </li>
             <li>
-              <AppLink
-                :to="{ name: 'not.found' }"
+              <a
+                href="/gdpr-elysia.pdf"
+                target="_blank"
                 class="text-xs transition hover:text-gray-800"
+                >Adatvédelmi tájékoztató</a
               >
-                Adatvédelmi tájékoztató
-              </AppLink>
             </li>
           </ul>
         </nav>

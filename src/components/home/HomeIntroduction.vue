@@ -8,9 +8,7 @@ defineProps({
   <div
     class="grid items-center max-w-screen-xl grid-cols-1 mx-auto md:grid-cols-2 gap-x-6 site-padding"
   >
-    <div
-      class="grid max-w-3xl grid-cols-1 px-2 mx-auto md:order-1 gap-y-6"
-    >
+    <div class="grid max-w-3xl grid-cols-1 px-2 mx-auto md:order-1 gap-y-6">
       <span class="subheading">bemutatkozás</span>
       <h2>{{ title }}</h2>
       <p>
@@ -33,12 +31,12 @@ defineProps({
 
     <div class="grid items-center grid-cols-12 grid-rows-5 gap-4">
       <img
-        height="128"
-        width="32"
+        height="140"
+        width="50"
         v-motion-slide-visible-once-bottom
         :delay="500"
         class="w-full col-span-4 col-start-2 row-span-3 row-start-2 rounded-xl"
-        src="../../assets/images/bemutatkozas-1.webp"
+        src="../../assets/images/bemutatkozas-2.webp"
         alt="szájfeltöltés fecskendővel"
       />
       <img
@@ -47,7 +45,7 @@ defineProps({
         v-motion-slide-visible-once-bottom
         :delay="300"
         class="w-full col-span-6 col-start-6 row-span-3 row-start-1 mb-12 sm:mb-16 md:mb-12 lg:mb-14 rounded-xl"
-        src="../../assets/images/bemutatkozas-2.webp"
+        src="../../assets/images/bemutatkozas-1.jpg"
         alt="narancsbőr kezelése"
       />
       <img
