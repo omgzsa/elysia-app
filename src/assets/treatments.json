@@ -1785,8 +1785,8 @@
         }
       ]
     },
-    "treatTime": "",
-    "frequency": "",
+    "treatTime": "30 perc",
+    "frequency": "4-6 hetente 3 alkalom, majd igény szerint",
     "category": [
       {
         "id": 2,
