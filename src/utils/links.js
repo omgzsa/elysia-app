@@ -143,7 +143,7 @@ export const orvosEsztetika = ref([
     category: "orvos-esztetika",
   },
   {
-    name: "NCTF 135 HA Mezoterápia",
+    name: "NCTF 135 HA Mezoterápia (ÚJ)",
     slug: "nctf-135-ha-mezoterapia",
     category: "orvos-esztetika",
   },
