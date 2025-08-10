@@ -36,3 +36,4 @@ coverage
 .env.production
 .env.local
 .env.staging
+*.zip
