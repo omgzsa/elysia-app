@@ -9,12 +9,27 @@ import ServiceRelatedDoctorsCard from "@/components/treatment/ServiceRelatedDoct
 
 // icons
 import IconLoop from "@/components/icons/IconLoop.vue";
+import IconPhone from "@/components/icons/IconPhone.vue";
 import IconClock from "@/components/icons/IconClock.vue";
 
 const bgImage = "CTA_bg.webp";
 
+const isPlasticSurgery = computed(() => {
+  return (
+    props.treatment.id === 22 ||
+    props.treatment.id === 23 ||
+    props.treatment.id === 25
+  );
+});
+
+// +36202750025
+
 const hasData = computed(() => {
-  return props.treatment.treatTime || props.treatment.frequency;
+  return (
+    props.treatment.treatTime ||
+    props.treatment.frequency ||
+    isPlasticSurgery.value
+  );
 });
 
 const hasFrequency = computed(() => {
@@ -43,6 +58,7 @@ const props = defineProps({
   },
 });
 </script>
+
 <template>
   <div>
     <div class="max-w-screen-xl mx-auto">
@@ -119,42 +135,69 @@ const props = defineProps({
         </div>
         <!-- treatment time/frequency -->
         <div class="relative px-4 sm:order-2 sm:col-span-1" v-if="hasData">
-          <div
-            class="flex flex-col w-64 px-4 py-4 mx-auto space-y-6 sm:w-full lg:max-w-md bg-primary-200 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 sm:sticky top-20"
-          >
+          <div class="sm:sticky top-20">
             <div
-              class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
+              v-if="isPlasticSurgery"
+              class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0 border border-primary-100 bg-primary-200 px-4 py-4 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10 mb-4"
             >
-              <IconClock
-                class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
-              />
-              <div class="flex flex-col flex-1">
-                <span
-                  class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
-                  >időtartam</span
-                >
-                <span
-                  class="text-sm font-medium text-accent-100 md:font-semibold"
-                  >{{ props.treatment.treatTime }}</span
-                >
+              <div>
+                <p class="mb-3">
+                  A műtét minden esetben előzetes konzultációhoz kötött. A
+                  konzultációra időpontot telefonon vagy személyesen a
+                  rendelőben tud kérni.
+                </p>
+                <a href="tel:+36202750025">
+                  <button
+                    class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
+                  >
+                    <span
+                      class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+                    ></span>
+                    <span
+                      class="text-xs md:text-sm font-bold flex flex-row items-center gap-2 relative transition duration-300 group-hover:text-accent-100 ease"
+                      ><IconPhone /> <span>Időpontfoglalás</span></span
+                    >
+                  </button>
+                </a>
               </div>
             </div>
             <div
-              v-if="hasFrequency"
-              class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
+              class="flex flex-col px-4 py-4 mx-auto space-y-6 bg-primary-200 border border-primary-100 rounded-xl lg:py-6 lg:px-6 xl:py-8 xl:px-10"
             >
-              <IconLoop
-                class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
-              />
-              <div class="flex flex-col flex-1">
-                <span
-                  class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
-                  >gyakorisága</span
-                >
-                <span
-                  class="text-sm font-medium text-accent-100 md:font-semibold"
-                  >{{ props.treatment.frequency }}</span
-                >
+              <div
+                class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
+              >
+                <IconClock
+                  class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
+                />
+                <div class="flex flex-col flex-1">
+                  <span
+                    class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
+                    >időtartam</span
+                  >
+                  <span
+                    class="text-sm font-medium text-accent-100 md:font-semibold"
+                    >{{ props.treatment.treatTime }}</span
+                  >
+                </div>
+              </div>
+              <div
+                v-if="hasFrequency"
+                class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
+              >
+                <IconLoop
+                  class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
+                />
+                <div class="flex flex-col flex-1">
+                  <span
+                    class="text-xs tracking-wider text-gray-800 uppercase lg:text-sm xl:text-base"
+                    >gyakorisága</span
+                  >
+                  <span
+                    class="text-sm font-medium text-accent-100 md:font-semibold"
+                    >{{ props.treatment.frequency }}</span
+                  >
+                </div>
               </div>
             </div>
           </div>

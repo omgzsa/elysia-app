@@ -989,35 +989,6 @@
     ]
   },
   {
-    "id": 24,
-    "name": "Füllyuk korrekció",
-    "slug": "fullyuk-korrekcio",
-    "metaDescription": "",
-    "images": [],
-    "treatmentImages": [],
-    "relatedDoctor": [],
-    "content": {
-      "title": "Mi az a füllyuk korrekció?​",
-      "description": "A füllyuk korrekció visszaállítja a sérült, megnyúlt, vagy az életkor végett megereszkedett fülcimpákat. Sebészi beavatkozással a fülcimpák asszimetriája vagy akár a megnyúlt fülcimpa is korrigálható. A műtét helyi érzéstelenítéssel történik.",
-      "title2": "",
-      "description2": "",
-      "title3": "",
-      "description3": "",
-      "benefitsTitle": "",
-      "benefits": []
-    },
-    "treatTime": "40 perc",
-    "frequency": "",
-    "category": [
-      {
-        "id": 0,
-        "name": "Plasztikai sebészet",
-        "slug": "plasztikai-sebeszet",
-        "images": []
-      }
-    ]
-  },
-  {
     "id": 25,
     "name": "Kisajak plasztika",
     "slug": "kisajak-plasztika",

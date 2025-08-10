@@ -161,11 +161,6 @@ export const plasztikaiSebeszet = ref([
     category: "plasztikai-sebeszet",
   },
   {
-    name: "Füllyuk korrekció",
-    slug: "fullyuk-korrekcio",
-    category: "plasztikai-sebeszet",
-  },
-  {
     name: "Kisajak plasztika",
     slug: "kisajak-plasztika",
     category: "plasztikai-sebeszet",
