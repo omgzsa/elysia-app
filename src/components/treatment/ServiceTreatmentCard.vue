@@ -145,6 +145,7 @@ const props = defineProps({
                   A műtét minden esetben előzetes konzultációhoz kötött. A
                   konzultációra időpontot telefonon vagy személyesen a
                   rendelőben tud kérni.
+                  <span class="italic">(+36202750025)</span>
                 </p>
                 <a href="tel:+36202750025">
                   <button
