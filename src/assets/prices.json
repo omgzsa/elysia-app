@@ -858,29 +858,36 @@
     "treatments": [
       {
         "id": "1",
-        "title": "Első db anyajegy-, bőrnövedék eltávolítás testről (ár tartalmazza a szövettant, kontrollt, varratszedést)",
-        "price": "55 000 Ft",
+        "title": "Szövettan (minden db anyajegyről szövettani lelet készül, így ennek díja minden anyajegy után felszámolásra kerül)",
+        "price": "13 000 Ft",
+        "isFeatured": true,
+        "isItalic": false
+      },
+      {
+        "id": "2",
+        "title": "Első db anyajegy-, bőrnövedék eltávolítás testről (ár tartalmazza a kontrollt, varratszedést)",
+        "price": "46 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "3",
-        "title": "Anyajegy-, bőrnövedék eltávolítás testről minden további (ár tartalmazza a szövettant, kontrollt, varratszedést)",
-        "price": "40 000 Ft / db",
+        "title": "Anyajegy-, bőrnövedék eltávolítás testről minden további (ár tartalmazza a  kontrollt, varratszedést)",
+        "price": "31 000 Ft / db",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "4",
-        "title": "Első db anyajegy-, bőrnövedék eltávolítás arcról (ár tartalmazza a szövettant, kontrollt, varratszedést)",
-        "price": "60 000 Ft",
+        "title": "Első db anyajegy-, bőrnövedék eltávolítás arcról (ár tartalmazza a kontrollt, varratszedést)",
+        "price": "51 000 Ft",
         "isFeatured": false,
         "isItalic": false
       },
       {
         "id": "5",
-        "title": "Anyajegy-, bőrnövedék eltávolítás arcról minden további (ár tartalmazza a szövettant, kontrollt, varratszedést)",
-        "price": "45 000 Ft / db",
+        "title": "Anyajegy-, bőrnövedék eltávolítás arcról minden további (ár tartalmazza a kontrollt, varratszedést)",
+        "price": "36 000 Ft / db",
         "isFeatured": false,
         "isItalic": false
       }

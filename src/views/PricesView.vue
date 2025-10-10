@@ -77,7 +77,7 @@ useHead({
               class="flex-grow hidden mx-4 border-b border-dotted sm:block border-b-gray-400"
             ></div>
             <p
-              class="font-medium"
+              class="font-medium min-w-fit"
               :class="{
                 italic: treatment.isItalic === true,
               }"
