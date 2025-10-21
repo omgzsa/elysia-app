@@ -129,8 +129,13 @@ const props = defineProps({
               {{ item.text }}
             </li>
           </ul>
+          <h3>{{ treatment.content.title4 }}</h3>
           <p class="whitespace-pre-wrap">
             {{ treatment.content.description4 }}
+          </p>
+          <h3>{{ treatment.content.title5 }}</h3>
+          <p class="whitespace-pre-wrap">
+            {{ treatment.content.description5 }}
           </p>
         </div>
         <!-- treatment time/frequency -->

@@ -161,6 +161,12 @@
         "name": "NCTF 135 HA mezoterápia (ÚJ)",
         "slug": "nctf-135-ha-mezoterapia",
         "image": "nctf-mezoterapia.png"
+      },
+      {
+        "id": 14,
+        "name": "Ellansé kollagén stimuláló filler (ÚJ)",
+        "slug": "ellanse-kollagen-stimulalo-filler",
+        "image": "ellanse-stimulalo-filler.jpg"
       }
     ]
   },

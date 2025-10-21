@@ -19,7 +19,7 @@ const treatmentName = computed(() => {
       <li
         class="flex items-center text-xs md:text-sm space-x-2 text-accent-100/70"
       >
-        <span class="text-gray-400">#</span>
+        <!-- <span class="text-gray-400">#</span> -->
         <AppLink
           rel="noopener noreferrer"
           :to="{ name: 'home' }"
@@ -29,7 +29,7 @@ const treatmentName = computed(() => {
         >
       </li>
       <li
-        class="flex items-center space-x-4 text-xs md:text-sm text-accent-100/70"
+        class="flex items-center space-x-2 text-xs md:text-sm text-accent-100/70 truncate"
       >
         <span class="text-gray-400">/</span>
         <AppLink
@@ -42,10 +42,10 @@ const treatmentName = computed(() => {
           >{{ treatment.category[0].name }}</AppLink
         >
       </li>
-      <li class="flex items-center space-x-4 text-xs md:text-sm">
+      <li class="flex items-center space-x-4 text-xs md:text-sm truncate">
         <span class="text-gray-400">/</span>
         <span class="flex items-center pr-1">
-          {{ treatmentName }}
+          {{ treatment.name }}
         </span>
       </li>
     </ol>

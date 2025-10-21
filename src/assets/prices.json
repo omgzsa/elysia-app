@@ -718,6 +718,13 @@
         "price": "110 000 Ft",
         "isFeatured": false,
         "isItalic": false
+      },
+      {
+        "id": "19",
+        "title": "Ellansé S 1ml",
+        "price": "160 000 Ft",
+        "isFeatured": false,
+        "isItalic": false
       }
     ]
   },

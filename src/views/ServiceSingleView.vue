@@ -25,8 +25,6 @@ const pageDescription = ref(
   "Fedezd fel a legjobb vizsgálatainkat és kezeléseinket, tapasztalt szakembereink és korszerű technológiáink segítségével.",
 );
 
-console.log(treatment.value);
-
 useHead({
   title: pageTitle.value,
   meta: [

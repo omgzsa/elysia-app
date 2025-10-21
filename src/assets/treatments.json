@@ -1766,5 +1766,70 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 42,
+    "name": "Ellansé kollagén stimuláló filler",
+    "slug": "ellanse-kollagen-stimulalo-filler",
+    "metaDescription": "",
+    "images": [],
+    "treatmentImages": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
+    "content": {
+      "title": "ELLANSÉ® kollagén stimuláló filler",
+      "description": "Az Ellansé kollagén stimuláló filler segíthet az arcbőr feszességének és rugalmasságának javításában. Stimulálja a bőr természetes kollagéntermelését, ezáltal csökkenti a ráncokat és a finom vonalakat. Az eredmény egy fiatalosabb, simább arcbőr és fokozott hidratáltság.",
+      "title2": "",
+      "description2": "Az Ellansé polikaprolakton mikrogömböcskéket tartalmaz, ami a szervezetet kollagéntermelésre készteti. Így az azonnali volumenizáló hatás mellett hosszan tartó (1,5 -2 év) kollagén stimulációt, feszesítő hatást eredményez. Az Ellansé már rögtön a kezelés után látható eredményt ad, de néhány hónap múlva lesz igazán látványos a bőrfeszesítő és lifting hatás. A páciensek általában a bőrminőség javulásáról is beszámolnak a kezelés után. A töltőanyag idővel teljesen lebomlik és teljesen kiürül a szervezetből, de a képződött kollagén tartósan megmarad, így a hatás nagyon természetes. Igaz, hogy kicsit drágább, mint a hialuronsavas feltöltés, de kevesebb anyagra van szükség ugyanolyan látványos hatás eléréséhez.",
+      "title3": "",
+      "description3": "Az ELLANSÉ több mint egy hagyományos filler, 2 az 1-ben működési elve a ráncok és redők korrigálásán túl, stimulálja test természetes kollagén termelését.",
+      "benefitsTitle": "Azonnali bőrfiatalítás",
+      "benefits": [
+        {
+          "id": 1,
+          "text": "Azonnali bőrfiatalítás"
+        },
+        {
+          "id": 2,
+          "text": "Ráncok és redők feltöltése"
+        },
+        {
+          "id": 3,
+          "text": "Az arc kontúrjainak újradefiniálása"
+        }
+      ],
+      "benefitsTitle2": "Hosszútávú kollagén stimuláció",
+      "benefits2": [
+        {
+          "id": 1,
+          "text": "Az öregedés jeleinek visszafordítása"
+        },
+        {
+          "id": 2,
+          "text": "Az arc fiatalítása és ezzel egyidejűleg a bőrminőség javítása"
+        }
+      ],
+      "title4": "Az Ellansé a következőkből áll:",
+      "description4": "70%-os vizes karboxi-metil-cellulóz (CMC); gélhordozó 30% szintetikus PolyCaproLactone (PCL) mikrogömbök",
+      "title5": "",
+      "description5": "Ez a készítmény azonnali töltőhatást (CMC) tesz lehetővé, amelyet a szervezet saját kollagénjének stimulálása követ: neokollagenezis (PCL). Az Ellansé egy olyan kollagén stiumuláló töltőanyag, amely nem csupán azonnali térfogatnövekedést eredményez, hanem hosszú távú kollagén stimulációt is biztosít, azaz neokollagenezist okoz."
+    },
+    "treatTime": "30 perc",
+    "frequency": "1-1,5 év",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
   }
 ]

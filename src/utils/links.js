@@ -147,6 +147,11 @@ export const orvosEsztetika = ref([
     slug: "nctf-135-ha-mezoterapia",
     category: "orvos-esztetika",
   },
+  {
+    name: "Ellansé kollagén stimuláló filler (ÚJ)",
+    slug: "ellanse-kollagen-stimulalo-filler",
+    category: "orvos-esztetika",
+  },
 ]);
 
 export const plasztikaiSebeszet = ref([
