@@ -1,10 +1,39 @@
 <script setup>
-import { ref } from "vue";
-import { useGetEmployeeImageUrl } from "../composables/getEmployeeImageUrl.js";
-import EmployeeCard from "../components/employee/EmployeeCard.vue";
-import employeeData from "../assets/coworkers.json";
-
+import { ref, inject, onMounted, computed } from "vue";
 import { useHead } from "@vueuse/head";
+
+import EmployeeCard from "@/components/employee/EmployeeCard.vue";
+import ErrorMessage from "@/components/ErrorMessage.vue";
+import LoadingSpinner from "@/components/LoadingSpinner.vue";
+
+const { directusService } = inject("$directus");
+
+const loading = ref(false);
+const employees = ref([]);
+const error = ref(null);
+
+async function fetchEmployees() {
+  loading.value = true;
+  try {
+    const response = await directusService.getEmployees();
+    // console.log(response);
+    employees.value = response;
+  } catch (error) {
+    console.error("Error fetching employees:", error);
+    error.value = error;
+  } finally {
+    loading.value = false;
+  }
+}
+
+// Helper to check if navigation should be disabled for an employee
+const isNavigationDisabled = (employee) => {
+  return employee.bio === null || employee.bio === undefined;
+};
+
+onMounted(async () => {
+  await fetchEmployees();
+});
 
 const pageTitle = ref("Munkatársaink — Elysia Laser Clinic");
 const pageDescription = ref(
@@ -32,46 +61,6 @@ useHead({
     },
   ],
 });
-
-const hajnalka = {
-  id: 40,
-  name: "Simigla Hajnalka",
-  slug: "/munkatarsak",
-  hasAppointment: false,
-  appointmentLink: "",
-  title: "Műtősnő",
-  image: "dr-simigla-hajnalka.webp",
-};
-
-const katalin = {
-  id: 41,
-  name: "Horváth Katalin",
-  slug: "/munkatarsak",
-  hasAppointment: false,
-  appointmentLink: "",
-  title: "Asszisztens",
-  image: "dr-horvath-katalin.webp",
-};
-
-const eva = {
-  id: 42,
-  name: "Dobó Éva",
-  slug: "/munkatarsak",
-  hasAppointment: false,
-  appointmentLink: "",
-  title: "Műtősnő",
-  image: "dobo-eva.webp",
-};
-
-const mira = {
-  id: 43,
-  name: "Murányi Míra",
-  slug: "/munkatarsak",
-  hasAppointment: false,
-  appointmentLink: "",
-  title: "Recepciós",
-  image: "muranyi-mira.webp",
-};
 </script>
 
 <template>
@@ -81,16 +70,26 @@ const mira = {
         <template #subtitle> elysia laser clinic </template>
         <template #title> Munkatársaink </template>
       </AppHeader>
+
+      <LoadingSpinner v-if="loading" text="Munkatársaink betöltése..." />
+
+      <ErrorMessage
+        v-if="error"
+        text="Hiba történt a munkatársaink betöltése során."
+      />
+
       <div
+        v-else="employees"
         class="grid items-start max-w-screen-xl grid-cols-1 px-2 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8 md:px-4"
       >
         <EmployeeCard
-          v-for="item in employeeData"
+          v-for="item in employees"
           :key="item.id"
           :item="item"
+          :navigationDisabled="isNavigationDisabled(item)"
         />
-        <!-- STATIC CARD #1 -->
-        <div class="relative employee-card group">
+
+        <!-- <div class="relative employee-card group">
           <div
             class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
           ></div>
@@ -110,7 +109,7 @@ const mira = {
             </div>
           </div>
         </div>
-        <!-- STATIC CARD #2 -->
+
         <div class="relative employee-card group">
           <div
             class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
@@ -132,7 +131,7 @@ const mira = {
           </div>
         </div>
 
-        <!-- STATIC CARD #3 -->
+
         <div class="relative employee-card group">
           <div
             class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
@@ -154,7 +153,7 @@ const mira = {
           </div>
         </div>
 
-        <!-- STATIC CARD #4 -->
+
         <div class="relative employee-card group">
           <div
             class="absolute w-full transition-transform duration-200 bg-primary-100/20 h-52 -bottom-5 rounded-xl -z-10 group-hover:translate-y-1"
@@ -174,7 +173,7 @@ const mira = {
               <span>{{ mira.title }}</span>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

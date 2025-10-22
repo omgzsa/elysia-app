@@ -1,7 +1,8 @@
 <script setup>
-import { computed } from "vue";
-import { useGetEmployeeImageUrl } from "../../composables/getEmployeeImageUrl";
+import { computed, inject } from "vue";
 import IconCalendar from "../icons/IconCalendar.vue";
+
+const { apiUrl } = inject("$directus");
 
 const props = defineProps({
   item: {
@@ -11,26 +12,27 @@ const props = defineProps({
 });
 
 const hasAppointment = computed(() => {
-  return props.item.hasAppointment;
+  return props.item.foglalas;
 });
 
 const hasConsultTime = computed(() => {
-  return props.item.consultTime.length > 0;
+  return props.item.konzultacios_ido && props.item.konzultacios_ido.length > 0;
 });
 
 const hasSpecialties = computed(() => {
-  return props.item.specialties.length > 0;
+  return props.item.szakterulet && props.item.szakterulet.length > 0;
 });
 </script>
+
 <template>
   <div class="site-padding">
     <div class="grid py-6 gap-4 md:grid-cols-2">
       <div class="flex flex-col space-y-6 py-10 order-2 md:order-1">
-        <p class="whitespace-pre-wrap">{{ item.bio }}</p>
+        <div v-html="item.bio" class="prose-sm sm:prose"></div>
         <h3 v-if="hasSpecialties">Szakterületek</h3>
         <ul class="list-disc list-inside marker:bg-accent-100">
-          <li v-for="item in item.specialties" :key="item.id">
-            {{ item.title }}
+          <li v-for="item in item.szakterulet" :key="item.nev">
+            {{ item.nev }}
           </li>
         </ul>
       </div>
@@ -40,26 +42,26 @@ const hasSpecialties = computed(() => {
         ></div>
         <div class="flex flex-col space-y-4 px-6 lg:px-8 lg:py-4">
           <img
-            :src="useGetEmployeeImageUrl(item.image)"
-            :alt="item.title"
-            width="200"
-            height="220"
-            class="lg:-mt-24 rounded-xl w-full h-64 md:h-80 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+            :src="`${apiUrl}/assets/${item.kep}?width=500&height=500`"
+            :alt="item.nev"
+            width="320"
+            height="320"
+            class="lg:-mt-24 rounded-xl w-full h-80 object-contain object-center mb-4 group-hover:-translate-y-1 transition-transform duration-200"
           />
           <h3 v-if="hasConsultTime" class="text-center">Rendelési idő</h3>
           <ul class="pb-2">
             <li
-              v-for="consulting in item.consultTime"
-              :key="consulting.id"
+              v-for="consulting in item.konzultacios_ido"
+              :key="consulting.nap"
               class="py-2 divide-gray-200"
             >
               <div class="flex justify-between border-b border-b-gray-300">
-                <p class="mb-2">{{ consulting.day }}</p>
-                <p class="mb-2">{{ consulting.hours }}</p>
+                <p class="mb-2">{{ consulting.nap }}</p>
+                <p class="mb-2">{{ consulting.idopont }}</p>
               </div>
             </li>
           </ul>
-          <AppLink :to="item.appointmentLink">
+          <AppLink :to="item.foglalas_link ? item.foglalas_link : ''">
             <button
               class="rounded-md px-4 py-2 overflow-hidden relative group cursor-pointer font-medium text-white bg-accent-100 border border-accent-100"
               :class="{ disabled: !hasAppointment }"

@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, inject } from "vue";
 import BlogListItem from "./BlogListItem.vue";
 
-const directus = inject('$directus');
+const { directusService } = inject("$directus");
 
 const loading = ref(false);
 const blogs = ref([]);
@@ -11,17 +11,17 @@ const error = ref(null);
 async function fetchBlogs() {
   loading.value = true;
   try {
-    const response = await directus.getBlogs({
+    const response = await directusService.getBlogs({
       sort: "-datum",
     });
     blogs.value = response;
   } catch (error) {
-    console.error('Error fetching blogs:', error);
+    console.error("Error fetching blogs:", error);
     error.value = error;
   } finally {
     loading.value = false;
   }
-};
+}
 
 onMounted(async () => {
   await fetchBlogs();
@@ -44,9 +44,7 @@ defineProps({
       <span class="subheading">blog</span>
       <h2>{{ title }}</h2>
     </div>
-    <div
-      class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-    >
+    <div class="flex gap-6">
       <BlogListItem
         v-for="blog in lastThreeBlogs"
         :key="blog.id"

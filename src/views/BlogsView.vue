@@ -2,8 +2,10 @@
 import { ref, onMounted, inject } from "vue";
 import { useHead } from "@vueuse/head";
 import BlogListItem from "@/components/blog/BlogListItem.vue";
+import ErrorMessage from "@/components/ErrorMessage.vue";
+import LoadingSpinner from "@/components/LoadingSpinner.vue";
 
-const directus = inject('$directus');
+const { directusService } = inject("$directus");
 
 const loading = ref(false);
 const blogs = ref([]);
@@ -12,17 +14,17 @@ const error = ref(null);
 async function fetchBlogs() {
   loading.value = true;
   try {
-    const response = await directus.getBlogs({
+    const response = await directusService.getBlogs({
       sort: "-datum",
     });
     blogs.value = response;
   } catch (error) {
-    console.error('Error fetching blogs:', error);
+    console.error("Error fetching blogs:", error);
     error.value = error;
   } finally {
     loading.value = false;
   }
-};
+}
 
 onMounted(async () => {
   await fetchBlogs();
@@ -64,13 +66,19 @@ useHead({
         <template #title> Blog </template>
       </AppHeader>
     </div>
+
+    <LoadingSpinner v-if="loading" text="A Blog betöltése..." />
+
+    <ErrorMessage
+      v-else-if="error"
+      text="Hiba történt a blogok betöltése közben."
+    />
+
     <div
       class="grid justify-center max-w-screen-xl grid-cols-1 gap-6 py-12 mx-auto sm:grid-cols-2 lg:grid-cols-3 site-padding"
+      v-else
     >
-      <div v-if="loading" class="flex items-center mx-auto">
-        Blog betöltése ...
-      </div>
-      <BlogListItem v-else v-for="blog in blogs" :key="blog.id" :blog="blog" />
+      <BlogListItem v-for="blog in blogs" :key="blog.id" :blog="blog" />
     </div>
   </div>
 </template>

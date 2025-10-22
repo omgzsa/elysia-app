@@ -4,7 +4,7 @@ import HomeView from "../views/HomeView.vue";
 import TheNotFound from "@/components/TheNotFound.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
-import employeesData from "@/assets/coworkers.json";
+// import employeesData from "@/assets/coworkers.json";
 // import blogsData from "@/assets/blogs.json";
 
 const router = createRouter({
@@ -100,20 +100,6 @@ const router = createRouter({
       name: "employee.single",
       component: () => import("../views/EmployeeSingleView.vue"),
       props: true,
-      beforeEnter(to) {
-        const exists = employeesData.find(
-          (item) => item.slug === to.params.slug,
-        );
-        if (!exists) {
-          return {
-            name: "not.found",
-            // allows keeping the URL in the browser address bar while rendering the 404 page
-            params: { pathMatch: to.path.substring(1).split("/") },
-            query: to.query,
-            hash: to.hash,
-          };
-        }
-      },
     },
     {
       path: "/araink",
@@ -135,18 +121,6 @@ const router = createRouter({
       name: "blog.single",
       component: () => import("../views/BlogSingleView.vue"),
       props: true,
-      // beforeEnter(to) {
-      //   const exists = blogsData.find((item) => item.slug === to.params.slug);
-      //   if (!exists) {
-      //     return {
-      //       name: "not.found",
-      //       // allows keeping the URL in the browser address bar while rendering the 404 page
-      //       params: { pathMatch: to.path.substring(1).split("/") },
-      //       query: to.query,
-      //       hash: to.hash,
-      //     };
-      //   }
-      // },
     },
     {
       path: "/:pathMatch(.*)*",
