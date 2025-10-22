@@ -104,6 +104,25 @@ export const directusPlugin = {
           }),
         );
       },
+
+      // Get prices
+      async getPrices(query = {}) {
+        return await client.request(
+          readItems("Arlista", {
+            fields: ["id", "nev", "szolgaltatasok"],
+            ...query,
+          }),
+        );
+      },
+
+      // Get pages
+      async getPages() {
+        return await client.request(
+          readItems("Oldalak", {
+            fields: ["uzenet"],
+          }),
+        );
+      },
     };
 
     app.provide("$directus", {
