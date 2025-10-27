@@ -42,11 +42,11 @@ const hasSpecialties = computed(() => {
         ></div>
         <div class="flex flex-col space-y-4 px-6 lg:px-8 lg:py-4">
           <img
-            :src="`${apiUrl}/assets/${item.kep}?width=500&height=500`"
+            :src="`${apiUrl}/assets/${item.kep}`"
             :alt="item.nev"
-            width="320"
-            height="320"
-            class="lg:-mt-24 rounded-xl w-full h-80 object-contain object-center mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+            width="500"
+            height="650"
+            class="lg:-mt-24 rounded-xl max-w-sm h-full object-contain object-center mb-4 group-hover:-translate-y-1 transition-transform duration-200"
           />
           <h3 v-if="hasConsultTime" class="text-center">Rendelési idő</h3>
           <ul class="pb-2">

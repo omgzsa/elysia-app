@@ -78,7 +78,7 @@ useHead({
   <section>
     <div class="flex flex-col mx-auto space-y-8">
       <AppHeader>
-        <template #title>Áraink</template>
+        <template #title>{{ page.nev }}</template>
       </AppHeader>
     </div>
 

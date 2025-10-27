@@ -27,10 +27,10 @@ const props = defineProps({
     >
       <div role="link" class="flex flex-col px-4 space-y-2">
         <img
-          :src="`${apiUrl}/assets/${item.kep}?w=128&h=128&fit=cover`"
+          :src="`${apiUrl}/assets/${item.kep}`"
           :alt="item.nev"
-          width="128"
-          height="128"
+          width="300"
+          height="300"
           class="rounded-xl w-full h-64 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
         />
         <h3 class="text-gray-900">

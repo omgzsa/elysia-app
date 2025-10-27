@@ -119,7 +119,7 @@ export const directusPlugin = {
       async getPages() {
         return await client.request(
           readItems("Oldalak", {
-            fields: ["uzenet"],
+            fields: ["nev", "uzenet"],
           }),
         );
       },
