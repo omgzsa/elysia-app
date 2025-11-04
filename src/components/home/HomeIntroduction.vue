@@ -6,9 +6,11 @@ defineProps({
 </script>
 <template>
   <div
-    class="grid items-center max-w-screen-xl grid-cols-1 mx-auto md:grid-cols-2 gap-x-6 site-padding"
+    class="grid items-center max-w-screen-xl grid-cols-1 mx-auto lg:grid-cols-2 gap-x-6 site-padding"
   >
-    <div class="grid max-w-3xl grid-cols-1 px-2 mx-auto md:order-1 gap-y-6">
+    <div
+      class="grid max-w-3xl grid-cols-1 px-2 mx-auto lg:order-1 gap-y-6 mb-8 lg:mb-0"
+    >
       <span class="subheading">bemutatkozás</span>
       <h2>{{ title }}</h2>
       <p>
@@ -29,31 +31,36 @@ defineProps({
       </AppLink>
     </div>
 
-    <div class="grid items-center grid-cols-12 grid-rows-5 gap-4">
+    <div
+      class="grid grid-cols-4 grid-rows-4 gap-3 w-full aspect-square auto-rows-fr mx-auto max-w-3xl"
+    >
+      <!-- Top left - spans 2 cols, 2 rows -->
       <img
-        height="140"
-        width="50"
+        height="300"
+        width="300"
         v-motion-slide-visible-once-bottom
-        :delay="500"
-        class="w-full col-span-4 col-start-2 row-span-3 row-start-2 rounded-xl"
+        :delay="300"
+        class="col-span-2 row-span-2 w-full h-full object-cover rounded-xl"
         src="../../assets/images/bemutatkozas-1.jpg"
         alt="szájfeltöltés fecskendővel"
       />
+      <!-- Top right - spans 2 cols, 2 rows -->
       <img
-        height="46"
-        width="164"
+        height="300"
+        width="300"
         v-motion-slide-visible-once-bottom
-        :delay="300"
-        class="w-full col-span-6 col-start-6 row-span-3 row-start-1 mb-12 sm:mb-16 md:mb-12 lg:mb-14 rounded-xl"
+        :delay="200"
+        class="col-span-2 row-span-2 w-full h-full object-cover rounded-xl"
         src="../../assets/images/bemutatkozas-2.webp"
         alt="narancsbőr kezelése"
       />
+      <!-- Bottom - spans 3 cols, 2 rows, offset by 1 col -->
       <img
-        height="64"
-        width="256"
+        height="282"
+        width="430"
         v-motion-slide-visible-once-bottom
         :delay="100"
-        class="w-full col-span-7 col-start-6 row-span-3 row-start-3 rounded-xl"
+        class="col-span-3 col-start-2 row-span-2 w-full h-full object-cover rounded-xl"
         src="../../assets/images/bemutatkozas-3.webp"
         alt="arckezelés"
       />
