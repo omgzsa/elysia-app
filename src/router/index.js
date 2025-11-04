@@ -4,8 +4,6 @@ import HomeView from "../views/HomeView.vue";
 import TheNotFound from "@/components/TheNotFound.vue";
 import servicesData from "@/assets/services.json";
 import treatmentsData from "@/assets/treatments.json";
-// import employeesData from "@/assets/coworkers.json";
-// import blogsData from "@/assets/blogs.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_APP_BASE_URL),

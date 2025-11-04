@@ -1831,5 +1831,48 @@
         "images": []
       }
     ]
+  },
+  {
+    "id": 43,
+    "name": "MaiLi hialuronsavas termékcsalád",
+    "slug": "maili-hialuronsavas-termekcsalad",
+    "metaDescription": "",
+    "images": [],
+    "treatmentImages": [],
+    "relatedDoctor": [
+      {
+        "id": 1,
+        "name": "Dr. Horváth Beáta",
+        "slug": "dr-horvath-beata",
+        "title": "Bőrgyógyász, kozmegtológus adjunktus, lézerspecialista, szakmai vezető",
+        "image": "dr-horvath-beata.webp"
+      }
+    ],
+    "content": {
+      "title": "",
+      "description": "MaiLi egy prémium hialuronsavas töltőanyagcsalád, amely szabadalmaztatott, élvonalbeli technológiát és eljárást alkalmaz. Hosszan tartó, látványos volumenizálást biztosít , természetes eredményekkel.",
+      "title2": "",
+      "description2": "Termékpalettája 4 prémium egyfázisú tötlőanyagot tartalmaz, arc 4 területére. A magas hyaluronsav koncentráció lehetővé teszi a kevesebb termék használatát, a természetesebb hatás érdekében.",
+      "title3": "",
+      "description3": "A MaiLi hialuronsavas töltőanyagok luxus portfólióját hosszú kutatások után, svájci tudományos ismeretek alapján tervezték meg, hogy a legmagasabb szintű esztétikai eredményeket biztosítsák Páciensei számára. Az OxiFree technológiával készült MaiLi filler kiválóan alkalmazható a különböző arc- és testformáló kezelések során, mind az arckontúrok kiemelésében, mind a ráncok simításában. Rendkívül sokoldalú, és különösen jól alkalmazható olyan érzékeny területeken, mint az ajkak és a szem környéke.",
+      "benefitsTitle": "",
+      "benefits": [],
+      "benefitsTitle2": "",
+      "benefits2": [],
+      "title4": "",
+      "description4": "A technológia biztosítja, hogy a MaiLi filler rendkívül sima és homogén állagú legyen, ami lehetővé teszi a könnyű bejuttatást és a természetes megjelenést. A pontos viszkozitás elérése révén a töltőanyag jobban illeszkedik a bőr struktúrájához, kevesebb mozgásteret hagyva a migrációra.\n\n A MaiLi termékpalettája 4, szakszerűen elkészített hyaluronsav filler; mely kiválóan az arc minden területének formázására és harmonizálásra, mindegyik termék lidokaint tartalmaz, hogy Páciensei maximális komfortja érdekében.",
+      "title5": "",
+      "description5": "Maili termékcsalád exkluzivitása sokoldalúságában rejlik. Az arc minden területén kiválóan alkalmazható, a finom vonalak korrekciójától kezdve az arc hangsúlyos területeinek volumenizálásáig. Egy termékcsalád az arc fiatalításhoz, formázásához és harmonizálásához."
+    },
+    "treatTime": "30 perc",
+    "frequency": "1-1,5 év",
+    "category": [
+      {
+        "id": 2,
+        "name": "Orvos esztétika",
+        "slug": "orvos-esztetika",
+        "images": []
+      }
+    ]
   }
 ]

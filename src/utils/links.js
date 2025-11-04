@@ -152,6 +152,11 @@ export const orvosEsztetika = ref([
     slug: "ellanse-kollagen-stimulalo-filler",
     category: "orvos-esztetika",
   },
+  {
+    name: "MaiLi hialuronsavas termékcsalád (ÚJ)",
+    slug: "maili-hialuronsavas-termekcsalad",
+    category: "orvos-esztetika",
+  },
 ]);
 
 export const plasztikaiSebeszet = ref([

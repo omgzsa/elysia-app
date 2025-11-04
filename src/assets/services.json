@@ -167,6 +167,12 @@
         "name": "Ellansé kollagén stimuláló filler (ÚJ)",
         "slug": "ellanse-kollagen-stimulalo-filler",
         "image": "ellanse-stimulalo-filler.jpg"
+      },
+      {
+        "id": 15,
+        "name": "MaiLi hialuronsavas termékcsalád (ÚJ)",
+        "slug": "maili-hialuronsavas-termekcsalad",
+        "image": "maili-hialuronsavas-termekcsalad.jpg"
       }
     ]
   },
