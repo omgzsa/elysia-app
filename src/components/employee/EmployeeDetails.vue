@@ -28,7 +28,7 @@ const hasSpecialties = computed(() => {
   <div class="site-padding">
     <div class="grid py-6 gap-4 md:grid-cols-2">
       <div class="flex flex-col space-y-6 py-10 order-2 md:order-1">
-        <div v-html="item.bio" class="prose-sm sm:prose"></div>
+        <div v-html="item.bio" class="prose-sm sm:prose-lg" />
         <h3 v-if="hasSpecialties">Szakterületek</h3>
         <ul class="list-disc list-inside marker:bg-accent-100">
           <li v-for="item in item.szakterulet" :key="item.nev">
@@ -44,9 +44,9 @@ const hasSpecialties = computed(() => {
           <img
             :src="`${apiUrl}/assets/${item.kep}`"
             :alt="item.nev"
-            width="500"
-            height="650"
-            class="lg:-mt-24 rounded-xl max-w-sm h-full object-contain object-center mb-4 group-hover:-translate-y-1 transition-transform duration-200"
+            width="300"
+            height="400"
+            class="lg:-mt-24 rounded-xl h-full object-contain object-center mb-4 group-hover:-translate-y-1 transition-transform duration-200"
           />
           <h3 v-if="hasConsultTime" class="text-center">Rendelési idő</h3>
           <ul class="pb-2">

@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { Carousel, Slide, Pagination } from "vue3-carousel";
-import { useGetImageUrl } from "../../composables/getImageUrl";
+import { useGetHeroImageUrl } from "../../utils/utils";
 import { useWindowSize } from "@vueuse/core";
 import "vue3-carousel/dist/carousel.css";
 
@@ -31,13 +31,13 @@ const getResponsiveImage = (id) => {
 </script>
 
 <template>
-  <carousel v-bind="settings">
+  <Carousel v-bind="settings">
     <slide
       v-for="slide in props.slides"
       :key="slide.id"
       class="w-full bg-cover min-h-[90vh] sm:min-h-[720px] bg-no-repeat bg-right-bottom lg:min-h-[820px]"
       :style="{
-        backgroundImage: `url(${useGetImageUrl(getResponsiveImage(slide.id))})`,
+        backgroundImage: `url(${useGetHeroImageUrl(getResponsiveImage(slide.id))})`,
       }"
     >
       <div class="grid max-w-screen-xl grid-cols-1 site-padding md:grid-cols-2">
@@ -76,7 +76,7 @@ const getResponsiveImage = (id) => {
       <!-- <navigation /> -->
       <pagination />
     </template>
-  </carousel>
+  </Carousel>
 </template>
 
 <style>
