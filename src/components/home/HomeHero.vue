@@ -32,10 +32,8 @@ const getResponsiveImage = (id) => {
 </script>
 
 <template>
-  <section class="relative">
-    <div class="absolute inset-0 pointer-events-none z-50">
-      <TheSnowFall />
-    </div>
+  <section class="relative overflow-hidden">
+    <TheSnowFall />
     <Carousel v-bind="settings">
       <slide
         v-for="slide in props.slides"

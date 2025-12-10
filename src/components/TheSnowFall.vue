@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
+import { useWindowSize } from "@vueuse/core";
 
 interface Snowflake {
   id: number;
@@ -10,10 +11,17 @@ interface Snowflake {
   blur: string;
 }
 
-const SNOWDROPS_LENGTH = 100;
+const { width } = useWindowSize();
 const snowflakes = ref<Snowflake[]>([]);
 
+const getSnowflakeCount = () => {
+  if (width.value < 640) return 30; // Mobile
+  if (width.value < 1024) return 50; // Tablet
+  return 100; // Desktop
+};
+
 const generateSnowflakes = (): Snowflake[] => {
+  const count = getSnowflakeCount();
   const flakes: Snowflake[] = [];
   const snowSizeBase = 30;
   const browserBuffer = 50;
@@ -23,7 +31,7 @@ const generateSnowflakes = (): Snowflake[] => {
   const animateDelayBase = 5000;
   const blurBase = 5;
 
-  for (let i = 0; i < SNOWDROPS_LENGTH; i++) {
+  for (let i = 0; i < count; i++) {
     const size = Math.abs(
       Math.random() * snowSizeBase - Math.random() * snowSizeBase,
     );
@@ -72,20 +80,18 @@ onMounted(() => {
 </template>
 
 <style scoped>
-* {
-  overflow: hidden;
-}
-
 .g-snows {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: transparent;
   margin: 0;
   padding: 0;
   list-style: none;
-  position: relative;
-  z-index: 1;
+  position: absolute; /* Change from absolute to fixed */
+  top: 0;
+  left: 0;
   pointer-events: none;
+  background: transparent;
+  z-index: 50; /* Ensure it's on top */
 }
 
 .g-snows > li {
@@ -94,56 +100,33 @@ onMounted(() => {
   top: 0;
   border-radius: 100%;
   background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   animation-name: snow-drop;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
+  will-change: transform, opacity;
 }
 
 @keyframes snow-drop {
   0% {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
     opacity: 0.5;
     margin-left: 0;
-  }
-  10% {
-    margin-left: 15px;
-  }
-  20% {
-    margin-left: 20px;
   }
   25% {
-    transform: translate(0, 166.67px);
+    transform: translate3d(0, 166.67px, 0);
     opacity: 0.75;
   }
-  30% {
-    margin-left: 15px;
-  }
-  40% {
-    margin-left: 0;
-  }
   50% {
-    transform: translate(0, 333.33px);
+    transform: translate3d(0, 333.33px, 0);
     opacity: 1;
-    margin-left: -15px;
-  }
-  60% {
-    margin-left: -20px;
-  }
-  70% {
-    margin-left: -15px;
   }
   75% {
-    transform: translate(0, 500px);
+    transform: translate3d(0, 500px, 0);
     opacity: 0.5;
   }
-  80% {
-    margin-left: 0;
-  }
   100% {
-    transform: translate(0, 666.67px);
+    transform: translate3d(0, 666.67px, 0);
     opacity: 0;
   }
 }
