@@ -67,8 +67,8 @@ const slides = ref([
         title: 'Kérdés esetén forduljon hozzánk bizalommal',
         // text: 'Kérdés esetén forduljon hozzánk bizalommal',
         img: 'hero-elysia-bizalommal.jpg',
-        imgTablet: 'hero-elysia-bizalommal.jpg',
-        imgMobile: 'hero-elysia-bizalommal.jpg',
+        imgTablet: 'hero-elysia-bizalommal-tablet.jpg',
+        imgMobile: 'hero-elysia-bizalommal-tablet.jpg',
     },
     {
         id: 2,
