@@ -1,103 +1,61 @@
 <script setup>
+import LoadingSpinner from '@/components/LoadingSpinner.vue';
+
 defineProps({
-  title: {
-    type: String,
-  },
+    title: {
+        type: String,
+    },
+    testimonials: {
+        type: Array,
+    },
+    loading: {
+        type: Boolean,
+    },
 });
 </script>
+
 <template>
-  <section class="max-w-screen-xl mx-auto site-padding pl-4">
-    <div class="flex flex-col items-center gap-4 mb-12">
-      <span class="subheading">elégedett ügyfeleink</span>
-      <h2>{{ title }}</h2>
-    </div>
-    <div
-      class="space-y-10 sm:space-x-4 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
-    >
-      <div
-        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
-      >
-        <p class="italic mb-4">
-          "Rendszeresen a Klinika vendége vagyok. :) Nem csak a
-          bőrgyógyászatban, de az esztétikában is élen járnak. Teljes mértékben
-          meg vagyok elégedve Dr. Horváth Beáta munkájával, és a recepciós
-          hölgyek is mindig mosolyogva és kedvességgel várnak. Dr. Görcsi
-          Jánosnál is jártam szemhéjplasztika műtéten, és az eredmény valami
-          fantasztikus! Köszönöm szépen az Elysia Laser Clinic munkáját!"
-        </p>
-        <div class="flex gap-4 items-center">
-          <!-- <img
-            src="../../assets/images/testimonial-2.webp"
-            alt="ügyfél avatár"
-            height="20"
-            width="20"
-            class="w-14 h-14 rounded-full object-cover"
-          /> -->
-          <div class="text-sm space-y-1">
-            <p class="font-bold">Zsuzsanna</p>
-          </div>
+    <section class="max-w-screen-xl mx-auto site-padding pl-4">
+        <div class="flex flex-col items-center gap-4 mb-12">
+            <span class="subheading">elégedett ügyfeleink</span>
+            <h2>{{ title }}</h2>
         </div>
-      </div>
-      <div
-        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
-      >
-        <p class="italic mb-4">
-          "Kedvesség, rugalmasság, szakmai profizmus. Családommal többször
-          jártam már náluk, ezért szívből ajánlom az Elysiát akár bőrgyógyászati
-          probléma megoldására, akár esztétikai kezelésre."
-        </p>
-        <div class="flex gap-4 items-center">
-          <!-- <img
-            src="../../assets/images/rolunk_pic.jpg"
-            alt="ügyfél avatár"
-            height="20"
-            width="20"
-            class="w-14 h-14 rounded-full object-cover"
-          /> -->
-          <div class="text-sm space-y-1">
-            <p class="font-bold">Orsolya</p>
-          </div>
+
+        <div v-if="loading" class="h-96 flex my-auto items-start">
+            <LoadingSpinner text="Vélemények betöltése..." />
         </div>
-      </div>
-      <div
-        class="sm:break-inside-avoid p-6 bg-primary-200 rounded-xl shadow-border flex flex-col"
-      >
-        <p class="italic mb-4">
-          "Kellemes környezet, kedves fogadtatás párosul magas szakmai
-          színvonallal. Mindig ajánlom Őket ismerőseimnek, és Ők is nagyon
-          elégedettek."
-        </p>
-        <div class="flex gap-4 items-center">
-          <!-- <img
-            src="../../assets/images/testimonial-3.webp"
-            alt="ügyfél avatár"
-            height="20"
-            width="20"
-            class="w-14 h-14 rounded-full object-cover"
-          /> -->
-          <div class="text-sm space-y-1">
-            <p class="font-bold">Timi</p>
-          </div>
+        <div
+            v-else
+            class="space-y-10 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
+        >
+            <div
+                v-for="item in testimonials"
+                :key="item.id"
+                class="sm:break-inside-avoid bg-primary-200 rounded-xl shadow-border flex flex-col"
+            >
+                <div class="p-4">
+                    <p class="italic text-base mb-4">"{{ item.tartalom }}"</p>
+                    <p class="text-sm font-bold pb-4">{{ item.nev }}</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </template>
 
 <style>
 .shadow-border {
-  position: relative;
-  border: none;
+    position: relative;
+    border: none;
 }
 
 .shadow-border:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #586c63;
-  transform: translate(-2.125em, -2.125em);
-  z-index: -1;
-  border-radius: 0.75rem;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #586c63;
+    transform: translate(-0.5em, -0.5em);
+    z-index: -1;
+    border-radius: 0.75rem;
 }
 </style>

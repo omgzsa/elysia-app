@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, inject } from 'vue';
 
 import HomeHero from '../components/home/HomeHero.vue';
 import HomeServices from '../components/home/HomeServices.vue';
@@ -11,10 +11,52 @@ import HomeCallToAction from '../components/home/HomeCallToAction.vue';
 import BlogList from '../components/blog/BlogList.vue';
 import TheParallax from '../components/TheParallax.vue';
 import TheContact from '../components/TheContact.vue';
-
+import { useHead } from '@vueuse/head';
 import 'vue3-carousel/dist/carousel.css';
 
-import { useHead } from '@vueuse/head';
+const { directusService } = inject('$directus');
+
+const testimonials = ref([]);
+const testimonialsLoading = ref(false);
+const testimonialsError = ref(null);
+
+async function fetchTestimonials() {
+    testimonialsLoading.value = true;
+    try {
+        const response = await directusService.getTestimonials({
+            filter: {
+                status: 'published',
+            },
+        });
+        testimonials.value = response;
+    } catch (error) {
+        console.error('Error fetching testimonials:', error);
+        testimonialsError.value = error;
+    } finally {
+        testimonialsLoading.value = false;
+    }
+}
+
+const gallery = ref([]);
+const galleryLoading = ref(false);
+const galleryError = ref(null);
+
+async function fetchGallery() {
+    galleryLoading.value = true;
+    try {
+        const response = await directusService.getHomeGallery();
+        gallery.value = response;
+    } catch (error) {
+        console.error('Error fetching gallery:', error);
+        galleryError.value = error;
+    } finally {
+        galleryLoading.value = false;
+    }
+}
+
+onMounted(async () => {
+    await Promise.all([fetchGallery(), fetchTestimonials()]);
+});
 
 const pageTitle = ref(
     'Elysia Laser Clinic — Prémium minőségű vizsgálatok és kezelések Győrben.',
@@ -72,11 +114,11 @@ const slides = ref([
     },
     {
         id: 2,
-        // title: 'Kérdés esetén forduljon hozzánk bizalommal',
-        // text: 'Kérdés esetén forduljon hozzánk bizalommal',
-        img: 'hero-z0skin.JPG',
-        imgTablet: 'hero-z0skin.JPG',
-        imgMobile: 'hero-z0skin.JPG',
+        title: 'Átfogó megoldások, állandó bőregészség',
+        text: 'A ZO® Skin Health egyedülállóan hatékony prémium bőrterápiás és bőrápoló rendszer bőrproblémák teljes körű kezelésére.',
+        img: 'hero-zo-skin.webp',
+        imgTablet: 'hero-zo-tablet.webp',
+        imgMobile: 'hero-zo-mobil.webp',
     },
     // {
     //   id: 1,
@@ -182,8 +224,16 @@ const slides = ref([
             </HomeIntroduction>
         </section>
         <HomeCompanyLogos />
-        <HomeGallery title="Galéria" />
-        <HomeTestimonials title="Rólunk mondták" />
+        <HomeGallery
+            title="Galéria"
+            :gallery="gallery[0]?.kepek"
+            :loading="galleryLoading"
+        />
+        <HomeTestimonials
+            title="Rólunk mondták"
+            :testimonials
+            :loading="testimonialsLoading"
+        />
         <section>
             <HomeCallToAction />
         </section>
