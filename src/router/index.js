@@ -121,6 +121,11 @@ const router = createRouter({
       props: true,
     },
     {
+      path: "/palyazat",
+      name: "tender",
+      component: () => import("../views/TenderView.vue"),
+    },
+    {
       path: "/:pathMatch(.*)*",
       name: "not.found",
       component: TheNotFound,
