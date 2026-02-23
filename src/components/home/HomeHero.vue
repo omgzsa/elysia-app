@@ -38,6 +38,12 @@ const settings = ref({
     itemsToShow: 1,
     snapAlign: 'center',
 });
+
+// Helper to detect external URLs so we can render a native <a> for them.
+// Treats http(s), mailto, and tel links as external.
+const isExternalLink = (url) => {
+    return typeof url === 'string' && /^(https?:\/\/|mailto:|tel:)/i.test(url);
+};
 </script>
 
 <template>
@@ -80,26 +86,52 @@ const settings = ref({
                             </li>
                         </ul> -->
 
-                        <AppLink
-                            :to="{ path: `${slide.link}` }"
-                            v-if="slide.link"
-                        >
-                            <button
-                                class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
+                        <template v-if="slide.link">
+                            <AppLink
+                                v-if="!isExternalLink(slide.link)"
+                                :to="{ path: slide.link }"
                             >
-                                <span
-                                    class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
-                                ></span>
-                                <span
-                                    class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
-                                    >{{
-                                        slide.link_cimke
-                                            ? slide.link_cimke
-                                            : 'Tudjon meg többet'
-                                    }}</span
+                                <button
+                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
                                 >
-                            </button>
-                        </AppLink>
+                                    <span
+                                        class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+                                    ></span>
+                                    <span
+                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
+                                        >{{
+                                            slide.link_cimke
+                                                ? slide.link_cimke
+                                                : 'Tudjon meg többet'
+                                        }}</span
+                                    >
+                                </button>
+                            </AppLink>
+
+                            <a
+                                v-else
+                                :href="slide.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-block"
+                            >
+                                <button
+                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
+                                >
+                                    <span
+                                        class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
+                                    ></span>
+                                    <span
+                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
+                                        >{{
+                                            slide.link_cimke
+                                                ? slide.link_cimke
+                                                : 'Tudjon meg többet'
+                                        }}</span
+                                    >
+                                </button>
+                            </a>
+                        </template>
                     </div>
                 </div>
             </slide>
