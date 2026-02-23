@@ -2,6 +2,7 @@
 import { ref, onMounted, inject } from 'vue';
 
 import HomeHero from '../components/home/HomeHero.vue';
+import HeroSkeleton from '../components/home/HeroSkeleton.vue';
 import HomeServices from '../components/home/HomeServices.vue';
 import HomeIntroduction from '../components/home/HomeIntroduction.vue';
 import HomeCompanyLogos from '../components/home/HomeCompanyLogos.vue';
@@ -15,6 +16,23 @@ import { useHead } from '@vueuse/head';
 import 'vue3-carousel/dist/carousel.css';
 
 const { directusService } = inject('$directus');
+
+const slider = ref(null);
+const sliderLoading = ref(false);
+const sliderError = ref(null);
+
+async function fetchSlider() {
+    sliderLoading.value = true;
+    try {
+        const response = await directusService.getHomepageSlider();
+        slider.value = response;
+    } catch (error) {
+        console.error('Error fetching slider:', error);
+        sliderError.value = error;
+    } finally {
+        sliderLoading.value = false;
+    }
+}
 
 const testimonials = ref([]);
 const testimonialsLoading = ref(false);
@@ -55,7 +73,7 @@ async function fetchGallery() {
 }
 
 onMounted(async () => {
-    await Promise.all([fetchGallery(), fetchTestimonials()]);
+    await Promise.all([fetchSlider(), fetchGallery(), fetchTestimonials()]);
 });
 
 const pageTitle = ref(
@@ -105,20 +123,12 @@ const slides = ref([
     //   imgMobile: "arvaltozas-mobil.jpg",
     // },
     {
-        id: 1,
-        title: 'Kérdés esetén forduljon hozzánk bizalommal',
-        // text: 'Kérdés esetén forduljon hozzánk bizalommal',
-        img: 'hero-elysia-bizalommal.jpg',
-        imgTablet: 'hero-elysia-bizalommal-tablet.jpg',
-        imgMobile: 'hero-elysia-bizalommal-tablet.jpg',
-    },
-    {
         id: 2,
         title: 'Átfogó megoldások, állandó bőregészség',
         text: 'A ZO® Skin Health egyedülállóan hatékony prémium bőrterápiás és bőrápoló rendszer bőrproblémák teljes körű kezelésére.',
-        img: 'hero-zo-skin.webp',
-        imgTablet: 'hero-zo-tablet.webp',
-        imgMobile: 'hero-zo-mobil.webp',
+        img: 'hero-atfogo-kezeles.jpg',
+        imgTablet: 'hero-atfogo-kezeles.jpg',
+        imgMobile: 'hero-atfogo-kezeles.jpg',
     },
     // {
     //   id: 1,
@@ -186,7 +196,8 @@ const slides = ref([
 
 <template>
     <section>
-        <HomeHero :slides="slides" />
+        <HeroSkeleton v-if="sliderLoading || !slider" />
+        <HomeHero v-else :slides="slider" />
         <section>
             <HomeServices title="Kiemelt szolgáltatások">
                 <template #description>

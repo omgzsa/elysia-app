@@ -1,12 +1,17 @@
 // src/plugins/directus.js
-import { createDirectus, rest, readItems, readItem } from '@directus/sdk';
+import {
+    createDirectus,
+    rest,
+    readItems,
+    readItem,
+    readSingleton,
+} from '@directus/sdk';
 
 export const directusPlugin = {
     install: (app, options) => {
         const client = createDirectus(options.url).with(rest());
 
         const directusService = {
-            // get homepage testimonials
             // get homepage testimonials
             async getTestimonials(query = {}) {
                 return await client.request(
@@ -131,6 +136,20 @@ export const directusPlugin = {
                 return await client.request(
                     readItems('Arlista', {
                         fields: ['id', 'nev', 'szolgaltatasok'],
+                        ...query,
+                    }),
+                );
+            },
+
+            // a singleton query
+            async getHomepageSlider(query = {}) {
+                return await client.request(
+                    readSingleton('Slider', {
+                        filter: {
+                            status: {
+                                _eq: 'published',
+                            },
+                        },
                         ...query,
                     }),
                 );
