@@ -90,6 +90,7 @@ const isExternalLink = (url) => {
                             <AppLink
                                 v-if="!isExternalLink(slide.link)"
                                 :to="{ path: slide.link }"
+                                class="inline mx-auto"
                             >
                                 <button
                                     class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
@@ -113,7 +114,7 @@ const isExternalLink = (url) => {
                                 :href="slide.link"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="inline-block"
+                                class="inline mx-auto"
                             >
                                 <button
                                     class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
