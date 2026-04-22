@@ -90,7 +90,7 @@ useHead({
         }"
       >
         <div
-          class="flex flex-col max-w-screen-md mx-auto space-y-1 site-padding"
+          class="flex flex-col max-w-(--breakpoint-md) mx-auto space-y-1 site-padding"
         >
           <span class="subheading">blog</span>
           <h2 class="pb-4">{{ blog.cim }}</h2>
@@ -105,10 +105,10 @@ useHead({
       </span>
     </div>
     <div
-      class="grid items-center max-w-screen-md pt-8 mx-auto md:pt-16 blog-body site-padding"
+      class="grid items-center max-w-(--breakpoint-md) pt-8 mx-auto md:pt-16 blog-body site-padding"
       v-html="blog.szoveg"
     />
-    <div v-if="blog.link" class="max-w-screen-md mx-auto mt-10 site-padding">
+    <div v-if="blog.link" class="max-w-(--breakpoint-md) mx-auto mt-10 site-padding">
       <router-link
         class="mx-auto transition-colors duration-200 hover:underline underline-offset-2 hover:text-secondary-100"
         :to="`/${blog.link}`"
@@ -118,7 +118,7 @@ useHead({
         </button>
       </router-link>
     </div>
-    <div class="max-w-screen-md mx-auto mt-10 site-padding">
+    <div class="max-w-(--breakpoint-md) mx-auto mt-10 site-padding">
       <AppLink :to="{ name: 'blogs.show' }">
         <p
           class="text-xl font-bold group-hover:underline group-focus:underline"

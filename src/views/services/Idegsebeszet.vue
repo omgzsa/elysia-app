@@ -45,7 +45,7 @@ useHead({
         <template #title> Idegsebészet </template>
       </AppHeader>
     </div>
-    <div class="max-w-screen-xl mx-auto py-10">
+    <div class="max-w-(--breakpoint-xl) mx-auto py-10">
       <div
         class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6 mb-8"
       >
@@ -86,7 +86,7 @@ useHead({
               class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
             >
               <IconClock
-                class="text-accent-100 flex-shrink text-xl md:text-2xl xl:text-3xl"
+                class="text-accent-100 shrink text-xl md:text-2xl xl:text-3xl"
               />
               <div class="flex flex-col flex-1">
                 <span
@@ -110,7 +110,7 @@ useHead({
         class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
       >
         <p
-          class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
+          class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-(--breakpoint-md) mx-auto"
         >
           Kérdése van?
         </p>
@@ -139,7 +139,7 @@ useHead({
       </div>
     </div>
     <!-- related Doctors -->
-    <div class="max-w-screen-xl mx-auto py-8 site-padding space-y-6">
+    <div class="max-w-(--breakpoint-xl) mx-auto py-8 site-padding space-y-6">
       <div class="space-y-2 mb-8">
         <span class="subheading">elysia laser clinic</span>
         <h3>A témában jártas munkatársaink:</h3>

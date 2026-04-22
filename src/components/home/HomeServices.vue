@@ -16,7 +16,7 @@ const servicesFeatured = computed(() => {
 </script>
 
 <template>
-  <div class="max-w-screen-xl mx-auto site-padding flex flex-col space-y-12">
+  <div class="max-w-(--breakpoint-xl) mx-auto site-padding flex flex-col space-y-12">
     <!-- title and description -->
     <div class="grid grid-cols-1 gap-y-6 text-center mx-auto max-w-3xl">
       <span class="subheading">elysia laser clinic</span>

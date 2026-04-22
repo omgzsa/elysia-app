@@ -28,7 +28,7 @@ const address = "9026 Győr, Dózsa György rkpt. 29-31.";
 <template>
   <section
     id="contact"
-    class="grid max-w-screen-xl grid-cols-1 gap-6 site-padding sm:grid-cols-2"
+    class="grid max-w-(--breakpoint-xl) grid-cols-1 gap-6 site-padding sm:grid-cols-2"
   >
     <!-- contact data -->
     <div class="space-y-6">

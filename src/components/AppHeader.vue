@@ -11,7 +11,7 @@ import { useGetImageUrl } from "../composables/getImageUrl";
       backgroundImage: `url(${useGetImageUrl('szolgaltatas-header-bg.webp')})`,
     }"
   >
-    <div class="flex flex-col space-y-1 max-w-screen-xl mx-auto site-padding">
+    <div class="flex flex-col space-y-1 max-w-(--breakpoint-xl) mx-auto site-padding">
       <span class="subheading"><slot name="subtitle" /></span>
       <h2><slot name="title" /></h2>
       <span class="subheading capitalize"><slot name="description" /></span>

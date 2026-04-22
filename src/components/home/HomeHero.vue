@@ -59,7 +59,7 @@ const isExternalLink = (url) => {
                 }"
             >
                 <div class="absolute inset-0 bg-neutral-900/40"></div>
-                <div class="z-10 grid max-w-screen-xl grid-cols-1 site-padding">
+                <div class="z-10 grid max-w-(--breakpoint-xl) grid-cols-1 site-padding">
                     <div
                         v-motion-slide-visible-once-bottom
                         :delay="150"

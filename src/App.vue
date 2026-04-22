@@ -37,7 +37,7 @@ const goToTender = () => {
     <transition name="fade">
         <div
             v-if="showStickyImage"
-            class="fixed bottom-3 right-3 md:bottom-6 md:right-6 z-[9999] cursor-pointer hover:scale-105 transition-transform duration-300 shadow-2xl rounded-xl overflow-hidden border-2 border-primary-100/20 bg-white p-2"
+            class="fixed bottom-3 right-3 md:bottom-6 md:right-6 z-9999 cursor-pointer hover:scale-105 transition-transform duration-300 shadow-2xl rounded-xl overflow-hidden border-2 border-primary-100/20 bg-white p-2"
             @click="goToTender"
         >
             <img

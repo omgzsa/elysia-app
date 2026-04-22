@@ -43,7 +43,7 @@ const bgImage = "CTA_bg.webp";
         <template #title> Allergológia </template>
       </AppHeader>
     </div>
-    <div class="max-w-screen-xl mx-auto py-10">
+    <div class="max-w-(--breakpoint-xl) mx-auto py-10">
       <div
         class="grid grid-cols-1 sm:grid-cols-3 space-y-2 sm:space-y-0 gap-y-6 mb-8"
       >
@@ -85,7 +85,7 @@ const bgImage = "CTA_bg.webp";
         class="text-center py-20 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2 space-y-6"
       >
         <p
-          class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto"
+          class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-(--breakpoint-md) mx-auto"
         >
           Kérdése van?
         </p>
@@ -114,7 +114,7 @@ const bgImage = "CTA_bg.webp";
       </div>
     </div>
     <!-- related Doctors -->
-    <div class="max-w-screen-xl mx-auto py-8 site-padding space-y-6">
+    <div class="max-w-(--breakpoint-xl) mx-auto py-8 site-padding space-y-6">
       <div class="space-y-2 mb-8">
         <span class="subheading">elysia laser clinic</span>
         <h3>A témában jártas munkatársaink:</h3>

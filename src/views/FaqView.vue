@@ -47,13 +47,13 @@ useHead({
       </AppHeader>
     </div>
     <div
-      class="flex flex-col space-y-1 mx-auto max-w-screen-xl pt-10 site-padding"
+      class="flex flex-col space-y-1 mx-auto max-w-(--breakpoint-xl) pt-10 site-padding"
     >
       <h3>Válassz témakört</h3>
       <div v-for="subject in faqData" :key="subject.id">
         <p
           @click="scrollTo(subject.id)"
-          class="cursor-pointer relative inline-flex items-center justify-start pr-12 overflow-hidden transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 group"
+          class="cursor-pointer relative inline-flex items-center justify-start pr-12 overflow-hidden transition-all duration-150 ease-in-out rounded-sm hover:pl-10 hover:pr-6 group"
         >
           <span
             class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
@@ -73,7 +73,7 @@ useHead({
       </div>
     </div>
     <div
-      class="flex flex-col space-y-8 py-10 max-w-screen-xl site-padding mx-auto rounded-xl [&>*:nth-child(even)]:bg-primary-200"
+      class="flex flex-col space-y-8 py-10 max-w-(--breakpoint-xl) site-padding mx-auto rounded-xl [&>*:nth-child(even)]:bg-primary-200"
     >
       <div
         v-for="item in faqData"

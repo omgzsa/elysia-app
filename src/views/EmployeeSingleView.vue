@@ -90,7 +90,7 @@ useHead({
       v-if="error"
       text="Hiba történt a munkatárs betöltése során."
     />
-    <section v-if="employee" class="max-w-screen-xl">
+    <section v-if="employee" class="max-w-(--breakpoint-xl)">
       <EmployeeDetails :item="employee" />
     </section>
   </section>

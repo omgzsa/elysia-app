@@ -91,7 +91,7 @@ useHead({
 
     <div
       v-else
-      class="flex flex-col space-y-8 py-10 max-w-screen-xl site-padding mx-auto rounded-xl [&>*:nth-child(even)]:bg-primary-200"
+      class="flex flex-col space-y-8 py-10 max-w-(--breakpoint-xl) site-padding mx-auto rounded-xl [&>*:nth-child(even)]:bg-primary-200"
     >
       <p v-if="page">{{ page.uzenet }}</p>
       <div
@@ -112,7 +112,7 @@ useHead({
             class="flex flex-col pb-4 space-y-1 sm:flex-row sm:items-center"
           >
             <p
-              class="max-w-sm lg:max-w-screen-xl"
+              class="max-w-sm lg:max-w-(--breakpoint-xl)"
               :class="{
                 'font-semibold': treatment.kiemelt === true,
                 'italic py-4': treatment.kiemelt_dontve === true,
@@ -121,7 +121,7 @@ useHead({
               {{ treatment.nev }}
             </p>
             <div
-              class="flex-grow hidden mx-4 border-b border-dotted sm:block border-b-gray-400"
+              class="grow hidden mx-4 border-b border-dotted sm:block border-b-gray-400"
             ></div>
             <p
               class="font-medium min-w-fit"
@@ -132,13 +132,13 @@ useHead({
               {{ treatment.ar }}
             </p>
             <div
-              class="flex-grow mx-4 border-b border-dotted sm:hidden border-b-gray-400"
+              class="grow mx-4 border-b border-dotted sm:hidden border-b-gray-400"
             ></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex flex-col max-w-screen-xl mx-auto space-y-8 site-padding">
+    <div class="flex flex-col max-w-(--breakpoint-xl) mx-auto space-y-8 site-padding">
       <p class="text-xs italic">
         *Az Elysia Lézerközpont szolgáltatásainak díját készpénzben,
         bankkártyával, illetve bizonyos szolgáltatásokat egészségpénztárral is

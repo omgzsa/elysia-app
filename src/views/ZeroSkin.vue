@@ -43,7 +43,7 @@ const images = [
     </div>
     <!-- z0 skin -->
     <div
-      class="grid max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
+      class="grid max-w-(--breakpoint-xl) grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <!-- content -->
       <div class="space-y-8">
@@ -100,7 +100,7 @@ const images = [
         Bőrproblémák amelyek esetén a Z0® Skin Health megoldást nyújt
       </h3>
       <div
-        class="grid items-start max-w-screen-xl grid-cols-2 mx-auto gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7"
+        class="grid items-start max-w-(--breakpoint-xl) grid-cols-2 mx-auto gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7"
       >
         <div
           v-for="(item, index) in images"
@@ -121,7 +121,7 @@ const images = [
 
     <!-- red carpet -->
     <!-- <div
-      class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
+      class="grid items-start max-w-(--breakpoint-xl) grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8">
         <h3 class="text-base md:text-2xl">
@@ -176,7 +176,7 @@ const images = [
 
     <!-- 3 peel -->
     <!-- <div
-      class="grid items-start max-w-screen-xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
+      class="grid items-start max-w-(--breakpoint-xl) grid-cols-1 gap-8 mx-auto md:grid-cols-2 site-padding"
     >
       <div class="space-y-8 md:order-2">
         <h3 class="text-base md:text-2xl">ZO® Skin Health 3 Step Peeling</h3>
@@ -224,7 +224,7 @@ const images = [
     </div> -->
 
     <!-- before-after images -->
-    <div class="flex flex-col max-w-screen-xl mx-auto space-y-10 site-padding">
+    <div class="flex flex-col max-w-(--breakpoint-xl) mx-auto space-y-10 site-padding">
       <h3 class="text-base text-center md:text-2xl">
         Vendégeink a kezelés előtt és után
       </h3>

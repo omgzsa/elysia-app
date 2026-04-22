@@ -41,7 +41,7 @@ useHead({
         <template #title> Szolgáltatásaink </template>
       </AppHeader>
     </div>
-    <div class="max-w-screen-xl py-16 mx-auto space-y-10 site-padding">
+    <div class="max-w-(--breakpoint-xl) py-16 mx-auto space-y-10 site-padding">
       <!-- <p class="max-w-lg mx-auto text-center">{{ pageDescription }}</p> -->
       <ul
         class="grid items-start grid-cols-2 px-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 sm:gap-x-6"

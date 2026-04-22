@@ -61,7 +61,7 @@ const props = defineProps({
 
 <template>
   <div>
-    <div class="max-w-screen-xl mx-auto">
+    <div class="max-w-(--breakpoint-xl) mx-auto">
       <!-- breadcrumb component -->
       <TheBreadCrumbs />
       <div
@@ -174,7 +174,7 @@ const props = defineProps({
                 class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
               >
                 <IconClock
-                  class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
+                  class="shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
                 />
                 <div class="flex flex-col flex-1">
                   <span
@@ -192,7 +192,7 @@ const props = defineProps({
                 class="flex items-center space-x-2 sm:flex-col sm:items-start sm:space-x-0 sm:space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"
               >
                 <IconLoop
-                  class="flex-shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
+                  class="shrink text-xl text-accent-100 md:text-2xl xl:text-3xl"
                 />
                 <div class="flex flex-col flex-1">
                   <span
@@ -225,7 +225,7 @@ const props = defineProps({
     </div>
     <!-- related Doctors -->
     <div
-      class="max-w-screen-xl py-8 mx-auto mb-10 space-y-6 site-padding"
+      class="max-w-(--breakpoint-xl) py-8 mx-auto mb-10 space-y-6 site-padding"
       v-if="hasRelatedDoctors"
     >
       <div class="mb-8 space-y-2">
@@ -246,7 +246,7 @@ const props = defineProps({
       class="px-2 py-20 space-y-6 text-center bg-left bg-no-repeat bg-cover 3xl:bg-contain"
     >
       <span
-        class="max-w-screen-md mx-auto text-xl font-bold text-white lg:text-2xl xl:text-3xl"
+        class="max-w-(--breakpoint-md) mx-auto text-xl font-bold text-white lg:text-2xl xl:text-3xl"
       >
         Kérdése van?
       </span>

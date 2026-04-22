@@ -54,7 +54,7 @@ useHead({
         </template>
       </AppHeader>
       <div
-        class="grid items-start max-w-screen-xl grid-cols-1 mx-auto sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8 site-padding"
+        class="grid items-start max-w-(--breakpoint-xl) grid-cols-1 mx-auto sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8 site-padding"
       >
         <CategoryCard
           v-for="item in service.submenu"

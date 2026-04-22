@@ -15,7 +15,7 @@ defineProps({
 </script>
 
 <template>
-    <section class="max-w-screen-xl mx-auto site-padding pl-4">
+    <section class="max-w-(--breakpoint-xl) mx-auto site-padding pl-4">
         <div class="flex flex-col items-center gap-4 mb-12">
             <span class="subheading">elégedett ügyfeleink</span>
             <h2>{{ title }}</h2>
@@ -26,7 +26,7 @@ defineProps({
         </div>
         <div
             v-else
-            class="space-y-10 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
+            class="space-y-10 [column-fill:balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
         >
             <div
                 v-for="item in testimonials"

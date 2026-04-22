@@ -10,7 +10,7 @@ const bgImage = "CTA_bg.webp";
     class="text-center py-24 lg:py-32 bg-cover 3xl:bg-contain bg-left bg-no-repeat px-2"
   >
     <p
-      class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-screen-md mx-auto mb-8"
+      class="text-white font-bold text-xl lg:text-2xl xl:text-3xl max-w-(--breakpoint-md) mx-auto mb-8"
     >
       Foglaljon most időpontot az Elysia Laser Clinic-ben, és tapasztalja meg az
       egyedülálló, testre szabott kezeléseink varázsát!

@@ -39,7 +39,7 @@ defineProps({
 });
 </script>
 <template>
-  <section class="grid max-w-screen-xl space-y-12 site-padding">
+  <section class="grid max-w-(--breakpoint-xl) space-y-12 site-padding">
     <div class="mb-4 space-y-4 text-center">
       <span class="subheading">blog</span>
       <h2>{{ title }}</h2>

@@ -75,7 +75,7 @@ useHead({
     />
 
     <div
-      class="grid justify-center max-w-screen-xl grid-cols-1 gap-6 py-12 mx-auto sm:grid-cols-2 lg:grid-cols-3 site-padding"
+      class="grid justify-center max-w-(--breakpoint-xl) grid-cols-1 gap-6 py-12 mx-auto sm:grid-cols-2 lg:grid-cols-3 site-padding"
       v-else
     >
       <BlogListItem v-for="blog in blogs" :key="blog.id" :blog="blog" />

@@ -108,7 +108,7 @@ onUnmounted(() => {
     aria-label="Site Nav"
   >
     <div
-      class="relative flex items-center justify-between h-12 px-2 mx-auto max-w-screen-2xl sm:px-4 sm:h-16"
+      class="relative flex items-center justify-between h-12 px-2 mx-auto max-w-(--breakpoint-2xl) sm:px-4 sm:h-16"
     >
       <!-- LOGO -->
       <div class="md:flex md:items-center md:gap-12">
@@ -229,7 +229,7 @@ onUnmounted(() => {
         <div
           @click="toggleNav"
           aria-label="Toggle mobile menu"
-          class="rounded -mr-2 sm:-mr-4 p-1.5 sm:p-2 text-gray-500 transition hover:text-gray-700 hover:bg-gray-200"
+          class="rounded-sm -mr-2 sm:-mr-4 p-1.5 sm:p-2 text-gray-500 transition hover:text-gray-700 hover:bg-gray-200"
         >
           <IconMenu v-if="!isMobileMenuOpen" />
           <IconWindowClose v-else />

@@ -10,7 +10,7 @@ const currentYear = computed(() => new Date().getFullYear());
 
 <template>
   <footer aria-label="Site Footer" class="bg-primary-200">
-    <div class="max-w-screen-xl pb-6 mx-auto site-padding">
+    <div class="max-w-(--breakpoint-xl) pb-6 mx-auto site-padding">
       <div class="pt-8 space-y-4">
         <img
           :src="useGetImageUrl('elysia_logo_new_transparent.webp')"

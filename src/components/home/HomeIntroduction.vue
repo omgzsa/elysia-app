@@ -6,7 +6,7 @@ defineProps({
 </script>
 <template>
   <div
-    class="grid items-center max-w-screen-xl grid-cols-1 mx-auto lg:grid-cols-2 gap-x-6 site-padding"
+    class="grid items-center max-w-(--breakpoint-xl) grid-cols-1 mx-auto lg:grid-cols-2 gap-x-6 site-padding"
   >
     <div
       class="grid max-w-3xl grid-cols-1 px-2 mx-auto lg:order-1 gap-y-6 mb-8 lg:mb-0"

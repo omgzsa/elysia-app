@@ -80,7 +80,7 @@ useHead({
 
       <div
         v-else="employees"
-        class="grid items-start max-w-screen-xl grid-cols-1 px-2 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8 md:px-4"
+        class="grid items-start max-w-(--breakpoint-xl) grid-cols-1 px-2 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8 md:px-4"
       >
         <EmployeeCard
           v-for="item in employees"

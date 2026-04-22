@@ -12,7 +12,7 @@ elysia-app/src/components/home/HeroSkeleton.vue#L1-200
         <div class="absolute inset-0 bg-neutral-200" aria-hidden="true"></div>
 
         <!-- content skeleton (centred like the real content) -->
-        <div class="z-10 w-full grid max-w-screen-xl grid-cols-1 site-padding">
+        <div class="z-10 w-full grid max-w-(--breakpoint-xl) grid-cols-1 site-padding">
             <div class="flex flex-col items-center space-y-6 text-center">
                 <div
                     class="h-12 sm:h-16 w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 bg-neutral-300 rounded-md animate-pulse mx-auto"
