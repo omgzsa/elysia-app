@@ -93,13 +93,13 @@ const isExternalLink = (url) => {
                                 class="inline mx-auto"
                             >
                                 <button
-                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
+                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer group bg-accent-100 border-accent-100"
                                 >
                                     <span
                                         class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
                                     ></span>
                                     <span
-                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
+                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease text-base"
                                         >{{
                                             slide.link_cimke
                                                 ? slide.link_cimke
@@ -117,13 +117,13 @@ const isExternalLink = (url) => {
                                 class="inline mx-auto"
                             >
                                 <button
-                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer fo group bg-accent-100 border-accent-100"
+                                    class="relative px-8 py-2 overflow-hidden font-medium text-white border rounded-md cursor-pointer group bg-accent-100 border-accent-100"
                                 >
                                     <span
                                         class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"
                                     ></span>
                                     <span
-                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease"
+                                        class="relative flex flex-row items-center gap-2 font-bold text-white transition duration-300 group-hover:text-accent-100 ease text-base"
                                         >{{
                                             slide.link_cimke
                                                 ? slide.link_cimke

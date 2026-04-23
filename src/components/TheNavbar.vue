@@ -53,7 +53,8 @@ function onScroll() {
     window.scrollY || document.documentElement.scrollTop;
 
   if (currentScrollPosition <= 60) {
-    document.querySelector(".navbar").style.backgroundColor = "transparent";
+    document.querySelector(".navbar").style.backgroundColor = "rgba(255, 255, 255, 0.2)";
+    // document.querySelector(".navbar").style.backgroundColor = "transparent";
   } else {
     document.querySelector(".navbar").style.background =
       "rgba(255, 255, 255, 1)";
@@ -178,9 +179,9 @@ onUnmounted(() => {
                 <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">
                   Tüdőgyógyászat
                 </AppLink>
-                <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
+                <!-- <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
                   Idegsebészet
-                </AppLink>
+                </AppLink> -->
                 <AppLink class="text-sm" :to="{ name: 'service.somnology' }">
                   Szomnológia
                 </AppLink>
@@ -191,7 +192,8 @@ onUnmounted(() => {
             </Transition>
           </div>
 
-          <AppLink :to="{ name: 'zero.skin' }"> Z0 Skin Health </AppLink>
+          <AppLink :to="{ name: 'zero.skin' }"> ZO Skin Health </AppLink>
+          <AppLink :to="{ name: 'fotofinder' }"> FotoFinder </AppLink>
 
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 

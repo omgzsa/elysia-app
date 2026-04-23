@@ -221,6 +221,11 @@ export const orvosiTermekek = ref([
     slug: "orvosi-lezerkeszulekek",
     category: "orvosi-termekek",
   },
+  {
+    name: "FotoFinder",
+    slug: "fotofinder",
+    category: "orvosi-termekek",
+  },
 ]);
 
 export const sebeszet = ref([

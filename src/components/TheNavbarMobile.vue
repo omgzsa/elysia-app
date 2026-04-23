@@ -86,9 +86,9 @@ onClickOutside(target, () => {
                 <AppLink class="text-sm" :to="{ name: 'service.pulmonology' }">
                   Tüdőgyógyászat
                 </AppLink>
-                <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
+                <!-- <AppLink class="text-sm" :to="{ name: 'service.neurosurgery' }">
                   Idegsebészet
-                </AppLink>
+                </AppLink> -->
                 <AppLink class="text-sm" :to="{ name: 'service.somnology' }">
                   Szomnológia
                 </AppLink>
@@ -99,7 +99,8 @@ onClickOutside(target, () => {
             </Transition>
           </div>
 
-          <AppLink :to="{ name: 'zero.skin' }"> Z0 Skin Health </AppLink>
+          <AppLink :to="{ name: 'zero.skin' }"> ZO Skin Health </AppLink>
+          <AppLink :to="{ name: 'fotofinder' }"> FotoFinder </AppLink>
 
           <AppLink :to="{ name: 'prices.show' }"> Áraink </AppLink>
 

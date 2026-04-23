@@ -24,6 +24,11 @@ const router = createRouter({
       component: () => import("../views/ZeroSkin.vue"),
     },
     {
+      path: "/szolgaltatasok/orvosi-termekek/fotofinder",
+      name: "fotofinder",
+      component: () => import("../views/FotoFinder.vue"),
+    },
+    {
       path: "/szolgaltatasok",
       name: "services",
       component: () => import("../views/ServicesView.vue"),
@@ -33,11 +38,11 @@ const router = createRouter({
       name: "service.pulmonology",
       component: () => import("../views/services/Tudogyogyaszat.vue"),
     },
-    {
-      path: "/szolgaltatasok/idegsebeszet",
-      name: "service.neurosurgery",
-      component: () => import("../views/services/Idegsebeszet.vue"),
-    },
+    // {
+    //   path: "/szolgaltatasok/idegsebeszet",
+    //   name: "service.neurosurgery",
+    //   component: () => import("../views/services/Idegsebeszet.vue"),
+    // },
     {
       path: "/szolgaltatasok/szomnologia",
       name: "service.somnology",

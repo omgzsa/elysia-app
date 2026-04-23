@@ -90,7 +90,7 @@ useHead({
             </p>
           </AppLink>
         </li>
-        <li
+        <!-- <li
           class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
           <AppLink
@@ -110,7 +110,7 @@ useHead({
               Idegsebészet
             </p>
           </AppLink>
-        </li>
+        </li> -->
         <li
           class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
