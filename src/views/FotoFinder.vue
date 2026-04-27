@@ -10,7 +10,6 @@ import IconChip from "../components/icons/IconChip.vue";
     <!-- Hero / Header -->
     <div class="flex flex-col mx-auto mb-16 space-y-10">
       <AppHeader>
-        <template #subtitle>orvosi termékek</template>
         <template #title>FotoFinder</template>
       </AppHeader>
     </div>
