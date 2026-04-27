@@ -74,10 +74,9 @@ const currentYear = computed(() => new Date().getFullYear());
       >
         <p class="text-xs text-accent-100">
           Az oldalt a
-          <AppLink
+          <span
             class="font-semibold transition hover:text-gray-800"
-            to="https://blackand.hu"
-            >BLACK/AND</AppLink
+            >BLACK/AND</span
           >
           készítette.
         </p>

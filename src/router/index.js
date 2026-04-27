@@ -24,7 +24,7 @@ const router = createRouter({
       component: () => import("../views/ZeroSkin.vue"),
     },
     {
-      path: "/szolgaltatasok/orvosi-termekek/fotofinder",
+      path: "/szolgaltatasok/fotofinder",
       name: "fotofinder",
       component: () => import("../views/FotoFinder.vue"),
     },

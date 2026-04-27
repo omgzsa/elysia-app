@@ -16,15 +16,15 @@ import IconChip from "../components/icons/IconChip.vue";
     </div>
 
     <!-- Section 1: Intro -->
-    <div class="max-w-(--breakpoint-xl) mx-auto site-padding relative">
+    <div class="max-w-(--breakpoint-xl) mx-auto site-padding relative mt-4 md:mt-0">
       <!-- Decorative background elements -->
       <div class="absolute -top-24 -left-24 w-96 h-96 bg-primary-200/40 rounded-full blur-3xl -z-10"></div>
       <div class="absolute top-1/2 -right-32 w-[30rem] h-[30rem] bg-accent-100/5 rounded-full blur-3xl -z-10"></div>
       
-      <div class="grid grid-cols-1 gap-16 lg:grid-cols-2 items-center">
+      <div class="grid grid-cols-1 gap-12 lg:gap-16 lg:grid-cols-2 items-center">
         <div class="space-y-10 relative">
-          <div class="inline-flex items-center px-4 py-2 rounded-full bg-accent-100/5 text-accent-100 text-xs tracking-widest uppercase border border-accent-100/10">
-            <span class="mr-2 animate-pulse">●</span> Mesterséges Intelligencia Támogatással
+          <div class="inline-flex items-center w-fit px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-accent-100/5 text-accent-100 text-[10px] sm:text-xs tracking-wider md:tracking-widest uppercase border border-accent-100/10 whitespace-nowrap">
+            <span class="mr-1.5 md:mr-2 animate-pulse">●</span> Mesterséges Intelligencia Támogatással
           </div>
           <div class="space-y-6">
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900">
@@ -71,9 +71,9 @@ import IconChip from "../components/icons/IconChip.vue";
     </div>
 
     <!-- Section 2: Methods -->
-    <div class="mt-32 py-32 bg-gray-50/80 relative">
+    <div class="mt-20 md:mt-32 py-20 md:py-32 bg-gray-50/80 relative">
       <div class="max-w-(--breakpoint-xl) mx-auto site-padding">
-        <div class="grid grid-cols-1 gap-20 lg:grid-cols-2 items-center">
+        <div class="grid grid-cols-1 gap-12 lg:gap-20 lg:grid-cols-2 items-center">
           <div class="order-2 lg:order-1 flex justify-center w-full">
              <img
               class="object-cover h-[500px] lg:h-[650px] w-auto rounded-[3rem] shadow-2xl"
@@ -108,8 +108,8 @@ import IconChip from "../components/icons/IconChip.vue";
     </div>
 
     <!-- Section 3: Benefits Grid -->
-    <div class="max-w-(--breakpoint-xl) mx-auto site-padding mt-32">
-      <div class="text-center max-w-2xl mx-auto space-y-4 mb-20">
+    <div class="max-w-(--breakpoint-xl) mx-auto site-padding mt-20 md:mt-32">
+      <div class="text-center max-w-2xl mx-auto space-y-4 mb-12 md:mb-20">
         <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">Miért a FotoFinder?</h3>
         <p class="text-lg text-gray-600">A világ élvonalába tartozó képalkotó berendezés a legmodernebb technológiával biztosít minden eddiginél pontosabb diagnózist.</p>
       </div>
@@ -140,10 +140,10 @@ import IconChip from "../components/icons/IconChip.vue";
     </div>
 
     <!-- Section 4: Target Audience Refined -->
-    <div class="max-w-(--breakpoint-xl) mx-auto site-padding mt-40 mb-24">
-      <div class="relative p-10 md:p-20 bg-primary-200/30 rounded-[4rem]">
+    <div class="max-w-(--breakpoint-xl) mx-auto site-padding mt-24 md:mt-40 mb-16 md:mb-24">
+      <div class="relative p-8 md:p-20 bg-primary-200/30 rounded-[3rem] md:rounded-[4rem]">
         
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div class="space-y-16">
             <div class="space-y-6">
               <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 leading-[1.05]">
@@ -201,6 +201,15 @@ import IconChip from "../components/icons/IconChip.vue";
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- FotoFinder Logo -->
+    <div class="max-w-(--breakpoint-xl) mx-auto site-padding flex justify-center">
+      <img
+        class="h-20 md:h-24 w-auto"
+        :src="useGetImageUrl('fotofinder-logo.png')"
+        alt="FotoFinder Logo"
+      />
     </div>
   </section>
 </template>
