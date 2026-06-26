@@ -1,81 +1,79 @@
 <script setup>
-import { ref } from "vue";
-import AppLink from "./AppLink.vue";
-import IconDown from "./icons/IconDown.vue";
-import IconRight from "./icons/IconRight.vue";
-import { onClickOutside } from "@vueuse/core";
-
-const target = ref(null);
+import { ref, useId } from 'vue';
+import AppLink from './AppLink.vue';
+import IconRight from './icons/IconRight.vue';
+import { onClickOutside } from '@vueuse/core';
 
 defineProps({
-  submenu: {
-    type: Array,
-    required: true,
-  },
-  title: {
-    type: String,
-    required: true,
-  },
+    submenu: {
+        type: Array,
+        required: true,
+    },
+    title: {
+        type: String,
+        required: true,
+    },
 });
 
+const target = ref(null);
 const isVisible = ref(false);
+const menuId = useId();
 
-const toggleVisibility = () => {
-  isVisible.value = !isVisible.value;
-};
-onClickOutside(target, () => {
-  isVisible.value = false;
-});
+const toggle = () => (isVisible.value = !isVisible.value);
+const close = () => (isVisible.value = false);
+
+onClickOutside(target, close);
 </script>
 
 <template>
-  <div class="relative z-auto cursor-pointer" ref="target">
     <div
-      class="flex items-center space-x-2 hover:text-accent-100"
-      @click="toggleVisibility"
+        ref="target"
+        @keydown.esc="close"
     >
-      <p class="text-sm">{{ title }}</p>
-      <IconDown v-if="isVisible" />
-      <IconRight v-else />
-    </div>
-    <Transition name="dropdown-fade">
-      <ul
-        v-if="isVisible"
-        class="absolute left-0 top-full z-50 flex flex-col p-5 space-y-2 bg-white border w-72 lg:space-y-1 sm:right-36 lg:right-auto rounded-xl shadow-md"
-      >
-        <li
-          v-for="item in submenu"
-          :key="item.name"
-          class="flex space-x-1 hover:text-accent-100"
+        <button
+            type="button"
+            class="flex items-center justify-between w-full gap-3 py-1.5 text-sm font-medium text-left transition-colors cursor-pointer hover:text-accent-100"
+            :class="{ 'text-accent-100': isVisible }"
+            :aria-expanded="isVisible"
+            aria-haspopup="menu"
+            :aria-controls="menuId"
+            @click="toggle"
         >
-          <span>
-            <AppLink
-              :to="{
-                name: 'service.single',
-                params: { category: item.category, slug: item.slug },
-              }"
-              class="text-sm"
+            <span>{{ title }}</span>
+            <IconRight
+                class="text-xs transition-transform duration-200 ease-out shrink-0"
+                :class="{ 'rotate-90': isVisible }"
+            />
+        </button>
+
+        <!-- inline accordion: grid-rows 0fr -> 1fr animates the height smoothly -->
+        <div
+            class="grid transition-[grid-template-rows] duration-200 ease-out"
+            :class="isVisible ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+        >
+            <ul
+                :id="menuId"
+                role="menu"
+                class="overflow-hidden ml-1.5 pl-3 border-l border-primary-100/60"
             >
-              {{ item.name }}
-            </AppLink>
-          </span>
-        </li>
-      </ul>
-    </Transition>
-  </div>
+                <li
+                    v-for="item in submenu"
+                    :key="item.slug"
+                    role="none"
+                >
+                    <AppLink
+                        role="menuitem"
+                        :to="{
+                            name: 'service.single',
+                            params: { category: item.category, slug: item.slug },
+                        }"
+                        class="block py-1.5 text-sm leading-snug text-gray-600 transition-colors hover:text-accent-100"
+                        @click="close"
+                    >
+                        {{ item.name }}
+                    </AppLink>
+                </li>
+            </ul>
+        </div>
+    </div>
 </template>
-
-<style scoped>
-.dropdown-fade-enter-active,
-.dropdown-fade-leave-active {
-  transition: all 0.1s ease-out;
-}
-
-.dropdown-fade-enter-from,
-.dropdown-fade-leave-to {
-  opacity: 0;
-  -webkit-transform: translate3d(0, -12px, 0);
-  -moz-transform: translate3d(0, -12px, 0);
-  transform: translate3d(0, -12px, 0);
-}
-</style>

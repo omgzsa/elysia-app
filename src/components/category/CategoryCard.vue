@@ -1,7 +1,9 @@
 <script setup>
-import { useGetServiceImageUrl } from "../../composables/getServiceImageUrl";
+import { inject } from "vue";
 
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+
+const { apiUrl } = inject("$directus");
 
 defineProps({
   item: {
@@ -18,14 +20,14 @@ defineProps({
     ></div>
     <div class="flex flex-col px-4 space-y-2">
       <img
-        :src="useGetServiceImageUrl(item.image)"
-        :alt="item.name"
+        :src="`${apiUrl}/assets/${item.kep}`"
+        :alt="item.nev"
         height="200"
         width="220"
         class="rounded-xl w-full h-52 object-cover object-top mb-4 group-hover:-translate-y-1 transition-transform duration-200"
       />
       <h3 class="">
-        {{ item.name }}
+        {{ item.nev }}
       </h3>
 
       <AppLink

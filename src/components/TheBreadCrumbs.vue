@@ -28,16 +28,16 @@ const treatment = inject("treatment");
           rel="noopener noreferrer"
           :to="{
             name: 'services.category',
-            params: { category: treatment.category[0].slug },
+            params: { category: treatment.kategoria?.slug },
           }"
           class="flex items-center pr-1 hover:underline"
-          >{{ treatment.category[0].name }}</AppLink
+          >{{ treatment.kategoria?.nev }}</AppLink
         >
       </li>
       <li class="flex items-center space-x-4 text-xs md:text-sm truncate">
         <span class="text-gray-400">/</span>
         <span class="flex items-center pr-1">
-          {{ treatment.name }}
+          {{ treatment.nev }}
         </span>
       </li>
     </ol>

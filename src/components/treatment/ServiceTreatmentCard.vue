@@ -1,9 +1,6 @@
 <script setup>
 import { computed } from "vue";
 import { useGetImageUrl } from "../../composables/getImageUrl";
-import { useGetServiceImageUrl } from "../../composables/getServiceImageUrl";
-import { useGetTreatmentImageUrl } from "../../composables/getTreatmentImageUrl";
-import { ImgComparisonSlider } from "@img-comparison-slider/vue";
 import TheBreadCrumbs from "@/components/TheBreadCrumbs.vue";
 import ServiceRelatedDoctorsCard from "@/components/treatment/ServiceRelatedDoctorsCard.vue";
 
@@ -14,49 +11,40 @@ import IconClock from "@/components/icons/IconClock.vue";
 
 const bgImage = "CTA_bg.webp";
 
-const isPlasticSurgery = computed(() => {
-  return (
-    props.treatment.id === 22 ||
-    props.treatment.id === 23 ||
-    props.treatment.id === 25
-  );
-});
-
-// +36202750025
-
-const hasData = computed(() => {
-  return (
-    props.treatment.treatTime ||
-    props.treatment.frequency ||
-    isPlasticSurgery.value
-  );
-});
-
-const hasFrequency = computed(() => {
-  return props.treatment.frequency;
-});
-
-// function that returns if treatment has related doctors or not
-const hasRelatedDoctors = computed(() => {
-  return props.treatment.relatedDoctor.length > 0;
-});
-
-// a function that returns if treatment.images is empty or not
-const hasImage = computed(() => {
-  return props.treatment.images.length > 0;
-});
-
-// a function that returns if treatment.treatmentImages.images is empty or not
-const hasTreatmentImage = computed(() => {
-  return props.treatment.treatmentImages.length > 0;
-});
-
 const props = defineProps({
   treatment: {
     type: Object,
     required: true,
   },
 });
+
+// Plastic-surgery treatments require a prior consultation (shown as a notice).
+const isPlasticSurgery = computed(() => {
+  return props.treatment.kategoria?.slug === "plasztikai-sebeszet";
+});
+
+// +36202750025
+
+const hasData = computed(() => {
+  return (
+    props.treatment.kezelesi_ido ||
+    props.treatment.gyakorisaga ||
+    isPlasticSurgery.value
+  );
+});
+
+const hasFrequency = computed(() => {
+  return props.treatment.gyakorisaga;
+});
+
+// related doctors come from the M2M junction (kapcsolodo_orvosok)
+const relatedDoctors = computed(() => {
+  return (props.treatment.kapcsolodo_orvosok || [])
+    .map((j) => j.Munkatarsak_id)
+    .filter(Boolean);
+});
+
+const hasRelatedDoctors = computed(() => relatedDoctors.value.length > 0);
 </script>
 
 <template>
@@ -69,74 +57,8 @@ const props = defineProps({
       >
         <!-- treatment information -->
         <div class="order-2 mb-8 space-y-6 site-padding sm:col-span-2">
-          <h3>{{ treatment.content.title }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description }}
-          </p>
-          <div class="text-center" v-if="hasTreatmentImage">
-            <ImgComparisonSlider>
-              <!-- eslint-disable -->
-              <img
-                slot="first"
-                class="object-cover m-auto h-72 rounded-xl"
-                style="width: 100%"
-                :src="
-                  useGetTreatmentImageUrl(props.treatment.treatmentImages[0])
-                "
-                width="220"
-                height="200"
-                alt=""
-              />
-              <img
-                slot="second"
-                class="object-cover m-auto h-72 rounded-xl"
-                style="width: 100%"
-                :src="
-                  useGetTreatmentImageUrl(props.treatment.treatmentImages[1])
-                "
-                width="220"
-                height="200"
-                alt=""
-              />
-              <!-- eslint-enable -->
-            </ImgComparisonSlider>
-          </div>
-          <h3>{{ treatment.content.title2 }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description2 }}
-          </p>
-          <h3>{{ treatment.content.benefitsTitle }}</h3>
-          <ul role="list" class="list-disc list-inside marker:text-accent-100">
-            <li
-              v-for="item in treatment.content.benefits"
-              :key="item.id"
-              class="whitespace-pre-wrap"
-            >
-              {{ item.text }}
-            </li>
-          </ul>
-          <h3>{{ treatment.content.title3 }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description3 }}
-          </p>
-          <h3>{{ treatment.content.benefitsTitle2 }}</h3>
-          <ul role="list" class="list-disc list-inside marker:text-accent-100">
-            <li
-              v-for="item in treatment.content.benefits2"
-              :key="item.id"
-              class="whitespace-pre-wrap"
-            >
-              {{ item.text }}
-            </li>
-          </ul>
-          <h3>{{ treatment.content.title4 }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description4 }}
-          </p>
-          <h3>{{ treatment.content.title5 }}</h3>
-          <p class="whitespace-pre-wrap">
-            {{ treatment.content.description5 }}
-          </p>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="treatment-content space-y-4" v-html="treatment.tartalom" />
         </div>
         <!-- treatment time/frequency -->
         <div class="relative px-4 sm:order-2 sm:col-span-1" v-if="hasData">
@@ -183,7 +105,7 @@ const props = defineProps({
                   >
                   <span
                     class="text-sm font-medium text-accent-100 md:font-semibold"
-                    >{{ props.treatment.treatTime }}</span
+                    >{{ treatment.kezelesi_ido }}</span
                   >
                 </div>
               </div>
@@ -201,25 +123,12 @@ const props = defineProps({
                   >
                   <span
                     class="text-sm font-medium text-accent-100 md:font-semibold"
-                    >{{ props.treatment.frequency }}</span
+                    >{{ treatment.gyakorisaga }}</span
                   >
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- medical equipment image (treatments have no image yet) -->
-        <div
-          class="relative flex px-4 mx-auto sm:flex-col sm:order-2 sm:col-span-1"
-          v-if="hasImage"
-        >
-          <img
-            class="object-contain object-top h-60 sm:h-96 sm:sticky sm:top-20"
-            width="300"
-            height="80"
-            :src="useGetServiceImageUrl(props.treatment.images[0])"
-            :alt="props.treatment.title"
-          />
         </div>
       </div>
     </div>
@@ -234,7 +143,7 @@ const props = defineProps({
       </div>
       <div class="flex flex-col items-start gap-12 sm:flex-row">
         <ServiceRelatedDoctorsCard
-          v-for="item in props.treatment.relatedDoctor"
+          v-for="item in relatedDoctors"
           :key="item.id"
           :item="item"
         />
@@ -275,3 +184,35 @@ const props = defineProps({
     </div>
   </div>
 </template>
+
+<style scoped>
+/* The `tartalom` rich-text is injected via v-html, so target it with :deep().
+   Match the previous card look: section titles render like h3, not the giant
+   global h2, and benefit lists get bullets. */
+.treatment-content :deep(h2) {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+  .treatment-content :deep(h2) {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1024px) {
+  .treatment-content :deep(h2) {
+    font-size: 1.25rem;
+  }
+}
+.treatment-content :deep(p) {
+  white-space: pre-wrap;
+}
+.treatment-content :deep(ul) {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.treatment-content :deep(ul) ::marker {
+  color: var(--color-accent-100);
+}
+</style>

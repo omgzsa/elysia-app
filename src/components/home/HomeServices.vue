@@ -1,17 +1,28 @@
 <script setup>
-import { computed } from "vue";
+import { ref, inject, onMounted } from "vue";
 import { useGetImageUrl } from "../../composables/getImageUrl";
 
-import servicesData from "@/assets/services.json";
+const { directusService, apiUrl } = inject("$directus");
 
 defineProps({
   title: { type: String },
   description: { type: String },
 });
 
-// computed property that returns the isFeatured services
-const servicesFeatured = computed(() => {
-  return servicesData.filter((service) => service.isFeatured);
+// featured categories (kiemelt flag in Directus)
+const servicesFeatured = ref([]);
+
+onMounted(async () => {
+  try {
+    servicesFeatured.value = await directusService.getKategoriak({
+      filter: {
+        status: { _eq: "published" },
+        kiemelt: { _eq: true },
+      },
+    });
+  } catch (err) {
+    console.error("Error fetching featured categories:", err);
+  }
 });
 </script>
 
@@ -50,11 +61,11 @@ const servicesFeatured = computed(() => {
             class="h-24 sm:h-32 w-full object-contain"
             width="100"
             height="100"
-            :src="useGetImageUrl(service.image)"
-            :alt="service.name + ' szimbólum'"
+            :src="`${apiUrl}/assets/${service.kep}`"
+            :alt="service.nev + ' szimbólum'"
           />
           <p class="font-semibold text-center text-xs sm:text-base">
-            {{ service.name }}
+            {{ service.nev }}
           </p>
         </AppLink>
       </li>

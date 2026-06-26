@@ -2,8 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 // import TestView from "../views/TestView.vue";
 import TheNotFound from "@/components/TheNotFound.vue";
-import servicesData from "@/assets/services.json";
-import treatmentsData from "@/assets/treatments.json";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_APP_BASE_URL),
@@ -58,40 +56,12 @@ const router = createRouter({
       name: "services.category",
       component: () => import("../views/ServicesCategoryView.vue"),
       props: true,
-      beforeEnter(to) {
-        const exists = servicesData.find(
-          (item) => item.slug === to.params.category,
-        );
-        if (!exists) {
-          return {
-            name: "not.found",
-            // allows keeping the URL in the browser address bar while rendering the 404 page
-            params: { pathMatch: to.path.substring(1).split("/") },
-            query: to.query,
-            hash: to.hash,
-          };
-        }
-      },
     },
     {
       path: "/szolgaltatasok/:category/:slug",
       name: "service.single",
       component: () => import("../views/ServiceSingleView.vue"),
       props: true,
-      beforeEnter(to) {
-        const exists = treatmentsData.find(
-          (item) => item.slug === to.params.slug,
-        );
-        if (!exists) {
-          return {
-            name: "not.found",
-            // allows keeping the URL in the browser address bar while rendering the 404 page
-            params: { pathMatch: to.path.substring(1).split("/") },
-            query: to.query,
-            hash: to.hash,
-          };
-        }
-      },
     },
     {
       path: "/munkatarsak",

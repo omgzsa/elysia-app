@@ -1,9 +1,44 @@
 <script setup>
-import { ref } from "vue";
+import { ref, inject, onMounted } from "vue";
 import { useGetImageUrl } from "../composables/getImageUrl";
-import servicesData from "@/assets/services.json";
+import ErrorMessage from "@/components/ErrorMessage.vue";
+import LoadingSpinner from "@/components/LoadingSpinner.vue";
 
 import { useHead } from "@vueuse/head";
+
+const { directusService, apiUrl } = inject("$directus");
+
+// Categories that have dedicated static pages (own routes), so they are
+// excluded from the dynamic category grid below.
+const STATIC_CATEGORY_SLUGS = [
+  "tudogyogyaszat",
+  "idegsebeszet",
+  "szomnologia",
+  "allergologia",
+];
+
+const loading = ref(false);
+const error = ref(null);
+const categories = ref([]);
+
+async function fetchCategories() {
+  loading.value = true;
+  try {
+    const response = await directusService.getKategoriak({
+      filter: { status: { _eq: "published" } },
+    });
+    categories.value = response.filter(
+      (c) => !STATIC_CATEGORY_SLUGS.includes(c.slug),
+    );
+  } catch (err) {
+    console.error("Error fetching categories:", err);
+    error.value = err;
+  } finally {
+    loading.value = false;
+  }
+}
+
+onMounted(fetchCategories);
 
 const pageTitle = ref("Szolgáltatásaink");
 const pageDescription = ref(
@@ -42,13 +77,20 @@ useHead({
       </AppHeader>
     </div>
     <div class="max-w-(--breakpoint-xl) py-16 mx-auto space-y-10 site-padding">
-      <!-- <p class="max-w-lg mx-auto text-center">{{ pageDescription }}</p> -->
+      <LoadingSpinner v-if="loading" text="Szolgáltatásaink betöltése..." />
+
+      <ErrorMessage
+        v-else-if="error"
+        text="Hiba történt a szolgáltatásaink betöltése során."
+      />
+
       <ul
+        v-else
         class="grid items-start grid-cols-2 px-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-8 lg:gap-y-12 sm:gap-x-6"
         name="list"
       >
         <li
-          v-for="service in servicesData"
+          v-for="service in categories"
           :key="service.id"
           class="transition duration-300 ease-in-out transform list-item hover:-translate-y-1"
         >
@@ -61,13 +103,13 @@ useHead({
           >
             <img
               class="object-contain w-full h-24 sm:h-32"
-              :src="useGetImageUrl(service.image)"
-              :alt="service.name + 'szimbólum'"
+              :src="`${apiUrl}/assets/${service.kep}`"
+              :alt="service.nev + ' szimbólum'"
               height="100"
               width="100"
             />
             <p class="text-xs font-semibold text-center sm:text-base">
-              {{ service.name }}
+              {{ service.nev }}
             </p>
           </AppLink>
         </li>

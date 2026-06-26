@@ -131,6 +131,116 @@ export const directusPlugin = {
                 );
             },
 
+            // Get all treatment categories
+            async getKategoriak(query = {}) {
+                return await client.request(
+                    readItems('kategoria', {
+                        fields: ['id', 'nev', 'slug', 'kep', 'kiemelt', 'sort'],
+                        sort: ['sort', 'id'],
+                        ...query,
+                    }),
+                );
+            },
+
+            // Get the services navigation: every published category with its
+            // published treatments nested (single request, used by the navbars).
+            async getMenu(query = {}) {
+                return await client.request(
+                    readItems('kategoria', {
+                        fields: [
+                            'id',
+                            'nev',
+                            'slug',
+                            { Kezeles: ['id', 'nev', 'slug'] },
+                        ],
+                        filter: { status: { _eq: 'published' } },
+                        sort: ['sort', 'id'],
+                        deep: {
+                            Kezeles: {
+                                _filter: { status: { _eq: 'published' } },
+                                _sort: ['sort', 'id'],
+                            },
+                        },
+                        ...query,
+                    }),
+                );
+            },
+
+            // Get a single category by slug
+            async getKategoria(slug, query = {}) {
+                return await client.request(
+                    readItems('kategoria', {
+                        fields: ['id', 'nev', 'slug', 'kep'],
+                        limit: 1,
+                        filter: {
+                            slug: {
+                                _eq: slug,
+                            },
+                        },
+                        ...query,
+                    }),
+                );
+            },
+
+            // Get treatments belonging to a category (by category slug)
+            async getKezelesek(categorySlug, query = {}) {
+                // Merge the caller's filter (e.g. status) with the category
+                // filter instead of letting the spread overwrite it.
+                const { filter, ...rest } = query;
+                return await client.request(
+                    readItems('Kezeles', {
+                        fields: ['id', 'nev', 'slug', 'kep'],
+                        sort: ['sort', 'id'],
+                        filter: {
+                            _and: [
+                                { kategoria: { slug: { _eq: categorySlug } } },
+                                ...(filter ? [filter] : []),
+                            ],
+                        },
+                        ...rest,
+                    }),
+                );
+            },
+
+            // Get a single treatment by slug (with category + related doctors)
+            async getKezeles(slug, query = {}) {
+                return await client.request(
+                    readItems('Kezeles', {
+                        fields: [
+                            'id',
+                            'nev',
+                            'slug',
+                            'tartalom',
+                            'kezelesi_ido',
+                            'gyakorisaga',
+                            'kep',
+                            { kategoria: ['id', 'nev', 'slug'] },
+                            {
+                                kapcsolodo_orvosok: [
+                                    {
+                                        Munkatarsak_id: [
+                                            'id',
+                                            'nev',
+                                            'slug',
+                                            'titulus',
+                                            'kep',
+                                            'bio',
+                                        ],
+                                    },
+                                ],
+                            },
+                        ],
+                        limit: 1,
+                        filter: {
+                            slug: {
+                                _eq: slug,
+                            },
+                        },
+                        ...query,
+                    }),
+                );
+            },
+
             // Get prices
             async getPrices(query = {}) {
                 return await client.request(
