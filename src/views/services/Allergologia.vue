@@ -1,7 +1,9 @@
 <script setup>
 import { ref } from "vue";
+
+const apiUrl = import.meta.env.VITE_ELYSIA_API_URL;
+const szalaiImg = `${apiUrl}/assets/e97d95ef-d243-4716-8f18-924ea9a17f0e?width=600&quality=85&format=webp`;
 import { useGetImageUrl } from "../../composables/getImageUrl";
-import { useGetEmployeeImageUrl } from "../../composables/getEmployeeImageUrl";
 
 import { useHead } from "@vueuse/head";
 
@@ -120,7 +122,7 @@ const bgImage = "CTA_bg.webp";
         <h3>A témában jártas munkatársaink:</h3>
       </div>
       <div class="flex flex-col sm:flex-row gap-12 items-center">
-        <div class="employee-card group relative max-w-xs">
+        <div class="employee-card group relative">
           <div
             class="bg-primary-100/20 h-52 w-full absolute -bottom-5 rounded-xl -z-10 group-hover:translate-y-1 transition-transform duration-200"
           ></div>
@@ -138,7 +140,7 @@ const bgImage = "CTA_bg.webp";
               class="flex flex-col px-4 space-y-2"
             >
               <img
-                :src="useGetEmployeeImageUrl('dr-szalai-zsuzsanna-phd.webp')"
+                :src="szalaiImg"
                 alt="Dr. Szalai Zsuzsanna"
                 height="300"
                 width="280"
